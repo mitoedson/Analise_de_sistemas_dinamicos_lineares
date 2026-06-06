@@ -2,7 +2,9 @@
 
 # 1. O que é um Sistema?
 Um **sistema** é definido como uma combinação de componentes, ou um conjunto de partes, que compõem um todo e agem em conjunto para atingir um objetivo específico. Na engenharia e matemática, os sistemas são classificados em diversas categorias, sendo as principais:
-
+<p align="center">
+<img width="510" height="299" alt="image" src="https://github.com/user-attachments/assets/54257aa8-c76f-4e63-a578-5f2ffb8494af" />
+<p>
 *   **Estáticos vs. Dinâmicos:** Sistemas estáticos têm saídas que dependem apenas da entrada atual, enquanto **sistemas dinâmicos** possuem "memória", ou seja, seu comportamento atual e futuro depende de ocorrências passadas.
 *   **Lineares vs. Não lineares:** Sistemas lineares obedecem ao **princípio da superposição**.
 *   **Monovariáveis vs. Multivariáveis:** Sistemas monovariáveis (SISO) possuem uma única entrada e saída, enquanto **sistemas multivariáveis** (MIMO) lidam com múltiplas entradas e saídas simultaneamente.
@@ -26,9 +28,9 @@ Onde:
 
 ## 3. Modelagem Matemática (Exemplo Prático)
 Considere um sistema de **dois carrinhos interligados** por molas e amortecedores. Este é um exemplo clássico de sistema multivariável, pois o movimento do carrinho 1 afeta o carrinho 2 e vice-versa.
-
-<img width="465" height="147" alt="image" align="center" src="https://github.com/user-attachments/assets/63acb173-f50c-4285-a4af-f6338e34b821" />
-
+<p> align="center">
+<img width="465" height="147" alt="image" src="https://github.com/user-attachments/assets/63acb173-f50c-4285-a4af-f6338e34b821" />
+<p>
 Ao aplicar a Segunda Lei de Newton ($F = ma$) para cada massa, obtemos equações diferenciais de segunda ordem. Para transformar esse sistema em espaço de estados, definimos as posições ($w_1, w_2$) e as velocidades ($\dot{w}_1, \dot{w}_2$) como as quatro variáveis de estado ($x_1$ a $x_4$). O resultado final é uma matriz $A$ de dimensão $4 \times 4$ que descreve como todas essas variáveis interagem ao longo do tempo.
 
 ## 4. Análise de Estabilidade
