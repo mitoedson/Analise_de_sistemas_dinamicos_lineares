@@ -27,6 +27,8 @@ Onde:
 ## 3. Modelagem Matemática (Exemplo Prático)
 Considere um sistema de **dois carrinhos interligados** por molas e amortecedores. Este é um exemplo clássico de sistema multivariável, pois o movimento do carrinho 1 afeta o carrinho 2 e vice-versa.
 
+<img width="465" height="147" alt="image" src="https://github.com/user-attachments/assets/63acb173-f50c-4285-a4af-f6338e34b821" />
+
 Ao aplicar a Segunda Lei de Newton ($F = ma$) para cada massa, obtemos equações diferenciais de segunda ordem. Para transformar esse sistema em espaço de estados, definimos as posições ($w_1, w_2$) e as velocidades ($\dot{w}_1, \dot{w}_2$) como as quatro variáveis de estado ($x_1$ a $x_4$). O resultado final é uma matriz $A$ de dimensão $4 \times 4$ que descreve como todas essas variáveis interagem ao longo do tempo.
 
 ## 4. Análise de Estabilidade
