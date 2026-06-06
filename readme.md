@@ -7,7 +7,7 @@ Conteúdo:
 <p>
 <ol>  
   <li><a href="/pasta/introducao.md">Apresentação de sistemas dinâmicos lineares multivariáveis</a></li><br>
-  <li><a href="/pasta/introducao.md">Autovalores e autovetores</a></li><br>
+  <li><a href="/pasta/autovalores_e_autovetores.md">Autovalores e autovetores</a></li><br>
   <li>Matriz exponencial</li><br>
   <li>Estabilidade</li><br>
   <li>Linearização de sistemas dinâmicos não-lineares</li><br>
