@@ -13,3 +13,13 @@ Conteúdo:
   <li>Linearização de sistemas dinâmicos não-lineares</li><br>
   <li>Controlabilidade e Observabilidade</li><br>
 </ol>
+<p>Bibliografia:</p>
+<pre>
+CLOSE, C. M.; FREDERICK, D. K.; NEWELL, J. C. Modeling and analysis of dynamic systems. [S.l.]: John Wiley & Sons, 2002.
+DORF, R. C.; BISHOP, R. H. Modern Control Systems. New Jersey: Pearson, 2008.
+FRANKLIN, G. F.; POWELL, J. D.; EMAMI-NAEINI, A. Feedback Control of Dynamic Systems. New Jersey: Pearson Prentice Hall, 2006.
+FRIEDLAND, B. Control system design: An introduction to state-space methods. New York: Dover Books on Electrical Engineering, 2005.
+KUO, B. C.; GOLNARAGHI, M. F. Automatic control systems. 8. ed. New York: John Wiley & Sons Inc., 2003.
+LUENBERGER, D. G. Introduction to Dynamic Systems: Theory, Models, and Applications. USA: J. Wiley Sons, 1979.
+</pre>
+<p><br>
