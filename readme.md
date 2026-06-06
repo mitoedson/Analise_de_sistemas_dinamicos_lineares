@@ -6,7 +6,7 @@ O material a seguir é baseado nas aulas do quadrimestre 2026.2, da Universidade
 Conteúdo:
 <p>
 <ol>  
-  <li><a href="/teoria/introducao.md">Apresentação de sistemas dinâmicos lineares multivariáveis</a></li><br>
+  <li><a href="/teoria/introducao.md">Fundamentos de sistemas dinâmicos lineares multivariáveis</a></li><br>
   <li><a href="/teoria/autovaloreseautovetores.md">Autovalores e autovetores</a></li><br>
   <li>Matriz exponencial</li><br>
   <li>Estabilidade</li><br>
