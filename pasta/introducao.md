@@ -34,9 +34,9 @@ Considere um sistema de **dois carrinhos interligados** por molas e amortecedore
 Ao aplicar a Segunda Lei de Newton ($F = ma$) para cada massa, obtemos equações diferenciais de segunda ordem. Para transformar esse sistema em espaço de estados, definimos as posições ($w_1, w_2$) e as velocidades ($\dot{w}_1, \dot{w}_2$) como as quatro variáveis de estado ($x_1$ a $x_4$). O resultado final é uma matriz $A$ de dimensão $4 \times 4$ que descreve como todas essas variáveis interagem ao longo do tempo.
 
 ## 4. Análise de Estabilidade
-A estabilidade é a característica mais importante de um sistema dinâmico. Em sistemas lineares multivariáveis, ela é determinada pelos **autovalores** da matriz $A$.
+A estabilidade é a característica mais importante de um sistema dinâmico. Em sistemas lineares multivariáveis, ela é determinada pelos <a href="/pasta/autovalores_e_autovetores.md">autovalores</a> da matriz $A$.
 
-*   **Método Indireto de Lyapunov:** Um sistema é **assintoticamente estável** se as partes reais de **todos os autovalores** da matriz $A$ forem **negativas**.
+*   **Método Indireto de Lyapunov:** Um sistema é **assintoticamente estável** se as partes reais de todos os <a href="/pasta/autovalores_e_autovetores.md">autovalores</a> da matriz $A$ forem **negativas**.
 *   Se pelo menos um autovalor tiver parte real positiva, o sistema é **instável**.
 *   Os autovalores são as raízes da **equação característica**, obtida por $\det(A - \lambda I) = 0$.
 
