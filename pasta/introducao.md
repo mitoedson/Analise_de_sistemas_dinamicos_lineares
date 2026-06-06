@@ -1,7 +1,6 @@
 # Fundamentos de Sistemas Dinâmicos Lineares Multivariáveis
-Esta aula textual foi estruturada com base no material didático fornecido, focando na definição de sistemas e no aprofundamento de **sistemas dinâmicos lineares multivariáveis**, que utilizam a representação em **espaço de estados**.
 
-## 1. O que é um Sistema?
+# 1. O que é um Sistema?
 Um **sistema** é definido como uma combinação de componentes, ou um conjunto de partes, que compõem um todo e agem em conjunto para atingir um objetivo específico. Na engenharia e matemática, os sistemas são classificados em diversas categorias, sendo as principais:
 
 *   **Estáticos vs. Dinâmicos:** Sistemas estáticos têm saídas que dependem apenas da entrada atual, enquanto **sistemas dinâmicos** possuem "memória", ou seja, seu comportamento atual e futuro depende de ocorrências passadas.
