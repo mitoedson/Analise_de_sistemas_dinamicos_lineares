@@ -5,9 +5,11 @@ Um **sistema** é definido como uma combinação de componentes, ou um conjunto 
 <p align="center">
 <img width="510" height="299" alt="image" src="https://github.com/user-attachments/assets/54257aa8-c76f-4e63-a578-5f2ffb8494af" />
 <p>
-*   **Estáticos vs. Dinâmicos:** Sistemas estáticos têm saídas que dependem apenas da entrada atual, enquanto **sistemas dinâmicos** possuem "memória", ou seja, seu comportamento atual e futuro depende de ocorrências passadas.
-*   **Lineares vs. Não lineares:** Sistemas lineares obedecem ao **princípio da superposição**.
-*   **Monovariáveis vs. Multivariáveis:** Sistemas monovariáveis (SISO) possuem uma única entrada e saída, enquanto **sistemas multivariáveis** (MIMO) lidam com múltiplas entradas e saídas simultaneamente.
+<ul>
+<li><b>Estáticos vs. Dinâmicos:</b> Sistemas estáticos têm saídas que dependem apenas da entrada atual, enquanto sistemas dinâmicos possuem "memória", ou seja, seu comportamento atual e futuro depende de ocorrências passadas.
+<li><b>Lineares vs. Não lineares:</b> Sistemas lineares obedecem ao princípio da superposição.
+<li><b>Monovariáveis vs. Multivariáveis:</b> Sistemas monovariáveis (SISO) possuem uma única entrada e saída, enquanto sistemas multivariáveis (MIMO) lidam com múltiplas entradas e saídas simultaneamente.
+</ul>
 
 ## 2. Sistemas Dinâmicos Lineares Multivariáveis
 Sistemas multivariáveis são complexos pois as variáveis internas podem estar interconectadas. Para analisá-los, a abordagem mais eficiente é a **representação no espaço de estados**, que organiza as equações diferenciais em um conjunto de equações de primeira ordem na forma vetorial-matricial.
