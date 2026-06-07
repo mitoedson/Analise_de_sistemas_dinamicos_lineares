@@ -1,5 +1,4 @@
 <h1>Autovalores e Autovetores</h1>
-<a href="/exercicios/autovaloreseautovetores.md">Ver exercícios</a>
 
 ## 1. Introdução e Motivação
 Em sistemas dinâmicos lineares representados por equações de estado da forma $\dot{X} = AX$, os **autovalores** e **autovetores** são ferramentas fundamentais para entender o comportamento do sistema sem necessariamente resolver as equações diferenciais por integração direta.
@@ -62,3 +61,7 @@ $$K_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$$
 <p>
 $$K_2 = \begin{bmatrix} 3 \\ 2\end{bmatrix}$$
 <p><br>
+<a href="/exercicios/autovaloreseautovetores.md">Ver exercícios</a>
+
+
+
