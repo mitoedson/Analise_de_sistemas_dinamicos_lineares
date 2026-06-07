@@ -1,7 +1,5 @@
 <h1>Autovalores, Autovetores e Estabilidade - Exercícios</h1>
 
-# Autovalores, autovetores e estabilidade
-
 Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetores $v$ resolvendo $\det(A - \lambda I)=0$ e $(A - \lambda I)v = 0$. A estabilidade do ponto de equilíbrio na origem é analisada pelos sinais das partes reais dos autovalores:
 
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
@@ -15,7 +13,9 @@ Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetore
 $$
 \frac{dx}{dt}=x+2y,\quad \frac{dy}{dt}=4x+3y
 $$
-Portanto, $$A = \begin{bmatrix} 1 & 2 \\ 4 & 3 \end{bmatrix}$$
+Portanto, 
+$$A = \begin{bmatrix} 2 & 3 \\ 2 & 1 \end{bmatrix}$$
+
 - **Autovalores:** $\lambda_1=5,\; \lambda_2=-1$
 - **Autovetores:**  
   $\lambda_1=5$: $v_1=(1,2)$  
