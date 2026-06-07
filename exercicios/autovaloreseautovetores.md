@@ -1,5 +1,7 @@
 <h1>Autovalores, Autovetores e Estabilidade - Exercícios</h1>
 
+<a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
+
 Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetores $v$ resolvendo $\det(A - \lambda I)=0$ e $(A - \lambda I)v = 0$. A estabilidade do ponto de equilíbrio na origem é analisada pelos sinais das partes reais dos autovalores:
 
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
