@@ -143,6 +143,7 @@ xlabel('Tempo (s)'); ylabel('y_2(t)');
 title('Deslocamento da massa m_2');
 grid on;
 
+```
 <img width="2212" height="812" alt="image" src="https://github.com/user-attachments/assets/f2f44818-5477-44c0-a781-f56481372877" />
 
 
