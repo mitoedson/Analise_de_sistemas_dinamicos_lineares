@@ -50,3 +50,8 @@ Para que um sistema multivariável seja controlável e operável na prática, el
 
 ### Resumo de Fixação
 Um sistema dinâmico linear multivariável é melhor compreendido através de **matrizes**. A matriz de estados **$A$** governa a "saúde" (estabilidade) e a resposta natural, enquanto as matrizes **$B, C, D$** ditam como o mundo externo interage com o sistema.
+
+<p>
+<a href="/exercicios/modelagem01.md">Ver exercício 01</a><br>
+<a href="/exercicios/modelagem02.md">Ver exercício 02</a>  
+</p>
