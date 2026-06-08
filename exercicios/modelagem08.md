@@ -28,6 +28,7 @@ m_2 \ddot{y}_2 - b_2 \dot{y}_1 + b_2 \dot{y}_2 - k_2 y_1 + (k_2+k_3) y_2 &= u_2(
 \end{aligned}
 $$
 
+
 ---
 
 ### (b) Variáveis de estado
