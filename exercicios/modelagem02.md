@@ -2,9 +2,7 @@
 
 <img width="518" height="213" alt="image" src="https://github.com/user-attachments/assets/77d6ca16-9a4f-48b0-8b19-ce865458dfa4" />
 
-## Sistema mecânico com duas massas, molas e amortecedor
-
-### Descrição do sistema (Figura 2)
+### Descrição do sistema
 
 - Duas massas $$m_1$$ e $$m_2$$ sobre uma superfície sem atrito.
 - Entre $$m_1$$ e $$m_2$$: uma mola $$k_2$$ e um amortecedor $$b$$ em paralelo.
@@ -16,7 +14,7 @@
 <p>
 Aplicando a segunda lei de Newton a cada massa (considerando deslocamentos positivos para a direita):
 <p>
-**Massa $$m_1$$:**<br>  
+Massa $$m_1$$:<br>  
 Força da mola $$k_2$$: $$k_2 (y_2 - y_1)$$<br>
 Força do amortecedor: $$b (\dot{y}_2 - \dot{y}_1)$$<br>  
 Sem outras forças.
@@ -25,7 +23,7 @@ $$
 m_1 \ddot{y}_1 = k_2 (y_2 - y_1) + b (\dot{y}_2 - \dot{y}_1)
 $$
 <p>
-**Massa $$m_2$$:** <br>
+Massa $$m_2$$:<br>
 Força da mola $$k_2$$: $$-k_2 (y_2 - y_1)$$<br>
 Força do amortecedor: $$-b (\dot{y}_2 - \dot{y}_1)$$<br>  
 Força da mola $$k_3$$: $$-k_3 y_2$$<br>  
