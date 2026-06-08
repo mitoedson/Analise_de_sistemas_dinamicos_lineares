@@ -1,5 +1,7 @@
 <h1>Modelagem matemática 01</h1>
 
+<a href="/teoria/introducao.md">Ver teoria</a>
+<p>
 <img width="514" height="483" alt="image" src="https://github.com/user-attachments/assets/6e31975f-384f-4fd6-9c5b-ef8772dbf01b" />
 
 <p>
