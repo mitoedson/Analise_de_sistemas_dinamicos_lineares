@@ -69,14 +69,14 @@ $$
 <p>
 $$
 A = \begin{bmatrix}
-0 & 1 & 0 & 0 \$$
--\dfrac{k_2}{m_1} & -\dfrac{b}{m_1} & \dfrac{k_2}{m_1} & \dfrac{b}{m_1} \$$8pt]
-0 & 0 & 0 & 1 \]
+0 & 1 & 0 & 0 \\[4pt]
+-\dfrac{k_2}{m_1} & -\dfrac{b}{m_1} & \dfrac{k_2}{m_1} & \dfrac{b}{m_1} \\[8pt]
+0 & 0 & 0 & 1 \\[4pt]
 \dfrac{k_2}{m_2} & \dfrac{b}{m_2} & -\dfrac{k_2+k_3}{m_2} & -\dfrac{b}{m_2}
-\end{bmatrix},\qquad$$
-$$B = \begin{bmatrix} 0 \\ 0 \\ 0 \\ \dfrac{1}{m_2} \end{bmatrix},\qquad
+\end{bmatrix},\qquad
+B = \begin{bmatrix} 0 \\ 0 \\ 0 \\ \dfrac{1}{m_2} \end{bmatrix},\qquad
 C = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$$
 <p>
 <b>Observação</b>
 <p>
-A entrada $$u$$ atua diretamente apenas sobre a massa $$m_2$$. O acoplamento entre as duas massas é feito pela mola $$k_2$$ e pelo amortecedor $$b$$. Este sistema está na forma **malha aberta**; para estabilizar as saídas em valores constantes seria necessário um controlador realimentado (ex.: PID).
+A entrada $$u$$ atua diretamente apenas sobre a massa $$m_2$$. O acoplamento entre as duas massas é feito pela mola $$k_2$$ e pelo amortecedor $$b$$. Este sistema está na forma <b>malha aberta</b>; para estabilizar as saídas em valores constantes seria necessário um controlador realimentado (ex.: PID).
