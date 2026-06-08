@@ -12,7 +12,7 @@ $$
 \end{aligned}
 $$
 <p>
-Na forma matricial $$dot\mathbf{x}} = A\mathbf{x} + B\mathbf{u}$$, com $$\mathbf{x} = \begin{bmatrix} i_2 \\ i_3 \end{bmatrix}$$ e $$\mathbf{u} = E$$:
+Na forma matricial $$dot{mathbf{x}} = A\mathbf{x} + B\mathbf{u}$$, com $$\mathbf{x} = \begin{bmatrix} i_2 \\ i_3 \end{bmatrix}$$ e $$\mathbf{u} = E$$:
 <p>
 $$
 \boxed{
