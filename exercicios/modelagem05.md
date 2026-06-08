@@ -8,16 +8,14 @@ $$i_1$$ no resistor, $$i_2$$ em $$L_1$$, $$i_3$$ em $$L_2$$, com $$i_1 = i_2 + i
 ### Equações do circuito
 
 - Lei das malhas:  
-  $$
-  E = R\,i_1 + v_L
-  $$
+  $$E = R\,i_1 + v_L$$
   onde $$v_L$$ é a tensão comum sobre os dois indutores.
 
 - Relações dos indutores:  
   $$v_L = L_1 \frac{di_2}{dt} = L_2 \frac{di_3}{dt}$$
 
 - Substituindo $$i_1 = i_2 + i_3$$:
-  $$  E = R(i_2 + i_3) + v_L$$
+  $$E = R(i_2 + i_3) + v_L$$
   Logo,
   $$v_L = E - R(i_2 + i_3)$$
 
@@ -53,4 +51,4 @@ B = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-**Observação:** Este sistema tem apenas um grau de liberdade (as duas correntes estão acopladas pela relação $$L_1 i_2 - L_2 i_3 = \text{constante}$$), logo a matriz $$A$$ tem posto 1 e um autovalor nulo. Se desejar um modelo mínimo, pode-se usar uma única variável de estado, por exemplo a corrente total $$i_L = i_2 + i_3$$ ou a tensão $$v_L$$.
+
