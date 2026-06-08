@@ -8,14 +8,13 @@ variáveis de estado as correntes $$i_2$$ e $$i_3$$, obtém-se o seguinte sistem
 <p>
 $$
 \begin{aligned}
-\frac{di_2}{dt} &= -\frac{R_1 R_2}{L(R_1+R_2)}\, i_2 + \frac{1}{C(R_1+R_2)}\, i_3 + \frac{R_2}{L(R_1+R_2)}\, E \\[pt]
+\frac{di_2}{dt} &= -\frac{R_1 R_2}{L(R_1+R_2)}\, i_2 + \frac{1}{C(R_1+R_2)}\, i_3 + \frac{R_2}{L(R_1+R_2)}\, E \\[1pt]
 \frac{di_3}{dt} &= -\frac{R_1^2}{L(R_1+R_2)}\, i_2 - \frac{1}{C(R_1+R_2)}\, i_3 + \frac{R_1}{L(R_1+R_2)}\, E
 \end{aligned}
 $$
 <p>
-Na forma matricial $$\dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}\),
-com \(\mathbf{x} = \begin{bmatrix} i_2 \\ i_3 \end{bmatrix}\) e \(\mathbf{u} = E\):
-$$
+Na forma matricial $$\dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}$$,
+com $$\mathbf{x} = \begin{bmatrix} i_2 \\ i_3 \end{bmatrix}$$ e $$\mathbf{u} = E$$:
 <p>
 $$\boxed{A = \begin{bmatrix}
 -\dfrac{R_1 R_2}{L(R_1+R_2)} & \dfrac{1}{C(R_1+R_2)} \\[8pt]
@@ -27,5 +26,5 @@ B = \begin{bmatrix}
 \end{bmatrix}
 }
 $$
-
-Estas são as matrizes de estado pedidas, com as variáveis sendo as correntes \(i_2\) e \(i_3\).
+<p>
+Estas são as matrizes de estado pedidas, com as variáveis sendo as correntes $$i_2$$ e $$i_3$$.
