@@ -9,17 +9,23 @@ Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetore
 
 <p><b>(a)</b>
 <p>
-$$\frac{dx}{dt}=x+2y,\quad \frac{dy}{dt}=4x+3y, $$
+$\frac{dx}{dt}=x+2y \quad \frac{dy}{dt}=4x+3y$
 <p>
 Portanto, 
 <p>
-$$A = \begin{bmatrix} 1 & 2 \\ 4 & 3 \end{bmatrix}$$
+$$A = \begin{pmatrix}
+1 & 2 \\
+4 & 3
+\end{pmatrix}$$
 
 - **Autovalores:** $\lambda_1=5\; \lambda_2=-1$
 - **Autovetores:**  
   $\lambda_1=5$: $v_1=(1,2)$  
   $\lambda_2=-1$: $v_2=(1,-1)$
 - **Estabilidade:** instável (sela, autovalores de sinais opostos).
+- **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,2) e^{4t} + c_2(1,-1)e^{t} $$
+
+
 <p align="center">
 <img width="400" align="center" alt="image" src="https://github.com/user-attachments/assets/4a14555e-4477-4d83-a0d6-c28a37a66490" />
 
