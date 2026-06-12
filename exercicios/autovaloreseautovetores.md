@@ -20,6 +20,10 @@ $$A = \begin{bmatrix} 1 & 2 \\ 4 & 3 \end{bmatrix}$$
   $\lambda_1=5$: $v_1=(1,2)$  
   $\lambda_2=-1$: $v_2=(1,-1)$
 - **Estabilidade:** instável (sela, autovalores de sinais opostos).
+<p align="center">
+<img width="400" align="center" alt="image" src="https://github.com/user-attachments/assets/4a14555e-4477-4d83-a0d6-c28a37a66490" />
+
+<hr>
 
 <p><b>(b)</b>
 <p>$$ \frac{dx}{dt}=2x+2y,\quad \frac{dy}{dt}=x+3y$$
