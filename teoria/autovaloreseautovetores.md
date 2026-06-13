@@ -61,7 +61,9 @@ $$K_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$$
 <p>
 $$K_2 = \begin{bmatrix} 3 \\ 2\end{bmatrix}$$
 <p><br>
-<a href="/exercicios/autovaloreseautovetores.md">Ver exercícios</a>
+<a href="/exercicios/autovaloreseautovetores01.md">Ver exercícios 01</a>
+<a href="/exercicios/autovaloreseautovetores01.md">Ver exercícios 02</a>
+<a href="/exercicios/autovaloreseautovetores01.md">Ver exercícios 03</a>
 
 
 
