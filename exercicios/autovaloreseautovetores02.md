@@ -12,9 +12,8 @@ Para cada sistema $\dot{X} = AX$, determinamos os autovalores $\lambda$ e autove
 
 ## (a)
 
-$$\frac{dx}{dt} = 3x - y, \qquad \frac{dy}{dt} = 9x - 3y$$
-
-$$A = \begin{bmatrix} 3 & -1 \\ 9 & -3 \end{bmatrix}$$
+$\frac{dx}{dt} = 3x - y, \qquad \frac{dy}{dt} = 9x - 3y$
+$A = \begin{bmatrix} 3 & -1 \\ 9 & -3 \end{bmatrix}$
 
 ### Autovalores
 
