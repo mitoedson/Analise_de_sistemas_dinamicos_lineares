@@ -64,21 +64,23 @@ Portanto,
 <p>
 $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 
-- **Autovalores:** $\lambda_1=-1\; \lambda_2=-\frac{7}{2}=-3.5$
+- **Autovalores:** $\lambda_1=-1\; \lambda_2=-\frac{7}{2}$
 - **Autovetores:**  
-  $\lambda_1=-1$: $v_1=(4,3)$  
-  $\lambda_2=-3.5$: $v_2=(-2,1)$ (ou $(2,-1)$)
+  $\lambda_1=-1$: $k_1=(1,\frac{3}{4})$  
+  $\lambda_2=-\frac{7}{2}$: $k_2=(1,-\frac{1}{2})$
 - **Estabilidade:** assintoticamente estável (nó atrator, ambos negativos).
+- **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,\frac{3}{4}) e^{-t} + c_2(1,-\frac{1}{2})e^{-\frac{7}{2}t} $$
 
 <hr>
 <p><b>(e)</b>
 <p>$$ X' = \begin{bmatrix} 10&-5 \\ 8&-12 \end{bmatrix}X $$
 
-- **Autovalores:** $\lambda_1=8\; \lambda_2=-10$
+- **Autovalores:** $\lambda_1=-10\; \lambda_2=8$
 - **Autovetores:**  
-  $\lambda_1=8$: $v_1=(5,2)$  
-  $\lambda_2=-10$: $v_2=(1,4)$
+  $\lambda_1=-10$: $k_1=(1,4)$  
+  $\lambda_2=8$: $k_2=(1,\frac{2}{5})$
 - **Estabilidade:** instável (sela).
+- **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,4) e^{10t} + c_2(1,\frac{2}{5})e^{-8t} $$
 
 <hr>
 <p><b>(f)</b>
@@ -86,9 +88,10 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 
 - **Autovalores:** $\lambda_1=0\; \lambda_2=-5$
 - **Autovetores:**  
-  $\lambda_1=0$: $v_1=(1,3)$  
-  $\lambda_2=-5$: $v_2=(2,1)$
+  $\lambda_1=0$: $k_1=(1,3)$  
+  $\lambda_2=-5$: $k_2=(1,\frac{1}{2})$
 - **Estabilidade:** estável (marginalmente), pois um autovalor é nulo e o outro negativo.
+- **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,3) + c_2(1,\frac{1}{2})e^{-5t} $$
 
 
 
