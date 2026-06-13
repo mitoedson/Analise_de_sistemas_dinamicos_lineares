@@ -16,11 +16,10 @@ onde $p$ é o **autovetor generalizado**, obtido de $(A - \lambda I)\,p = k_1$.
 
 ---
 
-## (a)
-
-$$\frac{dx}{dt} = 3x - y, \qquad \frac{dy}{dt} = 9x - 3y$$
-
-$$A = [3, -1; 9, -3]$$
+<b>(a)</b>
+<p>
+$\frac{dx}{dt} = 3x - y, \qquad \frac{dy}{dt} = 9x - 3y$
+$A = [3, -1; 9, -3]$
 
 ### Autovalores
 
@@ -54,13 +53,20 @@ $\mathrm{Re}(\lambda) = 0$ — autovalor nulo repetido. As trajetórias crescem 
 
 > **Instável** — crescimento polinomial.
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/afff4f97-1af2-4149-83dc-3bf929c75e27" />
+<p>
+**Esquerda — Retrato de fase:** trajetórias no plano $(x_1, x_2)$ partindo de múltiplas condições iniciais. O marcador `+` indica a origem (ponto de equilíbrio). Trajetórias são retas paralelas, pois $e^{0 \cdot t} = 1$ e o crescimento é linear em $t$. As curvas divergem da origem ao longo de uma direção determinada pelo autovetor $k_1 = (1;\,3)$.
+<p>
+**Direita — Resposta temporal:** evolução de $x_1(t)$ (linha sólida) e $x_2(t)$ (linha tracejada) ao longo do tempo. $x_1(t)$ e $x_2(t)$ crescem **linearmente**, sem oscilação e sem amortecimento exponencial. Trajetórias saem de condições iniciais não nulas e nunca retornam.
+<p>
+Classificação: Instável — crescimento polinomial (linear).
+
 ---
 
-## (b)
-
-$$\frac{dx}{dt} = -6x + 5y, \qquad \frac{dy}{dt} = -5x + 4y$$
-
-$$A = [-6, 5; -5, 4]$$
+<b>(b)</b>
+<p>
+$\frac{dx}{dt} = -6x + 5y, \qquad \frac{dy}{dt} = -5x + 4y$
+$A = [-6, 5; -5, 4]$
 
 ### Autovalores
 
@@ -94,7 +100,6 @@ $\mathrm{Re}(\lambda) = -1 < 0$ para ambos.
 
 > **Assintoticamente estável** — nó atrator degenerado (estrela imprópria).
 
----
 
 ## (c)
 
