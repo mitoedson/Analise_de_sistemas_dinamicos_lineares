@@ -13,8 +13,9 @@ Para cada sistema $\dot{X} = AX$, determinamos os autovalores $\lambda$ e autove
 ## (a)
 
 $\frac{dx}{dt} = 3x - y, \qquad \frac{dy}{dt} = 9x - 3y$
+<p>
 $A = \begin{bmatrix} 3 & -1 \\ 9 & -3 \end{bmatrix}$
-
+</p>
 ### Autovalores
 
 $$\det(A - \lambda I) = (3 - \lambda)(-3 - \lambda) + 9 = \lambda^2 - 9 + 9 = \lambda^2 = 0$$
