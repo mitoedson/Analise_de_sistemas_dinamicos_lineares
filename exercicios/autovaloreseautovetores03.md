@@ -169,12 +169,12 @@ $\alpha = \mathrm{Re}(\lambda) = 5 > 0$.
 <b>Resposta temporal:</b> oscilações de alta frequência com amplitude dominada por $e^{5t}$. O intervalo plotado é muito curto ($t \in [0, 0.8]$) para manter legibilidade.
 <p>
 <b>Classificação:</b> Instável — espiral divergente.
-
-## (e)
-
-$$\dot{x} = [4, -5; 5, -4]\,x$$
-
-$$A = [4, -5; 5, -4]$$
+<hr>
+<b>(e)</b>
+<p>
+$\dot{x} = [4, -5; 5, -4]\,x$
+<p>
+$A = [4, -5; 5, -4]$
 
 ### Autovalores
 
@@ -210,12 +210,12 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 <p>
 **Classificação:** Marginalmente estável — centro.
 
-
-## (f)
-
-$$\dot{x} = [1, -8; 1, -3]\,x$$
-
-$$A = [1, -8; 1, -3]$$
+<hr>
+<b>(f)</b>
+<p>
+$\dot{x} = [1, -8; 1, -3]\,$
+<p>
+$A = [1, -8; 1, -3]$
 
 ### Autovalores
 
