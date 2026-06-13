@@ -163,7 +163,12 @@ $\alpha = \mathrm{Re}(\lambda) = 5 > 0$.
 > **Instável** — espiral divergente.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d85c32ed-72be-4dcd-8c99-28bb01e104cf" />
-
+<p>
+<b>Retrato de fase:</b> espirais divergentes com frequência angular maior ($\omega = 3\ \mathrm{rad/s}$) — as voltas são mais "apertadas" do que em (C-a/C-c). O crescimento é ainda mais rápido ($\alpha = 5$).
+<p>
+<b>Resposta temporal:</b> oscilações de alta frequência com amplitude dominada por $e^{5t}$. O intervalo plotado é muito curto ($t \in [0, 0.8]$) para manter legibilidade.
+<p>
+<b>Classificação:</b> Instável — espiral divergente.
 
 ## (e)
 
@@ -198,6 +203,13 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 > **Marginalmente estável** — centro, órbitas fechadas com frequência $\omega = 3\ \mathrm{rad/s}$.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/1af03be9-e792-4e39-8832-77889115f56b" />
+<p>
+- <b>Retrato de fase:</b> elipses fechadas com frequência $\omega = 3\ \mathrm{rad/s}$ — órbitas mais rápidas que as do exercício (C-b). As elipses têm inclinação e excentricidade determinadas pelos autovetores de $A$.
+<p>
+- <b>Resposta temporal:</b> oscilações puramente periódicas com frequência $\omega = 3\ \mathrm{rad/s}$ e amplitude constante.
+<p>
+**Classificação:** Marginalmente estável — centro.
+
 
 ## (f)
 
