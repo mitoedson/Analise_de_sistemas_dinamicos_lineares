@@ -54,7 +54,8 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 > **Instável** — espiral divergente.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/53ff7b0d-00b6-4b6b-9fac-5542cc5b8751" />
+
 
 ## (b)
 
@@ -88,7 +89,8 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 
 > **Marginalmente estável** — centro, órbitas fechadas com frequência $\omega = 1\ \mathrm{rad/s}$.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/55707ff7-2def-48f9-908c-722a9af5855a" />
+
 
 ## (c)
 
@@ -124,7 +126,7 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 > **Instável** — espiral divergente.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/33c935c5-afdc-47e6-807b-22c987779705" />
 
 ## (d)
 
@@ -160,7 +162,8 @@ $\alpha = \mathrm{Re}(\lambda) = 5 > 0$.
 
 > **Instável** — espiral divergente.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d85c32ed-72be-4dcd-8c99-28bb01e104cf" />
+
 
 ## (e)
 
@@ -194,7 +197,7 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 
 > **Marginalmente estável** — centro, órbitas fechadas com frequência $\omega = 3\ \mathrm{rad/s}$.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/1af03be9-e792-4e39-8832-77889115f56b" />
 
 ## (f)
 
@@ -230,7 +233,7 @@ $\alpha = \mathrm{Re}(\lambda) = -1 < 0$.
 
 > **Assintoticamente estável** — espiral convergente com frequência $\omega = 2\ \mathrm{rad/s}$.
 
----
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/25194d0b-8e78-45b5-b1b3-6f51f5930fa9" />
 
 ## Resumo
 
