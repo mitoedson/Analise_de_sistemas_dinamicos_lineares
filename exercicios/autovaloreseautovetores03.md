@@ -8,39 +8,45 @@ Para sistemas $\dot{X} = AX$ com autovalores complexos $\lambda = \alpha \pm \be
 | $\alpha = 0$ | Marginalmente estável | Centro (órbitas fechadas) |
 | $\alpha > 0$ | Instável | Espiral divergente |
 
+<ul>
+<li>Foco Estável: Ocorre se a parte real for negativa (α<0). O sistema converge para a origem em forma de espiral
+<li>Foco Instável: Ocorre se a parte real for positiva (α>0). O sistema se afasta da origem em espiral
+<li>Centro: Ocorre se a parte real for nula (α=0). As trajetórias são ciclos fechados (elipses) em torno da origem, caracterizando estabilidade marginal (estável, mas não assintoticamente)
+</ul>
+
 Para autovalores $\lambda = \alpha + \beta j$ com autovetor $k = B_1 + j B_2$, a solução geral real é:
 
 $$X(t) = c_1 e^{\alpha t}[B_1 \cos(\beta t) - B_2 \sin(\beta t)] + c_2 e^{\alpha t}[B_1 \sin(\beta t) + B_2 \cos(\beta t)]$$
 
 ---
 
-## (a)
+(a)
+<p>
+$\frac{dx}{dt} = 6x - y, \qquad \frac{dy}{dt} = 5x + 2y$
 
-$$\frac{dx}{dt} = 6x - y, \qquad \frac{dy}{dt} = 5x + 2y$$
-
-$$A = \begin{bmatrix} 6 & -1 \\ 5 & 2 \end{bmatrix}$$
+$A = [6, -1; 5, 2]$
 
 ### Autovalores
 
-$$\det(A - \lambda I) = (6-\lambda)(2-\lambda) + 5 = \lambda^2 - 8\lambda + 17 = 0$$
+$\det(A - \lambda I) = (6-\lambda)(2-\lambda) + 5 = \lambda^2 - 8\lambda + 17 = 0$
 
-$$\lambda = \frac{8 \pm \sqrt{64 - 68}}{2} = \frac{8 \pm 2j}{2}$$
+$\lambda = \frac{8 \pm \sqrt{64 - 68}}{2} = \frac{8 \pm 2j}{2}$
 
-$$\boxed{\lambda_{1,2} = 4 \pm j}$$
+$\boxed{\lambda_{1,2} = 4 \pm j}$
 
 ### Autovetores
 
-Para $\lambda_1 = 4 + j$, resolvemos $(A - (4+j)I)v = 0$:
+Para $\lambda_1 = 4 + j$, resolvemos $(A - (4+j)I)k = 0$:
 
-$$\begin{bmatrix} 2-j & -1 \\ 5 & -2-j \end{bmatrix} v = 0$$
+$[2-j, -1; 5, -2-j] \cdot k = 0$
 
-Da primeira linha: $(2-j)v_1 = v_2$. Escolhendo $v_1 = 1$:
+Da primeira linha: $(2-j)k_1 = k_2$. Escolhendo $k_1 = 1$:
 
-$$k = \begin{pmatrix} 1 \\ 2-j \end{pmatrix} = \underbrace{\begin{pmatrix} 1 \\ 2 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 0 \\ -1 \end{pmatrix}}_{B_2}$$
+$$k = (1; 2-j) = \underbrace{(1;2)}_{B_1} + j\underbrace{(0;-1)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 e^{4t}\left[\begin{pmatrix}1\\2\end{pmatrix}\cos t - \begin{pmatrix}0\\-1\end{pmatrix}\sin t\right] + c_2 e^{4t}\left[\begin{pmatrix}1\\2\end{pmatrix}\sin t + \begin{pmatrix}0\\-1\end{pmatrix}\cos t\right]}$$
+$$\boxed{X(t) = c_1\,e^{4t}\bigl[(1;2)\cos t - (0;-1)\sin t\bigr] + c_2\,e^{4t}\bigl[(1;2)\sin t + (0;-1)\cos t\bigr]}$$
 
 ### Estabilidade
 
@@ -54,7 +60,7 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 $$\frac{dx}{dt} = x + y, \qquad \frac{dy}{dt} = -2x - y$$
 
-$$A = \begin{bmatrix} 1 & 1 \\ -2 & -1 \end{bmatrix}$$
+$$A = [1, 1; -2, -1]$$
 
 ### Autovalores
 
@@ -64,17 +70,17 @@ $$\boxed{\lambda_{1,2} = \pm j}$$
 
 ### Autovetores
 
-Para $\lambda_1 = j$, resolvemos $(A - jI)v = 0$:
+Para $\lambda_1 = j$, resolvemos $(A - jI)\,v = 0$:
 
-$$\begin{bmatrix} 1-j & 1 \\ -2 & -1-j \end{bmatrix} v = 0$$
+$$[1-j, 1; -2, -1-j] \cdot v = 0$$
 
 Da primeira linha: $v_2 = -(1-j)v_1$. Escolhendo $v_1 = 1$:
 
-$$k = \begin{pmatrix} 1 \\ -1+j \end{pmatrix} = \underbrace{\begin{pmatrix} 1 \\ -1 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 0 \\ 1 \end{pmatrix}}_{B_2}$$
+$$k = (1; -1+j) = \underbrace{(1;-1)}_{B_1} + j\underbrace{(0;1)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 \left[\begin{pmatrix}1\\-1\end{pmatrix}\cos t - \begin{pmatrix}0\\1\end{pmatrix}\sin t\right] + c_2 \left[\begin{pmatrix}1\\-1\end{pmatrix}\sin t + \begin{pmatrix}0\\1\end{pmatrix}\cos t\right]}$$
+$$\boxed{X(t) = c_1\bigl[(1;-1)\cos t - (0;1)\sin t\bigr] + c_2\bigl[(1;-1)\sin t + (0;1)\cos t\bigr]}$$
 
 ### Estabilidade
 
@@ -88,7 +94,7 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 
 $$\frac{dx}{dt} = 5x + y, \qquad \frac{dy}{dt} = -2x + 3y$$
 
-$$A = \begin{bmatrix} 5 & 1 \\ -2 & 3 \end{bmatrix}$$
+$$A = [5, 1; -2, 3]$$
 
 ### Autovalores
 
@@ -102,15 +108,15 @@ $$\boxed{\lambda_{1,2} = 4 \pm j}$$
 
 Para $\lambda_1 = 4 + j$:
 
-$$\begin{bmatrix} 1-j & 1 \\ -2 & -1-j \end{bmatrix} v = 0$$
+$$[1-j, 1; -2, -1-j] \cdot v = 0$$
 
 Da primeira linha: $v_2 = -(1-j)v_1$. Escolhendo $v_1 = 1$:
 
-$$k = \begin{pmatrix} 1 \\ -1+j \end{pmatrix} = \underbrace{\begin{pmatrix} 1 \\ -1 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 0 \\ 1 \end{pmatrix}}_{B_2}$$
+$$k = (1; -1+j) = \underbrace{(1;-1)}_{B_1} + j\underbrace{(0;1)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 e^{4t}\left[\begin{pmatrix}1\\-1\end{pmatrix}\cos t - \begin{pmatrix}0\\1\end{pmatrix}\sin t\right] + c_2 e^{4t}\left[\begin{pmatrix}1\\-1\end{pmatrix}\sin t + \begin{pmatrix}0\\1\end{pmatrix}\cos t\right]}$$
+$$\boxed{X(t) = c_1\,e^{4t}\bigl[(1;-1)\cos t - (0;1)\sin t\bigr] + c_2\,e^{4t}\bigl[(1;-1)\sin t + (0;1)\cos t\bigr]}$$
 
 ### Estabilidade
 
@@ -124,7 +130,7 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 $$\frac{dx}{dt} = 4x + 5y, \qquad \frac{dy}{dt} = -2x + 6y$$
 
-$$A = \begin{bmatrix} 4 & 5 \\ -2 & 6 \end{bmatrix}$$
+$$A = [4, 5; -2, 6]$$
 
 ### Autovalores
 
@@ -138,15 +144,15 @@ $$\boxed{\lambda_{1,2} = 5 \pm 3j}$$
 
 Para $\lambda_1 = 5 + 3j$:
 
-$$\begin{bmatrix} -1-3j & 5 \\ -2 & 1-3j \end{bmatrix} v = 0$$
+$$[-1-3j, 5; -2, 1-3j] \cdot v = 0$$
 
-Da primeira linha: $(-1-3j)v_1 = -5v_2$, ou seja $v_2 = \tfrac{1+3j}{5}v_1$. Escolhendo $v_1 = 5$:
+Da primeira linha: $(-1-3j)v_1 = -5v_2 \Rightarrow v_2 = \tfrac{1+3j}{5}v_1$. Escolhendo $v_1 = 5$:
 
-$$k = \begin{pmatrix} 5 \\ 1+3j \end{pmatrix} = \underbrace{\begin{pmatrix} 5 \\ 1 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 0 \\ 3 \end{pmatrix}}_{B_2}$$
+$$k = (5; 1+3j) = \underbrace{(5;1)}_{B_1} + j\underbrace{(0;3)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 e^{5t}\left[\begin{pmatrix}5\\1\end{pmatrix}\cos 3t - \begin{pmatrix}0\\3\end{pmatrix}\sin 3t\right] + c_2 e^{5t}\left[\begin{pmatrix}5\\1\end{pmatrix}\sin 3t + \begin{pmatrix}0\\3\end{pmatrix}\cos 3t\right]}$$
+$$\boxed{X(t) = c_1\,e^{5t}\bigl[(5;1)\cos 3t - (0;3)\sin 3t\bigr] + c_2\,e^{5t}\bigl[(5;1)\sin 3t + (0;3)\cos 3t\bigr]}$$
 
 ### Estabilidade
 
@@ -158,9 +164,9 @@ $\alpha = \mathrm{Re}(\lambda) = 5 > 0$.
 
 ## (e)
 
-$$\dot{x} = \begin{bmatrix} 4 & -5 \\ 5 & -4 \end{bmatrix} x$$
+$$\dot{x} = [4, -5; 5, -4]\,x$$
 
-$$A = \begin{bmatrix} 4 & -5 \\ 5 & -4 \end{bmatrix}$$
+$$A = [4, -5; 5, -4]$$
 
 ### Autovalores
 
@@ -172,15 +178,15 @@ $$\boxed{\lambda_{1,2} = \pm 3j}$$
 
 Para $\lambda_1 = 3j$:
 
-$$\begin{bmatrix} 4-3j & -5 \\ 5 & -4-3j \end{bmatrix} v = 0$$
+$$[4-3j, -5; 5, -4-3j] \cdot v = 0$$
 
 Da primeira linha: $(4-3j)v_1 = 5v_2$. Escolhendo $v_1 = 5$:
 
-$$k = \begin{pmatrix} 5 \\ 4-3j \end{pmatrix} = \underbrace{\begin{pmatrix} 5 \\ 4 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 0 \\ -3 \end{pmatrix}}_{B_2}$$
+$$k = (5; 4-3j) = \underbrace{(5;4)}_{B_1} + j\underbrace{(0;-3)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 \left[\begin{pmatrix}5\\4\end{pmatrix}\cos 3t - \begin{pmatrix}0\\-3\end{pmatrix}\sin 3t\right] + c_2 \left[\begin{pmatrix}5\\4\end{pmatrix}\sin 3t + \begin{pmatrix}0\\-3\end{pmatrix}\cos 3t\right]}$$
+$$\boxed{X(t) = c_1\bigl[(5;4)\cos 3t - (0;-3)\sin 3t\bigr] + c_2\bigl[(5;4)\sin 3t + (0;-3)\cos 3t\bigr]}$$
 
 ### Estabilidade
 
@@ -192,9 +198,9 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 
 ## (f)
 
-$$\dot{x} = \begin{bmatrix} 1 & -8 \\ 1 & -3 \end{bmatrix} x$$
+$$\dot{x} = [1, -8; 1, -3]\,x$$
 
-$$A = \begin{bmatrix} 1 & -8 \\ 1 & -3 \end{bmatrix}$$
+$$A = [1, -8; 1, -3]$$
 
 ### Autovalores
 
@@ -208,15 +214,15 @@ $$\boxed{\lambda_{1,2} = -1 \pm 2j}$$
 
 Para $\lambda_1 = -1 + 2j$:
 
-$$\begin{bmatrix} 2-2j & -8 \\ 1 & -2-2j \end{bmatrix} v = 0$$
+$$[2-2j, -8; 1, -2-2j] \cdot v = 0$$
 
 Da segunda linha: $v_1 = (2+2j)v_2$. Escolhendo $v_2 = 1$:
 
-$$k = \begin{pmatrix} 2+2j \\ 1 \end{pmatrix} = \underbrace{\begin{pmatrix} 2 \\ 1 \end{pmatrix}}_{B_1} + j\underbrace{\begin{pmatrix} 2 \\ 0 \end{pmatrix}}_{B_2}$$
+$$k = (2+2j; 1) = \underbrace{(2;1)}_{B_1} + j\underbrace{(2;0)}_{B_2}$$
 
 ### Solução Geral
 
-$$\boxed{X(t) = c_1 e^{-t}\left[\begin{pmatrix}2\\1\end{pmatrix}\cos 2t - \begin{pmatrix}2\\0\end{pmatrix}\sin 2t\right] + c_2 e^{-t}\left[\begin{pmatrix}2\\1\end{pmatrix}\sin 2t + \begin{pmatrix}2\\0\end{pmatrix}\cos 2t\right]}$$
+$$\boxed{X(t) = c_1\,e^{-t}\bigl[(2;1)\cos 2t - (2;0)\sin 2t\bigr] + c_2\,e^{-t}\bigl[(2;1)\sin 2t + (2;0)\cos 2t\bigr]}$$
 
 ### Estabilidade
 
@@ -228,11 +234,11 @@ $\alpha = \mathrm{Re}(\lambda) = -1 < 0$.
 
 ## Resumo
 
-| Exercício | Autovalores $\lambda$ | $\alpha = \mathrm{Re}(\lambda)$ | $\omega = \mathrm{Im}(\lambda)$ | Estabilidade |
-|:---------:|:---------------------:|:-------------------------------:|:-------------------------------:|:------------:|
-| (a) | $4 \pm j$ | $+4$ | $1$ | **Instável** (espiral divergente) |
-| (b) | $\pm j$ | $0$ | $1$ | **Marginalmente estável** (centro) |
-| (c) | $4 \pm j$ | $+4$ | $1$ | **Instável** (espiral divergente) |
-| (d) | $5 \pm 3j$ | $+5$ | $3$ | **Instável** (espiral divergente) |
-| (e) | $\pm 3j$ | $0$ | $3$ | **Marginalmente estável** (centro) |
-| (f) | $-1 \pm 2j$ | $-1$ | $2$ | **Assintoticamente estável** (espiral convergente) |
+| Exercício | $A$ | Autovalores $\lambda$ | $\alpha$ | $\omega$ | Estabilidade |
+|:---------:|:---:|:---------------------:|:--------:|:--------:|:------------:|
+| (a) | $[6,-1;5,2]$ | $4 \pm j$ | $+4$ | $1$ | **Instável** (espiral divergente) |
+| (b) | $[1,1;-2,-1]$ | $\pm j$ | $0$ | $1$ | **Marginalmente estável** (centro) |
+| (c) | $[5,1;-2,3]$ | $4 \pm j$ | $+4$ | $1$ | **Instável** (espiral divergente) |
+| (d) | $[4,5;-2,6]$ | $5 \pm 3j$ | $+5$ | $3$ | **Instável** (espiral divergente) |
+| (e) | $[4,-5;5,-4]$ | $\pm 3j$ | $0$ | $3$ | **Marginalmente estável** (centro) |
+| (f) | $[1,-8;1,-3]$ | $-1 \pm 2j$ | $-1$ | $2$ | **Assintoticamente estável** (espiral convergente) |
