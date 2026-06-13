@@ -234,6 +234,12 @@ $\alpha = \mathrm{Re}(\lambda) = -1 < 0$.
 > **Assintoticamente estável** — espiral convergente com frequência $\omega = 2\ \mathrm{rad/s}$.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/25194d0b-8e78-45b5-b1b3-6f51f5930fa9" />
+<p>
+<b>Retrato de fase:</b> espirais que convergem para a origem — o único caso assintoticamente estável do bloco complexo. As trajetórias giram enquanto se aproximam da origem, formando uma espiral interna.
+<p>
+<b>Resposta temporal:</b> oscilações de amplitude decrescente com frequência $\omega = 2\ \mathrm{rad/s}$, envelope dominado por $e^{-t}$. As curvas de $x_1(t)$ e $x_2(t)$ oscilam e decaem simultaneamente até zero.
+<p>
+</b>Classificação:</b> Assintoticamente estável — espiral convergente.
 
 ## Resumo
 
