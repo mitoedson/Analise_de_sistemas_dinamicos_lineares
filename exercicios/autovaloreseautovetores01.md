@@ -3,7 +3,7 @@
 Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetores $v$ resolvendo $\det(A - \lambda I)=0$ e $(A - \lambda I)v = 0$. A estabilidade do ponto de equilíbrio na origem é analisada pelos sinais das partes reais dos autovalores:
 
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
-- **Instável** se algum $\mathrm{Re}(\lambda) > 0$.
+- **Instável** se algum $\mathrm{Re}(\lambda) > 0$. Note que se houver um $\lambda = 0$, haverá uma divergência exponencial. 
 - **Estável (marginalmente)** se $\mathrm{Re}(\lambda) \le 0$ e pelo menos um $\mathrm{Re}(\lambda)=0$ sem autovalores com parte real positiva.
 <p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
 
@@ -80,7 +80,7 @@ $$A=\begin{bmatrix}-4&2\\ -\frac{5}{2}&2\end{bmatrix}$$
 <p>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/cd984f65-d692-4e49-b23d-9dfd09484c81" />
 <p>
-<b>Retrato de fase:</b> outro ponto de sela, mas com geometria diferente de (a). A direção estável é $k_2 = (1;\frac{1}{2})$ (trajetórias que partem nessa direção convergem para a origem) e a instável é $k_1 = (1;\frac{5}{2})$. O modo estável decai 3× mais rápido que em (a), então as curvas se alinham mais rapidamente com a direção instável. Note que todas as curvas divergem. Isso e devido a escolha para obter os autovetores.
+<b>Retrato de fase:</b> outro ponto de sela, mas com geometria diferente de (a). A direção estável é $k_2 = (1;\frac{1}{2})$ (trajetórias que partem nessa direção convergem para a origem) e a instável é $k_1 = (1;\frac{5}{2})$. O modo estável decai 3× mais rápido que em (a), então as curvas se alinham mais rapidamente com a direção instável. Note que todas as curvas mostradas na figura divergem. Isso e devido a escolha para obter os autovetores.
 <p>
 <b>Resposta temporal:</b> decaimento inicial transitório de $e^{-3t}$, seguido de divergência dominada por $e^{t}$.
 <p>
