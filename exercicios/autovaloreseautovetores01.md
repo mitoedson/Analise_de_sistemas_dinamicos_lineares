@@ -3,7 +3,7 @@
 Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetores $v$ resolvendo $\det(A - \lambda I)=0$ e $(A - \lambda I)v = 0$. A estabilidade do ponto de equilíbrio na origem é analisada pelos sinais das partes reais dos autovalores:
 
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
-- **Instável** se algum $\mathrm{Re}(\lambda) > 0$. Note que se houver um $\lambda = 0$, haverá uma divergência exponencial. 
+- **Instável** se algum $\mathrm{Re}(\lambda) > 0$. Note que se houver um $\mathrm{Re}(\lambda) = 0$, haverá uma divergência exponencial. 
 - **Estável (marginalmente)** se $\mathrm{Re}(\lambda) \le 0$ e pelo menos um $\mathrm{Re}(\lambda)=0$ sem autovalores com parte real positiva.
 <p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
 
