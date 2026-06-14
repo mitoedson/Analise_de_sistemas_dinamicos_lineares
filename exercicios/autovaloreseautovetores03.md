@@ -55,10 +55,14 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 > **Instável** — espiral divergente.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/53ff7b0d-00b6-4b6b-9fac-5542cc5b8751" />
+<p><br>
+<b>Retrato de fase:</b> espirais que se afastam da origem em sentido anti-horário (ou horário, dependendo da orientação do sistema). A cada volta, a distância à origem aumenta.
+<p><b>Resposta temporal:</b> oscilações de amplitude crescente com frequência $\omega = 1\ \mathrm{rad/s}$, envelope dominado por $e^{4t}$. O crescimento é rápido — o intervalo plotado é curto ($t \in [0, 1.2]$).
+<p><b>Classificação:</b> Instável — espiral divergente.
 
-
-## (b)
-
+<hr>
+<b>(b)</b>
+<p>
 $$\frac{dx}{dt} = x + y, \qquad \frac{dy}{dt} = -2x - y$$
 
 $$A = [1, 1; -2, -1]$$
@@ -211,21 +215,22 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 **Classificação:** Marginalmente estável — centro.
 
 <hr>
-<b>(f)</b>
+<b>(f)</b> 
+
+$$\dot{x} = [1, -8; 1, -3]\,x$$
 <p>
-$\dot{x} = [1, -8; 1, -3]\,$
+Obtemos $A = [1, -8; 1, -3]$
+
+<b>Autovalores:</b>
+
+$\det(A - \lambda I) = (1-\lambda)(-3-\lambda) + 8 = \lambda^2 + 2\lambda + 5 = 0$
+
+$\lambda = \frac{-2 \pm \sqrt{4 - 20}}{2} = \frac{-2 \pm 4j}{2}$
+
+$\boxed{\lambda_{1,2} = -1 \pm 2j}$
+
 <p>
-$A = [1, -8; 1, -3]$
-
-### Autovalores
-
-$$\det(A - \lambda I) = (1-\lambda)(-3-\lambda) + 8 = \lambda^2 + 2\lambda + 5 = 0$$
-
-$$\lambda = \frac{-2 \pm \sqrt{4 - 20}}{2} = \frac{-2 \pm 4j}{2}$$
-
-$$\boxed{\lambda_{1,2} = -1 \pm 2j}$$
-
-### Autovetores
+<b>Autovetores:</b>
 
 Para $\lambda_1 = -1 + 2j$:
 
