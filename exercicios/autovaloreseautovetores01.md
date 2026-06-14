@@ -56,7 +56,12 @@ $$A=\begin{bmatrix}2&2\\1&3\end{bmatrix}$$
 - **Estabilidade:** instável (nó repulsivo, ambos positivos).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,1) e^{4t} + c_2(1,-0.5)e^{t} $$
 <p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/306047b3-66ee-4e16-93ce-13f50b5a4c8f" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/8f611b68-2fe9-41d8-bc21-2acbd96e0bde" />
+<p>
+<b>Retrato de fase:</b> padrão de nó repulsor. Todas as trajetórias divergem da origem. Para $t$ grande, o termo $e^{4t}$ domina e as curvas se alinham com a direção de $k_1 = (1;\,1)$. Para $t$ negativo (ou perto da origem), a influência de $e^{t}$ aparece, curvando as trajetórias.
+<p>Resposta temporal:</b> ambas as componentes crescem exponencialmente. O crescimento de $x_1(t)$ e $x_2(t)$ se torna paralelo a longo prazo (dominância de $e^{4t}$).
+<p>
+<b>Classificação:</b> Instável — nó repulsor (ambos os autovalores positivos).
 
 <hr>
 <p><b>(c)</b>
@@ -73,9 +78,14 @@ $$A=\begin{bmatrix}-4&2\\ -\frac{5}{2}&2\end{bmatrix}$$
 - **Estabilidade:** instável (sela).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,\frac{5}{2}) e^{t} + c_2(1,\frac{1}{2})e^{-3t} $$
 <p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/f428c071-586d-432f-8e63-599c5ebeeda3" />
-
-  
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/cd984f65-d692-4e49-b23d-9dfd09484c81" />
+<p>
+<b>Retrato de fase:</b> outro **ponto de sela**, mas com geometria diferente de (a). A direção estável é $k_2 = (1;\,1/2)$ (trajetórias que partem nessa direção convergem para a origem) e a instável é $k_1 = (1;\,5/2)$. O modo estável decai 3× mais rápido que em (a), então as curvas se alinham mais rapidamente com a direção instável.
+<p>
+<b>Resposta temporal:</b> decaimento inicial transitório de $e^{-3t}$, seguido de divergência dominada por $e^{t}$.
+<p>
+<b>Classificação:</b> Instável — ponto de sela (autovalores de sinais opostos).
+ 
 <hr>
 <p><b>(d)</b>
 <p>$\frac{dx}{dt}=-\frac{5}{2}x+2y\quad \frac{dy}{dt}=\frac{3}{4}x-2y $
