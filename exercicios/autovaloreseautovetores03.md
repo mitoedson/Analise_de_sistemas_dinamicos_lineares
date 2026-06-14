@@ -94,10 +94,16 @@ $\alpha = \mathrm{Re}(\lambda) = 0$.
 > **Marginalmente estável** — centro, órbitas fechadas com frequência $\omega = 1\ \mathrm{rad/s}$.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/55707ff7-2def-48f9-908c-722a9af5855a" />
+<p><br>
+<b>Retrato de fase:</b> elipses fechadas centradas na origem — o sistema orbita sem jamais convergir ou divergir. Cada condição inicial define uma elipse própria (não há atração entre órbitas).
+<p><b>Resposta temporal:</b> oscilações puramente periódicas, sem amortecimento, com frequência $\omega = 1\ \mathrm{rad/s}$. As amplitudes de $x_1(t)$ e $x_2(t)$ permanecem constantes para sempre.
+<p>
+<b>Classificação:</b> Marginalmente estável — centro.
 
 
-## (c)
-
+<hr>
+<b>(c)</b>
+<p>
 $$\frac{dx}{dt} = 5x + y, \qquad \frac{dy}{dt} = -2x + 3y$$
 
 $$A = [5, 1; -2, 3]$$
@@ -131,9 +137,18 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 > **Instável** — espiral divergente.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/33c935c5-afdc-47e6-807b-22c987779705" />
+<p><br>
+<b>Retrato de fase:</b> espirais divergentes, idênticas em tipo às do exercício (C-a), pois os autovalores são os mesmos ($4 \pm j$). A diferença está na orientação das espirais, determinada pelos autovetores de $A$.
+<p><b>Resposta temporal:</b> oscilações crescentes com envelope $e^{4t}$ e frequência $\omega = 1\ \mathrm{rad/s}$.
+<p>
+<b>Classificação:</b> Instável — espiral divergente.
+<p>
+<b>Nota:</b> (C-a) e (C-c) têm os mesmos autovalores mas matrizes distintas. O comportamento qualitativo é idêntico; a diferença está na geometria precisa (inclinação e excentricidade) das espirais.
 
-## (d)
 
+<hr>
+<b>(d)</b>
+<p>
 $$\frac{dx}{dt} = 4x + 5y, \qquad \frac{dy}{dt} = -2x + 6y$$
 
 $$A = [4, 5; -2, 6]$$
