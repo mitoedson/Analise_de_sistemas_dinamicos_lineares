@@ -92,6 +92,11 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,\frac{3}{4}) e^{-t} + c_2(1,-\frac{1}{2})e^{-\frac{7}{2}t} $$
 <p>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/3e7fe610-fdd3-4ec1-a824-930992b2f9d2" />
+<p>
+<b>Retrato de fase:</b> padrão de nó atrator. Todas as trajetórias convergem para a origem. O modo rápido $e^{-7t/2}$ decai primeiro, fazendo as curvas se alinharem com a direção do modo lento $k_1 = (1;\frac{3}{4})$ antes de chegarem à origem. Essa "dobra" das trajetórias é a assinatura visual de um nó com dois autovalores negativos distintos.
+<p><b>Resposta temporal:</b> ambas as componentes decaem para zero. Pode haver mudança de curvatura no transiente enquanto o modo rápido $e^{-7t/2}$ se extingue e o modo lento $e^{-t}$ passa a dominar.
+<p>
+<b>Classificação:</b> Assintoticamente estável — nó atrator (ambos os autovalores negativos).
 
 <hr>
 <p><b>(e)</b>
@@ -104,8 +109,13 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 - **Estabilidade:** instável (sela).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,4) e^{10t} + c_2(1,\frac{2}{5})e^{-8t} $$
 <p>
-<img width="600"  alt="image" src="https://github.com/user-attachments/assets/b2f8b80c-1b77-4ffb-905d-26920cb4971c" />
-
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0f5a8f95-cd7d-4de8-adb3-8f546cfa9eca" />
+<p>
+<b>Retrato de fase:</b> ponto de sela com a maior separação entre autovalores de todos os exercícios ($\Delta\lambda = 18$). O modo estável $e^{-10t}$ decai extremamente rápido, de modo que as trajetórias se "endireitam" quase imediatamente na direção instável $k_1 = (1;\frac{2}{5})$. As curvas parecem quase retas divergindo nessa direção.
+<p>
+<b>Resposta temporal:</b> o transitório estável desaparece muito rapidamente (escala de $\frac{1}{10} = 0.1\ \mathrm{s}$) e a divergência de $e^{8t}$ domina. O intervalo plotado é curto ($t \in [0, 0.8]$).
+<p>
+<b>Classificação:</b> Instável — ponto de sela.
 
 <hr>
 <p><b>(f)</b>
