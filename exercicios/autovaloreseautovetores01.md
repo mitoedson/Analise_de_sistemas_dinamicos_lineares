@@ -92,11 +92,27 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
   $\lambda_2=-5$: $k_2=(1,\frac{1}{2})$
 - **Estabilidade:** estável (marginalmente), pois um autovalor é nulo e o outro negativo.
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,3) + c_2(1,\frac{1}{2})e^{-5t} $$
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0c17d70f-a667-41e0-b3d9-01ef19ec0e51" />
+<p>
+<b>Retrato de fase:</b> comportamento singular — existe uma **linha inteira de equilíbrios** na direção de $k_1 = (1;\,3)$ (pois $e^{0 \cdot t} = 1$, constante). O modo $e^{-5t}$ decai rapidamente para zero, fazendo todas as trajetórias convergirem para um ponto **na reta** $x_2 = 3x_1$, não necessariamente para a origem. O ponto de chegada depende de $c_1$, ou seja, da condição inicial.
+<p><b>Resposta temporal:</b> $x_1(t)$ e $x_2(t)$ decaem rapidamente do valor inicial até um **patamar não nulo** (determinado por $c_1$), e depois permanecem constantes. A constante final é diferente para cada condição inicial.
+<p>
+<b>Classificação:</b> Marginalmente estável — linha de equilíbrios (autovalor nulo simples com autovalor negativo).
+<p>
+<b>Diferença em relação ao caso repetido (R-a):</b> lá, $\lambda = 0$ era repetido e havia crescimento linear. Aqui, $\lambda = 0$ é simples e o outro autovalor é negativo — o sistema estabiliza em um patamar, não cresce.
 
+<hr>
+## Resumo Geral
 
-
-
-
+| Fig. | $A$ | $\lambda_1$ | $\lambda_2$ | Retrato de fase | Resposta temporal | Estabilidade |
+|:----:|:---:|:-----------:|:-----------:|:---------------:|:-----------------:|:------------:|
+| (a) | $[1,2;4,3]$ | $+5$ | $-1$ | Ponto de sela | Divergência após transiente | **Instável** |
+| (b) | $[2,2;1,3]$ | $+4$ | $+1$ | Nó repulsor | Crescimento exponencial | **Instável** |
+| (c) | $[-4,2;-\frac{5}{2},2]$ | $+1$ | $-3$ | Ponto de sela | Divergência após transiente | **Instável** |
+| (d) | $[-\frac{5}{2},2;\frac{3}{4},-2]$ | $-1$ | $-7/2$ | Nó atrator | Decaimento com dobra | **Assim. estável** |
+| (e) | $[10,-5;8,-12]$ | $+8$ | $-10$ | Ponto de sela (agudo) | Divergência rápida | **Instável** |
+| (f) | $[-6,2;-3,1]$ | $0$ | $-5$ | Linha de equilíbrios | Convergência a patamar | **Marg. estável** |
 
 
 
