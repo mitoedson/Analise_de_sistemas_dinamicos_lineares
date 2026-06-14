@@ -53,13 +53,14 @@ $\mathrm{Re}(\lambda) = 0$ — autovalor nulo repetido. As trajetórias crescem 
 
 > **Instável** — crescimento polinomial.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/afff4f97-1af2-4149-83dc-3bf929c75e27" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2eeaa0f7-3249-4eb0-a0f7-f0608c9ae0c2" />
+
 <p>
-**Esquerda — Retrato de fase:** trajetórias no plano $(x_1, x_2)$ partindo de múltiplas condições iniciais. O marcador `+` indica a origem (ponto de equilíbrio). Trajetórias são retas paralelas, pois $e^{0 \cdot t} = 1$ e o crescimento é linear em $t$. As curvas divergem da origem ao longo de uma direção determinada pelo autovetor $k_1 = (1;\,3)$.
+<p><b>Esquerda — Retrato de fase:</b> trajetórias no plano $(x_1, x_2)$ partindo de múltiplas condições iniciais. O marcador `+` indica a origem (ponto de equilíbrio). Trajetórias são retas paralelas, pois $e^{0 \cdot t} = 1$ e o crescimento é linear em $t$. As curvas divergem da origem ao longo de uma direção determinada pelo autovetor $k_1 = (1;\,3)$.
 <p>
-**Direita — Resposta temporal:** evolução de $x_1(t)$ (linha sólida) e $x_2(t)$ (linha tracejada) ao longo do tempo. $x_1(t)$ e $x_2(t)$ crescem **linearmente**, sem oscilação e sem amortecimento exponencial. Trajetórias saem de condições iniciais não nulas e nunca retornam.
+<p><b>Direita — Resposta temporal:</b> evolução de $x_1(t)$ (linha sólida) e $x_2(t)$ (linha tracejada) ao longo do tempo. $x_1(t)$ e $x_2(t)$ crescem **linearmente**, sem oscilação e sem amortecimento exponencial. Trajetórias saem de condições iniciais não nulas e nunca retornam.
 <p>
-Classificação: Instável — crescimento polinomial (linear).
+<b>Classificação:</b> Instável — crescimento polinomial (linear).
 
 ---
 
@@ -98,8 +99,13 @@ $$\boxed{X(t) = c_1\,(1;1)\,e^{-t} + c_2\,\bigl[(1;1)\,t + (0;1/5)\bigr]\,e^{-t}
 
 $\mathrm{Re}(\lambda) = -1 < 0$ para ambos.
 
-> **Assintoticamente estável** — nó atrator degenerado (estrela imprópria).
+**Assintoticamente estável** — nó atrator degenerado (estrela imprópria).
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/091635a2-4dff-47c2-96b2-4863790b4f5d" />
+<p><b>Retrato de fase:</b>b> todas as trajetórias convergem para a origem, tangenciando uma única direção (a do autovetor $k_1 = (1;\,1)$). Esse padrão é chamado de nó atrator impróprio ou *estrela imprópria*: diferente de um nó regular (com dois autovetores), as curvas chegam à origem todas pela mesma tangente.
+<p><b>Resposta temporal:</b> $x_1(t)$ e $x_2(t)$ decaem exponencialmente com taxa $e^{-t}$, podendo exibir um pequeno "solavanco" antes de decair, causado pelo termo $t\,e^{-t}$ do autovetor generalizado.
+<p>
+<b>Classificação:</b> Assintoticamente estável — nó atrator degenerado.
 
 ## (c)
 
@@ -139,6 +145,12 @@ $\mathrm{Re}(\lambda) = 2 > 0$ para ambos.
 
 > **Instável** — nó repulsor degenerado, trajetórias divergem exponencialmente.
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/1fdeeb5d-7c22-45f3-80e8-ce0b3fad0c4d" />
+<p>
+<b>Retrato de fase:</b> trajetórias divergem da origem, tangenciando a direção do autovetor $k_1 = (1;\,1)$. Geometria de nó repulsor impróprio: todas as curvas se afastam pela mesma tangente.
+<p><b>Resposta temporal:</b> crescimento exponencial rápido dominado por $e^{2t}$. O termo $t\,e^{2t}$ do autovetor generalizado acelera ligeiramente a divergência. O intervalo de tempo plotado é curto ($t \in [0, 2]$) para manter a legibilidade.
+<p>
+<b>Classificação:</b> Instável — nó repulsor degenerado.
 ---
 
 ## (d)
@@ -180,6 +192,14 @@ $$\boxed{X(t) = c_1\,(3;2)\,e^{6t} + c_2\,\bigl[(3;2)\,t + (1/2;0)\bigr]\,e^{6t}
 $\mathrm{Re}(\lambda) = 6 > 0$ para ambos.
 
 > **Instável** — nó repulsor degenerado, trajetórias divergem exponencialmente.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e1ed0b87-3930-4062-9b63-c7937c060a7d" />
+<p>
+<b>Retrato de fase:</b> divergência extremamente rápida, com trajetórias se afastando na direção do autovetor $k_1 = (3;\,2)$. O intervalo de tempo é muito curto ($t \in [0, 0.8]$) e as condições iniciais são pequenas para evitar overflow.
+<p><b>Resposta temporal:</b> crescimento dominado por $e^{6t}$ — curvas praticamente verticais para $t$ ligeiramente positivo. A taxa de divergência é a maior entre todos os exercícios.
+<p>
+<b>Classificação:</b> Instável — nó repulsor degenerado.
+
 
 ---
 
