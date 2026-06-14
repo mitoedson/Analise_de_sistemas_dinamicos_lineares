@@ -286,3 +286,5 @@ $\alpha = \mathrm{Re}(\lambda) = -1 < 0$.
 | (d) | $[4,5;-2,6]$ | $5 \pm 3j$ | $+5$ | $3$ | **Instável** (espiral divergente) |
 | (e) | $[4,-5;5,-4]$ | $\pm 3j$ | $0$ | $3$ | **Marginalmente estável** (centro) |
 | (f) | $[1,-8;1,-3]$ | $-1 \pm 2j$ | $-1$ | $2$ | **Assintoticamente estável** (espiral convergente) |
+
+<p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
