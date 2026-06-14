@@ -29,8 +29,8 @@ $$A = \begin{pmatrix}
 <p>
 <b>Retrato de fase:</b> padrão de ponto de sela. Existem duas direções especiais (as dos autovetores):
 <ul>
-  <li>Na direção de $k_2 = (1;\,-1)$: trajetórias *convergem* para a origem (modo estável, $\lambda_2 = -1$).
-  <li>Na direção de $k_1 = (1;\;2)$: trajetórias *divergem* da origem (modo instável, $\lambda_1 = 5$).
+  <li>Na direção de $k_2 = (1;\,-1)$: trajetórias convergem para a origem (modo estável, $\lambda_2 = -1$). Quando  $\lambda < 0$, as trajetórias convergem.
+  <li>Na direção de $k_1 = (1;\;2)$: trajetórias divergem da origem (modo instável, $\lambda_1 = 5$). Quando  $\lambda > 0$, as trajetórias divergem.
   <li>Todas as demais trajetórias chegam perto da origem e depois são "arremessadas" para longe, curvando-se na direção de $k_1$.
 </ul>
 <p>
