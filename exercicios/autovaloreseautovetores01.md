@@ -5,8 +5,6 @@ Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetore
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
 - **Instável** se algum $\mathrm{Re}(\lambda) > 0$. Note que se houver um $\mathrm{Re}(\lambda) = 0$, haverá uma divergência exponencial. 
 - **Estável (marginalmente)** se $\mathrm{Re}(\lambda) \le 0$ e pelo menos um $\mathrm{Re}(\lambda)=0$ sem autovalores com parte real positiva.
-<p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
-
 <p><b>(a)</b>
 <p>
 $\frac{dx}{dt}=x+2y \quad \frac{dy}{dt}=4x+3y$
@@ -158,6 +156,8 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 | (d) | $[-\frac{5}{2},2;\frac{3}{4},-2]$ | $-1$ | $-7/2$ | Nó atrator | Decaimento com dobra | **Assim. estável** |
 | (e) | $[10,-5;8,-12]$ | $+8$ | $-10$ | Ponto de sela (agudo) | Divergência rápida | **Instável** |
 | (f) | $[-6,2;-3,1]$ | $0$ | $-5$ | Linha de equilíbrios | Convergência a patamar | **Marg. estável** |
+
+<p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
 
 
 
