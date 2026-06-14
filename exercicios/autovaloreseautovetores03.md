@@ -54,7 +54,8 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 > **Instável** — espiral divergente.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/53ff7b0d-00b6-4b6b-9fac-5542cc5b8751" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/6d3e8a26-1020-476f-8daa-ba505bc72ce7" />
+
 <p><br>
 <b>Retrato de fase:</b> espirais que se afastam da origem em sentido anti-horário (ou horário, dependendo da orientação do sistema). A cada volta, a distância à origem aumenta.
 <p><b>Resposta temporal:</b> oscilações de amplitude crescente com frequência $\omega = 1\ \mathrm{rad/s}$, envelope dominado por $e^{4t}$. O crescimento é rápido — o intervalo plotado é curto ($t \in [0, 1.2]$).
@@ -136,7 +137,8 @@ $\alpha = \mathrm{Re}(\lambda) = 4 > 0$.
 
 > **Instável** — espiral divergente.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/33c935c5-afdc-47e6-807b-22c987779705" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/2d8e139e-b9c9-430f-870b-8a7a6921d5a6" />
+
 <p><br>
 <b>Retrato de fase:</b> espirais divergentes, idênticas em tipo às do exercício (C-a), pois os autovalores são os mesmos ($4 \pm j$). A diferença está na orientação das espirais, determinada pelos autovetores de $A$.
 <p><b>Resposta temporal:</b> oscilações crescentes com envelope $e^{4t}$ e frequência $\omega = 1\ \mathrm{rad/s}$.
@@ -181,7 +183,8 @@ $\alpha = \mathrm{Re}(\lambda) = 5 > 0$.
 
 > **Instável** — espiral divergente.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/d85c32ed-72be-4dcd-8c99-28bb01e104cf" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b2975ac7-06d5-4a0c-b606-d95d513191ba" />
+
 <p>
 <b>Retrato de fase:</b> espirais divergentes com frequência angular maior ($\omega = 3\ \mathrm{rad/s}$) — as voltas são mais "apertadas" do que em (C-a/C-c). O crescimento é ainda mais rápido ($\alpha = 5$).
 <p>
