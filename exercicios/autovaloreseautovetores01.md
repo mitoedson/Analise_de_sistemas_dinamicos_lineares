@@ -24,6 +24,21 @@ $$A = \begin{pmatrix}
   $\lambda_2=-1$: $k_2=(1,-1)$
 - **Estabilidade:** instável (sela, autovalores de sinais opostos).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,2) e^{5t} + c_2(1,-1)e^{-t} $$
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/063c5b6b-f26e-4ee1-8cf7-3213393a41ea" />
+<p>
+<b>Retrato de fase:</b> padrão de ponto de sela. Existem duas direções especiais (as dos autovetores):
+<ul>
+  <li>Na direção de $k_2 = (1;\,-1)$: trajetórias *convergem* para a origem (modo estável, $\lambda_2 = -1$).
+  <li>Na direção de $k_1 = (1;\;2)$: trajetórias *divergem* da origem (modo instável, $\lambda_1 = 5$).
+  <li>Todas as demais trajetórias chegam perto da origem e depois são "arremessadas" para longe, curvando-se na direção de $k_1$.
+</ul>
+<p>
+<b>Resposta temporal:</b> para $t$ pequeno, pode haver decaimento transitório (influência de $e^{-t}$); a longo prazo, $e^{5t}$ domina completamente e as curvas divergem.
+<p>
+<b>Classificação:</b> Instável — ponto de sela (autovalores de sinais opostos).
+
+  
 
 <hr>
 
@@ -40,6 +55,8 @@ $$A=\begin{bmatrix}2&2\\1&3\end{bmatrix}$$
   $\lambda_2=1$: $k_2=(1,-0.5)$
 - **Estabilidade:** instável (nó repulsivo, ambos positivos).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,1) e^{4t} + c_2(1,-0.5)e^{t} $$
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/306047b3-66ee-4e16-93ce-13f50b5a4c8f" />
 
 <hr>
 <p><b>(c)</b>
@@ -55,7 +72,10 @@ $$A=\begin{bmatrix}-4&2\\ -\frac{5}{2}&2\end{bmatrix}$$
   $\lambda_2=-3$: $k_2=(1,\frac{1}{2})$
 - **Estabilidade:** instável (sela).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,\frac{5}{2}) e^{t} + c_2(1,\frac{1}{2})e^{-3t} $$
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/f428c071-586d-432f-8e63-599c5ebeeda3" />
 
+  
 <hr>
 <p><b>(d)</b>
 <p>$\frac{dx}{dt}=-\frac{5}{2}x+2y\quad \frac{dy}{dt}=\frac{3}{4}x-2y $
@@ -70,6 +90,8 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
   $\lambda_2=-\frac{7}{2}$: $k_2=(1,-\frac{1}{2})$
 - **Estabilidade:** assintoticamente estável (nó atrator, ambos negativos).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,\frac{3}{4}) e^{-t} + c_2(1,-\frac{1}{2})e^{-\frac{7}{2}t} $$
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/3e7fe610-fdd3-4ec1-a824-930992b2f9d2" />
 
 <hr>
 <p><b>(e)</b>
@@ -81,6 +103,9 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
   $\lambda_2=8$: $k_2=(1,\frac{2}{5})$
 - **Estabilidade:** instável (sela).
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,4) e^{10t} + c_2(1,\frac{2}{5})e^{-8t} $$
+<p>
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/b2f8b80c-1b77-4ffb-905d-26920cb4971c" />
+
 
 <hr>
 <p><b>(f)</b>
