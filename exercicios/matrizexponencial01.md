@@ -18,10 +18,12 @@ $$e^{At} = \mathrm{diag}(e^{\lambda_1 t},\; e^{\lambda_2 t})$$
 
 ---
 
-## (a) — $A = [2,0;\;0,-3]$
+## (a)
+
+$A = [2,0;0,-3]$
 
 Matriz **diagonal**. Autovalores: $\lambda_1 = 2$, $\lambda_2 = -3$.
-
+<p>
 $$\boxed{e^{At} = \begin{bmatrix} e^{2t} & 0 \\ 0 & e^{-3t} \end{bmatrix}}$$
 
 ---
