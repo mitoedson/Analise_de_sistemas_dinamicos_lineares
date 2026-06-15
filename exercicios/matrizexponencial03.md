@@ -4,9 +4,9 @@
 
 $\ddot{x} + 2\dot{x} - 8x = 0,\ x(1)=1,\ \dot{x}(1)=0\$
 
-Equação característica: $\(r^2+2r-8=0 \Rightarrow r = -4,\;2\)$.  
-Solução geral: $\(x(t)=c_1 e^{-4t}+c_2 e^{2t}\)$.  
-Condições iniciais em $\(t=1\)$:  
+Equação característica: $\(r^2+2r-8=0 \Rightarrow r = -4;2\)$.  
+Solução geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}\$.  
+Condições iniciais em $t=1\$:  
 <p>
 $\begin{cases}
 c_1 e^{-4}+c_2 e^{2}=1 \\
