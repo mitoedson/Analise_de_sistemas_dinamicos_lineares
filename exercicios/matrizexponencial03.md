@@ -74,15 +74,13 @@ Solução particular: $x_p = t$ (pois $\ddot{t}=0$).
 Geral: $x(t)=c_1\cos t + c_2\sin t + t$.  
 Aplicando as condições em $t=1$:  
 <p>
-$\begin{cases}
-c_1\cos1 + c_2\sin1 + 1 = 0 \\
--c_1\sin1 + c_2\cos1 + 1 = 1
-\end{cases}
-\Rightarrow
-\begin{cases}
-c_1\cos1 + c_2\sin1 = -1 \\
--c_1\sin1 + c_2\cos1 = 0
-\end{cases}$  
+$c_1\cos1 + c_2\sin1 + 1 = 0$
+  
+$-c_1\sin1 + c_2\cos1 + 1 = 1$
+
+  
+$\Rightarrow c_1\cos1 + c_2\sin1 = -1 \\ -c_1\sin1 + c_2\cos1 = 0$
+
 Resolvendo: $c_1 = -\cos1,\; c_2 = -\sin1$.  
 
 <p>$x(t)= -\cos1\cos t - \sin1\sin t + t = t - \cos(t-1).$  
