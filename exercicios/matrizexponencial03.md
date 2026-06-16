@@ -1,12 +1,11 @@
 # Soluções dos exercícios – Matriz exponencial
 
 <b>(a)</b> 
+$\ddot{x} + 2\dot{x} - 8x = 0,\ x(1)=1,\ \dot{x}(1)=0$
 
-$\ddot{x} + 2\dot{x} - 8x = 0,\ x(1)=1,\ \dot{x}(1)=0\$
-
-Equação característica: $\(r^2+2r-8=0 \Rightarrow r = -4;2\)$.  
-Solução geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}\$.  
-Condições iniciais em $t=1\$:  
+Equação característica: $r^2+2r-8=0 \Rightarrow r = -4;2$.  
+Solução geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}$.  
+Condições iniciais em $t=1$:  
 <p>
 $\begin{cases}
 c_1 e^{-4}+c_2 e^{2}=1 \\
@@ -16,12 +15,15 @@ c_1 e^{-4}+c_2 e^{2}=1 \\
 <p>
 $\boxed{x(t)=\frac{1}{3}e^{4(1-t)}+\frac{2}{3}e^{2(t-1)}}$
 
-## (b) \(\ddot{x} + 2\dot{x} - 8x = 4,\; x(0)=0,\; \dot{x}(0)=0\)
+<p>
+<b>(b)</b> 
+$\ddot{x} + 2\dot{x} - 8x = 4, x(0)=0, \dot{x}(0)=0$
 
-Solução homogênea: \(x_h=c_1 e^{-4t}+c_2 e^{2t}\).  
-Solução particular constante: \(x_p = A \Rightarrow -8A=4 \Rightarrow A=-\frac12\).  
-Geral: \(x(t)=c_1 e^{-4t}+c_2 e^{2t}-\frac12\).  
-Aplicando \(x(0)=0,\; \dot{x}(0)=0\):  
+Solução homogênea: $x_h=c_1 e^{-4t}+c_2 e^{2t}$.  
+Solução particular constante: $\(x_p = A \Rightarrow -8A=4 \Rightarrow A=-\frac12\)$.  
+Geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}-\frac12$.  
+Aplicando $\(x(0)=0,\; \dot{x}(0)=0\)$:  
+<p>
 \[
 \begin{cases}
 c_1+c_2-\frac12=0 \\
