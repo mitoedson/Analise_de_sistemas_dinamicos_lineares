@@ -13,6 +13,109 @@ Para $f(t) = 0$ (homogênea): $X(t) = e^{At}X(t_0)$.
 <hr>
 <p>
 <b>(a)</b> 
+$$\ddot{x} + 2\dot{x} - 8x = 0,\ x(1)=1,\ \dot{x}(1)=0,\ f(t)=0$$
+
+Espaço de estados
+<p>
+$$A = \begin{bmatrix}0 & 1\\ 8 & -2\end{bmatrix}$$
+
+Autovalores
+<p>
+$$\det(A - \lambda I) = \lambda^2 + 2\lambda - 8 = (\lambda - 2)(\lambda + 4) = 0$$
+
+$$\lambda_1 = 2, \quad \lambda_2 = -4$$
+
+$e^{At}$ — Cayley-Hamilton
+<p>
+$$e^{\lambda_1 t} = e^{2t}:  \quad e^{2t} = \alpha_0 + 2\alpha_1$$
+
+$$e^{\lambda_2 t} = e^{-4t}: \quad e^{-4t} = \alpha_0 - 4\alpha_1$$
+
+Subtraindo: $e^{2t} - e^{-4t} = 6\alpha_1 \implies \alpha_1 = \dfrac{e^{2t} - e^{-4t}}{6}$
+
+Somando convenientemente: $\alpha_0 = \dfrac{2e^{2t} + 4e^{-4t}}{6} + \dfrac{e^{-4t}-e^{-4t}}{6}$... da primeira: $\alpha_0 = e^{2t} - 2\alpha_1 = e^{2t} - \dfrac{e^{2t}-e^{-4t}}{3} = \dfrac{2e^{2t}+e^{-4t}}{3} - \dfrac{e^{-4t}}{3}$
+
+Resolvendo o sistema diretamente:
+
+$$\alpha_0 = \frac{4e^{2t} + 2e^{-4t}}{6} = \frac{2e^{2t}+e^{-4t}}{3}, \qquad \alpha_1 = \frac{e^{2t}-e^{-4t}}{6}$$
+
+$$e^{At} = \alpha_0 I + \alpha_1 A = \frac{2e^{2t}+e^{-4t}}{3}\begin{bmatrix}1&0\\0&1\end{bmatrix} + \frac{e^{2t}-e^{-4t}}{6}\begin{bmatrix}0&1\\8&-2\end{bmatrix}$$
+
+$$\boxed{e^{At} = \begin{bmatrix} \dfrac{2e^{2t}+e^{-4t}}{3} & \dfrac{e^{2t}-e^{-4t}}{6} \\[10pt] \dfrac{4(e^{2t}-e^{-4t})}{3} & \dfrac{e^{2t}+2e^{-4t}}{3} \end{bmatrix}}$$
+
+Sistema homogêneo com $t_0 = 1$: $X(t) = e^{A(t-1)}X_0$, com $X_0 = (1;\,0)$.
+
+$$x(t) = \frac{2e^{2(t-1)}+e^{-4(t-1)}}{3}, \qquad \dot{x}(t) = \frac{4(e^{2(t-1)}-e^{-4(t-1)})}{3}$$
+
+$$\boxed{x(t) = \frac{2e^{2(t-1)}+e^{-4(t-1)}}{3}}$$
+
+Claro! Vamos devagar passo a passo.
+
+---
+
+## Item (a) — $\ddot{x} + 2\dot{x} - 8x = 0$, $x(1) = 1$, $\dot{x}(1) = 0$
+
+### Passo 1 — Espaço de estados
+
+Definimos $x_1 = x$ e $x_2 = \dot{x}$, então:
+
+$$\dot{x}_1 = x_2$$
+$$\dot{x}_2 = \ddot{x} = 8x - 2\dot{x} = 8x_1 - 2x_2$$
+
+Em forma matricial:
+
+$$\underbrace{\begin{pmatrix}\dot{x}_1\\\dot{x}_2\end{pmatrix}}_{\dot{X}} = \underbrace{\begin{bmatrix}0&1\\8&-2\end{bmatrix}}_{A}\underbrace{\begin{pmatrix}x_1\\x_2\end{pmatrix}}_{X}$$
+
+---
+
+### Passo 2 — Condição inicial
+
+Como $t_0 = 1$:
+
+$$X(t_0) = X(1) = \begin{pmatrix}x(1)\\\dot{x}(1)\end{pmatrix} = \begin{pmatrix}1\\0\end{pmatrix}$$
+
+---
+
+### Passo 3 — Solução
+
+Sistema homogêneo com $t_0 = 1$:
+
+$$X(t) = e^{A(t-1)}X(1)$$
+
+Substituindo $t \to t-1$ na matriz exponencial já calculada:
+
+$$e^{A(t-1)} = \begin{bmatrix} \dfrac{2e^{2(t-1)}+e^{-4(t-1)}}{3} & \dfrac{e^{2(t-1)}-e^{-4(t-1)}}{6} \\[10pt] \dfrac{4(e^{2(t-1)}-e^{-4(t-1)})}{3} & \dfrac{e^{2(t-1)}+2e^{-4(t-1)}}{3} \end{bmatrix}$$
+
+---
+
+### Passo 4 — Multiplicar por $X(1) = (1;\,0)$
+
+Apenas a **primeira coluna** de $e^{A(t-1)}$ contribui, pois $x_2(1) = 0$:
+
+$$X(t) = \begin{bmatrix} \dfrac{2e^{2(t-1)}+e^{-4(t-1)}}{3} & \dfrac{e^{2(t-1)}-e^{-4(t-1)}}{6} \\[10pt] \dfrac{4(e^{2(t-1)}-e^{-4(t-1)})}{3} & \dfrac{e^{2(t-1)}+2e^{-4(t-1)}}{3} \end{bmatrix}\begin{pmatrix}1\\0\end{pmatrix}$$
+
+$$= \begin{pmatrix} \dfrac{2e^{2(t-1)}+e^{-4(t-1)}}{3} \\[10pt] \dfrac{4(e^{2(t-1)}-e^{-4(t-1)})}{3} \end{pmatrix}$$
+
+---
+
+### Resultado
+
+$$\boxed{x(t) = x_1(t) = \frac{2e^{2(t-1)}+e^{-4(t-1)}}{3}}$$
+
+$$\dot{x}(t) = x_2(t) = \frac{4(e^{2(t-1)}-e^{-4(t-1)})}{3}$$
+
+---
+
+### Verificação em $t = 1$
+
+$$x(1) = \frac{2e^0 + e^0}{3} = \frac{2+1}{3} = 1 \quad \checkmark$$
+
+$$\dot{x}(1) = \frac{4(e^0 - e^0)}{3} = 0 \quad \checkmark$$
+
+
+<hr>
+<p>
+<b>(a)</b> 
 $$\ddot{x} + 2\dot{x} - 8x = 0,\ x(1)=1,\ \dot{x}(1)=0$$
 
 Equação característica: $r^2+2r-8=0 \Rightarrow r = -4;2$.  
