@@ -7,11 +7,11 @@ Equação característica: $r^2+2r-8=0 \Rightarrow r = -4;2$.
 Solução geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}$.  
 Condições iniciais em $t=1$:  
 <p>
-$\begin{cases}
-c_1 e^{-4}+c_2 e^{2}=1 \\
--4c_1 e^{-4}+2c_2 e^{2}=0
-\end{cases}
-\Rightarrow c_1=\frac{e^{4}}{3},\; c_2=\frac{2e^{-2}}{3}.$  
+$c_1 e^{-4}+c_2 e^{2}=1$
+
+$-4c_1 e^{-4}+2c_2 e^{2}=0$
+
+$\Rightarrow c_1=\frac{e^{4}}{3}; c_2=\frac{2e^{-2}}{3}.$  
 <p>
 $\boxed{x(t)=\frac{1}{3}e^{4(1-t)}+\frac{2}{3}e^{2(t-1)}}$
 
@@ -22,13 +22,13 @@ $\ddot{x} + 2\dot{x} - 8x = 4, x(0)=0, \dot{x}(0)=0$
 Solução homogênea: $x_h=c_1 e^{-4t}+c_2 e^{2t}$.  
 Solução particular constante: $x_p = A \Rightarrow -8A=4 \Rightarrow A=-\frac12$.  
 Geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}-\frac12$.  
-Aplicando $\(x(0)=0,\; \dot{x}(0)=0\)$:  
+Aplicando $x(0)=0; \dot{x}(0)=0$:  
 <p>
-$\begin{cases}
-c_1+c_2-\frac12=0 \\
--4c_1+2c_2=0
-\end{cases}
-\Rightarrow c_1=\frac16,\; c_2=\frac13.$
+$c_1+c_2-\frac12=0$
+  
+$-4c_1+2c_2=0$
+
+$\Rightarrow c_1=\frac16\; c_2=\frac13.$
 <p>$\boxed{x(t)=\frac16 e^{-4t}+\frac13 e^{2t}-\frac12}$
 
 <hr>
@@ -37,12 +37,12 @@ c_1+c_2-\frac12=0 \\
 Geral: $x(t)=c_1 e^{-4t}+c_2 e^{2t}-\frac12$.  
 Condições em $t=1$:  
 <p>
-$\begin{cases}
-c_1 e^{-4}+c_2 e^{2}=\frac12 \\
--4c_1 e^{-4}+2c_2 e^{2}=0
-\end{cases}$
+$c_1 e^{-4}+c_2 e^{2}=\frac12$
+  
+$-4c_1 e^{-4}+2c_2 e^{2}=0$
+
 $\Rightarrow c_1=\frac{e^{4}}{6},\; c_2=\frac{e^{-2}}{3}.$  
-<p>\boxed{x(t)=\frac16 e^{4(1-t)}+\frac13 e^{2(t-1)}-\frac12}$
+<p>$\boxed{x(t)=\frac16 e^{4(1-t)}+\frac13 e^{2(t-1)}-\frac12}$
 
 <hr>
 <p><b>(d)</b> $\ddot{x} + 2\dot{x} - 8x = 4,\; x(0)=1,\; \dot{x}(0)=2$
