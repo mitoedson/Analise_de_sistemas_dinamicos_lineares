@@ -1,7 +1,7 @@
 <h1>Estabilidade</h1>
 
 ### 1. Conceito de Linearização e Sistemas Quase-Lineares
-O documento define que um sistema autônomo não linear da forma $x' = f(x)$ pode ser examinado na vizinhança de um ponto crítico (como a origem $x^* = 0$) ao ser reescrito como:
+Um sistema autônomo não linear da forma $x' = f(x)$ pode ser examinado na vizinhança de um ponto crítico (como a origem $x^* = 0$) ao ser reescrito como:
 $$x' = Ax + g(x)$$
 Nesta estrutura, o termo **$Ax$** representa o **sistema linearizado**, enquanto $g(x)$ contém os termos de ordem superior. O sistema é classificado como **quase-linear** se a magnitude de $g(x)$ diminuir mais rapidamente que a magnitude de $x$ conforme ele se aproxima do ponto crítico ($\|g(x)\|/\|x\| \to 0$ quando $x \to 0$).
 
