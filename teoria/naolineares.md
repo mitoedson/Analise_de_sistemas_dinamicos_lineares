@@ -12,7 +12,7 @@ Entre as propriedades destacadas, encontram-se:
 *   **Inversibilidade:** A matriz exponencial é sempre não singular, e sua inversa é dada por $(e^{\mathbf{A}t})^{-1} = e^{-\mathbf{A}t}$.
 *   **Aditividade:** $e^{\mathbf{A}(t+s)} = e^{\mathbf{A}t}e^{\mathbf{A}s}$.
 
-### 2. Matriz de Transição de Estados ($\Phi(t)$)
+### 2. Matriz de Transição de Estados ( $\Phi(t)$ )
 Para sistemas lineares invariantes no tempo, a matriz exponencial é identificada como a **matriz de transição de estados**, denotada por $\Phi(t)$. Ela é a solução única para a equação $\dot{\Phi}(t) = \mathbf{A}\Phi(t)$ com a condição inicial $\Phi(0) = \mathbf{I}$, servindo para "transportar" o estado inicial para qualquer instante futuro.
 
 ### 3. Resolução de Equações de Estado
