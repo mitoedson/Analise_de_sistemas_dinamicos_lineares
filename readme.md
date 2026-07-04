@@ -10,7 +10,7 @@ Conteúdo:
   <li><a href="/teoria/autovaloreseautovetores.md">Autovalores e autovetores</a></li><br>
   <li><a href="/teoria/matrizexponencial.md">Matriz exponencial</a></li><br>
   <li><a href="/teoria/estabilidade.md">Estabilidade</a></li><br>
-  <li>Linearização de sistemas dinâmicos não-lineares</li><br>
+  <li><a href="/teoria/naolineares.md">Linearização de sistemas dinâmicos não-lineares</a></li><br>
   <li>Controlabilidade e Observabilidade</li><br>
 </ol>
 <p>Bibliografia:</p>
