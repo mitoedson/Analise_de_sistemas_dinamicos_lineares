@@ -11,7 +11,7 @@ Conteúdo:
   <li><a href="/teoria/matrizexponencial.md">Matriz exponencial</a></li><br>
   <li><a href="/teoria/estabilidade.md">Estabilidade</a></li><br>
   <li><a href="/teoria/naolineares.md">Linearização de sistemas dinâmicos não-lineares</a></li><br>
-  <li>Controlabilidade e Observabilidade</li><br>
+  <li><a href="/teoria/controlabilidade.md">Controlabilidade e Observabilidade</a></li><br>
 </ol>
 <p>Bibliografia:</p>
 <pre>
