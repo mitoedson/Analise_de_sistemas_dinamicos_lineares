@@ -9,7 +9,7 @@ Conteúdo:
   <li><a href="/teoria/introducao.md">Fundamentos de sistemas dinâmicos lineares multivariáveis</a></li><br>
   <li><a href="/teoria/autovaloreseautovetores.md">Autovalores e autovetores</a></li><br>
   <li><a href="/teoria/matrizexponencial.md">Matriz exponencial</a></li><br>
-  <li>Estabilidade</li><br>
+  <li><a href="/teoria/estabilidade.md">Estabilidade</a></li><br>
   <li>Linearização de sistemas dinâmicos não-lineares</li><br>
   <li>Controlabilidade e Observabilidade</li><br>
 </ol>
