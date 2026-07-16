@@ -14,7 +14,7 @@ A **controlabilidade**, introduzida por Rudolf Kalman, é um pilar fundamental d
 
 ### 2.2. Critérios Matemáticos (Matriz de Controlabilidade)
 Para um sistema linear invariante no tempo (LIT) $\dot{x} = Ax + Bu$ de ordem $n$, a propriedade é verificada através da **matriz de controlabilidade** ($\mathcal{C}$):
-$ \mathcal{C} = [B \ | \ AB \ | \ A^2B \ | \ \dots \ | \ A^{n-1}B] $
+$C = [B \ | \ AB \ | \ A^2B \ | \ \dots \ | \ A^{n-1}B]$
 *   **Condição de Posto (Rank):** O sistema é completamente controlável de estado se, e somente se, a matriz $\mathcal{C}$ possuir **posto pleno $n$**. Isso exige que os vetores que compõem a matriz sejam linearmente independentes.
 *   **Teste para Saída:** Para a saída, a matriz $[CB \ | \ CAB \ | \ \dots \ | \ CA^{n-1}B \ | \ D]$ deve ter posto $m$ (dimensão da saída).
 
