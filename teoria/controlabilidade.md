@@ -22,7 +22,7 @@ Na engenharia, a observabilidade é crucial porque muitas variáveis de estado n
 
 Para um sistema linear invariante no tempo (LIT) com $n$ estados, a observabilidade é verificada através da **matriz de observabilidade** ($\mathcal{O}$), definida como:
 
-$\mathcal{O} = \begin{bmatrix} C \\ CA \\ CA^2 \\ \vdots \\ CA^{n-1} \end{bmatrix}$
+$\mathcal{O} = [ C \\ CA \\ CA^2 \\ \vdots \\ CA^{n-1} ]$
 
 *   **Condição de Rank:** O sistema é completamente observável se, e somente se, a matriz $\mathcal{O}$ possuir **posto pleno $n$** (ou seja, seu determinante deve ser diferente de zero para sistemas de única saída).
 *   **Significado Físico:** A falha neste teste (posto $< n$) indica que existem subsistemas ou "modos" que estão fisicamente desconectados da saída, tornando impossível deduzir a energia armazenada nesses componentes apenas olhando para o que o sistema "mostra" externamente.
