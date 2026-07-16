@@ -19,10 +19,7 @@ Um sistema é considerado completamente observável no instante $t_0$ se for pos
 Na engenharia, a observabilidade é crucial porque muitas variáveis de estado não podem ser medidas diretamente por sensores físicos devido a limitações técnicas ou custos proibitivos. Se o sistema for observável, essas variáveis podem ser reconstruídas matematicamente através de **estimadores ou observadores de estado**.
 
 ### 3.2. Critério Matemático (Matriz de Observabilidade)
-
-Para um sistema linear invariante no tempo (LIT) com $n$ estados, a observabilidade é verificada através da **matriz de observabilidade** ($\mathcal{O}$), definida como:
-
-$\mathcal{O} = [ C \\ CA \\ CA^2 \\ \vdots \\ CA^{n-1} ]$
+Para um sistema linear invariante no tempo (LIT) com $n$ estados, a observabilidade é verificada através da **matriz de observabilidade** ($\mathcal{O}$), definida como: $\mathcal{O} = [ C \\ CA \\ CA^2 \\ \vdots \\ CA^{n-1} ]$
 
 *   **Condição de Rank:** O sistema é completamente observável se, e somente se, a matriz $\mathcal{O}$ possuir **posto pleno $n$** (ou seja, seu determinante deve ser diferente de zero para sistemas de única saída).
 *   **Significado Físico:** A falha neste teste (posto $< n$) indica que existem subsistemas ou "modos" que estão fisicamente desconectados da saída, tornando impossível deduzir a energia armazenada nesses componentes apenas olhando para o que o sistema "mostra" externamente.
