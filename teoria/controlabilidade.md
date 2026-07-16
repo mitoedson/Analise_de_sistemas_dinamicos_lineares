@@ -1,5 +1,5 @@
 <h1>Controlabilidade e Observabilidade</h1>
-Conceitos fundamentais de **controlabilidade** e **observabilidade** em sistemas dinâmicos lineares, introduzidos por Kalman. Estes conceitos são essenciais para o projeto de sistemas de controle no espaço de estados, pois indicam se existe uma solução completa para o problema de projeto.
+Conceitos fundamentais de controlabilidade e observabilidade em sistemas dinâmicos lineares, introduzidos por Kalman. Estes conceitos são essenciais para o projeto de sistemas de controle no espaço de estados, pois indicam se existe uma solução completa para o problema de projeto.
 
 ### 1. Independência Linear de Vetores
 Antes de entrar nos critérios de controle, o material revisa o conceito de **vetores linearmente independentes**. Um conjunto de vetores é independente se nenhum deles puder ser expresso como uma combinação linear dos outros, o que é um pré-requisito matemático para os testes de posto das matrizes de controlabilidade e observabilidade.
