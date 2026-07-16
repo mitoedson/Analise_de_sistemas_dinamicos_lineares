@@ -13,10 +13,8 @@ Um sistema é dito controlável se for possível levá-lo de qualquer estado ini
 ## 3. Observabilidade
 A **observabilidade** é um conceito fundamental na teoria de controle no espaço de estados, introduzido por Rudolf Kalman, que determina se o comportamento interno de um sistema pode ser conhecido a partir de suas saídas medidas.
 
-Abaixo, detalho os principais aspectos teóricos e práticos da observabilidade com base nas fontes:
-
 ### 3.1. Definição e Relevância
-Um sistema é considerado **completamente observável** no instante $t_0$ se for possível determinar unicamente o estado inicial $x(t_0)$ através da observação da saída $y(t)$ e do conhecimento da entrada $u(t)$ durante um intervalo de tempo finito.
+Um sistema é considerado completamente observável no instante $t_0$ se for possível determinar unicamente o estado inicial $x(t_0)$ através da observação da saída $y(t)$ e do conhecimento da entrada $u(t)$ durante um intervalo de tempo finito.
 
 Na engenharia, a observabilidade é crucial porque muitas variáveis de estado não podem ser medidas diretamente por sensores físicos devido a limitações técnicas ou custos proibitivos. Se o sistema for observável, essas variáveis podem ser reconstruídas matematicamente através de **estimadores ou observadores de estado**.
 
