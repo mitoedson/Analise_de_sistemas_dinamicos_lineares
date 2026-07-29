@@ -94,5 +94,5 @@ $D=-\dfrac18<0$ → **sela**
 
 ### Conclusão
 
-$$(0,0):\textbf{nó instável} \quad (0,2):\textbf{nó estável} \quad (1,0):\textbf{nó estável} \quad (1/2,1/2):\textbf{sela}$$
+$$(0,0):\textbf{nó instável} \quad (0,2):\textbf{nó estável} \quad (1,0):\textbf{nó estável} \quad (\frac{1}{2},\frac{1}{2}):\textbf{sela}$$
 
