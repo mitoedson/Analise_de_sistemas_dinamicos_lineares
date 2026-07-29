@@ -59,8 +59,10 @@ Autovalores: $$\lambda^2+2\lambda+5=0 \;\Rightarrow\; \lambda=\frac{-2\pm\sqrt{4
 ### Passo 4 — Classificando os três pontos numéricos
 
 **Em $(4{,}155,\ 0{,}446)$:**
-$$J\approx\begin{bmatrix}-0{,}108&9{,}31\\4{,}31&-1{,}892\end{bmatrix}$$
-$$D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;\Rightarrow\; \textbf{sela}$$
+```math
+$J\approx\begin{bmatrix}-0{,}108&9{,}31\\4{,}31&-1{,}892\end{bmatrix}$
+$D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;\Rightarrow\; \textbf{sela}$
+```
 
 **Em $(-0{,}758,\ 1{,}469)$:**
 $$J\approx\begin{bmatrix}1{,}938&-0{,}516\\-5{,}516&-3{,}938\end{bmatrix}$$
