@@ -39,11 +39,15 @@ $$(4{,}155,\ 0{,}446),\qquad(-0{,}758,\ 1{,}469),\qquad(-0{,}396,\ -1{,}904)$$
 
 ### Passo 2 — Jacobiano genérico
 
-$$J(x,y)=\begin{bmatrix}-1+2y & 1+2x\\-4+2x & -1-2y\end{bmatrix}$$
+```math
+J(x,y)=\begin{pmatrix}-1+2y & 1+2x\\-4+2x & -1-2y\end{pmatrix}
+```
 
 ### Passo 3 — Classificando $(0,0)$
 
-$$J(0,0)=\begin{bmatrix}-1&1\\-4&-1\end{bmatrix}$$
+```math
+J(0,0)=\begin{pmatrix}-1&1\\-4&-1\end{pmatrix}
+```
 
 $$T=-1-1=-2,\qquad D=(-1)(-1)-(1)(-4)=1+4=5$$
 
