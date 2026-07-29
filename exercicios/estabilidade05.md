@@ -60,7 +60,7 @@ $D<0$ → **sela** ✓ (independente de $T$)
 ### Passo 5 — Avaliando em $(4,4)$
 
 ```math
-J(4,4) = \begin{pmatrix} -2+4-8 & 2+4\\4-4-8 & 4-4 \end{pmatrix}
+J(4,4) = \begin{pmatrix} -2+4-8 & 2+4 \\ 4-4-8 & 4-4 \end{pmatrix}
 ```
 
 $$T=-6+0=-6,\qquad D=(-6)(0)-(6)(-8)=0+48=48$$
