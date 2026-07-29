@@ -37,18 +37,12 @@ Da segunda equação: $x=1-\cos(y)$
 ### Passo 2 — Jacobiano genérico
 
 ```math
-J(x,y)=\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
-```
-
-```math
 \begin{pmatrix} \dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right] \\ \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right] \end{pmatrix}
 ```
-
 
 ```math
 J(x,y)=\begin{pmatrix} \text{sen}(y) & (1+x)\cos(y) \\ -1 & \text{sen}(y) \end{pmatrix}
 ```
-
 
 **Observação importante:** em **todos** os pontos críticos, $y=m\pi$, e $\text{sen}(m\pi)=0$ sempre. Isso simplifica bastante a avaliação — a diagonal principal do Jacobiano sempre zera nos pontos críticos!
 
