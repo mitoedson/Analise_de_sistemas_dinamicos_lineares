@@ -47,7 +47,7 @@ J(x,y) = \begin{pmatrix} -1+2x & 1-2y\\2+y & x \end{pmatrix}
 J(0,0) = \begin{pmatrix} -1 & 1 \\ 2 & 0 \end{pmatrix}
 ```
 
-$$T=-1+0=-1$, $D=(-1)(0)-(1)(2)=-2$
+$T=-1+0=-1$, $D=(-1)(0)-(1)(2)=-2$
 
 Autovalores: $$\lambda_1=1,\ \lambda_2=-2$$
 
@@ -59,8 +59,7 @@ $D<0$ → **sela**
 J(0,1) = \begin{pmatrix} -1 & -1 \\ 3 & 0 \end{pmatrix}
 ```
 
-$$T=-1+0=-1$$
-$$D=(-1)(0)-(-1)(3)=3$$
+$T=-1+0=-1$, $D=(-1)(0)-(-1)(3)=3$
 
 Autovalores: $$\lambda^2+\lambda+3=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1-12}}{2}=\frac{-1\pm\sqrt{-11}}{2}$$
 
@@ -72,8 +71,7 @@ $D>0$; $T^2-4D=1-12=-11<0$ (complexos); $T<0$ → **foco estável**
 J(x,y) = \begin{pmatrix} -5 & -3 \\ 0 & -2 \end{pmatrix}
 ```
 
-$$T=-5+(-2)=-7$$
-$$D=(-5)(-2)-(-3)(0) = 10$$
+$T=-5+(-2)=-7$, $D=(-5)(-2)-(-3)(0) = 10$
 
 Autovalores: $$\lambda^2+7\lambda+10=0 \;\Rightarrow\; \lambda=\frac{-7\pm\sqrt{49-40}}{2}=\frac{-7\pm3}{2} \;\Rightarrow\; \lambda_1=-2,\ \lambda_2=-5$$
 
@@ -85,8 +83,7 @@ $D>0$; $T^2-4D=49-40=9>0$ (reais); $T<0$ → **nó estável**
 J(x,y) = \begin{pmatrix} 5 & 5 \\ 0 & 3 \end{pmatrix}
 ```
 
-$$T= 5 + 3 = 8$$
-$$D= (5)(3)-(5)(0) = 15$$
+$T= 5 + 3 = 8$, $D= (5)(3)-(5)(0) = 15$
 
 Autovalores: $$\lambda^2-8\lambda+15=0 \;\Rightarrow\; \lambda=\frac{8\pm\sqrt{64-60}}{2}=\frac{8\pm2}{2} \;\Rightarrow\; \lambda_1=5,\ \lambda_2=3$$
 
