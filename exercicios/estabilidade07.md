@@ -22,7 +22,7 @@ Da primeira equação: $1-y=0 \Rightarrow y=1$
 
 Substituindo na segunda: $x^2-1^2=0 \Rightarrow x^2=1 \Rightarrow x=\pm1$
 
-**Pontos críticos: $(-1,1)$ e $(1,1)$** ✓ (bate com o gabarito)
+**Pontos críticos: $(-1,1)$ e $(1,1)$**
 
 ### Passo 2 — Jacobiano genérico
 
@@ -32,7 +32,9 @@ J(x,y) = \begin{pmatrix} \dfrac{\partial}{\partial x}(1-y) & \dfrac{\partial}{\p
 
 ### Passo 3 — Avaliando em $(-1,1)$
 
-$$J(-1,1)=\begin{bmatrix}0&-1\\-2&-2\end{bmatrix}$$
+```math
+J(-1,1) = \begin{pmatrix} 0&-1\\-2&-2\end{pmatrix}
+```
 
 $$T=0+(-2)=-2,\qquad D=(0)(-2)-(-1)(-2)=0-2=-2$$
 
@@ -40,7 +42,9 @@ $D=-2<0$ → **sela** ✓ (independente de $T$)
 
 ### Passo 4 — Avaliando em $(1,1)$
 
-$$J(1,1)=\begin{bmatrix}0&-1\\2&-2\end{bmatrix}$$
+```math
+J(1,1) = \begin{pmatrix} 0&-1\\2&-2\end{pmatrix}
+```
 
 $$T=0+(-2)=-2,\qquad D=(0)(-2)-(-1)(2)=0+2=2$$
 
