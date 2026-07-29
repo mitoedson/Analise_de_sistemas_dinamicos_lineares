@@ -50,7 +50,7 @@ $D>0$; $T^2-4D=16-12=4>0$ (reais); $T>0$ → **nó instável** ✓
 ### Passo 4 — Avaliando em $(0,3/2)$
 
 ```math
-J(0,3/2) = \begin{pmatrix} 1 - 3/2 & 0 \\ -3/2 & 3-6 \end{pmatrix} = \begin{pmatrix} -1/2 & 0 \\ -3/2 & -3 \end{pmatrix}
+J(0,3/2) = \begin{pmatrix} 1 - \frac{3}{2} & 0 \\ -3/2 & 3-6 \end{pmatrix} = \begin{pmatrix} -1/2 & 0 \\ -3/2 & -3 \end{pmatrix}
 ```
 $$T=-\frac12-3=-\frac72,\qquad D=\left(-\frac12\right)(-3)-(0)\left(-\frac32\right)=\frac32$$
 
