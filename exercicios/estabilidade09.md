@@ -45,12 +45,20 @@ $$D=(-1+2x)(x)-(1-2y)(2+y)=2x^2-x-(2-3y-2y^2)=2x^2+2y^2-x+3y-2$$
 
 ### Passo 3 — Avaliando em $(0,0)$
 
+```math
+J(0,0) = \begin{pmatrix} -1 & 1 \\ 2 & 0 \end{pmatrix}
+```
+
 $$T=3(0)-1=-1$$
 $$D=0+0-0+0-2=-2$$
 
 $D<0$ → **sela** 
 
 ### Passo 4 — Avaliando em $(0,1)$
+
+```math
+J(0,1) = \begin{pmatrix} -1 & -1 \\ 3 & 0 \end{pmatrix}
+```
 
 $$T=3(0)-1=-1$$
 $$D=0+2(1)-0+3(1)-2=2+3-2=3$$
