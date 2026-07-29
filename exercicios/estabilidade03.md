@@ -10,7 +10,7 @@
 $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\[4pt] \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y}\end{bmatrix}$$
 
 ```math
-\(\begin{bmatrix} a & b \\ c & d \end{bmatrix} \%\%\)MAGIT_PARSER_PROTECT%%
+\begin{bmatrix} a & b \\ c & d \end{bmatrix} \%\%
 ```
 
 
