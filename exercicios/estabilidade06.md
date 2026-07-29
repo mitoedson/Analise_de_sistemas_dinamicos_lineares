@@ -37,7 +37,9 @@ Combinando os 4 casos:
 J(x,y) = \begin{pmatrix} 1-2x-y & -x \\-y & 3-x-4y \end{pmatrix}
 ```
 
-### Passo 3 — Avaliando em $(0,0)$
+### Passo 3 — Avaliando através dos pontos críticos
+
+### $(0,0)$
 
 ```math
 J(0,0) = \begin{pmatrix} 1&0 \\ 0&3 \end{pmatrix}
