@@ -38,10 +38,15 @@ Da segunda equação: $x=1-\cos(y)$
 
 $$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right]\\[6pt] \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right]\end{bmatrix}$$
 
-$$J(x,y)=\begin{bmatrix}\text{sen}(y) & (1+x)\cos(y)\\ -1 & \text{sen}(y)\end{bmatrix}$$
 
 ```math
 \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+```
+
+
+
+```math
+J(x,y)=\begin{pmatrix} \text{sen}(y) & (1+x)\cos(y) \\ -1 & \text{sen}(y) \end{pmatrix}
 ```
 
 
