@@ -67,7 +67,4 @@ $T=0$ e $D=-3<0$ → **sela**
 
 $$(0,2m\pi):\ \textbf{centro} \qquad\qquad (2,(2m+1)\pi):\ \textbf{sela}$$
 
-### Observação sobre a classificação "centro"
-
-Vale lembrar: como vimos na questão 4/6, quando o Jacobiano dá um **centro** ($T=0,D>0$), a linearização só garante que o comportamento *linear* é de órbitas fechadas — mas, rigorosamente, isso é um caso **não-hiperbólico** (fronteira), e a conclusão sobre o sistema **não linear** real exigiria uma análise mais cuidadosa (poderia ser centro de fato, ou virar foco fraco). Para os fins da questão 2 (que pede só a classificação *local via linearização*), "centro" é a resposta esperada.
 
