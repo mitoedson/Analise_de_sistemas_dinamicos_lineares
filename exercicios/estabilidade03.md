@@ -50,6 +50,10 @@ J(x,y) = \begin{pmatrix} \text{sen}(y) & (1+x)\cos(y) \\ -1 & \text{sen}(y) \end
 
 Aqui $x=0$, $y=2k\pi$ (par), então $\cos(2k\pi)=1$:
 
+```math
+J(0,2k\pi) = \begin{pmatrix} 0 & (1+0)(1) \\ -1 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}
+```
+
 $$J(0,2k\pi)=\begin{bmatrix}0 & (1+0)(1)\\ -1 & 0\end{bmatrix}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$$
 
 **Traço e determinante:**
