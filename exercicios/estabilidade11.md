@@ -59,9 +59,7 @@ Vamos calcular cada entrada do Jacobiano numericamente.
 J \approx \begin{pmatrix} -1{,}239 & -6{,}838 \\ 2{,}4797 & -0{,}80655 \end{pmatrix}
 ```
 
-**Traço e determinante:**
-$$T\approx-1{,}239-0{,}80655\approx-2{,}046$$
-$$D\approx(-1{,}239)(-0{,}80655)-(-6{,}838)(2{,}4797)\approx0{,}999+16{,}956\approx17{,}95$$
+**Traço e determinante:** $T\approx-1{,}239-0{,}80655\approx-2{,}046$, $D\approx(-1{,}239)(-0{,}80655)-(-6{,}838)(2{,}4797)\approx0{,}999+16{,}956\approx17{,}95$
 
 **Classificação:** $D>0$; $T^2-4D\approx4{,}19-71{,}8=-67{,}6<0$ → autovalores **complexos**; $T<0$ → **foco estável**
 
