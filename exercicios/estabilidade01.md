@@ -16,7 +16,7 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 
 **Passo 1 — pontos críticos**
 
-Da primeira equação: $x-y^2=0$ \Rightarrow $x=y^2$
+Da primeira equação: $x-y^2=0 \Rightarrow x=y^2$
 
 Substituindo na segunda: $y^2-2y+(y^2)^2=0 \Rightarrow y^4+y^2-2y=0$
 
