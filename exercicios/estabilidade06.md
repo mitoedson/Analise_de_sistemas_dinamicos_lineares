@@ -25,11 +25,11 @@ $$\dot y=y(3-x-2y)=0 \;\Rightarrow\; y=0 \text{ ou } 3-x-2y=0$$
 Combinando os 4 casos:
 
 - $x=0$ e $y=0$ → **$(0,0)$**
-- $x=0$ e $3-x-2y=0$ → $y=3/2$ → **$(0,3/2)$**
+- $x=0$ e $3-x-2y=0$ → $y=3/2$ → **$(0,\frac{3}{2})$**
 - $1-x-y=0$ e $y=0$ → $x=1$ → **$(1,0)$**
 - $1-x-y=0$ e $3-x-2y=0$ → resolvendo o sistema: $x=-1,\ y=2$ → **$(-1,2)$**
 
-**Pontos críticos: $(0,0)$, $(0,3/2)$, $(1,0)$, $(-1,2)$**
+**Pontos críticos: $(0,0)$, $(0,\frac{3}{2})$, $(1,0)$, $(-1,2)$**
 
 ### Passo 2 — Jacobiano genérico
 
@@ -47,10 +47,10 @@ $$T=1+3=4,\qquad D=(1)(3)-(0)(0)=3$$
 
 $D>0$; $T^2-4D=16-12=4>0$ (reais); $T>0$ → **nó instável** ✓
 
-### Passo 4 — Avaliando em $(0,3/2)$
+### Passo 4 — Avaliando em $(0, \frac{3}{2})$
 
 ```math
-J(0,3/2) = \begin{pmatrix} 1 - \frac{3}{2} & 0 \\ -3/2 & 3-6 \end{pmatrix} = \begin{pmatrix} -1/2 & 0 \\ -3/2 & -3 \end{pmatrix}
+J(0,3/2) = \begin{pmatrix} 1 - \frac{3}{2} & 0 \\ -\frac{3}{2} & 3-6 \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & 0 \\ -\frac{3}{2} & -3 \end{pmatrix}
 ```
 $$T=-\frac12-3=-\frac72,\qquad D=\left(-\frac12\right)(-3)-(0)\left(-\frac32\right)=\frac32$$
 
