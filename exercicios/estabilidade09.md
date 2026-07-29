@@ -90,6 +90,3 @@ $D>0$; $T^2-4D=64-60=4>0$ (reais); $T>0$ → **nó instável**
 $$(0,0):\textbf{sela} \quad (0,1):\textbf{foco estável} \quad (-2,-2):\textbf{nó estável} \quad (3,-2):\textbf{nó instável}$$
 
 
----
-
-Esse item mostra bem por que vale a pena conferir a **regra do produto** com cuidado quando a equação original vem em forma de produto (como $-(x-y)(1-x-y)$) — um deslize ali afeta todo o resultado do Jacobiano. Quer revisar mais algum item?
