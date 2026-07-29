@@ -37,7 +37,7 @@ $T=2+(-2)=0, D=(2)(-2)-(1)(1)=-4-1=-5$
 
 $D<0$ → **sela** (direto, sem precisar resolver $\lambda$)
 
-Conferindo com $\lambda$: $\lambda^2-5=0 \Rightarrow \lambda=\pm\sqrt5$ — reais, sinais opostos, confirma sela ✓
+Conferindo com $\lambda$: $\lambda^2-5=0 \Rightarrow \lambda=\pm\sqrt5$ — reais, sinais opostos, confirma sela
 
 ### Passo 4 — Avaliando em $(-1{,}19345,\ -1{,}47970)$
 
@@ -65,7 +65,7 @@ $$D\approx(-1{,}239)(-0{,}80655)-(-6{,}838)(2{,}4797)\approx0{,}999+16{,}956\app
 
 **Classificação:** $D>0$; $T^2-4D\approx4{,}19-71{,}8=-67{,}6<0$ → autovalores **complexos**; $T<0$ → **foco estável**
 
-Conferindo com $\lambda$ (já mostrado antes): $\lambda\approx\dfrac{-2{,}046\pm\sqrt{-67{,}6}}{2}$ — complexos com parte real negativa, confirma foco estável ✓
+Conferindo com $\lambda$ (já mostrado antes): $\lambda\approx\dfrac{-2{,}046\pm\sqrt{-67{,}6}}{2}$ — complexos com parte real negativa, confirma foco estável
 
 ### Conclusão
 
