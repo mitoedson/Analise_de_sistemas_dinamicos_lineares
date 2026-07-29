@@ -35,7 +35,9 @@ J(x,y) = \begin{pmatrix} \dfrac{\partial}{\partial x}(x+y^2) & \dfrac{\partial}{
 
 ### Passo 3 — Avaliando em $(0,0)$
 
-$$J(0,0)=\begin{bmatrix}1&0\\1&1\end{bmatrix}$$
+```math
+J(0,0)=\begin{bmatrix}1&0\\1&1\end{bmatrix}
+```
 
 $$T=1+1=2, \qquad D=(1)(1)-(0)(1)=1$$
 
@@ -43,7 +45,9 @@ $D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}
 
 ### Passo 4 — Avaliando em $(-1,1)$
 
-$$J(-1,1)=\begin{bmatrix}1&2\\1&1\end{bmatrix}$$
+```math
+J(-1,1)=\begin{bmatrix}1&2\\1&1\end{bmatrix}
+```
 
 $$T=1+1=2, \qquad D=(1)(1)-(2)(1)=1-2=-1$$
 
