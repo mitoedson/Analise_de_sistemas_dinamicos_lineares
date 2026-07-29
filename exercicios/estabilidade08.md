@@ -51,7 +51,7 @@ J(x,y) = \begin{pmatrix} 1-2x-y & -x\\ -\frac{3}{4}y & \frac{1}{2}-\frac{1}{2}y-
 
 ### Passo 4 — Avaliando nos pontos críticos
 
-### Em $(0,0)$
+### Em $(0,0):$
 
 
 ```math
@@ -62,7 +62,7 @@ $$T=1+\frac{1}{2}=\frac{3}{2},\qquad D=(1)\left(\frac{1}{2}\right)-(0)(0)=\frac{
 
 $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável** ✓
 
-### Em  $(0,2)$
+### Em $(0,2):$
 
 ```math
 J(0,2) = \begin{pmatrix} 1-2 & 0 \\ \frac{-3}{2} & \frac{1}{2}-1 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ \frac{-3}{2} & \frac{-1}{2} \end{pmatrix}
@@ -72,20 +72,20 @@ $$T=-1-\frac12=-\frac32,\qquad D=(-1)\left(-\frac12\right)-(0)\left(-\frac32\rig
 
 $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T<0$ → **nó estável** 
 
-### Em  $(1,0)$
+### Em $(1,0):$
 
 ```math
-J(1,0) = \begin{pmatrix} 1-2 & -1 \\ 0 & 1/2-3/4 \end{pmatrix} = \begin{pmatrix} -1 & -1 \\ 0 & -1/4 \end{pmatrix}
+J(1,0) = \begin{pmatrix} 1-2 & -1 \\ 0 & \frac{1}{2}-\frac{3}{4} \end{pmatrix} = \begin{pmatrix} -1 & -1 \\ 0 & \frac{-1}{4} \end{pmatrix}
 ```
 
 $$T=-1-\frac14=-\frac54,\qquad D=(-1)\left(-\frac14\right)-(-1)(0)=\frac14$$
 
 $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável**
 
-### Em $(1/2,1/2)$
+### Em $(1/2,1/2):$
 
 ```math
-J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-1/2 & -1/2 \\ -3/8 & 1/2-1/4-3/8 \end{pmatrix} = \begin{pmatrix} -1/2 & -1/2 \\ -3/8 & -1/8 \end{pmatrix}
+J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-1/2 & -1/2 \\ -3/8 & 1/2-1/4-3/8 \end{pmatrix} = \begin{pmatrix} \frac{-1}{2} & \frac{-1}{2} \\ -3/8 & -1/8 \end{pmatrix}
 ```
 
 $$T=-\frac12-\frac18=-\frac58,\qquad D=\left(-\frac12\right)\left(-\frac18\right)-\left(-\frac12\right)\left(-\frac38\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac18$$
