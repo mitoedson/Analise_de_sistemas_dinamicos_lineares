@@ -12,7 +12,7 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
-## Item (a): $\dot x = x-y^2,\quad \dot y = x-2y+x^2$
+## (a): $\dot x = x-y^2,\quad \dot y = x-2y+x^2$
 
 **Passo 1 — pontos críticos**
 
