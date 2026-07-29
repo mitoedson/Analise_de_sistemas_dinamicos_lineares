@@ -46,7 +46,7 @@ J(-2,2) = \begin{pmatrix} -2+2+4 & 2-2\\4-2+4 & 4+2 \end{pmatrix}
 
 $$T=4+6=10,\qquad D=(4)(6)-(0)(6)=24$$
 
-$D>0$; $T^2-4D=100-96=4>0$ (reais); $T>0$ → **nó instável** ✓
+$D>0$; $T^2-4D=100-96=4>0$ (reais); $T>0$ → **nó instável**
 
 ### Passo 4 — Avaliando em $(0,0)$
 
@@ -55,7 +55,7 @@ J(0,0) = \begin{pmatrix} -2&2\\4&4 \end{pmatrix}
 ```
 $$T=-2+4=2,\qquad D=(-2)(4)-(2)(4)=-8-8=-16$$
 
-$D<0$ → **sela** ✓ (independente de $T$)
+$D<0$ → **sela** (independente de $T$)
 
 ### Passo 5 — Avaliando em $(4,4)$
 
@@ -65,7 +65,7 @@ J(4,4) = \begin{pmatrix} -2+4-8 & 2+4 \\ 4-4-8 & 4-4 \end{pmatrix}
 
 $$T=-6+0=-6,\qquad D=(-6)(0)-(6)(-8)=0+48=48$$
 
-$D>0$; $T^2-4D=36-192=-156<0$ (complexos); $T<0$ → **foco estável** ✓
+$D>0$; $T^2-4D=36-192=-156<0$ (complexos); $T<0$ → **foco estável**
 
 ### Conclusão
 
