@@ -51,7 +51,10 @@ J(0,0)=\begin{pmatrix}-1&1\\-4&-1\end{pmatrix}
 
 $$T=-1-1=-2,\qquad D=(-1)(-1)-(1)(-4)=1+4=5$$
 
-$D>0$; $T^2-4D=4-20=-16<0$ (complexos); $T<0$ → **foco estável** ✓
+$D>0$; $T^2-4D=4-20=-16<0$ (complexos); $T<0$ → **foco estável** 
+
+Autovalores: $$\lambda^2+2\lambda+5=0 \;\Rightarrow\; \lambda=\frac{-2\pm\sqrt{4-20}}{2}=\frac{-2\pm\sqrt{-16}}{2}=-1\pm2i$$
+
 
 ### Passo 4 — Classificando os três pontos numéricos
 
