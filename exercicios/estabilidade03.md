@@ -37,7 +37,7 @@ Da segunda equação: $x=1-\cos(y)$
 ### Passo 2 — Jacobiano genérico
 
 ```math
-\begin{pmatrix} \dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right] \\ \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right] \end{pmatrix}
+J(x,y)=\begin{pmatrix} \dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right] \\ \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right] \end{pmatrix}
 ```
 
 ```math
