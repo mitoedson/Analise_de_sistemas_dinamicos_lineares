@@ -12,8 +12,6 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
-Sim, boa percepção! O item (b) é justamente um exemplo onde encontrar os pontos críticos **não é tão direto** — vamos ver por quê e como lidar com isso.
-
 ## (b) $\dot x = -x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
 **Passo 1 — tentar isolar uma variável**
