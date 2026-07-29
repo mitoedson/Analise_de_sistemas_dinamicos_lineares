@@ -65,8 +65,6 @@ $$D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50
 
 $$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
 
-Bate exatamente com o gabarito: "$(0,0)$ foco estável; os outros três pontos são selas" ✓
-
 ---
 
 **Ponto-chave desse item:** como os três pontos "extras" vêm de uma cúbica sem raízes racionais, a classificação deles depende de avaliar o Jacobiano **numericamente**. Mas repare que, mesmo sem os valores exatos, **todos deram $D<0$** — e isso não é coincidência: para pontos vindos dessa cúbica específica, o determinante do Jacobiano sempre resulta negativo, garantindo sela nos três, independentemente da precisão numérica usada.
