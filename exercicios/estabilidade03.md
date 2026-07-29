@@ -36,13 +36,13 @@ Da segunda equação: $x=1-\cos(y)$
 
 ### Passo 2 — Jacobiano genérico
 
-$$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right]\\[6pt] \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right]\end{bmatrix}$$
-
-
 ```math
-\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+J(x,y)=\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
 ```
 
+```math
+\begin{pmatrix} \dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right] \\ \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right] \end{pmatrix}
+```
 
 
 ```math
