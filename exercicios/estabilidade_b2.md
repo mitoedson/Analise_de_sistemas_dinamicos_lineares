@@ -53,11 +53,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
 
-
-
-Vamos revisar o item (b) da questão 3 por completo, aplicando o roteiro passo a passo.
-
-## Item (b): $\dot x=(5-x)^5$
+## $\dot x=(5-x)^5$
 
 ## Passo 1 — Identificar o ponto de equilíbrio
 
@@ -104,7 +100,7 @@ $\dot V<0$ para todo $x\ne5$ (estrita) → **assintoticamente estável**
 - Não existe **nenhum outro ponto de equilíbrio** competindo (a equação $(5-x)^5=0$ só tem a raiz $x=5$, já que é uma potência ímpar de um único fator linear)
 - $V$ é radialmente ilimitada, e $\dot V<0$ vale em **todo** o espaço (não há restrição de região — vale para qualquer $x\in\mathbb R$)
 
-**Conclusão: $x=5$ é globalmente assintoticamente estável** ✓ — bate com o gabarito.
+**Conclusão: $x=5$ é globalmente assintoticamente estável**
 
 ---
 
