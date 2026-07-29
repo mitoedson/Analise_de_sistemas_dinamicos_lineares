@@ -34,7 +34,9 @@ Fatorando $y$: $y(y^3+y-2)=0$
 
 $$J(x,y)=\begin{bmatrix} 1 & -2y \\ 1+2x & -2 \end{bmatrix}$$
 
-**Passo 3 — avaliar em $(0,0)$**
+**Passo 3 — avaliar nos pontos críticos
+
+### Em $(0,0)$:
 
 $$J(0,0)=\begin{bmatrix} 1 & 0 \\ 1 & -2 \end{bmatrix}$$
 
@@ -44,7 +46,7 @@ Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela**
 
 **$(0,0)$ é ponto de sela** 
 
-**Passo 4 — avaliar em $(1,1)$**
+### Em  $(1,1)$:
 
 $$J(1,1)=\begin{bmatrix} 1 & -2 \\ 3 & -2 \end{bmatrix}$$
 
