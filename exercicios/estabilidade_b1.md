@@ -77,7 +77,7 @@ Além disso, $V(x)\to\infty$ quando $|x|\to\infty$ → **radialmente ilimitada**
 
 ### Passo 3 — Calcular $\dot V$
 
-$$\dot V=2x\dot x=2x\left(-x^3+\text{sen}^4(x)\right)=-2x^4+2x\,\text{sen}^4(x)$$
+$$\dot V=2x\dot x=2x\left(-x^3+\text{sen}^4(x)\right)=-2x^4+2x\ \text{sen}^4(x)$$
 
 ### Passo 4 — Analisar o sinal de $\dot V$
 
