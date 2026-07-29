@@ -1,12 +1,12 @@
 <h1>Estabilidade B1</h1>
 
-### Método geral
+## Método geral
 
-## 1. Identificar o(s) ponto(s) de equilíbrio
+### 1. Identificar o(s) ponto(s) de equilíbrio
 
 Resolver $\dot x=0$ (ou, se o sistema tiver $\ddot x$, transformar em sistema de 2 variáveis primeiro — ver Passo 2).
 
-## 2.Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
+### 2.Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
 
 Definir:
 $$x_1=x, \qquad x_2=\dot x$$
