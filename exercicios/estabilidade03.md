@@ -13,4 +13,61 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
 
+## Item (c): $\dot x=(1+x)\,\text{sen}(y),\quad \dot y=1-x-\cos(y)$
+
+### Passo 1 — Pontos críticos
+
+Da primeira equação: $(1+x)\,\text{sen}(y)=0$
+$$x=-1 \quad \text{ou} \quad \text{sen}(y)=0 \Rightarrow y=m\pi,\ m\in\mathbb{Z}$$
+
+Da segunda equação: $x=1-\cos(y)$
+
+**Caso $x=-1$:** substituindo, $-1=1-\cos(y)\Rightarrow\cos(y)=2$ — **impossível** (cosseno está entre $-1$ e $1$). Descartado.
+
+**Caso $y=m\pi$:** substituindo, $x=1-\cos(m\pi)$
+
+- $m$ **par** ($m=2k$): $\cos(2k\pi)=1\Rightarrow x=0$ → pontos $(0,2k\pi)$
+- $m$ **ímpar** ($m=2k+1$): $\cos((2k+1)\pi)=-1\Rightarrow x=2$ → pontos $(2,(2k+1)\pi)$
+
+**Pontos críticos: $(0,2k\pi)$ e $(2,(2k+1)\pi)$, $k\in\mathbb Z$**
+
+### Passo 2 — Jacobiano genérico
+
+$$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\right] & \dfrac{\partial}{\partial y}\left[(1+x)\text{sen}(y)\right]\\[6pt] \dfrac{\partial}{\partial x}\left[1-x-\cos(y)\right] & \dfrac{\partial}{\partial y}\left[1-x-\cos(y)\right]\end{bmatrix}$$
+
+$$J(x,y)=\begin{bmatrix}\text{sen}(y) & (1+x)\cos(y)\\ -1 & \text{sen}(y)\end{bmatrix}$$
+
+**Observação importante:** em **todos** os pontos críticos, $y=m\pi$, e $\text{sen}(m\pi)=0$ sempre. Isso simplifica bastante a avaliação — a diagonal principal do Jacobiano sempre zera nos pontos críticos!
+
+### Passo 3 — Avaliando na família $(0, 2k\pi)$
+
+Aqui $x=0$, $y=2k\pi$ (par), então $\cos(2k\pi)=1$:
+
+$$J(0,2k\pi)=\begin{bmatrix}0 & (1+0)(1)\\ -1 & 0\end{bmatrix}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$$
+
+**Traço e determinante:**
+$$T=0+0=0, \qquad D=(0)(0)-(1)(-1)=1$$
+
+$T=0$ e $D=1>0$ → **centro**
+
+### Passo 4 — Avaliando na família $(2,(2k+1)\pi)$
+
+Aqui $x=2$, $y=(2k+1)\pi$ (ímpar), então $\cos((2k+1)\pi)=-1$:
+
+$$J(2,(2k+1)\pi)=\begin{bmatrix}0 & (1+2)(-1)\\ -1 & 0\end{bmatrix}=\begin{bmatrix}0&-3\\-1&0\end{bmatrix}$$
+
+**Traço e determinante:**
+$$T=0+0=0, \qquad D=(0)(0)-(-3)(-1)=-3$$
+
+$T=0$ e $D=-3<0$ → **sela**
+
+### Conclusão final
+
+$$(0,2m\pi):\ \textbf{centro} \qquad\qquad (2,(2m+1)\pi):\ \textbf{sela}$$
+
+Bate exatamente com o gabarito! ✓
+
+### Observação sobre a classificação "centro"
+
+Vale lembrar: como vimos na questão 4/6, quando o Jacobiano dá um **centro** ($T=0,D>0$), a linearização só garante que o comportamento *linear* é de órbitas fechadas — mas, rigorosamente, isso é um caso **não-hiperbólico** (fronteira), e a conclusão sobre o sistema **não linear** real exigiria uma análise mais cuidadosa (poderia ser centro de fato, ou virar foco fraco). Para os fins da questão 2 (que pede só a classificação *local via linearização*), "centro" é a resposta esperada.
 
