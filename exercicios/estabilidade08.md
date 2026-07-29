@@ -49,7 +49,9 @@ $$J(x,y)=\begin{bmatrix}1-2x-y & -x\\[4pt] -\dfrac34y & \dfrac12-\dfrac12y-\dfra
 
 ### Passo 4 — Avaliando em $(0,0)$
 
-$$J(0,0)=\begin{bmatrix}1&0\\0&1/2\end{bmatrix}$$
+```math
+J(0,0) = \begin{pmatrix} 1 & 0 \\ 0 & \frac{1}{2} \end{pmatrix}
+```
 
 $$T=1+\frac12=\frac32,\qquad D=(1)\left(\frac12\right)-(0)(0)=\frac12$$
 
