@@ -1,10 +1,12 @@
 <h1>Estabilidade B1</h1>
 
-## Passo 1 — Identificar o(s) ponto(s) de equilíbrio
+### Método geral
+
+## 1. Identificar o(s) ponto(s) de equilíbrio
 
 Resolver $\dot x=0$ (ou, se o sistema tiver $\ddot x$, transformar em sistema de 2 variáveis primeiro — ver Passo 2).
 
-## Passo 2 — Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
+## 2.Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
 
 Definir:
 $$x_1=x, \qquad x_2=\dot x$$
@@ -12,27 +14,27 @@ $$x_1=x, \qquad x_2=\dot x$$
 Isso converte a equação de segunda ordem em um sistema:
 $$\dot x_1=x_2, \qquad \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$$
 
-## Passo 3 — Escolher a candidata de Lyapunov $V$
+## 3. Escolher a candidata de Lyapunov $V$
 
 - **Caso escalar simples:** $V(x)=x^2$ (ou $(x-x^*)^2$ se o equilíbrio não for a origem, como no item b: $V=(x-5)^2$)
 - **Caso com $\ddot x$ (2 variáveis):** combinar "energia cinética" ($x_2^2$) com um termo em $x_1$ que, ao derivar, produza um expoente compatível com o termo de maior grau em $x_1$ na equação (ex: item c usava $\frac18x_1^8$ para casar com o termo $x_1^7$)
 
 **Sempre verificar:** $V(x^*)=0$ e $V>0$ fora do equilíbrio (positiva definida). Se $V\to\infty$ quando $\|\mathbf x\|\to\infty$, ela é **radialmente ilimitada** (necessário para conclusão global).
 
-## Passo 4 — Calcular $\dot V$ pela regra da cadeia
+## 4. Calcular $\dot V$ pela regra da cadeia
 
 $$\dot V=\frac{dV}{dx}\cdot\dot x \qquad \text{(escalar)} \qquad \text{ou} \qquad \dot V=\frac{\partial V}{\partial x_1}\dot x_1+\frac{\partial V}{\partial x_2}\dot x_2 \qquad \text{(2 variáveis)}$$
 
 Substituir as expressões do sistema original.
 
-## Passo 5 — Simplificar e analisar o sinal de $\dot V$
+## 5. Simplificar e analisar o sinal de $\dot V$
 
 - Procurar **cancelamentos** entre termos (geralmente a escolha de $V$ foi feita propositalmente para gerar esses cancelamentos)
 - Usar **limitações conhecidas** de funções trigonométricas: $|\text{sen}(\cdot)|\le1$, $|\cos(\cdot)|\le1$, $\text{sen}^{2n}(\cdot)\ge0$, etc.
 - Comparar **ordens de grandeza**: termos de grau maior (ex: $x^4$) dominam termos limitados ou de grau menor, tanto para $|x|$ grande quanto pequeno
 - Tentar reconhecer **produtos notáveis** (como $(a-b)^2=a^2-2ab+b^2$), que garantem $\dot V\le0$ de forma óbvia
 
-## Passo 6 — Classificar o resultado
+## 6. Classificar o resultado
 
 | Resultado de $\dot V$ | Conclusão |
 |---|---|
@@ -41,11 +43,11 @@ Substituir as expressões do sistema original.
 | $V$ radialmente ilimitada + $\dot V<0$ em **todo** o espaço | Estabilidade **global** |
 | $\dot V<0$ só numa região limitada perto de $x^*$ | Estabilidade apenas **local** |
 
-## Passo 7 — Se $\dot V$ for só semi-definida negativa: aplicar o Princípio de LaSalle
+## 7. Se $\dot V$ for só semi-definida negativa: aplicar o Princípio de LaSalle
 
 Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o próprio ponto de equilíbrio — se sim, resgata-se a conclusão de **assintoticamente estável**.
 
-## Passo 8 — Decidir local vs. global
+## 8. Decidir local vs. global
 
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
