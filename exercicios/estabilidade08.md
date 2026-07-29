@@ -46,10 +46,8 @@ Multiplicando essa segunda condição por 4 (para limpar frações): $2-y-3x=0 \
 ### Passo 3 — Jacobiano genérico
 
 ```math
-J(x,y) = \begin{pmatrix} \end{pmatrix}
+J(x,y) = \begin{pmatrix} 1-2x-y & -x\\ -\frac{3}{4}y & \frac{1}{2}-\frac{1}{2}y-\frac{3}{4}x \end{pmatrix}
 ```
-
-$$J(x,y)=\begin{bmatrix}1-2x-y & -x\\[4pt] -\dfrac34y & \dfrac12-\dfrac12y-\dfrac34x\end{bmatrix}$$
 
 ### Passo 4 — Avaliando em $(0,0)$
 
