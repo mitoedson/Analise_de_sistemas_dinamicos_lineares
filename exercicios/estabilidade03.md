@@ -13,11 +13,11 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
 
-## Item (c): $\dot x=(1+x)\,\text{sen}(y),\quad \dot y=1-x-\cos(y)$
+## Item (c): $\dot x=(1+x)\ \text{sen}(y),\quad \dot y=1-x-\cos(y)$
 
 ### Passo 1 — Pontos críticos
 
-Da primeira equação: $(1+x)\,\text{sen}(y)=0$
+Da primeira equação: $(1+x)\ \text{sen}(y)=0$
 $$x=-1 \quad \text{ou} \quad \text{sen}(y)=0 \Rightarrow y=m\pi,\ m\in\mathbb{Z}$$
 
 Da segunda equação: $x=1-\cos(y)$
