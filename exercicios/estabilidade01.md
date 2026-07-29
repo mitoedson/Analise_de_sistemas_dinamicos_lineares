@@ -50,6 +50,10 @@ Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela**
 
 **$(0,0)$ é ponto de sela** 
 
+**$(0,0)$:** $T=-1,\ D=-2$
+$$\lambda^2+\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1+8}}{2}=\frac{-1\pm3}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=-2$$
+
+
 ### Em  $(1,1)$:
 
 ```math
@@ -65,6 +69,8 @@ Autovalores **complexos conjugados** com parte real $-\dfrac{1}{2}<0$ → **foco
 
 **$(1,1)$ é foco estável** 
 
+**$(1,1)$:** $T=-1,\ D=4$
+$$\lambda^2+\lambda+4=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1-16}}{2}=\frac{-1\pm\sqrt{-15}}{2}$$
 
 <p>
 <a href="/teoria/estabilidade.md">Ver teoria</a>
