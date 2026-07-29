@@ -1,5 +1,6 @@
 <h1>Estabilidade 01</h1>
 
+**Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
 
 
