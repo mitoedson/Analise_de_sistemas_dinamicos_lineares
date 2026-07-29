@@ -72,10 +72,8 @@ $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T<0$ → **nó estável**
 ### Passo 6 — Avaliando em $(1,0)$
 
 ```math
-J(x,y) = \begin{pmatrix} \end{pmatrix}
+J(1,0) = \begin{pmatrix} 1-2&-1\\0&1/2-3/4\end{bmatrix}=\begin{bmatrix}-1&-1\\0&-1/4 \end{pmatrix}
 ```
-
-$$J(1,0)=\begin{bmatrix}1-2&-1\\0&1/2-3/4\end{bmatrix}=\begin{bmatrix}-1&-1\\0&-1/4\end{bmatrix}$$
 
 $$T=-1-\frac14=-\frac54,\qquad D=(-1)\left(-\frac14\right)-(-1)(0)=\frac14$$
 
@@ -84,10 +82,8 @@ $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável
 ### Passo 7 — Avaliando em $(1/2,1/2)$
 
 ```math
-J(x,y) = \begin{pmatrix} \end{pmatrix}
+J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-1/2 & -1/2\\-3/8 & 1/2-1/4-3/8\end{bmatrix}=\begin{bmatrix}-1/2&-1/2\\-3/8&-1/8\end{pmatrix}
 ```
-
-$$J(1/2,1/2)=\begin{bmatrix}1-1-1/2 & -1/2\\-3/8 & 1/2-1/4-3/8\end{bmatrix}=\begin{bmatrix}-1/2&-1/2\\-3/8&-1/8\end{bmatrix}$$
 
 $$T=-\frac12-\frac18=-\frac58,\qquad D=\left(-\frac12\right)\left(-\frac18\right)-\left(-\frac12\right)\left(-\frac38\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac18$$
 
