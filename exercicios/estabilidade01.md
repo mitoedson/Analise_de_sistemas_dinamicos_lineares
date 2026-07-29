@@ -38,7 +38,9 @@ $$J(x,y)=\begin{bmatrix} 1 & -2y \\ 1+2x & -2 \end{bmatrix}$$
 
 ### Em $(0,0)$:
 
-$$J(0,0)=\begin{bmatrix} 1 & 0 \\ 1 & -2 \end{bmatrix}$$
+```math
+$$J(0,0)=\begin{pmatrix} 1 & 0 \\ 1 & -2 \end{pmatrix}$$
+```
 
 $\text{traço}=-1$, $\det = (1)(-2)-(0)(1)=-2$
 
@@ -48,7 +50,9 @@ Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela**
 
 ### Em  $(1,1)$:
 
-$$J(1,1)=\begin{bmatrix} 1 & -2 \\ 3 & -2 \end{bmatrix}$$
+```math
+$$J(1,1)=\begin{pmatrix} 1 & -2 \\ 3 & -2 \end{pmatrix}$$
+```
 
 $\text{traço}=1+(-2)=-1$, $\det=(1)(-2)-(-2)(3)=-2+6=4$
 
