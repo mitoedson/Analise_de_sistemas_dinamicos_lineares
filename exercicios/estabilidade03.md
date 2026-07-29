@@ -40,6 +40,11 @@ $$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}\left[(1+x)\text{sen}(y)\rig
 
 $$J(x,y)=\begin{bmatrix}\text{sen}(y) & (1+x)\cos(y)\\ -1 & \text{sen}(y)\end{bmatrix}$$
 
+```math
+\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+```
+
+
 **Observação importante:** em **todos** os pontos críticos, $y=m\pi$, e $\text{sen}(m\pi)=0$ sempre. Isso simplifica bastante a avaliação — a diagonal principal do Jacobiano sempre zera nos pontos críticos!
 
 ### Passo 3 — Avaliando na família $(0, 2k\pi)$
