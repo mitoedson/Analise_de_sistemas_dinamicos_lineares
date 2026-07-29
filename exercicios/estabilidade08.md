@@ -88,7 +88,7 @@ $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável
 J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-1/2 & -1/2 \\ -3/8 & 1/2-1/4-3/8 \end{pmatrix} = \begin{pmatrix} \frac{-1}{2} & \frac{-1}{2} \\ -3/8 & -1/8 \end{pmatrix}
 ```
 
-$$T=-\frac12-\frac18=-\frac58,\qquad D=\left(-\frac12\right)\left(-\frac18\right)-\left(-\frac12\right)\left(-\frac38\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac18$$
+$$T=-\frac{1}{2}-\frac{1}{8}=-\frac{5}{8},\qquad D=\left(-\frac{1}{2}\right)\left(-\frac{1}{8}\right)-\left(-\frac{1}{2}\right)\left(-\frac{3}{8}\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac{1}{8}$$
 
 $D=-\dfrac18<0$ → **sela** 
 
