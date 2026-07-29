@@ -6,6 +6,7 @@
 
 1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente  
 2. **Calcular a matriz Jacobiana** do sistema:  
+
 ```math
 J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\ \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y} \end{pmatrix}
 ```
@@ -32,9 +33,15 @@ Combinando os 4 casos:
 
 ### Passo 2 — Jacobiano genérico
 
-$$J(x,y)=\begin{bmatrix}1-2x-y & -x\\-y & 3-x-4y\end{bmatrix}$$
+```math
+J(x,y) = \begin{pmatrix} 1-2x-y & -x \\-y & 3-x-4y \end{pmatrix}
+```
 
 ### Passo 3 — Avaliando em $(0,0)$
+
+```math
+J(0,0) = \begin{pmatrix} 1&0 \\ 0&3 \end{pmatrix}
+```
 
 $$J(0,0)=\begin{bmatrix}1&0\\0&3\end{bmatrix}$$
 
