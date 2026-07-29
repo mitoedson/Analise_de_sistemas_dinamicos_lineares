@@ -2,7 +2,7 @@
 
 <h3>Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:</h3>
 
-## Método geral
+### Método geral
 
 1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente
 2. **Calcular a matriz Jacobiana** do sistema:
