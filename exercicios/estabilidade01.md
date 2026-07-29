@@ -32,7 +32,9 @@ Fatorando $y$: $y(y^3+y-2)=0$
 
 **Passo 2 — Matriz Jacobiana**
 
-$$J(x,y)=\begin{bmatrix} 1 & -2y \\ 1+2x & -2 \end{bmatrix}$$
+```math
+J(x,y)=\begin{pmatrix} 1 & -2y \\ 1+2x & -2 \end{pmatrix}
+```
 
 **Passo 3 — avaliar nos pontos críticos
 
