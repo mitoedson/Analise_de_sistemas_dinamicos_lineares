@@ -38,10 +38,11 @@ Expandindo primeiro: $f=2y-2x+xy-x^2$, $g=4y+4x-xy-x^2$
 J(x,y) = \begin{pmatrix} -2+y-2x & 2+x \\ 4-y-2x & 4-x \end{pmatrix}
 ```
 
-
 ### Passo 3 — Avaliando em $(-2,2)$
 
-$$J(-2,2)=\begin{bmatrix}-2+2+4 & 2-2\\4-2+4 & 4+2\end{bmatrix}=\begin{bmatrix}4&0\\6&6\end{bmatrix}$$
+```math
+J(x,y) = \begin{pmatrix} -2+2+4 & 2-2\\4-2+4 & 4+2 \end{pmatrix}
+```
 
 $$T=4+6=10,\qquad D=(4)(6)-(0)(6)=24$$
 
