@@ -2,8 +2,6 @@
 
 <h3>Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:</h3>
 
-**Questão**: pontos críticos e estabilidade local via **linearização** (matriz Jacobiana).
-
 ## Método geral
 
 1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente
