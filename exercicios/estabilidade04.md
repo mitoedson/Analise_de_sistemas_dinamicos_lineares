@@ -39,7 +39,7 @@ J(x,y) = \begin{pmatrix} \dfrac{\partial}{\partial x}(x+y^2) & \dfrac{\partial}{
 J(0,0)=\begin{pmatrix}1&0\\1&1\end{pmatrix}
 ```
 
-$$T=1+1=2, D=(1)(1)-(0)(1)=1$$
+$T=1+1=2, D=(1)(1)-(0)(1)=1$
 
 Autovalores: $$\lambda^2-2\lambda+1=0 \;\Rightarrow\; (\lambda-1)^2=0 \;\Rightarrow\; \lambda=1 \text{ (duplo)}$$ → **nó impróprio instável**
 
@@ -49,7 +49,7 @@ Autovalores: $$\lambda^2-2\lambda+1=0 \;\Rightarrow\; (\lambda-1)^2=0 \;\Rightar
 J(-1,1)=\begin{pmatrix}1&2\\1&1\end{pmatrix}
 ```
 
-$$T=1+1=2, D=(1)(1)-(2)(1)=1-2=-1$$
+$T=1+1=2, D=(1)(1)-(2)(1)=1-2=-1$
 
 Autovalores: $$\lambda^2-2\lambda-1=0 \;\Rightarrow\; \lambda=\frac{2\pm\sqrt{4+4}}{2}=1\pm\sqrt2$$
 
