@@ -41,7 +41,7 @@ J(x,y) = \begin{pmatrix} -2+y-2x & 2+x \\ 4-y-2x & 4-x \end{pmatrix}
 ### Passo 3 — Avaliando em $(-2,2)$
 
 ```math
-J(x,y) = \begin{pmatrix} -2+2+4 & 2-2\\4-2+4 & 4+2 \end{pmatrix}
+J(-2,2) = \begin{pmatrix} -2+2+4 & 2-2\\4-2+4 & 4+2 \end{pmatrix}
 ```
 
 $$T=4+6=10,\qquad D=(4)(6)-(0)(6)=24$$
@@ -50,8 +50,9 @@ $D>0$; $T^2-4D=100-96=4>0$ (reais); $T>0$ → **nó instável** ✓
 
 ### Passo 4 — Avaliando em $(0,0)$
 
-$$J(0,0)=\begin{bmatrix}-2&2\\4&4\end{bmatrix}$$
-
+```math
+J(0,0) = \begin{pmatrix} -2&2\\4&4 \end{pmatrix}
+```
 $$T=-2+4=2,\qquad D=(-2)(4)-(2)(4)=-8-8=-16$$
 
 $D<0$ → **sela** ✓ (independente de $T$)
