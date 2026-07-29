@@ -25,7 +25,7 @@ Substituindo na primeira: $-y+y^2=0 \Rightarrow y(y-1)=0$
 - $y=0 \Rightarrow x=0$ → ponto **$(0,0)$**
 - $y=1 \Rightarrow x=-1$ → ponto **$(-1,1)$**
 
-**Pontos críticos: $(0,0)$ e $(-1,1)$** ✓ (bate com o gabarito)
+**Pontos críticos: $(0,0)$ e $(-1,1)$** 
 
 ### Passo 2 — Jacobiano genérico
 
