@@ -58,7 +58,9 @@ J(x,y) = \begin{pmatrix} 1-2x-y & -x\\ -\frac{3}{4}y & \frac{1}{2}-\frac{1}{2}y-
 J(0,0) = \begin{pmatrix} 1 & 0 \\ 0 & \frac{1}{2} \end{pmatrix}
 ```
 
-$$T=1+\frac{1}{2}=\frac{3}{2},\qquad D=(1)\left(\frac{1}{2}\right)-(0)(0)=\frac{1}{2}$$
+$T=1+\frac{1}{2}=\frac{3}{2}, D=(1)\left(\frac{1}{2}\right)-(0)(0)=\frac{1}{2}$
+
+Autovalores: $$\lambda^2-\frac32\lambda+\frac12=0 \;\Rightarrow\; \lambda=\frac{\frac32\pm\sqrt{\frac94-2}}{2}=\frac{\frac32\pm\frac12}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=\frac12$$
 
 $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável** ✓
 
@@ -68,7 +70,9 @@ $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável** ✓
 J(0,2) = \begin{pmatrix} 1-2 & 0 \\ \frac{-3}{2} & \frac{1}{2}-1 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ \frac{-3}{2} & \frac{-1}{2} \end{pmatrix}
 ```
 
-$$T=-1-\frac12=-\frac32,\qquad D=(-1)\left(-\frac12\right)-(0)\left(-\frac32\right)=\frac12$$
+$T=-1-\frac12=-\frac32,\qquad D=(-1)\left(-\frac12\right)-(0)\left(-\frac32\right)=\frac12$
+
+Autovalores: $$\lambda^2+\frac32\lambda+\frac12=0 \;\Rightarrow\; \lambda=\frac{-\frac32\pm\frac12}{2} \;\Rightarrow\; \lambda_1=-\frac12,\ \lambda_2=-1$$
 
 $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T<0$ → **nó estável** 
 
@@ -78,7 +82,9 @@ $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T<0$ → **nó estável**
 J(1,0) = \begin{pmatrix} 1-2 & -1 \\ 0 & \frac{1}{2}-\frac{3}{4} \end{pmatrix} = \begin{pmatrix} -1 & -1 \\ 0 & \frac{-1}{4} \end{pmatrix}
 ```
 
-$$T=-1-\frac{1}{4}=-\frac{5}{4},\qquad D=(-1)\left(-\frac{1}{4}\right)-(-1)(0)=\frac{1}{4}$$
+$T=-1-\frac{1}{4}=-\frac{5}{4}, D=(-1)\left(-\frac{1}{4}\right)-(-1)(0)=\frac{1}{4}$
+
+Autovalores: $$\lambda^2+\frac54\lambda+\frac14=0 \;\Rightarrow\; \lambda=\frac{-\frac54\pm\frac34}{2} \;\Rightarrow\; \lambda_1=-\frac14,\ \lambda_2=-1$$
 
 $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável**
 
@@ -88,7 +94,9 @@ $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável
 J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-\frac{1}{2} & -\frac{1}{2} \\ -\frac{3}{8} & \frac{1}{2}-\frac{1}{4}-\frac{3}{8} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & -\frac{1}{2} \\ -\frac{3}{8} & -\frac{1}{8} \end{pmatrix}
 ```
 
-$$T=-\frac{1}{2}-\frac{1}{8}=-\frac{5}{8}\qquad D=\left(-\frac{1}{2}\right)\left(-\frac{1}{8}\right)-\left(-\frac{1}{2}\right)\left(-\frac{3}{8}\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac{1}{8}$$
+$T=-\frac{1}{2}-\frac{1}{8}=-\frac{5}{8}, D=\left(-\frac{1}{2}\right)\left(-\frac{1}{8}\right)-\left(-\frac{1}{2}\right)\left(-\frac{3}{8}\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac{1}{8}$
+
+Autovalores: $$\lambda^2+\frac58\lambda-\frac18=0 \;\Rightarrow\; \lambda=\frac{-\frac58\pm\sqrt{\frac{25}{64}+\frac12}}{2}=\frac{-\frac58\pm\sqrt{\frac{57}{64}}}{2}$$
 
 $D=-\dfrac18<0$ → **sela** 
 
