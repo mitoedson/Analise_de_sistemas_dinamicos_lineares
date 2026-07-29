@@ -41,7 +41,7 @@ Multiplicando essa segunda condição por 4 (para limpar frações): $2-y-3x=0 \
 → substituindo: $1-x-(2-3x)=0 \Rightarrow 1-x-2+3x=0 \Rightarrow 2x-1=0 \Rightarrow x=\dfrac12$
 → $y=1-\dfrac12=\dfrac12$ → **$(1/2,1/2)$**
 
-**Pontos críticos: $(0,0)$, $(0,2)$, $(1,0)$, $(1/2,1/2)$** ✓ (bate com o gabarito)
+**Pontos críticos: $(0,0)$, $(0,2)$, $(1,0)$, $(\frac{1}{2},\frac{1}{2})$**
 
 ### Passo 3 — Jacobiano genérico
 
@@ -58,7 +58,7 @@ J(x,y) = \begin{pmatrix} 1-2x-y & -x\\ -\frac{3}{4}y & \frac{1}{2}-\frac{1}{2}y-
 J(0,0) = \begin{pmatrix} 1 & 0 \\ 0 & \frac{1}{2} \end{pmatrix}
 ```
 
-$$T=1+\frac12=\frac32,\qquad D=(1)\left(\frac12\right)-(0)(0)=\frac12$$
+$$T=1+\frac{1}{2}=\frac{3}{2},\qquad D=(1)\left(\frac{1}{2}\right)-(0)(0)=\frac{1}{2}$$
 
 $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável** ✓
 
