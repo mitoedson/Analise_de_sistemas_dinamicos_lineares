@@ -43,8 +43,6 @@ J(x,y) = \begin{pmatrix} 1-2x-y & -x \\-y & 3-x-4y \end{pmatrix}
 J(0,0) = \begin{pmatrix} 1&0 \\ 0&3 \end{pmatrix}
 ```
 
-$$J(0,0)=\begin{bmatrix}1&0\\0&3\end{bmatrix}$$
-
 $$T=1+3=4,\qquad D=(1)(3)-(0)(0)=3$$
 
 $D>0$; $T^2-4D=16-12=4>0$ (reais); $T>0$ → **nó instável** ✓
