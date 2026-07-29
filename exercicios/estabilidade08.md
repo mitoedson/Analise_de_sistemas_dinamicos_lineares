@@ -78,11 +78,11 @@ $D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T<0$ → **nó estável**
 J(1,0) = \begin{pmatrix} 1-2 & -1 \\ 0 & \frac{1}{2}-\frac{3}{4} \end{pmatrix} = \begin{pmatrix} -1 & -1 \\ 0 & \frac{-1}{4} \end{pmatrix}
 ```
 
-$$T=-1-\frac14=-\frac54,\qquad D=(-1)\left(-\frac14\right)-(-1)(0)=\frac14$$
+$$T=-1-\frac{1}{4}=-\frac{5}{4},\qquad D=(-1)\left(-\frac{1}{4}\right)-(-1)(0)=\frac{1}{4}$$
 
 $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável**
 
-### Em $(1/2,1/2):$
+### Em $(\frac{1}{2},\frac{1}{2}):$
 
 ```math
 J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-1/2 & -1/2 \\ -3/8 & 1/2-1/4-3/8 \end{pmatrix} = \begin{pmatrix} \frac{-1}{2} & \frac{-1}{2} \\ -3/8 & -1/8 \end{pmatrix}
