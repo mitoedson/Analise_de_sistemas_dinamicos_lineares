@@ -46,7 +46,7 @@ Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela**
 
 $$J(1,1)=\begin{bmatrix} 1 & -2 \\ 3 & -2 \end{bmatrix}$$
 
-$\text{traço}=-1$, $\det=(1)(-2)-(-2)(3)=-2+6=4$
+$\text{traço}=1+(-2)=-1$, $\det=(1)(-2)-(-2)(3)=-2+6=4$
 
 Autovalores:
 $$\lambda=\frac{\text{traço}\pm\sqrt{\text{traço}^2-4\det}}{2}=\frac{-1\pm\sqrt{1-16}}{2}=\frac{-1\pm\sqrt{-15}}{2}$$
