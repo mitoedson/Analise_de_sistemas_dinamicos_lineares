@@ -16,7 +16,7 @@ J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}
 
 ## (a) $\dot x = x-y^2,\quad \dot y = x-2y+x^2$
 
-**Passo 1 — pontos críticos**
+### Passo 1 — pontos críticos
 
 Da primeira equação: $x-y^2=0 \Rightarrow x=y^2$
 
@@ -30,7 +30,7 @@ Fatorando $y$: $y(y^3+y-2)=0$
 
 **Pontos críticos: $(0,0)$ e $(1,1)$** 
 
-**Passo 2 — Matriz Jacobiana**
+### Passo 2 — Matriz Jacobiana
 
 ```math
 J(x,y)=\begin{pmatrix} 1 & -2y \\ 1+2x & -2 \end{pmatrix}
@@ -41,7 +41,7 @@ J(x,y)=\begin{pmatrix} 1 & -2y \\ 1+2x & -2 \end{pmatrix}
 ### Em $(0,0)$:
 
 ```math
-$$J(0,0)=\begin{pmatrix} 1 & 0 \\ 1 & -2 \end{pmatrix}$$
+J(0,0)=\begin{pmatrix} 1 & 0 \\ 1 & -2 \end{pmatrix}
 ```
 
 $\text{traço}=-1$, $\det = (1)(-2)-(0)(1)=-2$
@@ -53,7 +53,7 @@ Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela**
 ### Em  $(1,1)$:
 
 ```math
-$$J(1,1)=\begin{pmatrix} 1 & -2 \\ 3 & -2 \end{pmatrix}$$
+J(1,1)=\begin{pmatrix} 1 & -2 \\ 3 & -2 \end{pmatrix}
 ```
 
 $\text{traço}=1+(-2)=-1$, $\det=(1)(-2)-(-2)(3)=-2+6=4$
