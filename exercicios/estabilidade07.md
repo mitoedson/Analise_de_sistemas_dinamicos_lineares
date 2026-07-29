@@ -26,7 +26,9 @@ Substituindo na segunda: $x^2-1^2=0 \Rightarrow x^2=1 \Rightarrow x=\pm1$
 
 ### Passo 2 — Jacobiano genérico
 
-$$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}(1-y) & \dfrac{\partial}{\partial y}(1-y)\\[4pt] \dfrac{\partial}{\partial x}(x^2-y^2) & \dfrac{\partial}{\partial y}(x^2-y^2)\end{bmatrix}=\begin{bmatrix}0&-1\\2x&-2y\end{bmatrix}$$
+```math
+J(x,y) = \begin{pmatrix} \dfrac{\partial}{\partial x}(1-y) & \dfrac{\partial}{\partial y}(1-y) \\ \dfrac{\partial}{\partial x}(x^2-y^2) & \dfrac{\partial}{\partial y}(x^2-y^2) \end{pmatrix} = \begin{pmatrix}0&-1\\2x&-2y\end{pmatrix}
+```
 
 ### Passo 3 — Avaliando em $(-1,1)$
 
