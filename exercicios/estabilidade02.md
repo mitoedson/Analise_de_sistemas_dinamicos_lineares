@@ -60,8 +60,9 @@ Autovalores: $$\lambda^2+2\lambda+5=0 \;\Rightarrow\; \lambda=\frac{-2\pm\sqrt{4
 
 **Em $(4{,}155,\ 0{,}446)$:**
 ```math
-$J\approx\begin{bmatrix}-0{,}108&9{,}31\\4{,}31&-1{,}892\end{bmatrix}$
-$D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;\Rightarrow\; \textbf{sela}$
+J \approx \begin{pmatrix}-0{,}108&9{,}31 \\ 4{,}31&-1{,}892\end{pmatrix}
+
+D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;\Rightarrow\; \textbf{sela}
 ```
 
 **Em $(-0{,}758,\ 1{,}469)$:**
