@@ -40,7 +40,7 @@ $T=0+(-2)=-2, D=(0)(-2)-(-1)(-2)=0-2=-2$
 
 Autovalores: $$\lambda^2+2\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-2\pm\sqrt{4+8}}{2}=-1\pm\sqrt3$$
 
-$D=-2<0$ → **sela** ✓ (independente de $T$)
+$D=-2<0$ → **sela** (independente de $T$)
 
 ### Passo 4 — Avaliando em $(1,1)$
 
