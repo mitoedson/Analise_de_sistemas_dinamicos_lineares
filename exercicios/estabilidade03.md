@@ -4,7 +4,7 @@
 
 ### Método geral
 
-1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente
+1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente  
 2. **Calcular a matriz Jacobiana** do sistema:  
 ```math
 J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\ \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y} \end{pmatrix}
@@ -14,7 +14,7 @@ J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
 
-## Item (c): $\dot x=(1+x)\ \text{sen}(y),\quad \dot y=1-x-\cos(y)$
+## (c) $\dot x=(1+x)\ \text{sen}(y),\quad \dot y=1-x-\cos(y)$
 
 ### Passo 1 — Pontos críticos
 
