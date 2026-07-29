@@ -107,4 +107,3 @@ Temos:
 
 **Resumo da lógica:** o termo $-x^3$ (que dá origem ao $-2x^4$ em $\dot V$) sempre "puxa" o sistema de volta para zero, e cresce mais rápido que o termo oscilante e limitado $\text{sen}^4(x)$ — tanto para $x$ grande quanto para $x$ pequeno — garantindo convergência a partir de **qualquer** ponto inicial (por isso a conclusão é **global**).
 
-Quer revisar mais algum item?
