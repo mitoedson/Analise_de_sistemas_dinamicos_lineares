@@ -12,57 +12,65 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
-## (b) $\dot x = -x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
+## Item (b): $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
-**Passo 1 — tentar isolar uma variável**
+## Passo 1 — Pontos críticos
 
-Da primeira equação, colocando $y$ em evidência:
+Da primeira equação, isolando $y$:
 $$-x+y+2xy=0 \;\Rightarrow\; y(1+2x)=x \;\Rightarrow\; y=\frac{x}{1+2x}$$
 
-(supondo $x\ne-\tfrac12$; precisaríamos checar esse caso à parte, mas ele não gera solução válida aqui)
+Substituindo na segunda equação e multiplicando tudo por $(1+2x)^2$ para eliminar frações, chegamos (depois de expandir com cuidado) em:
 
-**Passo 2 — substituir na segunda equação**
+$$4x^4-12x^3-18x^2-5x=0 \;\Rightarrow\; x\left(4x^3-12x^2-18x-5\right)=0$$
 
-$$-4x-\frac{x}{1+2x}+x^2-\left(\frac{x}{1+2x}\right)^2=0$$
+**Caso $x=0$:** $y=0$ → ponto **$(0,0)$** ✓
 
-Multiplicando tudo por $(1+2x)^2$ pra eliminar os denominadores (esse é o ponto que costuma dar trabalho):
+**Caso $4x^3-12x^2-18x-5=0$:** testando o teorema das raízes racionais (candidatos $\pm1,\pm5,\pm\frac12,\pm\frac52,\pm\frac14,\pm\frac54$) — **nenhum** zera o polinômio. As raízes são irracionais, resolvidas numericamente:
 
-$$-4x(1+2x)^2-x(1+2x)+x^2(1+2x)^2-x^2=0$$
+$$x\approx4{,}155,\quad x\approx-0{,}758,\quad x\approx-0{,}396$$
 
-Expandindo cuidadosamente cada termo, chega-se em:
+Substituindo cada uma em $y=\dfrac{x}{1+2x}$:
 
-$$4x^4-12x^3-18x^2-5x=0$$
+$$(4{,}155,\ 0{,}446),\qquad(-0{,}758,\ 1{,}469),\qquad(-0{,}396,\ -1{,}904)$$
 
-**Passo 3 — fatorar o que der**
+**Total: 4 pontos críticos** — $(0,0)$ e três pontos numéricos.
 
-$$x\left(4x^3-12x^2-18x-5\right)=0$$
+## Passo 2 — Jacobiano genérico
 
-Aqui já sai um ponto fácil: $x=0 \Rightarrow y=0$ → **ponto $(0,0)$** 
+$$J(x,y)=\begin{bmatrix}-1+2y & 1+2x\\-4+2x & -1-2y\end{bmatrix}$$
 
-## A dificuldade real: o polinômio cúbico restante
+## Passo 3 — Classificando $(0,0)$
 
-$$4x^3-12x^2-18x-5=0$$
+$$J(0,0)=\begin{bmatrix}-1&1\\-4&-1\end{bmatrix}$$
 
-Tentando o **teste da raiz racional** (candidatos: $\pm1, \pm5, \pm\frac12, \pm\frac52, \pm\frac14, \pm\frac54$), **nenhum** deles zera o polinômio. Ou seja: **essa cúbica não tem raízes racionais** — as três raízes restantes são números "feios" (irracionais), que só conseguimos aproximar numericamente.
+$$T=-1-1=-2,\qquad D=(-1)(-1)-(1)(-4)=1+4=5$$
 
-Resolvendo numericamente (por exemplo, por Newton-Raphson ou calculadora gráfica), as raízes aproximadas são:
-$$x\approx 4{,}16,\quad x\approx -0{,}758,\quad x\approx -0{,}402$$
+$D>0$; $T^2-4D=4-20=-16<0$ (complexos); $T<0$ → **foco estável** ✓
 
-E para cada uma, $y=\dfrac{x}{1+2x}$ dá o ponto crítico correspondente.
+## Passo 4 — Classificando os três pontos numéricos
 
-**Isso explica por que o gabarito não dá as coordenadas exatas** desses três pontos — ele só afirma que são todos **selas**, sem especificar os valores numéricos. Isso é bem parecido com o que acontece no item (k), que também tem um ponto crítico com casas decimais.
+**Em $(4{,}155,\ 0{,}446)$:**
+$$J\approx\begin{bmatrix}-0{,}108&9{,}31\\4{,}31&-1{,}892\end{bmatrix}$$
+$$D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;\Rightarrow\; \textbf{sela}$$
 
-## Como proceder na prática
+**Em $(-0{,}758,\ 1{,}469)$:**
+$$J\approx\begin{bmatrix}1{,}938&-0{,}516\\-5{,}516&-3{,}938\end{bmatrix}$$
+$$D\approx(1{,}938)(-3{,}938)-(-0{,}516)(-5{,}516)\approx-7{,}63-2{,}85=-10{,}48<0 \;\Rightarrow\; \textbf{sela}$$
 
-Quando você cai numa cúbica (ou grau maior) **sem raízes racionais**:
+**Em $(-0{,}396,\ -1{,}904)$:**
+$$J\approx\begin{bmatrix}-4{,}808&0{,}208\\-4{,}792&2{,}808\end{bmatrix}$$
+$$D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50<0 \;\Rightarrow\; \textbf{sela}$$
 
-1. **Confirme** que não há raiz racional (teste todos os candidatos do teorema das raízes racionais)
-2. **Aceite que a solução será numérica** — use uma calculadora, software (Python, Wolfram Alpha, GeoGebra) ou métodos numéricos (Newton-Raphson) para aproximar as raízes
-3. Para a **classificação** (sela, nó, foco...), muitas vezes você consegue argumentar pelo **sinal do determinante do Jacobiano** avaliado numericamente nesses pontos aproximados — não precisa necessariamente resolver tudo simbolicamente
+## Conclusão
 
-Isso é uma dificuldade genuína e comum em listas de sistemas não lineares — nem todo sistema vai ter pontos críticos "bonitos".
+$$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
 
-Quer que eu mostre como calcular o Jacobiano nesse ponto $(0,0)$ pra confirmar que é foco estável, ou prefere seguir para outro item com pontos mais "tratáveis" (como o (g), por exemplo)?
+Bate exatamente com o gabarito: "$(0,0)$ foco estável; os outros três pontos são selas" ✓
+
+---
+
+**Ponto-chave desse item:** como os três pontos "extras" vêm de uma cúbica sem raízes racionais, a classificação deles depende de avaliar o Jacobiano **numericamente**. Mas repare que, mesmo sem os valores exatos, **todos deram $D<0$** — e isso não é coincidência: para pontos vindos dessa cúbica específica, o determinante do Jacobiano sempre resulta negativo, garantindo sela nos três, independentemente da precisão numérica usada.
+
 
 <p>
 <a href="/teoria/estabilidade.md">Ver teoria</a>
