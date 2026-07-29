@@ -57,6 +57,8 @@ J(0,2k\pi) = \begin{pmatrix} 0 & (1+0)(1) \\ -1 & 0 \end{pmatrix} = \begin{pmatr
 **Traço e determinante:**
 $$T=0+0=0, \qquad D=(0)(0)-(1)(-1)=1$$
 
+Autovalores: $$\lambda^2+1=0 \;\Rightarrow\; \lambda=\pm i$$
+
 $T=0$ e $D=1>0$ → **centro**
 
 ### Passo 4 — Avaliando na família $(2,(2k+1)\pi)$
@@ -69,6 +71,8 @@ J(2,(2k+1)\pi) = \begin{pmatrix} 0 & (1+2)(-1) \\ -1 & 0 \end{pmatrix} = \begin{
 
 **Traço e determinante:**
 $$T=0+0=0, \qquad D=(0)(0)-(-3)(-1)=-3$$
+
+Autovalores: $$\lambda^2-3=0 \;\Rightarrow\; \lambda=\pm\sqrt3$$
 
 $T=0$ e $D=-3<0$ → **sela**
 
