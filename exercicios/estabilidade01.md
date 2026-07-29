@@ -48,9 +48,9 @@ $\text{traço}=-1$, $\det = (1)(-2)-(0)(1)=-2$
 
 Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela** (sempre instável)
 
-Através do polinômio característico:
+**Através do polinômio característico:**
 
-**$$\lambda^2+\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1+8}}{2}=\frac{-1\pm3}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=-2$$
+$\lambda^2+\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1+8}}{2}=\frac{-1\pm3}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=-2$
 
 
 **$(0,0)$ é ponto de sela** 
