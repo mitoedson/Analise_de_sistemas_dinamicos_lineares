@@ -29,7 +29,9 @@ Substituindo na primeira: $-y+y^2=0 \Rightarrow y(y-1)=0$
 
 ### Passo 2 — Jacobiano genérico
 
-$$J(x,y)=\begin{bmatrix}\dfrac{\partial}{\partial x}(x+y^2) & \dfrac{\partial}{\partial y}(x+y^2)\\[4pt] \dfrac{\partial}{\partial x}(x+y) & \dfrac{\partial}{\partial y}(x+y)\end{bmatrix}=\begin{bmatrix}1&2y\\1&1\end{bmatrix}$$
+```math
+J(x,y) = \begin{pmatrix} \dfrac{\partial}{\partial x}(x+y^2) & \dfrac{\partial}{\partial y}(x+y^2) \\ \dfrac{\partial}{\partial x}(x+y) & \dfrac{\partial}{\partial y}(x+y) \end{pmatrix} = \begin{bmatrix}1&2y\\1&1\end{bmatrix}
+```
 
 ### Passo 3 — Avaliando em $(0,0)$
 
