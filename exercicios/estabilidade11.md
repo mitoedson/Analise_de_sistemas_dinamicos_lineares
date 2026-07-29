@@ -11,7 +11,7 @@
 J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\ \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y} \end{pmatrix}
 ```
 
-## (k): $\dot x=2x+y+xy^3,\quad \dot y=x-2y-xy$
+## $\dot x=2x+y+xy^3,\quad \dot y=x-2y-xy$
 
 ### Passo 1 — Pontos críticos (revisão rápida)
 
