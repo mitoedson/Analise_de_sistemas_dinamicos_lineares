@@ -14,7 +14,7 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 
 ## Item (b): $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
-# Passo 1 — Pontos críticos
+### Passo 1 — Pontos críticos
 
 Da primeira equação, isolando $y$:
 $$-x+y+2xy=0 \;\Rightarrow\; y(1+2x)=x \;\Rightarrow\; y=\frac{x}{1+2x}$$
@@ -35,11 +35,11 @@ $$(4{,}155,\ 0{,}446),\qquad(-0{,}758,\ 1{,}469),\qquad(-0{,}396,\ -1{,}904)$$
 
 **Total: 4 pontos críticos** — $(0,0)$ e três pontos numéricos.
 
-# Passo 2 — Jacobiano genérico
+### Passo 2 — Jacobiano genérico
 
 $$J(x,y)=\begin{bmatrix}-1+2y & 1+2x\\-4+2x & -1-2y\end{bmatrix}$$
 
-# Passo 3 — Classificando $(0,0)$
+### Passo 3 — Classificando $(0,0)$
 
 $$J(0,0)=\begin{bmatrix}-1&1\\-4&-1\end{bmatrix}$$
 
@@ -47,7 +47,7 @@ $$T=-1-1=-2,\qquad D=(-1)(-1)-(1)(-4)=1+4=5$$
 
 $D>0$; $T^2-4D=4-20=-16<0$ (complexos); $T<0$ → **foco estável** ✓
 
-# Passo 4 — Classificando os três pontos numéricos
+### Passo 4 — Classificando os três pontos numéricos
 
 **Em $(4{,}155,\ 0{,}446)$:**
 $$J\approx\begin{bmatrix}-0{,}108&9{,}31\\4{,}31&-1{,}892\end{bmatrix}$$
@@ -61,7 +61,7 @@ $$D\approx(1{,}938)(-3{,}938)-(-0{,}516)(-5{,}516)\approx-7{,}63-2{,}85=-10{,}48
 $$J\approx\begin{bmatrix}-4{,}808&0{,}208\\-4{,}792&2{,}808\end{bmatrix}$$
 $$D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50<0 \;\Rightarrow\; \textbf{sela}$$
 
-# Conclusão
+### Conclusão
 
 $$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
 
