@@ -47,7 +47,7 @@ $T=1+1=2, D=(1)(1)-(0)(0)=1$
 
 Autovalores: $$\lambda=1 \text{ (duplo)}$$
 
-$D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}=1$ (duplo); $T>0$ → **nó impróprio instável** ✓
+$D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}=1$ (duplo); $T>0$ → **nó impróprio instável**
 
 ### Em $(-1,0)$:
 
