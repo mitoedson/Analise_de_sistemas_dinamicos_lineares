@@ -78,5 +78,5 @@ $D<0$ → **sela**
 
 ### Conclusão
 
-$$(0,0):\ \textbf{nó instável} \qquad (0,3/2):\ \textbf{nó estável} \qquad (1,0):\ \textbf{sela} \qquad (-1,2):\ \textbf{sela}$$
+$$(0,0):\ \textbf{nó instável} \qquad (0,\frac{3}{2}):\ \textbf{nó estável} \qquad (1,0):\ \textbf{sela} \qquad (-1,2):\ \textbf{sela}$$
 
