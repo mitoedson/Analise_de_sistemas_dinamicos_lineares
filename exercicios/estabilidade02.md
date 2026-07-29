@@ -79,11 +79,6 @@ $D<0$ em todos → $\lambda^2-T\lambda+D=0$ sempre tem $\sqrt{T^2-4D}>|T|$, gara
 
 $$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
 
----
-
-**Ponto-chave desse item:** como os três pontos "extras" vêm de uma cúbica sem raízes racionais, a classificação deles depende de avaliar o Jacobiano **numericamente**. Mas repare que, mesmo sem os valores exatos, **todos deram $D<0$** — e isso não é coincidência: para pontos vindos dessa cúbica específica, o determinante do Jacobiano sempre resulta negativo, garantindo sela nos três, independentemente da precisão numérica usada.
-
-
 <p>
 <a href="/teoria/estabilidade.md">Ver teoria</a>
 
