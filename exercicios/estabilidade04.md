@@ -59,6 +59,4 @@ $$(0,0):\ \textbf{nó impróprio instável} \qquad\qquad (-1,1):\ \textbf{sela}$
 
 "$(0,0)$ nó impróprio instável; $(-1,1)$ sela" ✓
 
----
 
-**Sobre o termo "nó impróprio":** é o mesmo caso especial que já vimos antes (autovalores reais repetidos, $T^2-4D=0$) — só que aqui, diferente do exemplo da questão 4 item (k) (onde a matriz já era diagonal e o nó era "próprio"/em estrela), aqui a matriz **não é diagonal** e tem autovalor duplo com **apenas um autovetor independente** (matriz não diagonalizável) — esse é o caso clássico do "nó impróprio" (também chamado de nó degenerado), onde as trajetórias se aproximam da origem tangenciando uma única direção, em vez de saírem "em estrela" de todas as direções.
