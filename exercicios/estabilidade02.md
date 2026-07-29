@@ -73,6 +73,8 @@ J \approx \begin{pmatrix}1{,}938&-0{,}516\\-5{,}516&-3{,}938\end{pmatrix}, D \ap
 J \approx \begin{pmatrix}-4{,}808&0{,}208\\-4{,}792&2{,}808\end{pmatrix}, D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50<0 \;\Rightarrow\; \textbf{sela}
 ```
 
+**Demais pontos:** $D<0$ em todos → $\lambda^2-T\lambda+D=0$ sempre tem $\sqrt{T^2-4D}>|T|$, garantindo raízes reais de sinais opostos (sela), sem precisar resolver numericamente.
+
 ### Conclusão
 
 $$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
