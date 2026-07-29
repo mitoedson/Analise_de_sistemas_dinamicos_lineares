@@ -66,12 +66,18 @@ D\approx(-0{,}108)(-1{,}892)-(9{,}31)(4{,}31)\approx0{,}20-40{,}13=-39{,}93<0 \;
 ```
 
 **Em $(-0{,}758,\ 1{,}469)$:**
-$$J\approx\begin{bmatrix}1{,}938&-0{,}516\\-5{,}516&-3{,}938\end{bmatrix}$$
-$$D\approx(1{,}938)(-3{,}938)-(-0{,}516)(-5{,}516)\approx-7{,}63-2{,}85=-10{,}48<0 \;\Rightarrow\; \textbf{sela}$$
+```math
+J \approx \begin{pmatrix}1{,}938&-0{,}516\\-5{,}516&-3{,}938\end{pmatrix}
+
+D \approx(1{,}938)(-3{,}938)-(-0{,}516)(-5{,}516)\approx-7{,}63-2{,}85=-10{,}48<0 \;\Rightarrow\; \textbf{sela}
+```
 
 **Em $(-0{,}396,\ -1{,}904)$:**
-$$J\approx\begin{bmatrix}-4{,}808&0{,}208\\-4{,}792&2{,}808\end{bmatrix}$$
-$$D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50<0 \;\Rightarrow\; \textbf{sela}$$
+```math
+J \approx \begin{pmatrix}-4{,}808&0{,}208\\-4{,}792&2{,}808\end{pmatrix}
+
+D\approx(-4{,}808)(2{,}808)-(0{,}208)(-4{,}792)\approx-13{,}50+1{,}00=-12{,}50<0 \;\Rightarrow\; \textbf{sela}
+```
 
 ### Conclusão
 
