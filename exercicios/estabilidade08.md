@@ -1,4 +1,4 @@
-<h1>Estabilidade 07</h1>
+<h1>Estabilidade 08</h1>
 
 ## Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
