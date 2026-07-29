@@ -43,7 +43,9 @@ J(x,y) = \begin{pmatrix} -1+2x & 1-2y\\2+y & x \end{pmatrix}
 $$T=3x-1$$
 $$D=(-1+2x)(x)-(1-2y)(2+y)=2x^2-x-(2-3y-2y^2)=2x^2+2y^2-x+3y-2$$
 
-### Passo 3 — Avaliando em $(0,0)$
+### Passo 3 — Avaliando nos pontos críticos
+
+### Em $(0,0)$
 
 ```math
 J(0,0) = \begin{pmatrix} -1 & 1 \\ 2 & 0 \end{pmatrix}
@@ -54,7 +56,7 @@ $$D=(-1)(0)-(1)(2)=-2$$
 
 $D<0$ → **sela** 
 
-### Passo 4 — Avaliando em $(0,1)$
+### Passo 4 — Em $(0,1)$
 
 ```math
 J(0,1) = \begin{pmatrix} -1 & -1 \\ 3 & 0 \end{pmatrix}
@@ -65,7 +67,7 @@ $$D=(-1)(0)-(-1)(3)=3$$
 
 $D>0$; $T^2-4D=1-12=-11<0$ (complexos); $T<0$ → **foco estável** 
 
-### Passo 5 — Avaliando em $(-2,-2)$
+### Em $(-2,-2)$
 
 ```math
 J(x,y) = \begin{pmatrix} -5 & -3 \\ 0 & -2 \end{pmatrix}
@@ -76,7 +78,7 @@ $$D=(-5)(-2)-(-3)(0) = 10$$
 
 $D>0$; $T^2-4D=49-40=9>0$ (reais); $T<0$ → **nó estável** 
 
-### Passo 6 — Avaliando em $(3,-2)$
+### Em $(3,-2)$
 
 ```math
 J(x,y) = \begin{pmatrix} 5 & 5 \\ 0 & 3 \end{pmatrix}
