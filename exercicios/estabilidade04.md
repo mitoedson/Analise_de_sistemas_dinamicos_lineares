@@ -57,6 +57,6 @@ $D<0$ → **sela** (independente do valor de $T$)
 
 $$(0,0):\ \textbf{nó impróprio instável} \qquad\qquad (-1,1):\ \textbf{sela}$$
 
-"$(0,0)$ nó impróprio instável; $(-1,1)$ sela" ✓
+
 
 
