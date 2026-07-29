@@ -62,7 +62,7 @@ $T=1+\frac{1}{2}=\frac{3}{2}, D=(1)\left(\frac{1}{2}\right)-(0)(0)=\frac{1}{2}$
 
 Autovalores: $$\lambda^2-\frac32\lambda+\frac12=0 \;\Rightarrow\; \lambda=\frac{\frac32\pm\sqrt{\frac94-2}}{2}=\frac{\frac32\pm\frac12}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=\frac12$$
 
-$D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável** ✓
+$D>0$; $T^2-4D=\frac94-2=\frac14>0$ (reais); $T>0$ → **nó instável**
 
 ### Em $(0,2):$
 
