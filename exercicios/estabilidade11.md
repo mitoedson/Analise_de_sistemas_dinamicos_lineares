@@ -41,20 +41,6 @@ Conferindo com autovalores: $\lambda^2-5=0 \Rightarrow \lambda=\pm\sqrt5$ — re
 
 ### Passo 4 — Avaliando em $(-1{,}19345,\ -1{,}47970)$
 
-Vamos calcular cada entrada do Jacobiano numericamente.
-
-**$y^3$:** $(-1{,}47970)^3\approx-3{,}239$
-
-**Entrada (1,1):** $2+y^3\approx2-3{,}239=-1{,}239$
-
-**$3xy^2$:** $y^2\approx2{,}1895$; $3(-1{,}19345)(2{,}1895)\approx-7{,}838$
-
-**Entrada (1,2):** $1+3xy^2\approx1-7{,}838=-6{,}838$
-
-**Entrada (2,1):** $1-y\approx1-(-1{,}4797)=2{,}4797$
-
-**Entrada (2,2):** $-2-x\approx-2-(-1{,}19345)=-0{,}80655$
-
 ```math
 J \approx \begin{pmatrix} -1{,}239 & -6{,}838 \\ 2{,}4797 & -0{,}80655 \end{pmatrix}
 ```
