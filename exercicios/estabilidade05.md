@@ -44,7 +44,7 @@ J(x,y) = \begin{pmatrix} -2+y-2x & 2+x \\ 4-y-2x & 4-x \end{pmatrix}
 J(-2,2) = \begin{pmatrix} -2+2+4 & 2-2\\4-2+4 & 4+2 \end{pmatrix}
 ```
 
-$T=4+6=10,\qquad D=(4)(6)-(0)(6)=24$
+$T=4+6=10, D=(4)(6)-(0)(6)=24$
 
 Autovalores: $$\lambda^2-10\lambda+24=0 \;\Rightarrow\; \lambda=\frac{10\pm\sqrt{100-96}}{2}=\frac{10\pm2}{2} \;\Rightarrow\; \lambda_1=6,\ \lambda_2=4$$
 
@@ -56,7 +56,7 @@ $D>0$; $T^2-4D=100-96=4>0$ (reais); $T>0$ → **nó instável**
 J(0,0) = \begin{pmatrix} -2&2\\4&4 \end{pmatrix}
 ```
 
-$T=-2+4=2,\qquad D=(-2)(4)-(2)(4)=-8-8=-16$
+$T=-2+4=2, D=(-2)(4)-(2)(4)=-8-8=-16$
 
 Autovalores: $$\lambda^2-2\lambda-16=0 \;\Rightarrow\; \lambda=\frac{2\pm\sqrt{4+64}}{2}=1\pm\sqrt{17}$$
 
@@ -68,7 +68,7 @@ $D<0$ → **sela** (independente de $T$)
 J(4,4) = \begin{pmatrix} -2+4-8 & 2+4 \\ 4-4-8 & 4-4 \end{pmatrix}
 ```
 
-$T=-6+0=-6,\qquad D=(-6)(0)-(6)(-8)=0+48=48$
+$T=-6+0=-6, D=(-6)(0)-(6)(-8)=0+48=48$
 
 Autovalores: $$\lambda^2+6\lambda+48=0 \;\Rightarrow\; \lambda=\frac{-6\pm\sqrt{36-192}}{2}=-3\pm\frac{\sqrt{-156}}{2}$$
 
