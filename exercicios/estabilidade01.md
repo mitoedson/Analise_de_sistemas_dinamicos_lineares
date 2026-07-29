@@ -12,7 +12,7 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
-## (a): $\dot x = x-y^2,\quad \dot y = x-2y+x^2$
+## (a) $\dot x = x-y^2,\quad \dot y = x-2y+x^2$
 
 **Passo 1 — pontos críticos**
 
@@ -23,12 +23,12 @@ Substituindo na segunda: $y^2-2y+(y^2)^2=0 \Rightarrow y^4+y^2-2y=0$
 Fatorando $y$: $y(y^3+y-2)=0$
 
 - $y=0 \Rightarrow x=0$ → ponto $(0,0)$
-- $y^3+y-2=0$: testando $y=1$: $1+1-2=0$ ✓. Fatorando: $(y-1)(y^2+y+2)=0$. O fator $y^2+y+2$ tem discriminante $1-8=-7<0$ (sem raízes reais).
+- $y^3+y-2=0$: testando $y=1$: $1+1-2=0$ . Fatorando: $(y-1)(y^2+y+2)=0$. O fator $y^2+y+2$ tem discriminante $1-8=-7<0$ (sem raízes reais).
   → $y=1 \Rightarrow x=1$ → ponto $(1,1)$
 
-**Pontos críticos: $(0,0)$ e $(1,1)$** ✓ (bate com o gabarito)
+**Pontos críticos: $(0,0)$ e $(1,1)$** 
 
-**Passo 2 — Jacobiano**
+**Passo 2 — Matriz Jacobiana**
 
 $$J(x,y)=\begin{bmatrix} 1 & -2y \\ 1+2x & -2 \end{bmatrix}$$
 
