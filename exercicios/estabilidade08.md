@@ -85,7 +85,7 @@ $D>0$; $T^2-4D=\frac{25}{16}-1=\frac{9}{16}>0$ (reais); $T<0$ → **nó estável
 ### Em $(\frac{1}{2},\frac{1}{2}):$
 
 ```math
-J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-\frac{1}{2} & -\frac{1}{2} \\ -\frac{3}{8} & \frac{1}{2}-\frac{1}{4}-\frac{3}{8} \end{pmatrix} = \begin{pmatrix} \frac{-1}{2} & \frac{-1}{2} \\ -\frac{3}{8} & -\frac{1}{8} \end{pmatrix}
+J(\frac{1}{2},\frac{1}{2}) = \begin{pmatrix} 1-1-\frac{1}{2} & -\frac{1}{2} \\ -\frac{3}{8} & \frac{1}{2}-\frac{1}{4}-\frac{3}{8} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & -\frac{1}{2} \\ -\frac{3}{8} & -\frac{1}{8} \end{pmatrix}
 ```
 
 $$T=-\frac{1}{2}-\frac{1}{8}=-\frac{5}{8},\qquad D=\left(-\frac{1}{2}\right)\left(-\frac{1}{8}\right)-\left(-\frac{1}{2}\right)\left(-\frac{3}{8}\right)=\frac{1}{16}-\frac{3}{16}=-\frac{2}{16}=-\frac{1}{8}$$
