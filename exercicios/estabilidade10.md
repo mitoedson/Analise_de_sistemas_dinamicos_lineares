@@ -27,7 +27,7 @@ $$y-xy=0 \Rightarrow y(1-x)=0 \Rightarrow y=0 \text{ ou } x=1$$
 
 **Caso $x=1$:** substituindo na primeira equação: $1+1+y^2=0 \Rightarrow y^2=-2$ — impossível (sem solução real). Descartado.
 
-**Pontos críticos: $(0,0)$ e $(-1,0)$** ✓ (bate com o gabarito)
+**Pontos críticos: $(0,0)$ e $(-1,0)$**
 
 ### Passo 2 — Jacobiano genérico
 
@@ -35,7 +35,9 @@ $$y-xy=0 \Rightarrow y(1-x)=0 \Rightarrow y=0 \text{ ou } x=1$$
 J(x,y)=\begin{pmatrix} 1+2x & 2y \\ -y & 1-x \end{pmatrix}
 ```
 
-### Passo 3 — Avaliando em $(0,0)$
+### Passo 3 — Avaliando nos pontos críticos:
+
+### Em $(0,0)$:
 
 ```math
 J(0,0)=\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}
@@ -45,7 +47,7 @@ $$T=1+1=2, \qquad D=(1)(1)-(0)(0)=1$$
 
 $D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}=1$ (duplo); $T>0$ → **nó impróprio instável** ✓
 
-### Passo 4 — Avaliando em $(-1,0)$
+### Em $(-1,0)$:
 
 ```math
 J(-1,0)=\begin{pmatrix} 1-2 & 0 \\ 0 & 1+1 \end{pmatrix}=\begin{pmatrix} -1 & 0 \\ 0 & 2 \end{pmatrix}
