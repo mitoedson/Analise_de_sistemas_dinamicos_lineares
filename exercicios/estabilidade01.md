@@ -40,7 +40,7 @@ $\text{traço}=-1$, $\det = (1)(-2)-(0)(1)=-2$
 
 Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela** (sempre instável)
 
-**$(0,0)$ é sela** ✓
+**$(0,0)$ é ponto de sela** 
 
 **Passo 4 — avaliar em $(1,1)$**
 
@@ -53,25 +53,7 @@ $$\lambda=\frac{\text{traço}\pm\sqrt{\text{traço}^2-4\det}}{2}=\frac{-1\pm\sqr
 
 Autovalores **complexos conjugados** com parte real $-\dfrac{1}{2}<0$ → **foco estável**
 
-**$(1,1)$ é foco estável** ✓
-
----
-
-Esse padrão (achar pontos críticos → Jacobiano → autovalores em cada ponto → classificar) se repete em todos os itens de (a) a (k). Quer tentar o item (b) você mesmo e eu confiro, ou prefere que eu continue mostrando mais um ou dois exemplos primeiro?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**$(1,1)$ é foco estável** 
 
 
 <p>
