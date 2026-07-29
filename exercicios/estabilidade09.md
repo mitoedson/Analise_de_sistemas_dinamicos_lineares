@@ -39,10 +39,6 @@ Expandindo $f(x,y)=-(x-y)(1-x-y)=-x+x^2+y-y^2$ e $g(x,y)=x(2+y)=2x+xy$:
 J(x,y) = \begin{pmatrix} -1+2x & 1-2y\\2+y & x \end{pmatrix}
 ```
 
-**Traço e determinante genéricos:**
-$$T=3x-1$$
-$$D=(-1+2x)(x)-(1-2y)(2+y)=2x^2-x-(2-3y-2y^2)=2x^2+2y^2-x+3y-2$$
-
 ### Passo 3 — Avaliando nos pontos críticos
 
 ### Em $(0,0):$
