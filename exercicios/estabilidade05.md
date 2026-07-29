@@ -68,7 +68,7 @@ $D<0$ → **sela** (independente de $T$)
 J(4,4) = \begin{pmatrix} -2+4-8 & 2+4 \\ 4-4-8 & 4-4 \end{pmatrix}
 ```
 
-$$T=-6+0=-6,\qquad D=(-6)(0)-(6)(-8)=0+48=48$$
+$T=-6+0=-6,\qquad D=(-6)(0)-(6)(-8)=0+48=48$
 
 Autovalores: $$\lambda^2+6\lambda+48=0 \;\Rightarrow\; \lambda=\frac{-6\pm\sqrt{36-192}}{2}=-3\pm\frac{\sqrt{-156}}{2}$$
 
