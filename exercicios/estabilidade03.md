@@ -17,10 +17,12 @@ $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_
 
 ### Passo 1 — Pontos críticos
 
-Da primeira equação: $(1+x)\ \text{sen}(y)=0$
+Da primeira equação: $(1+x)\ \text{sen}(y)=0$, obtem-se 
 $$x=-1 \quad \text{ou} \quad \text{sen}(y)=0 \Rightarrow y=m\pi,\ m\in\mathbb{Z}$$
 
 Da segunda equação: $x=1-\cos(y)$
+
+
 
 **Caso $x=-1$:** substituindo, $-1=1-\cos(y)\Rightarrow\cos(y)=2$ — **impossível** (cosseno está entre $-1$ e $1$). Descartado.
 
@@ -64,8 +66,6 @@ $T=0$ e $D=-3<0$ → **sela**
 ### Conclusão final
 
 $$(0,2m\pi):\ \textbf{centro} \qquad\qquad (2,(2m+1)\pi):\ \textbf{sela}$$
-
-Bate exatamente com o gabarito! ✓
 
 ### Observação sobre a classificação "centro"
 
