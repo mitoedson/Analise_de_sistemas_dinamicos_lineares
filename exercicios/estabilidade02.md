@@ -37,7 +37,7 @@ $$4x^4-12x^3-18x^2-5x=0$$
 
 $$x\left(4x^3-12x^2-18x-5\right)=0$$
 
-Aqui já sai um ponto fácil: $x=0 \Rightarrow y=0$ → **ponto $(0,0)$** ✓ (bate com o gabarito)
+Aqui já sai um ponto fácil: $x=0 \Rightarrow y=0$ → **ponto $(0,0)$** 
 
 ## A dificuldade real: o polinômio cúbico restante
 
