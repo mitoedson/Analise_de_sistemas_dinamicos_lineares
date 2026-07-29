@@ -92,6 +92,4 @@ $D=-\dfrac18<0$ → **sela**
 ### Conclusão
 
 $$(0,0):\textbf{nó instável} \quad (0,2):\textbf{nó estável} \quad (1,0):\textbf{nó estável} \quad (1/2,1/2):\textbf{sela}$$
----
 
-Esse item mostra que o processo é o mesmo mesmo com frações — só exige mais cuidado na aritmética. Quer revisar mais algum item?
