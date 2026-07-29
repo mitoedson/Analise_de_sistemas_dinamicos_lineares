@@ -31,7 +31,7 @@ Combinando (4 casos, todos compatíveis):
 
 **Pontos críticos: $(0,0)$, $(0,1)$, $(-2,-2)$, $(3,-2)$**
 
-### Passo 2 — Jacobiano genérico (corrigido)
+### Passo 2 — Jacobiano genérico
 
 Expandindo $f(x,y)=-(x-y)(1-x-y)=-x+x^2+y-y^2$ e $g(x,y)=x(2+y)=2x+xy$:
 
