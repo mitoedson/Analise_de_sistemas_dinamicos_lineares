@@ -43,7 +43,9 @@ J(x,y)=\begin{pmatrix} 1+2x & 2y \\ -y & 1-x \end{pmatrix}
 J(0,0)=\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}
 ```
 
-$$T=1+1=2, \qquad D=(1)(1)-(0)(0)=1$$
+$T=1+1=2, D=(1)(1)-(0)(0)=1$
+
+Autovalores: $$\lambda=1 \text{ (duplo)}$$
 
 $D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}=1$ (duplo); $T>0$ → **nó impróprio instável** ✓
 
@@ -53,7 +55,9 @@ $D>0$; $T^2-4D=4-4=0$ → autovalores reais **repetidos**: $\lambda=\dfrac{T}{2}
 J(-1,0)=\begin{pmatrix} 1-2 & 0 \\ 0 & 1+1 \end{pmatrix}=\begin{pmatrix} -1 & 0 \\ 0 & 2 \end{pmatrix}
 ```
 
-$$T=-1+2=1, \qquad D=(-1)(2)-(0)(0)=-2$$
+$T=-1+2=1, D=(-1)(2)-(0)(0)=-2$
+
+Autovalores: $$\lambda_1=2,\ \lambda_2=-1$$
 
 $D<0$ → **sela** 
 
