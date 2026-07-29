@@ -9,6 +9,12 @@
    
 $$J(x,y) = \begin{bmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\[4pt] \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y}\end{bmatrix}$$
 
+```math
+\(\begin{bmatrix} a & b \\ c & d \end{bmatrix} \%\%\)MAGIT_PARSER_PROTECT%%
+```
+
+
+
 3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
 4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
 
