@@ -48,10 +48,12 @@ $\text{traço}=-1$, $\det = (1)(-2)-(0)(1)=-2$
 
 Quando $\det J<0$, os autovalores são reais com **sinais opostos** → **sela** (sempre instável)
 
-**$(0,0)$ é ponto de sela** 
+Através do polinômio característico:
 
-**$(0,0)$:** $T=-1,\ D=-2$
-$$\lambda^2+\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1+8}}{2}=\frac{-1\pm3}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=-2$$
+**$$\lambda^2+\lambda-2=0 \;\Rightarrow\; \lambda=\frac{-1\pm\sqrt{1+8}}{2}=\frac{-1\pm3}{2} \;\Rightarrow\; \lambda_1=1,\ \lambda_2=-2$$
+
+
+**$(0,0)$ é ponto de sela** 
 
 
 ### Em  $(1,1)$:
