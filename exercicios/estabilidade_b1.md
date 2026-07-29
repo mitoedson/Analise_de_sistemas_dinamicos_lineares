@@ -61,13 +61,13 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 
 ## $\dot x=-x^3+\text{sen}^4(x)$
 
-## Passo 1 — Identificar o ponto de equilíbrio
+### Passo 1 — Identificar o ponto de equilíbrio
 
 $$\dot x=0 \;\Rightarrow\; -x^3+\text{sen}^4(x)=0$$
 
 Testando $x=0$: $-0+\text{sen}^4(0)=0$ ✓ → **$x=0$ é ponto de equilíbrio**
 
-## Passo 2 — Escolher a candidata de Lyapunov
+### Passo 2 — Escolher a candidata de Lyapunov
 
 $$V(x)=x^2$$
 
@@ -75,11 +75,11 @@ Verificação: $V(0)=0$ e $V(x)>0$ para $x\ne0$ ✓ (positiva definida)
 
 Além disso, $V(x)\to\infty$ quando $|x|\to\infty$ → **radialmente ilimitada** (abre espaço para conclusão global)
 
-## Passo 3 — Calcular $\dot V$
+### Passo 3 — Calcular $\dot V$
 
 $$\dot V=2x\dot x=2x\left(-x^3+\text{sen}^4(x)\right)=-2x^4+2x\,\text{sen}^4(x)$$
 
-## Passo 4 — Analisar o sinal de $\dot V$
+### Passo 4 — Analisar o sinal de $\dot V$
 
 Usamos a limitação $0\le\text{sen}^4(x)\le1$ para todo $x$, então:
 $$\left|2x\,\text{sen}^4(x)\right|\le2|x|$$
@@ -95,7 +95,7 @@ Para $x$ **pequeno** (perto de 0): usando $\text{sen}(x)\approx x$, temos $\text
 **Em ambos os regimes, $-2x^4$ domina**, garantindo:
 $$\dot V<0 \quad \text{para todo } x\ne0$$
 
-## Passo 5 — Conclusão
+### Passo 5 — Conclusão
 
 Temos:
 - $V>0$ para $x\ne0$, radialmente ilimitada ✓
