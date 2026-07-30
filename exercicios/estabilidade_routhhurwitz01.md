@@ -75,7 +75,7 @@ Coeficientes: $a_0=1,\ a_1=1,\ a_2=1,\ a_3=k$
 
 Precisamos de $1-k>0 \Rightarrow k<1$ e $k>0$.
 
-**Resultado: $0<k<1$** ✓
+**Resultado: $0<k<1$** 
 
 ## (c) λ⁴ + kλ³ + λ² + λ + 1 = 0
 
@@ -98,7 +98,7 @@ O discriminante de $k^2-k+1$ é $1-4=-3<0$, então $k^2-k+1>0$ **sempre**. Como 
 
 Ou seja, é impossível ter $b_1>0$ e $c_1>0$ ao mesmo tempo.
 
-**Resultado: não existe $k\in\mathbb{R}$** ✓
+**Resultado: não existe $k\in\mathbb{R}$** 
 
 ## (d) λ⁴ + λ³ + λ² + λ + k = 0
 
@@ -112,7 +112,7 @@ Coeficientes: $a_0=1,\ a_1=1,\ a_2=1,\ a_3=1,\ a_4=k$
 
 Já na linha λ² aparece **0 na primeira coluna**, independentemente de $k$. Isso por si só impede estabilidade estrita (sinaliza raízes sobre o eixo imaginário ou problema na construção do array).
 
-**Resultado: não existe $k\in\mathbb{R}$** ✓
+**Resultado: não existe $k\in\mathbb{R}$** 
 
 ## (e) λ⁵ + λ⁴ + kλ³ + λ² + λ + k = 0
 
@@ -137,5 +137,5 @@ Exigências: $k-1>0\Rightarrow k>1$, e $d_1>0$.
 
 Mas para $k>1$: $(k+2)>0$ e $(k-1)>0$, logo $(k+2)(k-1)>0$, então $d_1=-\dfrac{(+)}{2}<0$ **sempre**.
 
-**Resultado: não existe $k\in\mathbb{R}$** ✓
+**Resultado: não existe $k\in\mathbb{R}$** 
 
