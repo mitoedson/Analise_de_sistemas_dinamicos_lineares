@@ -51,6 +51,14 @@ e assim por diante, sempre usando as duas linhas anteriores.
 
 Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1$
 
+| | col 1 | col 2 | col 3|
+|---|---|---|---|
+|λ³| 1 | 1 | 0 |
+|λ²| k | 1 | 0 |
+|λ¹| $b_1$ | $b_1$ | |
+|λ⁰| $c_1$ | | |
+
+
 | | col 1 | col 2 |
 |---|---|---|
 |λ³| 1 | 1 |
