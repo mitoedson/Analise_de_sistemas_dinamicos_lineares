@@ -129,7 +129,9 @@ c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k+1 & 0 \end{bmatrix}}{-k+1} = -\frac{0-(
 
 Precisamos de $1-k>0 \Rightarrow k<1$ e $k>0$.
 
-Portanto, $0<k<1$** 
+Portanto, $0<k<1$
+
+---
 
 ## (c) λ⁴ + kλ³ + λ² + λ + 1 = 0
 
@@ -139,9 +141,61 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1,\ a_4=1$
 |---|---|---|---|
 |λ⁴| 1 | 1 | 1 |
 |λ³| k | 1 | 0 |
+|λ²| $b_1$ | $b_2$ | |
+|λ¹| $c_1$ | $c_2$ | |
+|λ⁰| $d_1$ | | |
+
+```math
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k} = \frac{k-1}{k}, 
+b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}}{k} = -\frac{-k}{k} = 1
+```
+
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|λ⁴| 1 | 1 | 1 |
+|λ³| k | 1 | 0 |
+|λ²| k-1 | 1 | 0 |
+|λ¹| $c_1$ | $c_2$ | |
+|λ⁰| $d_1$ | | |
+
+
+```math
+c_1 = -\frac{\begin{bmatrix} k & 1 \\ k-1 & 1 \end{bmatrix}}{k-1} = -\frac{k-(-k+1)}{k} = -\frac{2k-1}{k}, 
+c_2 = -\frac{\begin{bmatrix} k & 0 \\ k-1 & 0 \end{bmatrix}}{k-1} = -\frac{0}{k-1} = 0
+```
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|λ⁴| 1 | 1 | 1 |
+|λ³| k | 1 | 0 |
+|λ²| k-1 | 1 | 0 |
+|λ¹| $-\frac{2k-1}{k}$ | 0 | |
+|λ⁰| $d_1$ | | |
+
+```math
+d_1 = -\frac{\begin{bmatrix} k-1 & 1 \\ -\frac{2k-1}{k} & 0 \end{bmatrix}}{-\frac{2k-1}{k}} = -\frac{\frac{2k-1}{k})}{-\frac{2k-1}{k}} = 1 
+```
+
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|λ⁴| 1 | 1 | 1 |
+|λ³| k | 1 | 0 |
+|λ²| k-1 | 1 | 0 |
+|λ¹| $-\frac{2k-1}{k}$ | 0 | |
+|λ⁰| 1 | | |
+
+
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|λ⁴| 1 | 1 | 1 |
+|λ³| k | 1 | 0 |
 |λ²| $b_1=\dfrac{k\cdot1-1\cdot1}{k}=\dfrac{k-1}{k}$ | $b_2=1$ | |
 |λ¹| $c_1=\dfrac{b_1\cdot1-k\cdot b_2}{b_1}$ | | |
 |λ⁰| 1 | | |
+
 
 Para ter $b_1>0$ com $k>0$, precisamos $k>1$.
 
@@ -152,7 +206,10 @@ O discriminante de $k^2-k+1$ é $1-4=-3<0$, então $k^2-k+1>0$ **sempre**. Como 
 
 Ou seja, é impossível ter $b_1>0$ e $c_1>0$ ao mesmo tempo.
 
-**Resultado: não existe $k\in\mathbb{R}$** 
+Portanto, não existe $k\in\mathbb{R}$
+
+---
+
 
 ## (d) λ⁴ + λ³ + λ² + λ + k = 0
 
@@ -166,7 +223,9 @@ Coeficientes: $a_0=1,\ a_1=1,\ a_2=1,\ a_3=1,\ a_4=k$
 
 Já na linha λ² aparece **0 na primeira coluna**, independentemente de $k$. Isso por si só impede estabilidade estrita (sinaliza raízes sobre o eixo imaginário ou problema na construção do array).
 
-**Resultado: não existe $k\in\mathbb{R}$** 
+Portanto, não existe $k\in\mathbb{R}$
+
+---
 
 ## (e) λ⁵ + λ⁴ + kλ³ + λ² + λ + k = 0
 
@@ -191,5 +250,5 @@ Exigências: $k-1>0\Rightarrow k>1$, e $d_1>0$.
 
 Mas para $k>1$: $(k+2)>0$ e $(k-1)>0$, logo $(k+2)(k-1)>0$, então $d_1=-\dfrac{(+)}{2}<0$ **sempre**.
 
-**Resultado: não existe $k\in\mathbb{R}$** 
+Portanto, não existe $k\in\mathbb{R}$
 
