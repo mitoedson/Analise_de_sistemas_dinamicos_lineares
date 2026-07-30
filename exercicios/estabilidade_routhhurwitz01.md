@@ -59,8 +59,8 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1$
 |λ⁰| $c_1$ | | |
 
 ```math
-b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = , 
-b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = , 
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k} = , 
+b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = 0
 ```
 
 | | col 1 | col 2 | col 3|
