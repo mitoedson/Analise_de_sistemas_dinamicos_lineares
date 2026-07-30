@@ -129,7 +129,7 @@ c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k+1 & 0 \end{bmatrix}}{-k+1} = -\frac{0-(
 
 Precisamos de $1-k>0 \Rightarrow k<1$ e $k>0$.
 
-**Resultado: $0<k<1$** 
+Portanto, $0<k<1$** 
 
 ## (c) λ⁴ + kλ³ + λ² + λ + 1 = 0
 
