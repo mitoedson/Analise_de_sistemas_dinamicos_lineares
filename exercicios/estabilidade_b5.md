@@ -76,7 +76,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 
 ## $\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
 
-## Passo 1 e 2 — Transformar em sistema de 2 variáveis
+### Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
 $x_1 = x, x_2 = \dot x$
 
@@ -85,7 +85,7 @@ $\dot x_1 = \dot x = x_2$
 Isolando $\ddot x$:
 $$\dot x_2=-(x_1-1)^2x_2^7-x_1+\text{sen}\left(\frac{\pi x_1}{2}\right)$$
 
-## Passo 1 (retomando) — Pontos de equilíbrio
+### Passo 1 (retomando) — Pontos de equilíbrio
 
 $$x_2=0 \quad \text{e} \quad x_1=\text{sen}\left(\frac{\pi x_1}{2}\right)$$
 
@@ -96,7 +96,7 @@ Testando valores simples:
 
 **Pontos de equilíbrio: $(0,0)$, $(1,0)$, $(-1,0)$** — o primeiro sistema (dessa questão) com **múltiplos** equilíbrios, por isso a conclusão só pode ser **local**.
 
-## Passo 3 — Escolher a candidata de Lyapunov (interpretação "energia")
+### Passo 3 — Escolher a candidata de Lyapunov (interpretação "energia")
 
 Repare que a equação tem a forma mecânica $\ddot x+\text{amortecimento}+\text{restauração}(x)=0$, com força restauradora $h(x_1)=x_1-\text{sen}\left(\dfrac{\pi x_1}{2}\right)$.
 
@@ -106,11 +106,11 @@ $$P(x_1)=\int h(x_1)\,dx_1=\frac{x_1^2}{2}+\frac{2}{\pi}\cos\left(\frac{\pi x_1}
 
 $$V(x_1,x_2)=\frac12x_2^2+P(x_1)$$
 
-## Passo 4 — Calcular $\dot V$
+### Passo 4 — Calcular $\dot V$
 
 $$\dot V=x_2\dot x_2+P'(x_1)\dot x_1=x_2\left[-(x_1-1)^2x_2^7-h(x_1)\right]+h(x_1)\cdot x_2$$
 
-## Passo 5 — Simplificar
+### Passo 5 — Simplificar
 
 $$\dot V=-(x_1-1)^2x_2^8-h(x_1)x_2+h(x_1)x_2=-(x_1-1)^2x_2^8$$
 
@@ -118,7 +118,7 @@ Os termos com $h(x_1)$ **se cancelam exatamente** — resultado muito limpo:
 
 $$\dot V=-(x_1-1)^2x_2^8\le0$$
 
-## Passo 6 — Classificar cada ponto de equilíbrio
+### Passo 6 — Classificar cada ponto de equilíbrio
 
 Como $\dot V\le0$ (semi-definida, zera em $x_2=0$ **ou** $x_1=1$), a conclusão depende da **curvatura do potencial $P$** em cada ponto — ou seja, do sinal de $P''(x_1)=1-\dfrac{\pi}{2}\cos\left(\dfrac{\pi x_1}{2}\right)$:
 
@@ -128,13 +128,13 @@ Como $\dot V\le0$ (semi-definida, zera em $x_2=0$ **ou** $x_1=1$), a conclusão 
 
 **Em $x_1=-1$:** $P''(-1)=1-\dfrac{\pi}{2}\cos\left(-\dfrac{\pi}{2}\right)=1-0=1>0$ → **mínimo local** → candidato a estável
 
-## Passo 7 — Confirmando estabilidade assintótica em $x_1=\pm1$ via LaSalle
+### Passo 7 — Confirmando estabilidade assintótica em $x_1=\pm1$ via LaSalle
 
 Perto de $(1,0)$: o conjunto $\{\dot V=0\}$ é $\{x_2=0\}\cup\{x_1=1\}$. Se a trajetória ficasse presa em $x_2\equiv0$, precisaria também $\dot x_2\equiv0$, ou seja $h(x_1)=0$ — que localmente só ocorre em $x_1=1$. O único conjunto invariante contido em $\{\dot V=0\}$, próximo desse ponto, é o próprio $(1,0)$.
 
 Pelo Princípio de LaSalle: **$(1,0)$ é localmente assintoticamente estável**. O mesmo argumento vale para $(-1,0)$.
 
-## Conclusão final
+### Conclusão final
 
 $$(0,0):\ \textbf{instável} \qquad (1,0):\ \textbf{localmente assint. estável} \qquad (-1,0):\ \textbf{localmente assint. estável}$$
 
