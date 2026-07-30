@@ -37,3 +37,26 @@ Assim, para $a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$:
 | $λ^1$ | $b_1$ | $b_2$ |  | ... |
 | $λ^0$ | $c_1$ | $c_2$  |  | |
 
+
+
+### Pelo critério de Hurwitz:
+
+**Critério de Routh:** monta a tabela recursiva que vimos, e verifica sinais na primeira coluna.
+
+**Critério de Hurwitz:** monta a **matriz de Hurwitz** $H$, uma matriz $n \times n$ construída a partir dos coeficientes do polinômio, organizados assim (para $a_n s^n + a_{n-1}s^{n-1} + \dots + a_0$):
+
+```math
+H = \begin{pmatrix} a_{n-1} & a_{n-3} & a_{n-5} & \cdots \\ a_n & a_{n-2} & a_{n-4} & \cdots \\ 0 & a_{n-1} & a_{n-3} & \cdots \\ 0 & a_n & a_{n-2} & \cdots \\ \vdots & & & \ddots \end{pmatrix}
+```
+
+(cada coluna desce um índice, preenchendo com zero quando o coeficiente não existe)
+
+O critério então diz: o sistema é estável se, e somente se, **todos os menores principais líderes** (os determinantes $\Delta_1, \Delta_2, \dots, \Delta_n$, tomados dos blocos superiores-esquerdos crescentes da matriz) forem **positivos**:
+
+$$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0$$
+
+**Por que dão o mesmo resultado:**
+
+Não é coincidência — existe uma relação direta entre os elementos da primeira coluna da tabela de Routh e essas razões de determinantes de Hurwitz ($\Delta_k / \Delta_{k-1}$). Ou seja, o sinal de cada elemento da tabela de Routh corresponde ao sinal de um desses menores. Por isso os dois critérios são matematicamente equivalentes — Routh é essencialmente uma forma mais eficiente computacionalmente de obter a mesma informação que os determinantes de Hurwitz dão de forma mais "direta" mas com mais trabalho algébrico (calcular determinantes de ordem crescente é mais custoso que a recursão da tabela).
+
+Na prática, por isso o método de Routh (tabular) é o mais usado em disciplinas de controle — mesmo resultado, menos conta.
