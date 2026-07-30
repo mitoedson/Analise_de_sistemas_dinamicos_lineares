@@ -43,10 +43,9 @@ e assim por diante, sempre usando as duas linhas anteriores.
 
 **Dica prática:** monte com bastante cuidado nas primeiras vezes — é fácil trocar sinal no determinante cruzado ($a_{n-1}a_{n-2} - a_n a_{n-3}$, não o contrário). Se quiser, me manda um polinômio de exemplo que eu monto a tabela passo a passo com você, ou se preferir eu posso te dar um exercício pra você tentar e eu confiro o resultado.
 
+---
 
-
-
-### Determine os valores da constante k para que todas as raízes dos seguintes polinômios tenham parte real negativa:
+## Determine os valores da constante k para que todas as raízes dos seguintes polinômios tenham parte real negativa:
 
 ### (a) λ³ + kλ² + λ + 1 = 0
 
