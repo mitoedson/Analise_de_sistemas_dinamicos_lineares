@@ -117,22 +117,14 @@ b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ 1 & 0 \end{bmatrix}}{1} = 0
 
 
 ```math
-c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k & 0 \end{bmatrix}}{-k} = -\frac{0-(-k^2)}{-k}=
+c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k & 0 \end{bmatrix}}{-k} = -\frac{0-(-k^2)}{-k} = k
 ```
 
 | | col 1 | col 2 |
 |---|---|---|
 |λ³| 1 | 1 |
 |λ²| k | 1 |
-|λ¹| -\frac{k-1}{k} | |
-|λ⁰| 1 | |
-
-
-| | col 1 | col 2 |
-|---|---|---|
-|λ³| 1 | 1 |
-|λ²| 1 | k |
-|λ¹| $\dfrac{1\cdot1-1\cdot k}{1}=1-k$ | |
+|λ¹| -k | 0 |
 |λ⁰| k | |
 
 Precisamos de $1-k>0 \Rightarrow k<1$ e $k>0$.
