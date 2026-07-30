@@ -22,7 +22,14 @@ Assim, k > 0.
 | $λ^1$ | $b_1$ | $b_2$ | $b_3$ | ... |
 | $λ^0$ | $c_1$ | $c_2$  | ... | ... |
 
-$a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$
+```math
+b_1 = -\frac{\begin{bmatrix} a_0 & a_2 \\ a_1 & a_3 \end{bmatrix}}{a_1}
+b_2 = -\frac{\begin{bmatrix} a_1 & a_3 \\ a_1 & a_5 \end{bmatrix}}{a_1}
+c_1 = -\frac{\begin{bmatrix} a_1 & a_3 \\ b_1 & b_2 \end{bmatrix}}{b_1}
+
+```
+
+Assim, para $a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$:
 
 | $λ^3$ | 1 | k| 0 | ... |
 |---|---|---|---|---|
@@ -30,9 +37,3 @@ $a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$
 | $λ^1$ | $b_1$ | $b_2$ |  | ... |
 | $λ^0$ | $c_1$ | $c_2$  |  | |
 
-```math
-b_1 = -\frac{\begin{bmatrix} a_0 & a_2 \\ a_1 & a_3 \end{bmatrix}}{a_1}
-b_2 = -\frac{\begin{bmatrix} a_1 & a_3 \\ a_1 & a_5 \end{bmatrix}}{a_1}
-c_1 = -\frac{\begin{bmatrix} a_1 & b_3 \\ b_1 & b_2 \end{bmatrix}}{b_1}
-
-```
