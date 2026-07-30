@@ -83,7 +83,7 @@ $x_1 = x, x_2 = \dot x$
 $\dot x_1 = \dot x = x_2$
 
 Isolando $\ddot x$:
-$$\dot x_2=-(x_1-1)^2x_2^7-x_1+\text{sen}\left(\frac{\pi x_1}{2}\right)$$
+$\dot x_2=-(x_1-1)^2x_2^7-x_1+\text{sen}\left(\frac{\pi x_1}{2}\right)$
 
 ### Passo 1 (retomando) — Pontos de equilíbrio
 
