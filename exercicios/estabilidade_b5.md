@@ -54,7 +54,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 
 
 
-## $\ddot x+(x-1)^2, \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
+## $\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
 
 ## Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
