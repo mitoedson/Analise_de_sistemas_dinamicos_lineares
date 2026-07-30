@@ -13,7 +13,7 @@ Definir:
 $x_1=x, x_2=\dot x$
 
 Isso converte a equação de segunda ordem em um sistema:
-$$\dot x_1=x_2, \qquad \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$$
+$\dot x_1=x_2, \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$
 
 Lembrando que essa notação, que é bem comum em sistemas dinâmicos/mecânica.
 
