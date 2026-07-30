@@ -25,7 +25,7 @@ $$\ddot x = \frac{d^2x}{dt^2} \qquad \text{(segunda derivada de } x \text{ em re
 
 ### 2.2 Por que essa notação existe
 
-É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever "$\dfrac{d}{dt}$" toda vez, só colocamos um ponto em cima da variável.
+É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever $\dfrac{d}{dt}$ toda vez, só colocamos um ponto em cima da variável.
 
 ### 2.3 Resumindo
 
