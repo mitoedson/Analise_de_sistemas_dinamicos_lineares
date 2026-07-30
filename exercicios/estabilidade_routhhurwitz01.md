@@ -85,7 +85,7 @@ c_1 = -\frac{\begin{bmatrix} k & 1 \\ -\frac{1-k}{k} & 0 \end{bmatrix}}{-\frac{1
 
 Precisamos de $k>0$ **e** $\dfrac{k-1}{k}>0$. Como $k>0$, isso exige $k-1>0$.
 
-**Resultado: $k>1$**
+Portanto, $k>1$
 
 ## (b) λ³ + λ² + λ + k = 0
 
