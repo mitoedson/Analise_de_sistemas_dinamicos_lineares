@@ -104,7 +104,7 @@ Coeficientes: $a_0=1,\ a_1=1,\ a_2=1,\ a_3=k$
 |λ⁰| $c_1$ | | |
 
 ```math
-b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & k \end{bmatrix}}{1} = -\frac{1+k-1}{1} = -k, 
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & k \end{bmatrix}}{1} = -\frac{k-1}{1} = -k+1, 
 b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ 1 & 0 \end{bmatrix}}{1} = 0
 ```
 
@@ -112,19 +112,19 @@ b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ 1 & 0 \end{bmatrix}}{1} = 0
 |---|---|---|---|
 |λ³| 1 | 1 | 0 |
 |λ²| 1 | k | 0 |
-|λ¹| -k | 0 | |
+|λ¹| -k+1 | 0 | |
 |λ⁰| $c_1$ | | |
 
 
 ```math
-c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k & 0 \end{bmatrix}}{-k} = -\frac{0-(-k^2)}{-k} = k
+c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k+1 & 0 \end{bmatrix}}{-k+1} = -\frac{0-(-k^2+k)}{-k+1} = -\frac{-k(-k+1)}{-k+1} = k
 ```
 
 | | col 1 | col 2 |
 |---|---|---|
 |λ³| 1 | 1 |
 |λ²| k | 1 |
-|λ¹| -k | 0 |
+|λ¹| -k+1 | 0 |
 |λ⁰| k | |
 
 Precisamos de $1-k>0 \Rightarrow k<1$ e $k>0$.
