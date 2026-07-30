@@ -115,7 +115,7 @@ $\dot V<0$ estritamente → **assintoticamente estável**
 - $(0,0)$ é o único ponto de equilíbrio (não há outros competindo)
 - $V$ radialmente ilimitada + $\dot V<0$ em todo o espaço
 
-**Conclusão: $(0,0)$ é globalmente assintoticamente estável** ✓ — bate com o gabarito.
+**Conclusão: $(0,0)$ é globalmente assintoticamente estável** 
 
 ---
 
