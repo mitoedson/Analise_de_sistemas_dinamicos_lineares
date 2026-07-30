@@ -98,7 +98,23 @@ Testando valores simples:
 - $x_1=1$: $\text{sen}(\pi/2)=1$ ✓
 - $x_1=-1$: $\text{sen}(-\pi/2)=-1$ ✓
 
+Não por acaso escolhemos esses três valores, pois testamos exatamente esses porque são os valores que simplificam o seno para números exatos e fáceis de verificar.
+
 **Pontos de equilíbrio: $(0,0)$, $(1,0)$, $(-1,0)$** — o primeiro sistema (dessa questão) com **múltiplos** equilíbrios, por isso a conclusão só pode ser **local**.
+
+**se existem múltiplos pontos de equilíbrio competindo no espaço de estados, a conclusão só pode ser local** (não pode ser global).
+
+Por que isso impede a conclusão global — o raciocínio físico
+
+Pense assim: se eu afirmasse "**qualquer** trajetória, não importa onde comece, converge para $(1,0)$" — isso seria **global**. Mas isso não pode ser verdade, porque:
+
+- Se eu soltar o sistema **exatamente em $(-1,0)$**, ele **já está parado ali** (é um ponto de equilíbrio!) — ele não vai "migrar" para $(1,0)$
+- Se eu soltar o sistema **perto de $(-1,0)$**, a tendência natural (dado que provamos que $(-1,0)$ é *localmente* assintoticamente estável) é que ele convirja para $(-1,0)$, **não** para $(1,0)$
+
+Ou seja: **cada ponto de equilíbrio "estável" tem sua própria região de atração** — pontos que começam suficientemente perto dele convergem para ele, mas isso não vale para o espaço inteiro, porque os **outros** equilíbrios "competem" pelo espaço ao redor.
+
+
+
 
 ### Passo 3 — Escolher a candidata de Lyapunov (interpretação "energia")
 
