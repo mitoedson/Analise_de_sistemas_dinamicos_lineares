@@ -6,3 +6,15 @@ $λ^3+ kλ^2 + kλ + 4 = 0$
 
 utilizando o critério de Hurwitz. Para que valores de k o sistema é estável.
 
+
+### Condição necessária
+1. Todos os coeficientes $a_i$ devem existir (nenhum estar ausente/zero).
+2. Todos os coeficientes devem ter o mesmo sinal.
+
+Assim, k > 0.
+
+### Montagem da tabela
+
+$a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$
+
+
