@@ -59,7 +59,7 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1$
 |λ⁰| $c_1$ | | |
 
 ```math
-b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k} = , 
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k}, 
 b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = 0
 ```
 
@@ -67,7 +67,7 @@ b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = 0
 |---|---|---|---|
 |λ³| 1 | 1 | 0 |
 |λ²| k | 1 | 0 |
-|λ¹| $b_1$ | $b_1$ | |
+|λ¹| $-\frac{1-k}{k}$ | 0 | |
 |λ⁰| $c_1$ | | |
 
 
