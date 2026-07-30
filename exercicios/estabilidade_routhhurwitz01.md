@@ -72,7 +72,7 @@ b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = 0
 
 
 ```math
-c_1 = -\frac{\begin{bmatrix} k & 1 \\ -\frac{1-k}{k} & 0 \end{bmatrix}}{-\frac{1-k}{k}} = -\frac{\frac{1-k}{k}}{\frac{1-k}{k}}=-1
+c_1 = -\frac{\begin{bmatrix} k & 1 \\ -\frac{1-k}{k} & 0 \end{bmatrix}}{-\frac{1-k}{k}} = -\frac{\frac{1-k}{k}}{-\frac{1-k}{k}}=1
 ```
 
 
