@@ -117,7 +117,7 @@ b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ 1 & 0 \end{bmatrix}}{1} = 0
 
 
 ```math
-c_1 = -\frac{\begin{bmatrix} 1 & -\frac{k-1}{k} \\ k & 0 \end{bmatrix}}{-\frac{k-1}{k}} = -\frac{k-1}{-\frac{1-k}{k}}=1
+c_1 = -\frac{\begin{bmatrix} 1 & k \\ -k & 0 \end{bmatrix}}{-k} = -\frac{0-(-k^2)}{-k}=
 ```
 
 | | col 1 | col 2 |
