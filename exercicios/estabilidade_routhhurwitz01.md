@@ -80,7 +80,7 @@ c_1 = -\frac{\begin{bmatrix} k & 1 \\ -\frac{1-k}{k} & 0 \end{bmatrix}}{-\frac{1
 |---|---|---|
 |λ³| 1 | 1 |
 |λ²| k | 1 |
-|λ¹| $\dfrac{k\cdot1-1\cdot1}{k}=\dfrac{k-1}{k}$ | |
+|λ¹| $\dfrac{k-1}{k}$ | |
 |λ⁰| 1 | |
 
 Precisamos de $k>0$ **e** $\dfrac{k-1}{k}>0$. Como $k>0$, isso exige $k-1>0$.
