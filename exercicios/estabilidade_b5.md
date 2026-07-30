@@ -15,6 +15,10 @@ $x_1=x, x_2=\dot x$
 Isso converte a equação de segunda ordem em um sistema:
 $\dot x_1=x_2, \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$
 
+**Só depois**, com o sistema já escrito em termos de $\dot x_1$ e $\dot x_2$, procurar os pontos de equilíbrio — resolvendo $\dot x_1=0$ **e** $\dot x_2=0$ **simultaneamente**
+
+
+
 Lembrando que essa notação, que é bem comum em sistemas dinâmicos/mecânica.
 
 ### 2.1 Notação de Newton (pontos sobre a variável)
