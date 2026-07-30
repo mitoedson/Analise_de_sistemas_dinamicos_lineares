@@ -24,7 +24,7 @@ Assim, k > 0.
 
 ```math
 b_1 = -\frac{\begin{bmatrix} a_0 & a_2 \\ a_1 & a_3 \end{bmatrix}}{a_1}, 
-b_2 = -\frac{\begin{bmatrix} a_1 & a_3 \\ a_1 & a_5 \end{bmatrix}}{a_1}, 
+b_2 = -\frac{\begin{bmatrix} a_0 & a_4 \\ a_1 & a_5 \end{bmatrix}}{a_1}, 
 c_1 = -\frac{\begin{bmatrix} a_1 & a_3 \\ b_1 & b_2 \end{bmatrix}}{b_1}
 
 ```
