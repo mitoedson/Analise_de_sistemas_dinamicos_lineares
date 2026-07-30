@@ -1,0 +1,101 @@
+<h1>Controlabilidade e observabilidade de um sistema linear com 3 estados</h1>
+
+Considere-se o sistema definido por:
+
+```math
+\begin{bmatrix} \dot x_1 \\ \dot x_2 \\ \dot x_3 \end{bmatrix} = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 3 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} + \begin{bmatrix} 0 & 1\\ 1 & 0 \\ 0 & 1\end{bmatrix} \begin{bmatrix} u_1\\ u_2 \end{bmatrix}
+```
+```math
+y = \begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0\end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix}
+```
+
+O sistema é de estados completamente controláveis e observáveis? O sistema é de saída completamente controláveis?
+
+
+---
+
+$$\dot{\mathbf x}=A\mathbf x+B u, \qquad y=C\mathbf x$$
+
+```math
+A=\begin{bmatrix}-1&-2&-2\\0&-1&1\\1&0&-1\end{bmatrix}, B=\begin{bmatrix}2\\0\\1\end{bmatrix},  C=\begin{bmatrix}1&1&0\end{bmatrix}
+```
+
+### Controlabilidade
+
+**Definição:** um sistema é **completamente controlável em estados** se, a partir de qualquer estado inicial, existe uma entrada $u(t)$ capaz de levar o sistema a **qualquer outro estado** desejado em tempo finito.
+
+**Critério prático:** montamos a **matriz de controlabilidade**
+
+```math
+C = \begin{bmatrix}B & AB & A^2B \end{bmatrix}  (\text{para sistema de ordem } n=3)
+```
+
+O sistema é completamente controlável **se e somente se** $\text{posto}(\mathcal C)=n=3$, ou seja, $\det(\mathcal C)\ne0$.
+
+### Passo 1 — calcular $AB$
+
+```math
+AB=\begin{bmatrix}-1&-2&-2\\0&-1&1\\1&0&-1\end{bmatrix}\begin{bmatrix}2\\0\\1\end{bmatrix}=\begin{bmatrix}(-1)(2)+(-2)(0)+(-2)(1)\\(0)(2)+(-1)(0)+(1)(1)\\(1)(2)+(0)(0)+(-1)(1)\end{bmatrix}=\begin{bmatrix}-4\\1\\1\end{bmatrix}
+```
+### Passo 2 — calcular $A^2B = A(AB)$
+
+```math
+A^2B=\begin{bmatrix}-1&-2&-2\\0&-1&1\\1&0&-1\end{bmatrix}\begin{bmatrix}-4\\1\\1\end{bmatrix}=\begin{bmatrix}(-1)(-4)+(-2)(1)+(-2)(1)\\(0)(-4)+(-1)(1)+(1)(1)\\(1)(-4)+(0)(1)+(-1)(1)\end{bmatrix}=\begin{bmatrix}0\\0\\-5\end{bmatrix}
+```
+
+### Passo 3 — montar $\mathcal C$ e calcular o determinante
+
+```math
+\mathcal C=\begin{bmatrix}2&-4&0\\0&1&0\\1&1&-5\end{bmatrix}
+```
+
+Expandindo pela segunda linha (que tem dois zeros — mais fácil):
+```math
+\det(\mathcal C)=-0\cdot(\dots)+1\cdot\begin{vmatrix}2&0\\1&-5\end{vmatrix}-0\cdot(\dots)=1\cdot(2\cdot(-5)-0\cdot1)=-10
+```
+```math
+\det(\mathcal C)=-10\ne0 → posto(\mathcal C)=3 → sistema completamente controlável
+```
+
+### Observabilidade
+
+**Definição:** um sistema é **completamente observável** se, observando a saída $y(t)$ por um intervalo finito de tempo (e conhecendo a entrada $u(t)$ ), é possível determinar o **estado inicial** $\mathbf x(0)$.
+
+**Critério prático:** montamos a **matriz de observabilidade**
+```math
+\mathcal O = \begin{bmatrix}C\\CA\\CA^2\end{bmatrix}
+```
+
+O sistema é completamente observável **se e somente se** $\text{posto}(\mathcal O)=n=3$.
+
+### Passo 1 — calcular $CA$
+```math
+CA=\begin{bmatrix}1&1&0\end{bmatrix}\begin{bmatrix}-1&-2&-2\\0&-1&1\\1&0&-1\end{bmatrix}
+=\begin{bmatrix}(1)(-1)+(1)(0)+(0)(1) & (1)(-2)+(1)(-1)+(0)(0) & (1)(-2)+(1)(1)+(0)(-1)\end{bmatrix}=\begin{bmatrix}-1&-3&-1\end{bmatrix}
+```
+
+### Passo 2 — calcular $CA^2=(CA)A$
+```math
+CA^2=\begin{bmatrix}-1&-3&-1\end{bmatrix}\begin{bmatrix}-1&-2&-2\\0&-1&1\\1&0&-1\end{bmatrix}
+=\begin{bmatrix}(-1)(-1)+(-3)(0)+(-1)(1) & (-1)(-2)+(-3)(-1)+(-1)(0) & (-1)(-2)+(-3)(1)+(-1)(-1)\end{bmatrix}
+=\begin{bmatrix}0&5&0\end{bmatrix}
+```
+
+### Passo 3 — montar $\mathcal O$ e calcular o determinante
+```math
+\mathcal O=\begin{bmatrix}1&1&0\\-1&-3&-1\\0&5&0\end{bmatrix}
+```
+Expandindo pela terceira coluna (dois zeros):
+```math
+\det(\mathcal O)=0\cdot(\dots)-(-1)\cdot\begin{vmatrix}1&1\\0&5\end{vmatrix}+0\cdot(\dots)=1\cdot(1\cdot5-1\cdot0)=5
+\det(\mathcal O)=5\ne0 → posto(\mathcal O)=3 
+```
+→ sistema completamente observável
+
+## Conclusão
+```math
+\text{posto}(\mathcal C)=3 \quad \text{e} \quad \text{posto}(\mathcal O)=3
+```
+
+**O sistema é completamente controlável em estados e completamente observável**
+
