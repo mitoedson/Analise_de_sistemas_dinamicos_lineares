@@ -49,6 +49,8 @@ e assim por diante, sempre usando as duas linhas anteriores.
 
 ### (a) λ³ + kλ² + λ + 1 = 0
 
+Pelo critério de Routh:
+
 Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1$
 
 | | col 1 | col 2 | col 3|
@@ -75,7 +77,6 @@ b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}}{k} = 0
 c_1 = -\frac{\begin{bmatrix} k & 1 \\ -\frac{1-k}{k} & 0 \end{bmatrix}}{-\frac{1-k}{k}} = -\frac{\frac{1-k}{k}}{-\frac{1-k}{k}}=1
 ```
 
-
 | | col 1 | col 2 |
 |---|---|---|
 |λ³| 1 | 1 |
@@ -87,9 +88,45 @@ Precisamos de $k>0$ **e** $\dfrac{k-1}{k}>0$. Como $k>0$, isso exige $k-1>0$.
 
 Portanto, $k>1$
 
+---
+
 ## (b) λ³ + λ² + λ + k = 0
 
+Pelo critério de Routh:
+
 Coeficientes: $a_0=1,\ a_1=1,\ a_2=1,\ a_3=k$
+
+| | col 1 | col 2 | col 3|
+|---|---|---|---|
+|λ³| 1 | 1 | 0 |
+|λ²| 1 | k | 0 |
+|λ¹| $b_1$ | $b_2$ | |
+|λ⁰| $c_1$ | | |
+
+```math
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & k \end{bmatrix}}{1} = -\frac{k-1}{k}, 
+b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ 1 & 0 \end{bmatrix}}{1} = 0
+```
+
+| | col 1 | col 2 | col 3|
+|---|---|---|---|
+|λ³| 1 | 1 | 0 |
+|λ²| 1 | k | 0 |
+|λ¹| $-\frac{k-1}{k}$ | 0 | |
+|λ⁰| $c_1$ | | |
+
+
+```math
+c_1 = -\frac{\begin{bmatrix} 1 & -\frac{k-1}{k} \\ k & 0 \end{bmatrix}}{-\frac{k-1}{k}} = -\frac{k-1}{-\frac{1-k}{k}}=1
+```
+
+| | col 1 | col 2 |
+|---|---|---|
+|λ³| 1 | 1 |
+|λ²| k | 1 |
+|λ¹| -\frac{k-1}{k} | |
+|λ⁰| 1 | |
+
 
 | | col 1 | col 2 |
 |---|---|---|
