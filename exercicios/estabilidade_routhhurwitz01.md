@@ -15,7 +15,7 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=1$
 
 Precisamos de $k>0$ **e** $\dfrac{k-1}{k}>0$. Como $k>0$, isso exige $k-1>0$.
 
-**Resultado: $k>1$** ✓ (bate com o gabarito)
+**Resultado: $k>1$**
 
 ## (b) λ³ + λ² + λ + k = 0
 
