@@ -16,17 +16,17 @@ $$\dot x_1=x_2, \qquad \dot x_2=(\text{isolando } \ddot x \text{ na equação or
 
 Lembrando que essa notação, que é bem comum em sistemas dinâmicos/mecânica.
 
-## Notação de Newton (pontos sobre a variável)
+### 2.1 Notação de Newton (pontos sobre a variável)
 
 $$\dot x = \frac{dx}{dt} \qquad \text{(primeira derivada de } x \text{ em relação ao tempo — "velocidade")}$$
 
 $$\ddot x = \frac{d^2x}{dt^2} \qquad \text{(segunda derivada de } x \text{ em relação ao tempo — "aceleração")}$$
 
-## Por que essa notação existe
+### 2.2 Por que essa notação existe
 
 É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever "$\dfrac{d}{dt}$" toda vez, só colocamos um ponto em cima da variável.
 
-## Resumindo
+### 2.3 Resumindo
 
 $$\boxed{\dot x=\frac{dx}{dt} \quad(\text{1ª derivada}) \qquad\qquad \ddot x=\frac{d^2x}{dt^2}\quad(\text{2ª derivada})}$$
 
