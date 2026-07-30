@@ -31,6 +31,6 @@ $a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$
 | $λ^0$ | $c_1$ | $c_2$  |  | |
 
 ```math
-b_1= -frac{\begin{bmatrix} \end{bmatrix}}{}
+b_1= -frac{\begin{bmatrix} a_0 & a_2 \\ a_1 & a_3 \end{bmatrix}}{a_1}
 
 ```
