@@ -9,7 +9,8 @@ Resolver $\dot x=0$ (ou, se o sistema tiver $\ddot x$, transformar em sistema de
 ### 2. Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
 
 Definir:
-$$x_1=x, \qquad x_2=\dot x$$
+
+$x_1=x, x_2=\dot x$
 
 Isso converte a equação de segunda ordem em um sistema:
 $$\dot x_1=x_2, \qquad \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$$
