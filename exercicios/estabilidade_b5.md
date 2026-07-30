@@ -14,6 +14,38 @@ $$x_1=x, \qquad x_2=\dot x$$
 Isso converte a equação de segunda ordem em um sistema:
 $$\dot x_1=x_2, \qquad \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$$
 
+Lembrando que essa notação, que é bem comum em sistemas dinâmicos/mecânica.
+
+## Notação de Newton (pontos sobre a variável)
+
+$$\dot x = \frac{dx}{dt} \qquad \text{(primeira derivada de } x \text{ em relação ao tempo — "velocidade")}$$
+
+$$\ddot x = \frac{d^2x}{dt^2} \qquad \text{(segunda derivada de } x \text{ em relação ao tempo — "aceleração")}$$
+
+## Por que essa notação existe
+
+É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever "$\dfrac{d}{dt}$" toda vez, só colocamos um ponto em cima da variável.
+
+## Onde isso apareceu na nossa lista
+
+Essa notação foi essencial nos itens (c), (d), (e) da questão 3, e na questão 6 (o pêndulo):
+
+- $\dot x$ = velocidade (ex: no pêndulo, $\dot\theta$ = velocidade angular)
+- $\ddot x$ = aceleração (ex: $\ddot\theta$, na equação do pêndulo antes de introduzirmos as variáveis de estado $x_1,x_2$)
+
+E foi exatamente para **lidar com $\ddot x$** que fizemos a transformação:
+$$x_1=x,\qquad x_2=\dot x$$
+
+convertendo uma equação de **segunda ordem** (com $\ddot x$) em um **sistema de duas equações de primeira ordem**:
+$$\dot x_1=x_2, \qquad \dot x_2=\ddot x \text{ (isolado da equação original)}$$
+
+## Resumindo
+
+$$\boxed{\dot x=\frac{dx}{dt} \quad(\text{1ª derivada}) \qquad\qquad \ddot x=\frac{d^2x}{dt^2}\quad(\text{2ª derivada})}$$
+
+Cada ponto adicional representa mais uma derivada em relação ao tempo — $\dddot x$ seria a terceira derivada, e assim por diante (embora isso raramente apareça na prática).
+
+
 ### 3. Escolher a candidata de Lyapunov $V$
 
 - **Caso escalar simples:** $V(x)=x^2$ (ou $(x-x^*)^2$ se o equilíbrio não for a origem, como no item b: $V=(x-5)^2$)
@@ -52,7 +84,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
-
+---
 
 ## $\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
 
