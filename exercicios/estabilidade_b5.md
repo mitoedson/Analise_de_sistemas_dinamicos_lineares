@@ -78,9 +78,9 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 
 ## Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
-$$x_1=x, \qquad x_2=\dot x$$
+$x_1 = x, x_2 = \dot x$
 
-$$\dot x_1=x_2$$
+$\dot x_1 = \dot x = x_2$
 
 Isolando $\ddot x$:
 $$\dot x_2=-(x_1-1)^2x_2^7-x_1+\text{sen}\left(\frac{\pi x_1}{2}\right)$$
