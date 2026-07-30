@@ -26,19 +26,6 @@ $$\ddot x = \frac{d^2x}{dt^2} \qquad \text{(segunda derivada de } x \text{ em re
 
 É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever "$\dfrac{d}{dt}$" toda vez, só colocamos um ponto em cima da variável.
 
-## Onde isso apareceu na nossa lista
-
-Essa notação foi essencial nos itens (c), (d), (e) da questão 3, e na questão 6 (o pêndulo):
-
-- $\dot x$ = velocidade (ex: no pêndulo, $\dot\theta$ = velocidade angular)
-- $\ddot x$ = aceleração (ex: $\ddot\theta$, na equação do pêndulo antes de introduzirmos as variáveis de estado $x_1,x_2$)
-
-E foi exatamente para **lidar com $\ddot x$** que fizemos a transformação:
-$$x_1=x,\qquad x_2=\dot x$$
-
-convertendo uma equação de **segunda ordem** (com $\ddot x$) em um **sistema de duas equações de primeira ordem**:
-$$\dot x_1=x_2, \qquad \dot x_2=\ddot x \text{ (isolado da equação original)}$$
-
 ## Resumindo
 
 $$\boxed{\dot x=\frac{dx}{dt} \quad(\text{1ª derivada}) \qquad\qquad \ddot x=\frac{d^2x}{dt^2}\quad(\text{2ª derivada})}$$
