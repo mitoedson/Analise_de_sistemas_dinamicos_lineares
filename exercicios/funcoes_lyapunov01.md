@@ -78,10 +78,18 @@ Critério de Sylvester: $P$ é positiva definida se todos os **menores principai
 
 **$\det(P)<0$ → $P$ não é positiva definida!**
 
-## Conclusão
-
 Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é um **forte indício de instabilidade** (de fato, para sistemas lineares, se $A$ é Hurwitz — todos autovalores com parte real negativa —, a equação de Lyapunov com $Q>0$ **sempre** tem solução única $P>0$; então a falha aqui sugere que $A$ não é Hurwitz).
 
-Conferindo rapidinho: $\text{traço}(A)=3+(-2)=1>0$ — já isso **basta** pra saber que pelo menos um autovalor tem parte real positiva (a soma dos autovalores é o traço; se a soma é positiva, não podem ser ambos negativos).
+## Verificando instabilidade por meio de autovalores
 
-**Resultado: instável** — e como o gabarito indica "sela", provavelmente $\det(A)<0$ também. Confirmando: $\det(A) = 3(-2)-(-2)(2) = -6+4=-2<0$ → autovalores reais de sinais opostos → **sela** 
+```math
+\frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
+```
+ Traço = 3 - 2 = 1
+ Determinante = (3)(-2) - (-2)(2) = -6 + 4 = -2
+
+$\lambda$
+
+## Conclusão
+
+**Resultado: instável (ponto de sela)**
