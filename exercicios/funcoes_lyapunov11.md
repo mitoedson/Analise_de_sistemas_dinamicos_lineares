@@ -47,11 +47,15 @@ PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}-1&0\\
 
 **Elemento (2,2):** $(p_{12})(0)+(p_{22})(-1)=-p_{22}$
 
-$$PA=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}$$
+```math
+PA=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}
+```
 
 ## Passo 4 — somar $A^TP+PA$
 
-$$A^TP+PA=\begin{bmatrix}-2p_{11}&-2p_{12}\\-2p_{12}&-2p_{22}\end{bmatrix}$$
+```math
+A^TP+PA=\begin{bmatrix}-2p_{11}&-2p_{12}\\-2p_{12}&-2p_{22}\end{bmatrix}
+```
 
 Igualando a $-I=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$:
 
@@ -61,7 +65,9 @@ $$-2p_{22}=-1 \;\Rightarrow\; p_{22}=0{,}5$$
 
 ## Passo 5 — checar se $P$ é positiva definida
 
-$$P=\begin{bmatrix}0{,}5&0\\0&0{,}5\end{bmatrix}$$
+```math
+P=\begin{bmatrix}0{,}5&0\\0&0{,}5\end{bmatrix}
+```
 
 **Menor 1:** $p_{11}=0{,}5>0$ ✓
 
