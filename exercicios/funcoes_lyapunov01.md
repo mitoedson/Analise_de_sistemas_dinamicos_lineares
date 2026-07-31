@@ -71,7 +71,7 @@ E: $p_{22}=\dfrac14-\left(-\dfrac52\right)=\dfrac14+\dfrac52=\dfrac{11}{4}$
 P=\begin{bmatrix}\dfrac32 & -\dfrac52\\[4pt] -\dfrac52 & \dfrac{11}{4}\end{bmatrix}
 ```
 
-Critério de Sylvester: $P$ é positiva definida se todos os **menores principais** forem positivos.
+Critério de Sylvester: $P$ é positiva definida se todos os **menores principais** ($p_{11} e \det(P)$)forem positivos.
 
 - $p_{11}=\dfrac32>0$ ✓
 - $\det(P) = \left(\dfrac32\right)\left(\dfrac{11}{4}\right)-\left(-\dfrac52\right)^2 = \dfrac{33}{8}-\dfrac{25}{4}=\dfrac{33}{8}-\dfrac{50}{8}=-\dfrac{17}{8}<0$ ✗
@@ -79,6 +79,9 @@ Critério de Sylvester: $P$ é positiva definida se todos os **menores principai
 **$\det(P)<0$ → $P$ não é positiva definida!**
 
 Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é um **forte indício de instabilidade** (de fato, para sistemas lineares, se $A$ é Hurwitz — todos autovalores com parte real negativa —, a equação de Lyapunov com $Q>0$ **sempre** tem solução única $P>0$; então a falha aqui sugere que $A$ não é Hurwitz).
+
+
+
 
 **Verificando instabilidade por meio de autovalores**
 
