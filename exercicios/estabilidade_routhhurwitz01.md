@@ -293,7 +293,7 @@ e_1 = -\frac{\begin{bmatrix} 2 & k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\fr
 |λ¹| $-\frac{k^2+k-2}{2}$ | 0 | |
 |λ⁰| k | | |
 
-Precisamos de $k-1>0 \Rightarrow k>1$, k>0, e $-\frac{k^2+k-2}{2} \Rightarrow -k^2-k+2 > 0$. Porém, $-k^2-k+2 > 0$, se e somente se, -2 < k < 1. 
+Precisamos de $k-1>0 \Rightarrow k>1$, k>0, e $-\frac{k^2+k-2}{2} \Rightarrow -k^2-k+2 > 0$. Porém, $-k^2-k+2 > 0$, se e somente se, -2 < k < 1, e k > 1. 
 
 Portanto, não existe $k\in\mathbb{R}$
 
