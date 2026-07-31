@@ -23,7 +23,10 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 ```
 ---
 
-**Passo 1 — escolher $Q=I=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ **
+**Passo 1 — escolher Q**
+```math
+Q=I=\begin{bmatrix}1&0\\0&1\end{bmatrix}
+```
 
 **Passo 2 — montar $P=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}$ (simétrica, incógnitas) **
 
