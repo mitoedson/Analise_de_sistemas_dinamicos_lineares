@@ -61,7 +61,9 @@ c_1 = -\frac{\begin{bmatrix} k & 4 \\ \frac{k^2-4}{k} & 0 \end{bmatrix}}{k} = -\
 | $λ^0$ | 4 |  |  | |
 
 
-Precisamos que k > 0, e $\frac{k^2-4}{k} > 0$. 
+Precisamos que k > 0, e $\frac{k^2-4}{k} > 0 \Rightarrow  -2 < k < 2$. 
+
+Portanto, k > 2.
 
 ### Pelo critério de Hurwitz:
 
