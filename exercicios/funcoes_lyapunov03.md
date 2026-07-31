@@ -47,6 +47,8 @@ $$3=-1$$
 
 Isso é um resultado **diferente** dos itens anteriores: não é que $P$ deu "indefinida" — é que a equação de Lyapunov **nem sequer tem solução** para $Q=I$! Isso significa que o operador $A^TP+PA$ está numa situação **singular** (matematicamente, ligado a quando $\lambda_i+\lambda_j=0$ para algum par de autovalores de $A$ — chamada condição de ressonância).
 
+Note que não podemos afirmar se o sistema é estável ou não. Além disso, o traço é zero. O sistema pode ser marginalmente estável (Centro) ou instável (ponto de sela).
+
 ## Confirmando via traço e determinante de $A$
 
 $$T=\text{traço}(A)=2+(-2)=0$$
