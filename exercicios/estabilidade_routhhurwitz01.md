@@ -195,7 +195,7 @@ d_1 = -\frac{\begin{bmatrix} \frac{k-1}{k} & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{
 |λ¹| $c_1=\dfrac{b_1\cdot1-k\cdot b_2}{b_1}$ | | |
 |λ⁰| 1 | | |
 
-Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0 \Rightarrow$ não possui raízes em k, e $-k^2+k-1 < 0$.
+Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0 \Rightarrow$ não possui raízes em k, logo $-k^2+k-1 < 0$ para todo k Real.
 
 Portanto, não existe $k\in\mathbb{R}$
 
