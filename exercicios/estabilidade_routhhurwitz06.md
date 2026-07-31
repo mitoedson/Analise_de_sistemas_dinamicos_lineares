@@ -8,6 +8,22 @@ utilizando o critério de Hurwitz. Para que valores de k o sistema é estável.
 
 ---
 
+### Pelo critério de Hurwitz:
+
+**Critério de Hurwitz:** monta a **matriz de Hurwitz** $H$, uma matriz $n \times n$ construída a partir dos coeficientes do polinômio, organizados assim (para $a_n s^n + a_{n-1}s^{n-1} + \dots + a_0$):
+
+```math
+H = \begin{pmatrix} a_{n-1} & a_{n-3} & a_{n-5} & \cdots \\ a_n & a_{n-2} & a_{n-4} & \cdots \\ 0 & a_{n-1} & a_{n-3} & \cdots \\ 0 & a_n & a_{n-2} & \cdots \\ \vdots & & & \ddots \end{pmatrix}
+```
+
+(cada coluna desce um índice, preenchendo com zero quando o coeficiente não existe)
+
+O critério então diz: o sistema é estável se, e somente se, **todos os menores principais líderes** (os determinantes $\Delta_1, \Delta_2, \dots, \Delta_n$, tomados dos blocos superiores-esquerdos crescentes da matriz) forem **positivos**:
+
+$$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0$$
+
+---
+
 ### Condição necessária pelo critério de Routh
 1. Todos os coeficientes $a_i$ devem existir (nenhum estar ausente/zero).
 2. Todos os coeficientes devem ter o mesmo sinal.
@@ -16,6 +32,7 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=k,\ a_3=4$
 
 Assim, k > 0.
 
+**Critério de Routh:** monta a tabela recursiva que vimos, e verifica sinais na primeira coluna.
 
 ### Montagem da tabela
 
@@ -65,21 +82,7 @@ Precisamos que k > 0, e $\frac{k^2-4}{k} > 0 \Rightarrow  -2 < k < 2$.
 
 Portanto, k > 2.
 
-### Pelo critério de Hurwitz:
-
-**Critério de Routh:** monta a tabela recursiva que vimos, e verifica sinais na primeira coluna.
-
-**Critério de Hurwitz:** monta a **matriz de Hurwitz** $H$, uma matriz $n \times n$ construída a partir dos coeficientes do polinômio, organizados assim (para $a_n s^n + a_{n-1}s^{n-1} + \dots + a_0$):
-
-```math
-H = \begin{pmatrix} a_{n-1} & a_{n-3} & a_{n-5} & \cdots \\ a_n & a_{n-2} & a_{n-4} & \cdots \\ 0 & a_{n-1} & a_{n-3} & \cdots \\ 0 & a_n & a_{n-2} & \cdots \\ \vdots & & & \ddots \end{pmatrix}
-```
-
-(cada coluna desce um índice, preenchendo com zero quando o coeficiente não existe)
-
-O critério então diz: o sistema é estável se, e somente se, **todos os menores principais líderes** (os determinantes $\Delta_1, \Delta_2, \dots, \Delta_n$, tomados dos blocos superiores-esquerdos crescentes da matriz) forem **positivos**:
-
-$$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0$$
+---
 
 **Por que dão o mesmo resultado:**
 
