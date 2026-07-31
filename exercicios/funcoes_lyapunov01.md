@@ -85,10 +85,10 @@ Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é u
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
 ```
- Traço = 3 - 2 = 1
- Determinante = (3)(-2) - (-2)(2) = -6 + 4 = -2
+ Traço (T) = 3 - 2 = 1
+ Determinante (D) = (3)(-2) - (-2)(2) = -6 + 4 = -2
 
-$\lambda ^2$
+$\lambda ^2 - T\lambda + D = 0 \Rightarrow \lambda ^2 - 1\lambda -2 = 0$
 
 ## Conclusão
 
