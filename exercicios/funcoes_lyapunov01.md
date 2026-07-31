@@ -1,9 +1,9 @@
 <h1>Estabilidade - Funções de Lyapunov - 01</h1>
 
-## Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
+Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
-## (a)
+(a)
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
 ```
-
+---
