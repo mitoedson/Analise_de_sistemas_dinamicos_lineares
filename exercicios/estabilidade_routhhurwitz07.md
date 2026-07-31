@@ -8,5 +8,30 @@ utilizando o critério de Routh. Quantas raízes do polinômio tem parte real po
 
 ---
 
+Coeficientes: $a_0=1,\ a_1=3,\ a_2=8,\ a_3=40,\ a_4=68,\ a_5=60$
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|$λ^5$| 3 | 40 | 60 |
+|$λ^4$| 1 | 8 | 68 |
+|$λ^3$| $b_1$ | $b_2$ | |
+|$λ^2$| $c_1$ | $c_2$ | |
+|$λ^1$| $d_1$ | $d_2$ | |
+|$λ^0$| $e_1$ | | |
+
+```math
+b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k} = \frac{k-1}{k}, 
+b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}}{k} = -\frac{-k}{k} = 1
+```
+
+
+| | col 1 | col 2 | col 3 |
+|---|---|---|---|
+|λ⁴| 1 | 1 | 1 |
+|λ³| k | 1 | 0 |
+|λ²| $\frac{k-1}{k}$ | 1 | 0 |
+|λ¹| $c_1$ | $c_2$ | |
+|λ⁰| $d_1$ | | |
+
 
 
