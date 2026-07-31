@@ -15,9 +15,8 @@ Se conseguirmos encontrar $P$ **positiva definida** que resolve essa equação, 
 
 ---
 
-Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
+(a) Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
-(a)
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
 ```
