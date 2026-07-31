@@ -83,7 +83,7 @@ Convertendo $\dfrac{64}{729}=\dfrac{256}{2916}$:
 \det(P)=\frac{481-256}{2916}=\frac{225}{2916}>0 \checkmark$$
 ```
 
-**Os dois menores são positivos → $P$ é positiva definida!**
+**Os dois menores são positivos → P é positiva definida!**
 
 Como $P>0$, já concluímos diretamente (sem precisar checar traço/determinante de $A$): **assintoticamente estável**
 
@@ -110,7 +110,7 @@ Como $T<0$ (e $D>0$), ambos autovalores são **negativos** → **nó estável** 
 
 $$T=-6<0, \quad D=9>0, \quad T^2-4D=0 \;\Rightarrow\; \textbf{nó estável}$$
 
-Confirma exatamente o que o gabarito diz: "assintoticamente estável (nó estável)" ✓.
+C"assintoticamente estável (nó estável)"
 
 ---
 
