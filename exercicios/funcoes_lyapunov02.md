@@ -30,9 +30,9 @@ $$\begin{bmatrix}10p_{11}+6p_{12} & -p_{11}+6p_{12}+3p_{22}\\ -p_{11}+6p_{12}+3p
 ## Passo 2 — sistema de equações
 
 ```math
-10p_{11}+6p_{12}=-1 \quad (i)
--p_{11}+6p_{12}+3p_{22}=0 \quad (ii)
--2p_{12}+2p_{22}=-1 \quad (iii)
+10p_{11}+6p_{12}=-1(i)
+-p_{11}+6p_{12}+3p_{22}=0 (ii)
+-2p_{12}+2p_{22}=-1 (iii)
 ```
 
 ## Passo 3 — resolver
