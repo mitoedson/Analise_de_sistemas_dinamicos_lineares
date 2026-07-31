@@ -293,16 +293,7 @@ e_1 = -\frac{\begin{bmatrix} 2 & k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\fr
 |λ¹| $-\frac{k^2+k-2}{2}$ | 0 | |
 |λ⁰| k | | |
 
-
-Detalhe do cálculo de $c_1$:
-$$c_1=\frac{(k-1)(1)-1\cdot(1-k)}{k-1}=\frac{(k-1)+(k-1)}{k-1}=2$$
-
-Detalhe de $d_1$:
-$$d_1=\frac{c_1 b_2-b_1c_2}{c_1}=\frac{2(1-k)-(k-1)k}{2}=\frac{2-2k-k^2+k}{2}=-\frac{(k+2)(k-1)}{2}$$
-
-Exigências: $k-1>0\Rightarrow k>1$, e $d_1>0$.
-
-Mas para $k>1$: $(k+2)>0$ e $(k-1)>0$, logo $(k+2)(k-1)>0$, então $d_1=-\dfrac{(+)}{2}<0$ **sempre**.
+Precisamos de $k-1>0 \Rightarrow k>1$, k>0, e $-\frac{k^2+k-2}{2} \Rightarrow -k^2-k+2 > 0$. Porém, $-k^2-k+2 > 0$, se e somente se, -2 < k < 1. 
 
 Portanto, não existe $k\in\mathbb{R}$
 
