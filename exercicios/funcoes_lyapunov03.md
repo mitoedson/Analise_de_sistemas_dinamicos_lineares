@@ -56,7 +56,7 @@ $$D=\det(A)=(2)(-2)-(-1)(3)=-4+3=-1$$
 
 Repare: $T=0$ — exatamente a condição que causa essa "ressonância" (os dois autovalores somam zero, $\lambda_1+\lambda_2=0$, o que torna a equação de Lyapunov sem solução única).
 
-Como $D=-1<0$: autovalores reais, sinais opostos → **sela**
+Como $D=-1<0$: autovalores reais ($$\lambda_1=1, \lambda_2=-1$$), sinais opostos → **sela**
 
 ## Conclusão
 
