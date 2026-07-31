@@ -54,6 +54,11 @@ b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ k & 0 \end{bmatrix}}{k} = 0
 ```math
 c_1 = -\frac{\begin{bmatrix} k & 4 \\ \frac{k^2-4}{k} & 0 \end{bmatrix}}{k} = -\frac{-4(\frac{k^2-4}{k})}{\frac{k^2-4}{k}} = 4 
 ```
+| $λ^3$ | 1 | k| 0 | ... |
+|---|---|---|---|---|
+| $λ^2$ | k | 4 | 0 | ... |
+| $λ^1$ | $\frac{k^2-4}{k}$ | $0$ |  | ... |
+| $λ^0$ | 4 |  |  | |
 
 
 
