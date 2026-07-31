@@ -4,6 +4,6 @@
 
 ## (a) 
 ```math
-$/frac{dx}{dt} = /begin{bmatrix} 3 & -2 // 2 & -2 /end{bmatrix} x
+/frac{dx}{dt} = /begin{bmatrix} 3 & -2 // 2 & -2 /end{bmatrix} x
 ```
 
