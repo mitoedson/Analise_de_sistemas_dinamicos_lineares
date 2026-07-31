@@ -20,15 +20,22 @@ H = \begin{pmatrix} a_{n-1} & a_{n-3} & a_{n-5} & \cdots \\ a_n & a_{n-2} & a_{n
 
 O critério então diz: o sistema é estável se, e somente se, **todos os menores principais líderes** (os determinantes $\Delta_1, \Delta_2, \dots, \Delta_n$, tomados dos blocos superiores-esquerdos crescentes da matriz) forem **positivos**:
 
-$$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0$$
+```math
+\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0
+```
 
 ### Montagem da matriz de Hurwitz
 
 ```math
 H = \begin{pmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{pmatrix}
-
 ```
 
+```math
+\Delta_1 = |k| > 0
+\Delta_2 = \begin{vmatrix} k & 4 \\ 1 & k \end{vmatrix} > 0
+\Delta_3 = \begin{vmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{vmatrix} > 0
+
+```
 
 ---
 
