@@ -89,6 +89,4 @@ Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é u
 
 $\lambda ^2 - T\lambda + D = 0 \Rightarrow \lambda ^2 - 1\lambda -2 = 0 \Rightarrow \lambda_1 = 1, \lambda_2 = -2 $
 
-## Conclusão
-
-**Resultado: instável (ponto de sela)**
+Portanto, o sistema é instável (ponto de sela).
