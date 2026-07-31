@@ -76,7 +76,7 @@ P=\begin{bmatrix}\dfrac{37}{54} & -\dfrac{8}{27}\\[4pt] -\dfrac{8}{27} & \dfrac{
 **Menor 2 (determinante):**
 ```math
 \det(P)=\left(\frac{37}{54}\right)\left(\frac{13}{54}\right)-\left(-\frac{8}{27}\right)^2=\frac{481}{2916}-\frac{64}{729}
-```math
+```
 
 Convertendo $\dfrac{64}{729}=\dfrac{256}{2916}$:
 ```math
