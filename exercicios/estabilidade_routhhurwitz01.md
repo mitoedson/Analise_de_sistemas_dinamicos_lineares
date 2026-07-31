@@ -276,12 +276,12 @@ d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ 2 & 0 \end{bmatrix}}{2} = -\frac{0}{2} =
 |λ⁵| 1 | k | 1 |
 |λ⁴| 1 | 1 | k |
 |λ³| k-1 | -k+1 | 0 |
-|λ²| 1 | -k | 0 |
+|λ²| 2 | k | 0 |
 |λ¹| $-\frac{k^2+k-2}{2}$ | 0 | |
 |λ⁰| $e_1$ | | |
 
 ```math
-e_1 = -\frac{\begin{bmatrix} 1 & -k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\frac{k^2+k-2}{2}} = -\frac{-k\frac{k^2+k-2}{2}}{-\frac{k^2+k-2}{2}} =  
+e_1 = -\frac{\begin{bmatrix} 2 & k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\frac{k^2+k-2}{2}} = -\frac{-k\frac{k^2+k-2}{2}}{-\frac{k^2+k-2}{2}} =  
 ```
 
 | | col 1 | col 2 | col 3 |
