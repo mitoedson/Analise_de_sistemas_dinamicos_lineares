@@ -10,63 +10,54 @@
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
 ```math
-A^T=\begin{bmatrix}5&3\\-1&1\end{bmatrix}
+A^T=\begin{bmatrix}2&3\\-1&-2\end{bmatrix}
 ```
 
-Calculando $A^TP$:
-```math
-$$A^TP=\begin{bmatrix}5&3\\-1&1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}=\begin{bmatrix}5p_{11}+3p_{12} & 5p_{12}+3p_{22}\\-p_{11}+p_{12} & -p_{12}+p_{22}\end{bmatrix}$$
-```
-
-Calculando $PA$:
-```math
-$$PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}5&-1\\3&1\end{bmatrix}=\begin{bmatrix}5p_{11}+3p_{12} & -p_{11}+p_{12}\\5p_{12}+3p_{22} & -p_{12}+p_{22}\end{bmatrix}$$
-```
-
-Somando ($A^TP+PA$)=-I:
-```math
-$$\begin{bmatrix}10p_{11}+6p_{12} & -p_{11}+6p_{12}+3p_{22}\\ -p_{11}+6p_{12}+3p_{22} & -2p_{12}+2p_{22}\end{bmatrix}=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$$
-```
-
-## Passo 2 — sistema de equações
+Calculando $A^TP+PA$ (mesmo processo de antes):
 
 ```math
-10p_{11}+6p_{12}=-1(i)
+A^TP+PA=\begin{bmatrix}4p_{11}+6p_{12} & -p_{11}+3p_{22}\\ -p_{11}+3p_{22} & -2p_{12}-4p_{22}\end{bmatrix}
+```
+
+Igualando a $-I$:
+
+```math
+4p_{11}+6p_{12}=-1 (i)
 ```
 ```math
--p_{11}+6p_{12}+3p_{22}=0 (ii)
+-p_{11}+3p_{22}=0 (ii)
 ```
 ```math
--2p_{12}+2p_{22}=-1 (iii)
+-2p_{12}-4p_{22}=-1 (iii)
 ```
 
-## Passo 3 — resolver
+## Passo 2 — resolver o sistema
 
-Da (iii): $p_{22}=p_{12}-\dfrac12$
+Da (ii): $p_{11}=3p_{22}$
 
-Substituindo em (ii): $-p_{11}+6p_{12}+3\left(p_{12}-\dfrac12\right)=0 \Rightarrow -p_{11}+9p_{12}=\dfrac32 \Rightarrow p_{11}=9p_{12}-\dfrac32$
+Da (iii): $p_{12}=\dfrac{1-4p_{22}}{2}$
 
-Substituindo em (i): $10\left(9p_{12}-\dfrac32\right)+6p_{12}=-1$
-$$90p_{12}-15+6p_{12}=-1 \Rightarrow 96p_{12}=14 \Rightarrow p_{12}=\frac{7}{48}$$
+Substituindo os dois em (i):
+$$4(3p_{22})+6\left(\frac{1-4p_{22}}{2}\right)=-1$$
+$$12p_{22}+3(1-4p_{22})=-1$$
+$$12p_{22}+3-12p_{22}=-1$$
+$$3=-1$$
 
-Logo: 
-$p_{11}=9\left(\dfrac{7}{48}\right)-\dfrac32=\dfrac{63}{48}-\dfrac{72}{48}=-\dfrac{9}{48}=-\dfrac{3}{16}$
-$p_{22} = \frac{7}{48}-\dfrac{1}{2} = -\frac{17}{48}$
+## Uma contradição! O sistema não tem solução para $P$
 
-## Passo 4 — checar se $P$ é positiva definida
+Isso é um resultado **diferente** dos itens anteriores: não é que $P$ deu "indefinida" — é que a equação de Lyapunov **nem sequer tem solução** para $Q=I$! Isso significa que o operador $A^TP+PA$ está numa situação **singular** (matematicamente, ligado a quando $\lambda_i+\lambda_j=0$ para algum par de autovalores de $A$ — chamada condição de ressonância).
 
-Já no primeiro menor principal: $p_{11}=-\dfrac{3}{16}<0$ ✗
+## Confirmando via traço e determinante de $A$
 
-**$P$ falha imediatamente** — nem precisa calcular $p_{22}$ ou o determinante, já que o critério de Sylvester exige que *todos* os menores sejam positivos, e o primeiro já falhou. O sistema não é assintoticamente estável.
+$$T=\text{traço}(A)=2+(-2)=0$$
+$$D=\det(A)=(2)(-2)-(-1)(3)=-4+3=-1$$
 
-## Passo 5 — como $P$ falhou, confirmar via traço e determinante de $A$
+Repare: $T=0$ — exatamente a condição que causa essa "ressonância" (os dois autovalores somam zero, $\lambda_1+\lambda_2=0$, o que torna a equação de Lyapunov sem solução única).
 
-$$T=\text{traço}(A)=5+1=6>0$$
-$$D=\det(A)=(5)(1)-(-1)(3)=5+3=8>0$$
+Como $D=-1<0$: autovalores reais, sinais opostos → **sela**
 
-$D>0$, $T^2-4D=36-32=4>0$ (autovalores reais), e $T>0$ → **nó instável**
+## Conclusão
 
-Podemos calcular os autovalores de $$\lambda^2-6\lambda+8 = 0 \Rightarrow \lambda_1=4, \lambda_2=2$$ . Os autovalores confirmam que é um sistema instável (ponto de sela).
-
+**Instável (sela)** ✓ — bate com o gabarito.
 
 
