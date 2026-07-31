@@ -67,8 +67,9 @@ Então: $p_{12}=\dfrac12-2\left(\dfrac32\right)=\dfrac12-3=-\dfrac52$
 E: $p_{22}=\dfrac14-\left(-\dfrac52\right)=\dfrac14+\dfrac52=\dfrac{11}{4}$
 
 **Passo 5 — verificar se $P$ é positiva definida**
-
-$$P=\begin{bmatrix}\dfrac32 & -\dfrac52\\[4pt] -\dfrac52 & \dfrac{11}{4}\end{bmatrix}$$
+```math
+P=\begin{bmatrix}\dfrac32 & -\dfrac52\\[4pt] -\dfrac52 & \dfrac{11}{4}\end{bmatrix}
+```
 
 Critério de Sylvester: $P$ é positiva definida se todos os **menores principais** forem positivos.
 
