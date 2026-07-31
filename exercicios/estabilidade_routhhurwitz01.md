@@ -174,7 +174,7 @@ c_2 = -\frac{\begin{bmatrix} k & 0 \\ \frac{k-1}{k} & 0 \end{bmatrix}}{\frac{k-1
 |λ⁰| $d_1$ | | |
 
 ```math
-d_1 = -\frac{\begin{bmatrix} $\frac{k-1}{k}$ & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{bmatrix}}{-\frac{k^2-k+1}{k-1}} = 1
+d_1 = -\frac{\begin{bmatrix} \frac{k-1}{k} & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{bmatrix}}{-\frac{k^2-k+1}{k-1}} = 1
 ```
 
 | | col 1 | col 2 | col 3 |
