@@ -32,10 +32,17 @@ H = \begin{pmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{pmatrix}
 
 ```math
 \Delta_1 = |k| > 0 \Rightarrow k > 0
-\Delta_2 = \begin{vmatrix} k & 4 \\ 1 & k \end{vmatrix} > 0 \Rightarrow k^2 - 4 > 0
-\Delta_3 = \begin{vmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{vmatrix} > 0
-
 ```
+
+```math
+\Delta_2 = \begin{vmatrix} k & 4 \\ 1 & k \end{vmatrix} > 0 \Rightarrow k^2 - 4 > 0 \Rightarrow -2 < k < 2
+```
+
+```math
+\Delta_3 = \begin{vmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{vmatrix} > 0 \Rightarrow 4(k^2 - 4) > 0 \Rightarrow -2 < k < 2
+```
+
+Portanto, k > 2.
 
 ---
 
