@@ -62,7 +62,7 @@ Voltando:
 p_{11}=\frac{-1-8\left(-\frac{8}{27}\right)}{2}=\frac{-1+\frac{64}{27}}{2}=\frac{\frac{37}{27}}{2}=\frac{37}{54}
 ```
 ```math
-$$p_{22}=-\frac{1+5\left(-\frac{8}{27}\right)}{2}=-\frac{1-\frac{40}{27}}{2}=-\frac{-\frac{13}{27}}{2}=\frac{13}{54}
+p_{22}=-\frac{1+5\left(-\frac{8}{27}\right)}{2}=-\frac{1-\frac{40}{27}}{2}=-\frac{-\frac{13}{27}}{2}=\frac{13}{54}
 ```
 
 ## Passo 3 — checar se $P$ é positiva definida
