@@ -80,7 +80,7 @@ P=\begin{bmatrix}\dfrac{37}{54} & -\dfrac{8}{27}\\[4pt] -\dfrac{8}{27} & \dfrac{
 
 Convertendo $\dfrac{64}{729}=\dfrac{256}{2916}$:
 ```math
-\det(P)=\frac{481-256}{2916}=\frac{225}{2916}>0 \checkmark$$
+\det(P)=\frac{481-256}{2916}=\frac{225}{2916}>0 \checkmark
 ```
 
 **Os dois menores são positivos → P é positiva definida!**
