@@ -195,12 +195,7 @@ d_1 = -\frac{\begin{bmatrix} \frac{k-1}{k} & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{
 |λ¹| $c_1=\dfrac{b_1\cdot1-k\cdot b_2}{b_1}$ | | |
 |λ⁰| 1 | | |
 
-Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0.
-
-
-O discriminante de $k^2-k+1$ é $1-4=-3<0$, então $k^2-k+1>0$ **sempre**. Como já exigimos $k>1$ (logo $k-1>0$), temos $c_1=-\dfrac{(+)}{(+)}<0$ **sempre**.
-
-Ou seja, é impossível ter $b_1>0$ e $c_1>0$ ao mesmo tempo.
+Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0 \Rightarrow não possui raízes em k, e -k^2+k-1 < 0$.
 
 Portanto, não existe $k\in\mathbb{R}$
 
