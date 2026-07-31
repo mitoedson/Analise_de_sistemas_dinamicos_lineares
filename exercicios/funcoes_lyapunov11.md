@@ -29,11 +29,15 @@ A^TP=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&
 
 **Elemento (2,2):** $(0)(p_{12})+(-1)(p_{22}) = -p_{22}$
 
-$$A^TP=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}$$
+```math
+A^TP=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}
+```
 
 ## Passo 3 — calcular $PA$
 
-$$PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$$
+```math
+PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}-1&0\\0&-1\end{bmatrix}
+```
 
 **Elemento (1,1):** $(p_{11})(-1)+(p_{12})(0)=-p_{11}$
 
