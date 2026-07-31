@@ -25,7 +25,7 @@ $$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ 
 ### Montagem da matriz de Hurwitz
 
 ```math
-H = \begin{pmatrix} 1 & 1 \end{pmatrix}
+H = \begin{pmatrix} k & 4 & 0 \\ 1 & k & 0 \\ 0 & k & 4 \\ \end{pmatrix}
 
 ```
 
