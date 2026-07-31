@@ -65,7 +65,7 @@ $$D=\det(A)=(5)(1)-(-1)(3)=5+3=8>0$$
 
 $D>0$, $T^2-4D=36-32=4>0$ (autovalores reais), e $T>0$ → **nó instável**
 
-Podemos utilizar $\lambda^2-6\lambda+8 = 0 
+Podemos calcular os autovalores de $$\lambda^2-6\lambda+8 = 0$$ 
 
 ## Conclusão
 
