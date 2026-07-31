@@ -12,7 +12,7 @@ utilizando o critério de Hurwitz. Para que valores de k o sistema é estável.
 1. Todos os coeficientes $a_i$ devem existir (nenhum estar ausente/zero).
 2. Todos os coeficientes devem ter o mesmo sinal.
 
-Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=4$
+Coeficientes: $a_0=1,\ a_1=k,\ a_2=k,\ a_3=4$
 
 Assim, k > 0.
 
@@ -39,6 +39,19 @@ Assim, para $a_0 = 1, a_1 = k, a_2 = k, a_3 = 4$:
 | $λ^2$ | k | 4 | 0 | ... |
 | $λ^1$ | $b_1$ | $b_2$ |  | ... |
 | $λ^0$ | $c_1$ | $c_2$  |  | |
+
+```math
+b_1 = -\frac{\begin{bmatrix} 1 & k \\ k & 4 \end{bmatrix}}{k} = -\frac{-k^2+4}{k} = \frac{k^2-4}{k}, 
+b_2 = -\frac{\begin{bmatrix} 1 & 0 \\ k & 0 \end{bmatrix}}{k} = 0
+```
+
+| $λ^3$ | 1 | k| 0 | ... |
+|---|---|---|---|---|
+| $λ^2$ | k | 4 | 0 | ... |
+| $λ^1$ | $\frac{k^2-4}{k}$ | $0$ |  | ... |
+| $λ^0$ | $c_1$ | $c_2$  |  | |
+
+
 
 
 
