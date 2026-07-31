@@ -22,7 +22,7 @@ Calculando $PA$:
 $$PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}5&-1\\3&1\end{bmatrix}=\begin{bmatrix}5p_{11}+3p_{12} & -p_{11}+p_{12}\\5p_{12}+3p_{22} & -p_{12}+p_{22}\end{bmatrix}$$
 ```
 
-Somando ($A^TP+PA$):
+Somando ($A^TP+PA$)=-I:
 ```math
 $$\begin{bmatrix}10p_{11}+6p_{12} & -p_{11}+6p_{12}+3p_{22}\\ -p_{11}+6p_{12}+3p_{22} & -2p_{12}+2p_{22}\end{bmatrix}=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$$
 ```
