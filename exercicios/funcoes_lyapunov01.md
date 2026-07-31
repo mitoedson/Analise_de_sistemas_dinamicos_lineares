@@ -88,7 +88,7 @@ Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é u
  Traço = 3 - 2 = 1
  Determinante = (3)(-2) - (-2)(2) = -6 + 4 = -2
 
-$\lambda$
+$\lambda ^2$
 
 ## Conclusão
 
