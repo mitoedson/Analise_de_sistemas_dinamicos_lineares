@@ -58,8 +58,5 @@ Repare: $T=0$ — exatamente a condição que causa essa "ressonância" (os dois
 
 Como $D=-1<0$: autovalores reais ($$\lambda_1=1, \lambda_2=-1$$), sinais opostos → **sela**
 
-## Conclusão
-
-**Instável (sela)** ✓ — bate com o gabarito.
 
 
