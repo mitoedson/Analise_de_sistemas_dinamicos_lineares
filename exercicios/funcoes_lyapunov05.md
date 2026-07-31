@@ -55,7 +55,9 @@ $$p_{22}=3\left(\frac32\right)-1=\frac92-1=\frac72$$
 
 ## Passo 3 — checar se $P$ é positiva definida
 
-$$P=\begin{pmatrix}\dfrac32&-2\\-2&\dfrac72\end{pmatrix}$$
+```math
+P=\begin{pmatrix}\dfrac32&-2\\-2&\dfrac72\end{pmatrix}
+```
 
 **Menor 1:** $p_{11}=\dfrac32>0$ ✓
 
@@ -75,7 +77,3 @@ $D=2>0$; $T^2-4D=4-8=-4<0$ (complexos); $T=-2<0$ → **foco estável**
 
 $$P>0 \;\Rightarrow\; \text{assintoticamente estável}; \qquad T<0,\ D>0,\ T^2-4D<0 \;\Rightarrow\; \textbf{foco estável}$$
 
-
----
-
-Confirma o que você já tinha encontrado sozinho! Quer revisar mais algum item?
