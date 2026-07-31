@@ -281,7 +281,7 @@ d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ 2 & 0 \end{bmatrix}}{2} = -\frac{0}{2} =
 |λ⁰| $e_1$ | | |
 
 ```math
-e_1 = -\frac{\begin{bmatrix} 1 & -k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\frac{k^2+k-2}{2}} = -\frac{}{-\frac{k^2+k-2}{2}} =  
+e_1 = -\frac{\begin{bmatrix} 1 & -k \\ -\frac{k^2+k-2}{2} & 0 \end{bmatrix}}{-\frac{k^2+k-2}{2}} = -\frac{-k\frac{k^2+k-2}{2}}{-\frac{k^2+k-2}{2}} =  
 ```
 
 | | col 1 | col 2 | col 3 |
