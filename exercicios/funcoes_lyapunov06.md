@@ -17,10 +17,14 @@ A^TP=\begin{bmatrix}2&1\\-5&-2\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&
 ```
 
 $PA$ é a transposta disso (já que $P$ é simétrica):
-$$PA=\begin{bmatrix}2p_{11}+p_{12} & -5p_{11}-2p_{12}\\2p_{12}+p_{22} & -5p_{12}-2p_{22}\end{bmatrix}$$
+```math
+PA=\begin{bmatrix}2p_{11}+p_{12} & -5p_{11}-2p_{12}\\2p_{12}+p_{22} & -5p_{12}-2p_{22}\end{bmatrix}
+```
 
 Somando:
-$$A^TP+PA=\begin{bmatrix}4p_{11}+2p_{12} & -5p_{11}+p_{22}\\ -5p_{11}+p_{22} & -10p_{12}-4p_{22}\end{bmatrix}$$
+```math
+A^TP+PA=\begin{bmatrix}4p_{11}+2p_{12} & -5p_{11}+p_{22}\\ -5p_{11}+p_{22} & -10p_{12}-4p_{22}\end{bmatrix}
+```
 
 Igualando a $-I$:
 
