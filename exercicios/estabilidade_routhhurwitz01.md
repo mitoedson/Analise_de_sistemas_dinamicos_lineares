@@ -267,7 +267,7 @@ c_2 = -\frac{\begin{bmatrix} 1 & k \\ k-1 & 0 \end{bmatrix}}{k-1} = -\frac{-k^2+
 
 
 ```math
-d_1 = -\frac{\begin{bmatrix} k-1 & -k+1 \\ 2 & k \end{bmatrix}}{2} = -\frac{}{\frac{2}{2}} = , 
+d_1 = -\frac{\begin{bmatrix} k-1 & -k+1 \\ 2 & k \end{bmatrix}}{2} = -\frac{k^2+k-2}{2}, 
 d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ 2 & 0 \end{bmatrix}}{2} = -\frac{0}{2} = 0 
 ```
 
@@ -277,7 +277,7 @@ d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ 2 & 0 \end{bmatrix}}{2} = -\frac{0}{2} =
 |λ⁴| 1 | 1 | k |
 |λ³| k-1 | -k+1 | 0 |
 |λ²| 1 | -k | 0 |
-|λ¹| $k^2-2k+1$ | 0 | |
+|λ¹| $-\frac{k^2+k-2}{2}$ | 0 | |
 |λ⁰| $e_1$ | | |
 
 ```math
