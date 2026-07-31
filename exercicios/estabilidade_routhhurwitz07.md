@@ -51,5 +51,6 @@ O critério de Routh-Hurwitz diz:
  **O número de trocas de sinal na primeira coluna = número de raízes com parte real positiva**
 
 **2 raízes do polinômio têm parte real positiva** 
+
 Como há raízes com parte real positiva, o sistema associado a esse polinômio (se fosse um polinômio característico de um sistema linear) seria **instável**.
 
