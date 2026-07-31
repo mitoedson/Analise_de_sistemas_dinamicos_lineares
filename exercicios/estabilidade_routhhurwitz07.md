@@ -27,6 +27,13 @@ b_2 = -\frac{\begin{bmatrix} 1 & 68 \\ 3 & 60 \end{bmatrix}}{3} = 48
 c_1 = -\frac{\begin{bmatrix} 3 & 40 \\ -\frac{16}{3} & 48 \end{bmatrix}}{-\frac{16}{3}} = 67, 
 c_2 = -\frac{\begin{bmatrix} 3 & 60 \\ -\frac{16}{3} & 0 \end{bmatrix}}{-\frac{16}{3}} = 60
 ```
+```math
+d_1 = -\frac{\begin{bmatrix} -\frac{16}{3} & 48 \\ 67 & 60 \end{bmatrix}}{67} = \frac{3536}{67}, 
+d_2 = 0
+```
+```math
+e_1 = -\frac{\begin{bmatrix} 67 & 60 \\ \frac{3536}{67} & 0 \end{bmatrix}}{\frac{3536}{67}} = 60 
+```
 
 
 | | col 1 | col 2 | col 3 |
