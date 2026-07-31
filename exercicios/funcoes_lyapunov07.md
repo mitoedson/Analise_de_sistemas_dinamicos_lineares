@@ -62,6 +62,3 @@ Como $T=2>0$ (parte real positiva) → **foco instável**
 
 $$P \text{ falhou} \;\Rightarrow\; \text{instável}; \qquad T>0,\ D>0,\ T^2-4D<0 \;\Rightarrow\; \textbf{foco instável}$$
 
----
-
-Quer seguir para o item (h)?
