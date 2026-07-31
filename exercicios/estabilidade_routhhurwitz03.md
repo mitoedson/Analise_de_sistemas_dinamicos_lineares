@@ -1,4 +1,4 @@
-<h1>Estabilidade - Critério de Routh-Hurwitz - 01</h1>
+<h1>Estabilidade - Critério de Routh-Hurwitz - 03</h1>
 
 ### Método geral
 
