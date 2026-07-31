@@ -91,4 +91,4 @@ $$P>0 \;\Rightarrow\; \text{assintoticamente estável}; \qquad T<0,\ D>0,\ T^2-4
 
 ---
 
-Esse item foi o mais simples de todos (matriz já diagonal, sem termos cruzados). Quer seguir para o item (l), o último da questão 4?
+Esse item foi o mais simples de todos (matriz já diagonal, sem termos cruzados).
