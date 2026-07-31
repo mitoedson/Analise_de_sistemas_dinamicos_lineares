@@ -195,11 +195,8 @@ d_1 = -\frac{\begin{bmatrix} $\frac{k-1}{k}$ & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \en
 |λ¹| $c_1=\dfrac{b_1\cdot1-k\cdot b_2}{b_1}$ | | |
 |λ⁰| 1 | | |
 
+Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0.
 
-Para ter $b_1>0$ com $k>0$, precisamos $k>1$.
-
-Calculando $c_1$:
-$$c_1=\frac{\frac{k-1}{k}-k}{\frac{k-1}{k}}=\frac{k-1-k^2}{k-1}=-\frac{k^2-k+1}{k-1}$$
 
 O discriminante de $k^2-k+1$ é $1-4=-3<0$, então $k^2-k+1>0$ **sempre**. Como já exigimos $k>1$ (logo $k-1>0$), temos $c_1=-\dfrac{(+)}{(+)}<0$ **sempre**.
 
