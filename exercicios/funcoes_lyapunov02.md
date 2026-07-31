@@ -65,7 +65,7 @@ $$D=\det(A)=(5)(1)-(-1)(3)=5+3=8>0$$
 
 $D>0$, $T^2-4D=36-32=4>0$ (autovalores reais), e $T>0$ → **nó instável**
 
-Podemos calcular os autovalores de $$\lambda^2-6\lambda+8 = 0 \Rightarrow \lambda_1=4, \lambda_2=2$$ 
+Podemos calcular os autovalores de $$\lambda^2-6\lambda+8 = 0 \Rightarrow \lambda_1=4, \lambda_2=2$$ . Os autovalores confirmam que é um sistema instável (ponto de sela).
 
 ## Conclusão
 
