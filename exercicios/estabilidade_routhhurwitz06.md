@@ -12,7 +12,10 @@ utilizando o critério de Hurwitz. Para que valores de k o sistema é estável.
 1. Todos os coeficientes $a_i$ devem existir (nenhum estar ausente/zero).
 2. Todos os coeficientes devem ter o mesmo sinal.
 
+Coeficientes: $a_0=1,\ a_1=k,\ a_2=1,\ a_3=4$
+
 Assim, k > 0.
+
 
 ### Montagem da tabela
 
