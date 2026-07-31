@@ -9,48 +9,79 @@
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
-$$A^T=\begin{bmatrix}1&4\\-4&-7\end{bmatrix}$$
+```math
+A^T=\begin{bmatrix}1&4\\-4&-7\end{bmatrix}
+```
 
 Calculando $A^TP+PA$ (mesmo procedimento):
 
-$$A^TP+PA=\begin{bmatrix}2p_{11}+8p_{12} & -4p_{11}-6p_{12}+4p_{22}\\ -4p_{11}-6p_{12}+4p_{22} & -8p_{12}-14p_{22}\end{bmatrix}$$
+```math
+A^TP+PA=\begin{bmatrix}2p_{11}+8p_{12} & -4p_{11}-6p_{12}+4p_{22}\\ -4p_{11}-6p_{12}+4p_{22} & -8p_{12}-14p_{22}\end{bmatrix}
+```
 
 Igualando a $-I$:
 
-$$2p_{11}+8p_{12}=-1 \quad (i)$$
-$$-4p_{11}-6p_{12}+4p_{22}=0 \quad (ii)$$
-$$-8p_{12}-14p_{22}=-1 \quad (iii)$$
+```math
+2p_{11}+8p_{12}=-1 \quad (i)
+```
+```math
+-4p_{11}-6p_{12}+4p_{22}=0 \quad (ii)
+```
+```math
+-8p_{12}-14p_{22}=-1 \quad (iii)
+```
 
 ## Passo 2 — resolver o sistema
 
 Da (i): $p_{11}=\dfrac{-1-8p_{12}}{2}$
 
 Substituindo em (ii):
-$$-4\left(\frac{-1-8p_{12}}{2}\right)-6p_{12}+4p_{22}=0$$
-$$(2+16p_{12})-6p_{12}+4p_{22}=0 \;\Rightarrow\; 10p_{12}+4p_{22}=-2 \;\Rightarrow\; p_{22}=\frac{-2-10p_{12}}{4}=-\frac{1+5p_{12}}{2}$$
+```math
+-4\left(\frac{-1-8p_{12}}{2}\right)-6p_{12}+4p_{22}=0
+```
+```math
+(2+16p_{12})-6p_{12}+4p_{22}=0 \;\Rightarrow\; 10p_{12}+4p_{22}=-2 \;\Rightarrow\; p_{22}=\frac{-2-10p_{12}}{4}=-\frac{1+5p_{12}}{2}
+```
 
 Substituindo em (iii):
-$$-8p_{12}-14\left(-\frac{1+5p_{12}}{2}\right)=-1$$
-$$-8p_{12}+7(1+5p_{12})=-1$$
-$$-8p_{12}+7+35p_{12}=-1$$
-$$27p_{12}=-8 \;\Rightarrow\; p_{12}=-\frac{8}{27}$$
+```math
+-8p_{12}-14\left(-\frac{1+5p_{12}}{2}\right)=-1
+```
+```math
+-8p_{12}+7(1+5p_{12})=-1
+```
+```math
+-8p_{12}+7+35p_{12}=-1
+```
+```math
+27p_{12}=-8 \;\Rightarrow\; p_{12}=-\frac{8}{27}
+```
 
 Voltando:
-$$p_{11}=\frac{-1-8\left(-\frac{8}{27}\right)}{2}=\frac{-1+\frac{64}{27}}{2}=\frac{\frac{37}{27}}{2}=\frac{37}{54}$$
-
-$$p_{22}=-\frac{1+5\left(-\frac{8}{27}\right)}{2}=-\frac{1-\frac{40}{27}}{2}=-\frac{-\frac{13}{27}}{2}=\frac{13}{54}$$
+```math
+p_{11}=\frac{-1-8\left(-\frac{8}{27}\right)}{2}=\frac{-1+\frac{64}{27}}{2}=\frac{\frac{37}{27}}{2}=\frac{37}{54}
+```
+```math
+$$p_{22}=-\frac{1+5\left(-\frac{8}{27}\right)}{2}=-\frac{1-\frac{40}{27}}{2}=-\frac{-\frac{13}{27}}{2}=\frac{13}{54}
+```
 
 ## Passo 3 — checar se $P$ é positiva definida
 
-$$P=\begin{bmatrix}\dfrac{37}{54} & -\dfrac{8}{27}\\[4pt] -\dfrac{8}{27} & \dfrac{13}{54}\end{bmatrix}$$
+```math
+P=\begin{bmatrix}\dfrac{37}{54} & -\dfrac{8}{27}\\[4pt] -\dfrac{8}{27} & \dfrac{13}{54}\end{bmatrix}
+```
 
-**Menor 1:** $p_{11}=\dfrac{37}{54}>0$ ✓
+**Menor 1:** $p_{11}=\dfrac{37}{54}>0$
 
 **Menor 2 (determinante):**
-$$\det(P)=\left(\frac{37}{54}\right)\left(\frac{13}{54}\right)-\left(-\frac{8}{27}\right)^2=\frac{481}{2916}-\frac{64}{729}$$
+```math
+\det(P)=\left(\frac{37}{54}\right)\left(\frac{13}{54}\right)-\left(-\frac{8}{27}\right)^2=\frac{481}{2916}-\frac{64}{729}
+```math
 
 Convertendo $\dfrac{64}{729}=\dfrac{256}{2916}$:
-$$\det(P)=\frac{481-256}{2916}=\frac{225}{2916}>0 \checkmark$$
+```math
+\det(P)=\frac{481-256}{2916}=\frac{225}{2916}>0 \checkmark$$
+```
 
 **Os dois menores são positivos → $P$ é positiva definida!**
 
