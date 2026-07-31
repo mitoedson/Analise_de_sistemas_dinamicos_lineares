@@ -20,8 +20,10 @@ Coeficientes: $a_0=1,\ a_1=3,\ a_2=8,\ a_3=40,\ a_4=68,\ a_5=60$
 |$λ^0$| $e_1$ | | |
 
 ```math
-b_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k & 1 \end{bmatrix}}{k} = -\frac{1-k}{k} = \frac{k-1}{k}, 
-b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}}{k} = -\frac{-k}{k} = 1
+b_1 = -\frac{\begin{bmatrix} 1 & 8 \\ 3 & 40 \end{bmatrix}}{3} = -\frac{16}{3}, 
+```
+```math
+b_2 = -\frac{\begin{bmatrix} 1 & 68 \\ 3 & 60 \end{bmatrix}}{3} = 48
 ```
 
 
