@@ -22,6 +22,14 @@ O critério então diz: o sistema é estável se, e somente se, **todos os menor
 
 $$\Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0$$
 
+### Montagem da matriz de Hurwitz
+
+```math
+H = \begin{pmatrix} 1 & 1 \end{pmatrix}
+
+```
+
+
 ---
 
 ### Condição necessária pelo critério de Routh
