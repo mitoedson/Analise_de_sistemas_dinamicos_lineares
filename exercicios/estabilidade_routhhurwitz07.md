@@ -1,4 +1,4 @@
-<h1>Estabilidade - Critério de Routh-Hurwitz - 06</h1>
+<h1>Estabilidade - Critério de Routh-Hurwitz - 07</h1>
 
 Analise a estabilidade do seguinte polinômio:
 
