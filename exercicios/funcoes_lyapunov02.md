@@ -49,6 +49,7 @@ Substituindo em (i): $10\left(9p_{12}-\dfrac32\right)+6p_{12}=-1$
 $$90p_{12}-15+6p_{12}=-1 \Rightarrow 96p_{12}=14 \Rightarrow p_{12}=\frac{7}{48}$$
 
 Logo: $p_{11}=9\left(\dfrac{7}{48}\right)-\dfrac32=\dfrac{63}{48}-\dfrac{72}{48}=-\dfrac{9}{48}=-\dfrac{3}{16}$
+$p_{22} = \frac{7}{48}-\dfrac{1}{2} = -\frac{17}{48}$
 
 ## Passo 4 — checar se $P$ é positiva definida
 
