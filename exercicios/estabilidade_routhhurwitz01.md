@@ -170,13 +170,12 @@ c_2 = -\frac{\begin{bmatrix} k & 0 \\ \frac{k-1}{k} & 0 \end{bmatrix}}{\frac{k-1
 |λ⁴| 1 | 1 | 1 |
 |λ³| k | 1 | 0 |
 |λ²| k-1 | 1 | 0 |
-|λ¹| $-\frac{2k-1}{k}$ | 0 | |
+|λ¹| $-\frac{k^2-k+1}{k-1}$ | 0 | |
 |λ⁰| $d_1$ | | |
 
 ```math
-d_1 = -\frac{\begin{bmatrix} k-1 & 1 \\ -\frac{2k-1}{k} & 0 \end{bmatrix}}{-\frac{2k-1}{k}} = -\frac{\frac{2k-1}{k})}{-\frac{2k-1}{k}} = 1 
+d_1 = -\frac{\begin{bmatrix} k-1 & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{bmatrix}}{-\frac{k^2-k+1}{k-1}} = 
 ```
-
 
 | | col 1 | col 2 | col 3 |
 |---|---|---|---|
