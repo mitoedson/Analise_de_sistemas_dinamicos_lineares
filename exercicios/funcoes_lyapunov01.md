@@ -28,11 +28,15 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 Q=I=\begin{bmatrix}1&0\\0&1\end{bmatrix}
 ```
 
-**Passo 2 — montar $P=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}$ (simétrica, incógnitas) **
+**Passo 2 — montar P**
+```math
+P=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}$ (simétrica, incógnitas)
+```
 
 **Passo 3 — resolver $A^TP+PA=-I$ **
-
+```math
 $$A^T=\begin{bmatrix}3&2\\-2&-2\end{bmatrix}$$
+```
 
 Calculando $A^TP$:
 $$A^TP=\begin{bmatrix}3&2\\-2&-2\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}=\begin{bmatrix}3p_{11}+2p_{12} & 3p_{12}+2p_{22}\\-2p_{11}-2p_{12} & -2p_{12}-2p_{22}\end{bmatrix}$$
