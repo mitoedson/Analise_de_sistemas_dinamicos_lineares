@@ -48,8 +48,7 @@ Somando $A^TP+PA$:
 ```math
 A^TP+PA=\begin{bmatrix}6p_{11}+4p_{12} & p_{12}+2p_{22}-2p_{11}\\ p_{12}+2p_{22}-2p_{11} & -4p_{12}-4p_{22}\end{bmatrix}
 ```
-
-Igualando a $-I=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$, temos o sistema:
+Igualando a I, temos o sistema:
 
 $$6p_{11}+4p_{12}=-1 \quad (i)$$
 $$-2p_{11}+p_{12}+2p_{22}=0 \quad (ii)$$
