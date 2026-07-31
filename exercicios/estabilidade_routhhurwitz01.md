@@ -252,7 +252,7 @@ b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & k \end{bmatrix}}{1} = -\frac{k-1}{1} =
 |λ⁰| $e_1$ | | |
 
 ```math
-c_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k-1 & -k+1 \end{bmatrix}}{k-1} = -\frac{-k+1-(k-1))}{k-1} = \frac{2}{k-1}, 
+c_1 = -\frac{\begin{bmatrix} 1 & 1 \\ k-1 & -k+1 \end{bmatrix}}{k-1} = -\frac{-k+1-(k-1))}{k-1} = 2, 
 c_2 = -\frac{\begin{bmatrix} 1 & k \\ k-1 & 0 \end{bmatrix}}{k-1} = -\frac{-k^2+k}{k-1} = k 
 ```
 
@@ -261,14 +261,14 @@ c_2 = -\frac{\begin{bmatrix} 1 & k \\ k-1 & 0 \end{bmatrix}}{k-1} = -\frac{-k^2+
 |λ⁵| 1 | k | 1 |
 |λ⁴| 1 | 1 | k |
 |λ³| k-1 | -k+1 | 0 |
-|λ²| $\frac{2}{k-1}$ | k | 0 |
+|λ²| 2 | k | 0 |
 |λ¹| $d_1$ | $d_1$ | |
 |λ⁰| $e_1$ | | |
 
 
 ```math
-d_1 = -\frac{\begin{bmatrix} k-1 & -k+1 \\ \frac{2}{k-1} & k \end{bmatrix}}{\frac{2}{k-1}} = -\frac{K^2-k}{\frac{2}{k-1}} = k^2-2k+1, 
-d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ \frac{2}{k-1} & 0 \end{bmatrix}}{\frac{2}{k-1}} = -\frac{0}{\frac{2}{k-1}} = 0 
+d_1 = -\frac{\begin{bmatrix} k-1 & -k+1 \\ 2 & k \end{bmatrix}}{2} = -\frac{}{\frac{2}{2}} = , 
+d_2 = -\frac{\begin{bmatrix} k-1 & 0 \\ 2 & 0 \end{bmatrix}}{2} = -\frac{0}{2} = 0 
 ```
 
 | | col 1 | col 2 | col 3 |
