@@ -104,7 +104,7 @@ $$T^2-4D = (-6)^2-4(9)=36-36=0$$
 
 $$\lambda = \frac{T}{2}=\frac{-6}{2}=-3 \quad \text{(autovalor duplo)}$$
 
-Como $T<0$ (e $D>0$), ambos autovalores são **negativos** → **nó estável** ✓ (nesse caso especial, com autovalores repetidos, é chamado de **nó estável degenerado** ou **nó impróprio**, dependendo de a matriz ser ou não diagonalizável)
+Como $T<0$ (e $D>0$), ambos autovalores são **negativos** → **nó estável**  (nesse caso especial, com autovalores repetidos, é chamado de **nó estável degenerado** ou **nó impróprio**, dependendo de a matriz ser ou não diagonalizável)
 
 ## Conclusão
 
