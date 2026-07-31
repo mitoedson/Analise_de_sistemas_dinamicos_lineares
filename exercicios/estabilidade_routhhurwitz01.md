@@ -185,16 +185,6 @@ d_1 = -\frac{\begin{bmatrix} \frac{k-1}{k} & 1 \\ -\frac{k^2-k+1}{k-1} & 0 \end{
 |λ¹| $-\frac{k^2-k+1}{k-1}$ | 0 | |
 |λ⁰| 1 | | |
 
-
-
-| | col 1 | col 2 | col 3 |
-|---|---|---|---|
-|λ⁴| 1 | 1 | 1 |
-|λ³| k | 1 | 0 |
-|λ²| $b_1=\dfrac{k\cdot1-1\cdot1}{k}=\dfrac{k-1}{k}$ | $b_2=1$ | |
-|λ¹| $c_1=\dfrac{b_1\cdot1-k\cdot b_2}{b_1}$ | | |
-|λ⁰| 1 | | |
-
 Precisamos de $k-1>0 \Rightarrow k>1$, e $-k^2+k-1>0 \Rightarrow$ não possui raízes em k, logo $-k^2+k-1 < 0$ para todo k Real.
 
 Portanto, não existe $k\in\mathbb{R}$
