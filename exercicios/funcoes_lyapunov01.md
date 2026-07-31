@@ -80,7 +80,7 @@ Critério de Sylvester: $P$ é positiva definida se todos os **menores principai
 
 Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é um **forte indício de instabilidade** (de fato, para sistemas lineares, se $A$ é Hurwitz — todos autovalores com parte real negativa —, a equação de Lyapunov com $Q>0$ **sempre** tem solução única $P>0$; então a falha aqui sugere que $A$ não é Hurwitz).
 
-** Verificando instabilidade por meio de autovalores **
+**Verificando instabilidade por meio de autovalores**
 
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
