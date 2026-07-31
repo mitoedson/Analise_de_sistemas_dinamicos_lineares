@@ -8,11 +8,13 @@
 ---
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
-
-$$A^T=\begin{bmatrix}2&1\\-5&-2\end{bmatrix}$$
-
+```math
+A^T=\begin{bmatrix}2&1\\-5&-2\end{bmatrix}
+```
 Calculando $A^TP$:
-$$A^TP=\begin{bmatrix}2&1\\-5&-2\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}=\begin{bmatrix}2p_{11}+p_{12} & 2p_{12}+p_{22}\\-5p_{11}-2p_{12} & -5p_{12}-2p_{22}\end{bmatrix}$$
+```math
+A^TP=\begin{bmatrix}2&1\\-5&-2\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}=\begin{bmatrix}2p_{11}+p_{12} & 2p_{12}+p_{22}\\-5p_{11}-2p_{12} & -5p_{12}-2p_{22}\end{bmatrix}
+```
 
 $PA$ é a transposta disso (já que $P$ é simétrica):
 $$PA=\begin{bmatrix}2p_{11}+p_{12} & -5p_{11}-2p_{12}\\2p_{12}+p_{22} & -5p_{12}-2p_{22}\end{bmatrix}$$
