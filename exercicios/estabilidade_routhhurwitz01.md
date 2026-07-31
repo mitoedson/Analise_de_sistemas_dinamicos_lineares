@@ -161,7 +161,7 @@ b_2 = -\frac{\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}}{k} = -\frac{-k}{k} = 
 
 
 ```math
-c_1 = -\frac{\begin{bmatrix} k & 1 \\ \frac{k-1}{k} & 1 \end{bmatrix}}{\frac{k-1}{k}} = -\frac{k-(\frac{k-1}{k})}{\frac{k-1}{k}} = , 
+c_1 = -\frac{\begin{bmatrix} k & 1 \\ \frac{k-1}{k} & 1 \end{bmatrix}}{\frac{k-1}{k}} = -\frac{k-(\frac{k-1}{k})}{\frac{k-1}{k}} = -\frac{k^2-k+1}{k-1}, 
 c_2 = -\frac{\begin{bmatrix} k & 0 \\ \frac{k-1}{k} & 0 \end{bmatrix}}{\frac{k-1}{k}} = -\frac{0}{\frac{k-1}{k}} = 0
 ```
 
