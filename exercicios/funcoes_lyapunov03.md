@@ -38,10 +38,18 @@ Da (ii): $p_{11}=3p_{22}$
 Da (iii): $p_{12}=\dfrac{1-4p_{22}}{2}$
 
 Substituindo os dois em (i):
-$$4(3p_{22})+6\left(\frac{1-4p_{22}}{2}\right)=-1$$
-$$12p_{22}+3(1-4p_{22})=-1$$
-$$12p_{22}+3-12p_{22}=-1$$
-$$3=-1$$
+```math
+4(3p_{22})+6\left(\frac{1-4p_{22}}{2}\right)=-1
+```
+```math
+12p_{22}+3(1-4p_{22})=-1
+```
+```math
+12p_{22}+3-12p_{22}=-1
+```
+```math
+3=-1
+```
 
 ## Uma contradição! O sistema não tem solução para $P$
 
