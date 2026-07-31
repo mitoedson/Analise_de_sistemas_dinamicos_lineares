@@ -48,14 +48,15 @@ Substituindo em (ii): $-p_{11}+6p_{12}+3\left(p_{12}-\dfrac12\right)=0 \Rightarr
 Substituindo em (i): $10\left(9p_{12}-\dfrac32\right)+6p_{12}=-1$
 $$90p_{12}-15+6p_{12}=-1 \Rightarrow 96p_{12}=14 \Rightarrow p_{12}=\frac{7}{48}$$
 
-Logo: $p_{11}=9\left(\dfrac{7}{48}\right)-\dfrac32=\dfrac{63}{48}-\dfrac{72}{48}=-\dfrac{9}{48}=-\dfrac{3}{16}$
+Logo: 
+$p_{11}=9\left(\dfrac{7}{48}\right)-\dfrac32=\dfrac{63}{48}-\dfrac{72}{48}=-\dfrac{9}{48}=-\dfrac{3}{16}$
 $p_{22} = \frac{7}{48}-\dfrac{1}{2} = -\frac{17}{48}$
 
 ## Passo 4 — checar se $P$ é positiva definida
 
 Já no primeiro menor principal: $p_{11}=-\dfrac{3}{16}<0$ ✗
 
-**$P$ falha imediatamente** — nem precisa calcular $p_{22}$ ou o determinante, já que o critério de Sylvester exige que *todos* os menores sejam positivos, e o primeiro já falhou.
+**$P$ falha imediatamente** — nem precisa calcular $p_{22}$ ou o determinante, já que o critério de Sylvester exige que *todos* os menores sejam positivos, e o primeiro já falhou. O sistema não é assintoticamente estável.
 
 ## Passo 5 — como $P$ falhou, confirmar via traço e determinante de $A$
 
