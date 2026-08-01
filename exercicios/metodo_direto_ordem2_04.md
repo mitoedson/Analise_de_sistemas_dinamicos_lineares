@@ -28,6 +28,8 @@ Ao contrário da questão 4 (sistemas lineares, onde existe um método **sistem�
 
 Geralmente é a origem $(0,0)$ (verificar substituindo nas equações).
 
+É adequado verificar o ponto de equilíbrio, pois é um indício para escolher a candidata de Lyapunov.
+
 ### Passo 2 — Escolher uma candidata $V$
 
 Estratégia recomendada, em ordem de tentativa:
