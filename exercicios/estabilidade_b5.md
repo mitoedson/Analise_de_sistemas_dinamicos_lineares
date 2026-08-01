@@ -1,4 +1,4 @@
-<h1>Estabilidade B5</h1>
+<h1>Método Direto de Lyapunov - Equações de 2ª Ordem - 03</h1>
 
 ## Método geral
 
