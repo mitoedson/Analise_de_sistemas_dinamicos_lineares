@@ -2,7 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=x-x^2-xy,\quad \dot y=\dfrac12y-\dfrac14y^2-\dfrac34xy$
+```math
+\dot x=x-x^2-xy
+```
+```math
+\dot y=\dfrac12y-\dfrac14y^2-\dfrac34xy
+```
 
 ---
 
