@@ -54,6 +54,10 @@ J(\frac{d}{c},\frac{a}{b})=\begin{pmatrix} a - b(\frac{a}{b}) & -b(\frac{d}{c}) 
 
 $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
 
+Pela tabela do item 5, analisamos sem calculos.
+
+Através de T e D, construo o polinômio, e calculo os autovalores:
+
 $$\lambda^2-(a-d)\lambda - ad = 0 \Rightarrow \lambda_1 = a, \lambda_2 = -d \\Rightarrow\quad\text{é um sistema instável (Ponto de Sela)}$$
 
 Ou, sem T e D, calcular $$det(A -\lambda I):$$
