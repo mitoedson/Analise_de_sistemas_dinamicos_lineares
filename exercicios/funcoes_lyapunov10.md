@@ -1,11 +1,12 @@
 <h1>Estabilidade - Funções de Lyapunov - 10</h1>
 
-(j) Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
+Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 1 & 2 \\ -5 & -1 \end{bmatrix} x
 ```
 ---
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
