@@ -4,6 +4,8 @@ Determinar os pontos críticos de cada sistema e investigar a estabilidade local
 
 $\dot x=(1+x)\ \text{sen}(y),\quad \dot y=1-x-\cos(y)$
 
+--- 
+
 ### Passo 1 — Pontos críticos
 
 Da primeira equação: $(1+x)\ \text{sen}(y)=0$, obtem-se 
