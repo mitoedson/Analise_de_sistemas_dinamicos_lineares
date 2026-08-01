@@ -1,4 +1,4 @@
-<h1>Estabilidade Local - 04</h1>
+<h1>Estabilidade Local (Método Indireto de Lyapunov) - 04</h1>
 
 Determinar os pontos cíticos de cada sistema e investigar a estabilidade local destes pontos:
 
