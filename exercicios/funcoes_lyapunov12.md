@@ -11,11 +11,15 @@ Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores p
 
 ## Passo 1 — calcular $A^T$
 
-$$A^T=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}$$
+```math
+A^T=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}
+```
 
 ## Passo 2 — calcular $A^TP$
 
-$$A^TP=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}$$
+```math
+A^TP=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
+```
 
 - (1,1): $2p_{11}+1{,}8p_{12}$
 - (1,2): $2p_{12}+1{,}8p_{22}$
@@ -24,7 +28,9 @@ $$A^TP=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12
 
 ## Passo 3 — calcular $PA$
 
-$$PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}2&-2{,}5\\1{,}8&-1\end{bmatrix}$$
+```math
+PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}2&-2{,}5\\1{,}8&-1\end{bmatrix}
+```
 
 - (1,1): $2p_{11}+1{,}8p_{12}$
 - (1,2): $-2{,}5p_{11}-p_{12}$
