@@ -132,7 +132,7 @@ $$\dot V<0 \quad \text{para todo } (x,y)\ne(0,0)$$
 - $V>0$ para $(x,y)\ne(0,0)$, radialmente ilimitada ✓
 - $\dot V<0$ estritamente, para todo $(x,y)\ne(0,0)$ ✓
 
-**Conclusão: a origem é globalmente assintoticamente estável** ✓ — bate com o gabarito.
+**Conclusão: a origem é globalmente assintoticamente estável**
 
 ---
 
