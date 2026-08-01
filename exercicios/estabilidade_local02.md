@@ -2,8 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
-
+```math
+\dot x=-x+y+2xy
+```
+```math
+\dot y=-4x-y+x^2-y^2
+```
 
 ## Propósito
 
