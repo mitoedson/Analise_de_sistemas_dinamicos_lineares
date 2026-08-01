@@ -1,4 +1,4 @@
-<h1>Estabilidade Local - 12</h1>
+<h1>Estabilidade Local (Método Indireto de Lyapunov) - 12</h1>
 
 Considere o sistema de segunda ordem descrito por:
 
