@@ -45,6 +45,7 @@ J(0,0)=\begin{pmatrix} a - b(0) & -b(0) \\ c(0) & c(0) -d \end{pmatrix}=\begin{p
 **Para ($\frac{d}{c},\frac{a}{b}$):**
 ```math
 J(\frac{d}{c},\frac{a}{b})=\begin{pmatrix} a - b(\frac{a}{b})) & -b(\frac{d}{c}) \\ c(\frac{a}{b})) & c(\frac{d}{c}) -d \end{pmatrix}
+=\begin{pmatrix} 0 & -(\frac{bd}{c}) \\ (\frac{ca}{b})) & 0 \end{pmatrix}
 ```
 
 
