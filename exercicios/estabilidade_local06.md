@@ -2,8 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=x-x^2-xy,\quad \dot y=3y-xy-2y^2$
-
+```math
+\dot x=x-x^2-xy
+```
+```math
+\dot y=3y-xy-2y^2
+```
 ---
 
 ### Passo 1 — Pontos críticos
