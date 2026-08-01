@@ -25,6 +25,8 @@ Resolver $\dot x=0$ e $\dot y=0$ simultaneamente.
 \dot y = 0 \Rightarrow cxy - dy = 0 \Rightarrow cxy = dy \Rightarrow cxy = dy  \Rightarrow x = \frac{dy}{cy}  \Rightarrow x = \frac{d}{c}\quad\text{ou y = 0}
 
 ```
+Pontos críticos: (0,0) e (\frac{d}{c}$,\frac{a}{b}$)
+
 
 **2. Montar a matriz Jacobiana genérica**
 
