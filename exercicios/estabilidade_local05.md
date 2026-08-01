@@ -1,11 +1,12 @@
 <h1>Estabilidade Local - 05</h1>
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
+
 $\dot x=(2+x)(y-x),\quad \dot y=(4-x)(y+x)$
 
-### Passo 1 — Pontos críticos
-
 ---
+
+### Passo 1 — Pontos críticos
 
 Cada equação já vem fatorada:
 $$(2+x)(y-x)=0 \Rightarrow x=-2 \text{ ou } y=x$$
