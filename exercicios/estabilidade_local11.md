@@ -6,7 +6,7 @@ Determinar os pontos críticos de cada sistema e investigar a estabilidade local
 \dot x=2x+y+xy^3
 ```
 ```math
-\dot y=x-2y-xy$
+\dot y=x-2y-xy
 ```
 
 ---
