@@ -1,4 +1,4 @@
-<h1>Estabilidade B1</h1>
+<h1>Método Direto de Lyapunov - Equações de 1ª Ordem - 01</h1>
 
 ## Método geral
 
