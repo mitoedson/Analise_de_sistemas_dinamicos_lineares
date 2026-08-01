@@ -72,6 +72,79 @@ Substituir as expressões de $\dot x_1$ e $\dot x_2$ do sistema original.
 | $\dot V\le0$, mas zera fora da origem também | Apenas "estável" — ir para o Passo 8 (LaSalle) |
 | $V$ radialmente ilimitada + $\dot V<0$ em todo o espaço | Estabilidade **global** |
 
+
+
+Vamos organizar todas as classificações possíveis que podem sair de uma análise pelo Método Direto de Lyapunov, com a condição exata que leva a cada uma.
+
+## Quadro completo de classificações
+
+| Condição sobre $V$ | Condição sobre $\dot V$ | Classificação |
+|---|---|---|
+| $V>0$ | $\dot V\le0$ (semi-definida negativa) | **Estável** (não necessariamente assintótico) |
+| $V>0$ | $\dot V<0$ (estrita, localmente) | **Assintoticamente estável (local)** |
+| $V>0$, radialmente ilimitada | $\dot V<0$ estrita, **em todo o espaço** | **Globalmente assintoticamente estável** |
+| $V>0$ | $\dot V\le0$, mas único conjunto invariante em $\{\dot V=0\}$ é a origem (LaSalle) | **Assintoticamente estável** (resgatada via LaSalle) |
+| $V>0$ | $\dot V>0$ em alguma região próxima do equilíbrio | **Instável** |
+| — | $V$ **não** é positiva definida | **Inconclusivo** (candidata falhou — não é uma classificação do sistema, é falha do método) |
+
+## Detalhando cada categoria
+
+### 1. Estável (não assintótico) — "marginalmente estável"
+
+$\dot V\le0$, mas zera **fora** da origem também (sem resgate por LaSalle). As trajetórias não se afastam, mas também não necessariamente convergem — podem ficar orbitando/oscilando. Exemplo típico: **centro**.
+
+### 2. Assintoticamente estável (local)
+
+$\dot V<0$ estritamente perto do equilíbrio (mas a prova só vale numa vizinhança, ou existem outros equilíbrios competindo). Exemplo: o pêndulo (item 6), item 3(e).
+
+### 3. Globalmente assintoticamente estável
+
+$\dot V<0$ em **todo** o espaço + $V$ radialmente ilimitada + equilíbrio único. Exemplo: itens 3(a-d), 5(a-d).
+
+### 4. Assintoticamente estável via LaSalle
+
+Quando $\dot V$ é só semi-definida, mas você prova que o único conjunto invariante em $\{\dot V=0\}$ é a origem. Exemplo: item 5(b), pêndulo item 6(a).
+
+### 5. Instável
+
+Quando você consegue mostrar $\dot V>0$ em alguma região arbitrariamente próxima da origem (menos comum de aparecer explicitamente nos nossos exercícios, mas é uma conclusão válida do método — existe um **Teorema de Chetaev** especificamente para provar instabilidade via Lyapunov).
+
+## O que **não** é uma classificação, mas sim uma falha do processo
+
+$$\boxed{V \text{ não positiva definida} \;\Rightarrow\; \text{candidata FALHOU} \;\Rightarrow\; \text{tente outra candidata (nada se conclui sobre o sistema)}}$$
+
+Isso é diferente de "instável" — é simplesmente "não consegui provar nada com essa tentativa".
+
+## Resumo visual da árvore de decisão
+
+```
+V é positiva definida?
+│
+├── Não → INCONCLUSIVO (tentar outra candidata)
+│
+└── Sim → Qual o sinal de V̇?
+          │
+          ├── V̇ > 0 em alguma região → INSTÁVEL
+          │
+          ├── V̇ ≤ 0 (semi-definida)
+          │   │
+          │   ├── Único conjunto invariante em {V̇=0} é a origem (LaSalle)? 
+          │   │   ├── Sim → ASSINTOTICAMENTE ESTÁVEL
+          │   │   └── Não → ESTÁVEL (não assintótico)
+          │
+          └── V̇ < 0 estrita
+              │
+              ├── Vale só localmente → ASSINTOTICAMENTE ESTÁVEL (local)
+              │
+              └── Vale em todo espaço + V rad. ilimitada + equilíbrio único
+                  → GLOBALMENTE ASSINTOTICAMENTE ESTÁVEL
+```
+
+---
+
+Esse quadro resume todas as saídas possíveis do método!
+
+
 ### Passo 8 — Se necessário, aplicar o Princípio de LaSalle
 
 Quando $\dot V$ é só semi-definida negativa: verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é a própria origem. Se sim, resgata-se a conclusão de assintoticamente estável.
