@@ -2,6 +2,8 @@
 
 ## Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
+$$\boxed{\text{Questão 2} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
+
 ## Propósito
 
 A questão tem como objetivo **investigar a estabilidade local** de sistemas dinâmicos **não lineares** de segunda ordem (com duas variáveis, $x$ e $y$), analisando o comportamento das trajetórias **na vizinhança** de cada ponto de equilíbrio do sistema.
@@ -19,8 +21,9 @@ Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
 
 **2. Montar a matriz Jacobiana genérica**
 
-$$J(x,y)=\begin{pmatrix}\dfrac{\partial f}{\partial x} & \dfrac{\partial f}{\partial y}\\[4pt]\dfrac{\partial g}{\partial x} & \dfrac{\partial g}{\partial y}\end{pmatrix}$$
-
+```math
+J(x,y)=\begin{pmatrix}\dfrac{\partial f}{\partial x} & \dfrac{\partial f}{\partial y}\\[4pt]\dfrac{\partial g}{\partial x} & \dfrac{\partial g}{\partial y}\end{pmatrix}
+```
 Essa matriz representa a **aproximação linear** (expansão de Taylor de 1ª ordem) do sistema em torno de um ponto qualquer.
 
 **3. Avaliar o Jacobiano em cada ponto crítico**
@@ -50,15 +53,6 @@ A conclusão obtida é **sempre local** — válida apenas numa pequena vizinhan
 Além disso, a técnica só é **plenamente confiável** quando o ponto é **hiperbólico** (nenhum autovalor com parte real exatamente zero); nos casos de fronteira (como "centro"), a linearização pode não capturar corretamente o comportamento real do sistema não linear.
 
 ---
-
-$$\boxed{\text{Questão 2} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
-
-
-
-
-
-
-
 
 
 ## (b): $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
