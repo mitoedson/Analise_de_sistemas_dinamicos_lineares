@@ -2,17 +2,64 @@
 
 ## Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-### Método geral
+## Propósito
 
-1. **Encontrar os pontos críticos**: resolver o sistema $\dot x=0,\ \dot y=0$ simultaneamente
-2. **Calcular a matriz Jacobiana** do sistema:
-   
-```math
-J(x,y) = \begin{pmatrix} \dfrac{\partial f_1}{\partial x} & \dfrac{\partial f_1}{\partial y} \\ \dfrac{\partial f_2}{\partial x} & \dfrac{\partial f_2}{\partial y} \end{pmatrix}
-```
+A questão tem como objetivo **investigar a estabilidade local** de sistemas dinâmicos **não lineares** de segunda ordem (com duas variáveis, $x$ e $y$), analisando o comportamento das trajetórias **na vizinhança** de cada ponto de equilíbrio do sistema.
 
-3. **Avaliar $J$ em cada ponto crítico** e calcular seus **autovalores**
-4. **Classificar** o ponto crítico conforme os autovalores (sela, nó, foco, centro — estável/instável)
+Como sistemas não lineares geralmente **não têm solução analítica exata** (não dá pra "resolver" a EDO diretamente), a estratégia é **indireta**: aproximar o comportamento do sistema perto de pontos específicos (os pontos críticos), usando a teoria — já conhecida e simples — de sistemas **lineares**.
+
+## Método (passo a passo)
+
+**1. Encontrar os pontos críticos**
+
+Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
+- Isolar uma variável e substituir na outra equação
+- Fatorar em casos (quando as equações já vêm como produtos, como $x(1-x-y)=0$)
+- Combinar as soluções possíveis, testando compatibilidade entre os casos
+
+**2. Montar a matriz Jacobiana genérica**
+
+$$J(x,y)=\begin{pmatrix}\dfrac{\partial f}{\partial x} & \dfrac{\partial f}{\partial y}\\[4pt]\dfrac{\partial g}{\partial x} & \dfrac{\partial g}{\partial y}\end{pmatrix}$$
+
+Essa matriz representa a **aproximação linear** (expansão de Taylor de 1ª ordem) do sistema em torno de um ponto qualquer.
+
+**3. Avaliar o Jacobiano em cada ponto crítico**
+
+Substituindo as coordenadas de cada ponto na matriz genérica, obtém-se uma matriz numérica constante para cada ponto — essa matriz descreve o comportamento **linearizado**, válido apenas **naquela vizinhança específica**.
+
+**4. Calcular traço ($T$) e determinante ($D$)**
+
+$$T=\text{soma da diagonal}, \qquad D=\det(J)$$
+
+**5. Classificar usando a tabela T-D**
+
+| Condição | Classificação |
+|---|---|
+| $D<0$ | Sela (sempre instável) |
+| $D>0$, $T^2-4D>0$, $T>0$ | Nó instável |
+| $D>0$, $T^2-4D>0$, $T<0$ | Nó estável |
+| $D>0$, $T^2-4D<0$, $T>0$ | Foco instável |
+| $D>0$, $T^2-4D<0$, $T<0$ | Foco estável |
+| $D>0$, $T=0$ | Centro (marginalmente estável) |
+| $D>0$, $T^2-4D=0$ | Nó degenerado (próprio ou impróprio) |
+
+## Limitação fundamental do método
+
+A conclusão obtida é **sempre local** — válida apenas numa pequena vizinhança daquele ponto crítico específico. Isso ocorre porque a linearização **descarta** os termos de ordem superior (quadráticos, cúbicos, trigonométricos, etc.) do sistema original — termos que voltam a ter influência significativa longe do ponto de equilíbrio.
+
+Além disso, a técnica só é **plenamente confiável** quando o ponto é **hiperbólico** (nenhum autovalor com parte real exatamente zero); nos casos de fronteira (como "centro"), a linearização pode não capturar corretamente o comportamento real do sistema não linear.
+
+---
+
+$$\boxed{\text{Questão 2} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
+
+
+
+
+
+
+
+
 
 ## (b): $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
