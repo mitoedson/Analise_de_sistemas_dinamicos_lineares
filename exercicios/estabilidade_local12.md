@@ -54,7 +54,7 @@ J(\frac{d}{c},\frac{a}{b})=\begin{pmatrix} a - b(\frac{a}{b}) & -b(\frac{d}{c}) 
 
 $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
 
-Pela tabela do item 5, analisamos sem calculos.
+Pela tabela do item 5, observamos que não dá para afirmar sobre o sinal de T, pois a e d são positivos, mas D < 0, indicando que o sistema é instável (ponto de sela).
 
 Através de T e D, construo o polinômio, e calculo os autovalores:
 
