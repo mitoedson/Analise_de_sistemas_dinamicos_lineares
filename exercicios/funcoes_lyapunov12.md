@@ -1,94 +1,81 @@
 <h1>Estabilidade - Funções de Lyapunov - 12</h1>
 
-(k) Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
+(l) Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 2 & -\frac{5}{2} \\ \frac{9}{5} & -1 \end{bmatrix} x
 ```
 ---
 
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
+
 ## Passo 1 — calcular $A^T$
 
-Como $A$ já é simétrica (matriz diagonal), $A^T=A$:
-
-```math
-A^T=\begin{bmatrix}2 & \frac{9}{5} \\ -\frac{5}{2} & -1 \end{bmatrix}
-```
+$$A^T=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}$$
 
 ## Passo 2 — calcular $A^TP$
 
-```math
-A^TP=\begin{bmatrix}2 & \frac{9}{5} \\ -\frac{5}{2} & -1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
-```
+$$A^TP=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}$$
 
-**Elemento (1,1):** $(-1)(p_{11})+(0)(p_{12}) = -p_{11}$
-
-**Elemento (1,2):** $(-1)(p_{12})+(0)(p_{22}) = -p_{12}$
-
-**Elemento (2,1):** $(0)(p_{11})+(-1)(p_{12}) = -p_{12}$
-
-**Elemento (2,2):** $(0)(p_{12})+(-1)(p_{22}) = -p_{22}$
-
-```math
-A^TP=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}
-```
+- (1,1): $2p_{11}+1{,}8p_{12}$
+- (1,2): $2p_{12}+1{,}8p_{22}$
+- (2,1): $-2{,}5p_{11}-p_{12}$
+- (2,2): $-2{,}5p_{12}-p_{22}$
 
 ## Passo 3 — calcular $PA$
 
-```math
-PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}-1&0\\0&-1\end{bmatrix}
-```
+$$PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}2&-2{,}5\\1{,}8&-1\end{bmatrix}$$
 
-**Elemento (1,1):** $(p_{11})(-1)+(p_{12})(0)=-p_{11}$
-
-**Elemento (1,2):** $(p_{11})(0)+(p_{12})(-1)=-p_{12}$
-
-**Elemento (2,1):** $(p_{12})(-1)+(p_{22})(0)=-p_{12}$
-
-**Elemento (2,2):** $(p_{12})(0)+(p_{22})(-1)=-p_{22}$
-
-```math
-PA=\begin{bmatrix}-p_{11}&-p_{12}\\-p_{12}&-p_{22}\end{bmatrix}
-```
+- (1,1): $2p_{11}+1{,}8p_{12}$
+- (1,2): $-2{,}5p_{11}-p_{12}$
+- (2,1): $2p_{12}+1{,}8p_{22}$
+- (2,2): $-2{,}5p_{12}-p_{22}$
 
 ## Passo 4 — somar $A^TP+PA$
 
-```math
-A^TP+PA=\begin{bmatrix}-2p_{11}&-2p_{12}\\-2p_{12}&-2p_{22}\end{bmatrix}
-```
+- **(1,1):** $(2p_{11}+1{,}8p_{12})+(2p_{11}+1{,}8p_{12}) = 4p_{11}+3{,}6p_{12}$
+- **(1,2):** $(2p_{12}+1{,}8p_{22})+(-2{,}5p_{11}-p_{12}) = -2{,}5p_{11}+p_{12}+1{,}8p_{22}$
+- **(2,2):** $(-2{,}5p_{12}-p_{22})+(-2{,}5p_{12}-p_{22}) = -5p_{12}-2p_{22}$
 
-Igualando a $-I=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$:
+$$A^TP+PA=\begin{bmatrix}4p_{11}+3{,}6p_{12} & -2{,}5p_{11}+p_{12}+1{,}8p_{22}\\ -2{,}5p_{11}+p_{12}+1{,}8p_{22} & -5p_{12}-2p_{22}\end{bmatrix}$$
 
-$$-2p_{11}=-1 \;\Rightarrow\; p_{11}=0{,}5$$
-$$-2p_{12}=0 \;\Rightarrow\; p_{12}=0$$
-$$-2p_{22}=-1 \;\Rightarrow\; p_{22}=0{,}5$$
+Igualando a $-I$:
 
-## Passo 5 — checar se $P$ é positiva definida
+$$4p_{11}+3{,}6p_{12}=-1 \quad (i)$$
+$$-2{,}5p_{11}+p_{12}+1{,}8p_{22}=0 \quad (ii)$$
+$$-5p_{12}-2p_{22}=-1 \quad (iii)$$
 
-```math
-P=\begin{bmatrix}0{,}5&0\\0&0{,}5\end{bmatrix}
-```
+## Passo 5 — resolver o sistema
 
-**Menor 1:** $p_{11}=0{,}5>0$ ✓
+Da (iii): $p_{22}=0{,}5-2{,}5p_{12}$
 
-**Menor 2 (determinante):** $\det(P)=(0{,}5)(0{,}5)-0^2=0{,}25>0$ ✓
+Substituindo em (ii):
+$$-2{,}5p_{11}+p_{12}+1{,}8(0{,}5-2{,}5p_{12})=0$$
+$$-2{,}5p_{11}+p_{12}+0{,}9-4{,}5p_{12}=0$$
+$$-2{,}5p_{11}-3{,}5p_{12}=-0{,}9 \;\Rightarrow\; p_{11}=0{,}36-1{,}4p_{12}$$
 
-**$P$ é positiva definida!** → **assintoticamente estável**
+Substituindo em (i):
+$$4(0{,}36-1{,}4p_{12})+3{,}6p_{12}=-1$$
+$$1{,}44-5{,}6p_{12}+3{,}6p_{12}=-1$$
+$$-2p_{12}=-2{,}44 \;\Rightarrow\; p_{12}=1{,}22$$
 
-## Passo 6 — classificar o tipo via traço e determinante de $A$
+Logo: $p_{11}=0{,}36-1{,}4(1{,}22)=0{,}36-1{,}708=-1{,}348$
 
-$$T=\text{traço}(A)=-1+(-1)=-2$$
-$$D=\det(A)=(-1)(-1)-(0)(0)=1$$
+## Passo 6 — checar se $P$ é positiva definida
 
-$D=1>0$; $T^2-4D=4-4=0$ → autovalores reais e **repetidos** ($\lambda=T/2=-1$, autovalor duplo); $T<0$ → **nó estável**
+$$p_{11}=-1{,}348<0$$
 
-Aqui, como a matriz $A$ já é diagonal com autovalores repetidos ($-1,-1$) e é **diagonalizável** (na verdade já está diagonal), esse é o caso de **nó estável "próprio"** (também chamado de nó em estrela) — todas as trajetórias entram na origem em linha reta, em qualquer direção.
+**Falha logo no primeiro menor** → $P$ não é positiva definida → instável.
+
+## Passo 7 — classificar o tipo via traço e determinante de $A$
+
+$$T=\text{traço}(A)=2+(-1)=1$$
+$$D=\det(A)=(2)(-1)-(-2{,}5)(1{,}8)=-2+4{,}5=2{,}5$$
+
+$D=2{,}5>0$; $T^2-4D=1-10=-9<0$ → autovalores **complexos**; $T=1>0$ → **foco instável**
 
 ## Conclusão
 
-$$P>0 \;\Rightarrow\; \text{assintoticamente estável}; \qquad T<0,\ D>0,\ T^2-4D=0 \;\Rightarrow\; \textbf{nó estável}$$
+$$P \text{ falhou} \;\Rightarrow\; \text{instável}; \qquad T>0,\ D>0,\ T^2-4D<0 \;\Rightarrow\; \textbf{foco instável}$$
 
 
----
-
-Esse item foi o mais simples de todos (matriz já diagonal, sem termos cruzados).
