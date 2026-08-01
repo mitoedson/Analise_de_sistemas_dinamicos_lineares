@@ -2,7 +2,7 @@
 
 ## Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$$\boxed{\text{Questão 2} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
+$$\boxed{\text{Questão} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
 
 ## Propósito
 
