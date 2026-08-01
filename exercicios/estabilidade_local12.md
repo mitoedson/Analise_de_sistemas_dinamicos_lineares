@@ -16,7 +16,7 @@ de equilíbrio (sela, foco, nó, centro).
 
 **1. Encontrar os pontos críticos**
 
-Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
+Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. 
 
 ```math
 \dot x = 0 \Rightarrow ax - bxy = 0 \Rightarrow ax = bxy \Rightarrow y = \frac{ax}{bx} \Rightarrow y = \frac{a}{b}\quad\text{ou x = 0}
@@ -26,23 +26,14 @@ Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
 
 ```
 
-
-
-- Isolar uma variável e substituir na outra equação
-- Fatorar em casos (quando as equações já vêm como produtos, como $x(1-x-y)=0$)
-- Combinar as soluções possíveis, testando compatibilidade entre os casos
-
-
-
-
-
-
-
 **2. Montar a matriz Jacobiana genérica**
 
 ```math
 J(x,y)=\begin{pmatrix}\dfrac{\partial f}{\partial x} & \dfrac{\partial f}{\partial y}\\[4pt]\dfrac{\partial g}{\partial x} & \dfrac{\partial g}{\partial y}\end{pmatrix}
 ```
+
+
+
 Essa matriz representa a **aproximação linear** (expansão de Taylor de 1ª ordem) do sistema em torno de um ponto qualquer.
 
 **3. Avaliar o Jacobiano em cada ponto crítico**
