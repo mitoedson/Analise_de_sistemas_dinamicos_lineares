@@ -56,6 +56,8 @@ $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
 
 $$\lambda^2-(a-d)\lambda - ad = 0 \Rightarrow \lambda_1 = a, \lambda_2 = -d \\Rightarrow\quad\text{é um sistema instável (Ponto de Sela)}$$
 
+Ou, sem T e D, calcular $$det(A-\lambdaI)$$
+
 
 **Para ($\frac{d}{c},\frac{a}{b}$):**
 
