@@ -30,6 +30,10 @@ Resolver $\dot x=0$ e $\dot y=0$ simultaneamente.
 
 ```math
 J(x,y)=\begin{pmatrix}\dfrac{\partial f}{\partial x} & \dfrac{\partial f}{\partial y}\\[4pt]\dfrac{\partial g}{\partial x} & \dfrac{\partial g}{\partial y}\end{pmatrix}
+=\begin{pmatrix}\dfrac{\partial ax - bxy}{\partial x} & \dfrac{\partial ax - bxy}{\partial y}\\[4pt]\dfrac{\partial cxy - dy}{\partial x} & \dfrac{\partial cxy - dy}{\partial y}\end{pmatrix}
+=\begin{pmatrix} a - by & -bx \\ cy & cx -d \end{pmatrix}
+
+
 ```
 
 
