@@ -5,8 +5,6 @@ Determinar os pontos críticos de cada sistema e investigar a estabilidade local
 $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
 
-$$\boxed{\text{Questão} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
-
 ## Propósito
 
 A questão tem como objetivo **investigar a estabilidade local** de sistemas dinâmicos **não lineares** de segunda ordem (com duas variáveis, $x$ e $y$), analisando o comportamento das trajetórias **na vizinhança** de cada ponto de equilíbrio do sistema.
@@ -55,6 +53,7 @@ A conclusão obtida é **sempre local** — válida apenas numa pequena vizinhan
 
 Além disso, a técnica só é **plenamente confiável** quando o ponto é **hiperbólico** (nenhum autovalor com parte real exatamente zero); nos casos de fronteira (como "centro"), a linearização pode não capturar corretamente o comportamento real do sistema não linear.
 
+$$\boxed{\text{Questão} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
 ---
 
 ### Passo 1 — Pontos críticos
