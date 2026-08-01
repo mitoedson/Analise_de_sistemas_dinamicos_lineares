@@ -110,6 +110,4 @@ Autovalores **complexos conjugados** com parte real $-\dfrac{1}{2}<0$ → **foco
 **$(1,1)$ é foco estável** 
 
 
-<p>
-<a href="/teoria/estabilidade.md">Ver teoria</a>
 
