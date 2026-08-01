@@ -3,10 +3,10 @@
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
 ```math
-$\dot x = x-y^2
+\dot x = x-y^2
 ```
 ```math
-\dot y = x-2y+x^2$
+\dot y = x-2y+x^2
 ```
 
 ## Propósito
