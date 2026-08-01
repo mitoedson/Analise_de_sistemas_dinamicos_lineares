@@ -1,4 +1,4 @@
-<h1>Estabilidade Local - 02</h1>
+<h1>Estabilidade Local (Método Indireto de Lyapunov) - 02</h1>
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
