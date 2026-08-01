@@ -1,6 +1,6 @@
 <h1>Estabilidade - Funções de Lyapunov - 12</h1>
 
-(l) Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
+Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
 ```math
 \frac{dx}{dt} = \begin{bmatrix} 2 & -\frac{5}{2} \\ \frac{9}{5} & -1 \end{bmatrix} x
