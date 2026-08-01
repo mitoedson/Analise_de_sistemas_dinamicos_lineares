@@ -12,7 +12,7 @@
 Como $A$ já é simétrica (matriz diagonal), $A^T=A$:
 
 ```math
-A^T=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}
+A^T=\begin{bmatrix}2 & \frac{9}{5} \\ -\frac{5}{2} & -1 \end{bmatrix}
 ```
 
 ## Passo 2 — calcular $A^TP$
