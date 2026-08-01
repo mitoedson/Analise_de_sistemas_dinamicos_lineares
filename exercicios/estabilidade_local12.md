@@ -56,7 +56,7 @@ $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
 
 Pela tabela do item 5, observamos que não dá para afirmar sobre o sinal de T, pois a e d são positivos, mas D < 0, indicando que o sistema é instável (ponto de sela).
 
-Através de T e D, construo o polinômio, e calculo os autovalores:
+Podemos também, através de T e D, construir o polinômio, e calcular os autovalores:
 
 $$\lambda^2-(a-d)\lambda - ad = 0 \Rightarrow \lambda_1 = a, \lambda_2 = -d \\Rightarrow\quad\text{é um sistema instável (Ponto de Sela)}$$
 
