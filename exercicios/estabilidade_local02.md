@@ -119,6 +119,5 @@ $D<0$ em todos → $\lambda^2-T\lambda+D=0$ sempre tem $\sqrt{T^2-4D}>|T|$, gara
 
 $$(0,0):\ \textbf{foco estável} \qquad\qquad \text{os outros três pontos: } \textbf{selas}$$
 
-<p>
-<a href="/teoria/estabilidade.md">Ver teoria</a>
+
 
