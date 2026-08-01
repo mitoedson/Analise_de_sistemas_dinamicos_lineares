@@ -2,7 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=2x+y+xy^3,\quad \dot y=x-2y-xy$
+```math
+\dot x=2x+y+xy^3
+```
+```math
+\dot y=x-2y-xy$
+```
 
 ---
 
