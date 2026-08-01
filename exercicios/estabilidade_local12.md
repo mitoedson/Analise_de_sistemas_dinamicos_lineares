@@ -58,7 +58,7 @@ $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
 
 $$T = 0 + 0 = 0, \quad D=\det(J) = (0)(0)-(\frac{-bd}{c})(\frac{ac}{b}) = ad $$
 
-$$\lambda^2-0\lambda + ad = 0 \Rightarrow \lambda_1=i\sqrt{ad}$$
+$$\lambda^2-0\lambda + ad = 0 \Rightarrow \lambda_1=\pmi\sqrt{ad}$$
 
 
 **5. Classificar usando a tabela T-D**
