@@ -17,16 +17,19 @@ de equilíbrio (sela, foco, nó, centro).
 **1. Encontrar os pontos críticos**
 
 Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
+
+```math
+\dot x = 0 \Rightarrow ax - bxy = 0 \Rightarrow ax = bxy \Rightarrow y = \frac{ax}{bx} 
+```
+```math
+\dot y = 0 \Rightarrow cxy - dy = 0 \Rightarrow cxy = dy
+```
+
+
+
 - Isolar uma variável e substituir na outra equação
 - Fatorar em casos (quando as equações já vêm como produtos, como $x(1-x-y)=0$)
 - Combinar as soluções possíveis, testando compatibilidade entre os casos
-
-```math
-\dot x = 0 \Rightarrow ax - bxy = 0
-```
-```math
-\dot y = 0 \Rightarrow cxy - dy = 0
-```
 
 
 
