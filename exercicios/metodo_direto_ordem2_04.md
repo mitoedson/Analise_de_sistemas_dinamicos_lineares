@@ -1,4 +1,16 @@
-<h1>Método Direto de Lyapunov - Equações de 2ª Ordem - 03</h1>
+<h1>Método Direto de Lyapunov - Equações de 2ª Ordem - 04</h1>
+
+Usando funções de Lyapunov, investigar a estabilidade do seguinte sistema:
+
+```math
+\frac{dx}{dt}=-x^3+xy^2
+```
+```math
+\frac{dy}{dt}=-2x^2y-y^3
+```
+assintoticamente.
+
+---
 
 ## Método geral
 
@@ -76,8 +88,6 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
 ---
-
-## $\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
 
 ### Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
