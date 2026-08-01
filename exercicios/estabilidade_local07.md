@@ -2,7 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=1-y,\quad \dot y=x^2-y^2$
+```math
+\dot x=1-y
+```
+```math
+\dot y=x^2-y^2
+```
 
 --- 
 
