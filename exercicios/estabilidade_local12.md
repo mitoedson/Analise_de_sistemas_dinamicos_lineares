@@ -51,13 +51,14 @@ J(\frac{d}{c},\frac{a}{b})=\begin{pmatrix} a - b(\frac{a}{b}) & -b(\frac{d}{c}) 
 **4. Calcular traço ($T$) e determinante ($D$)**
 
 **Para (0,0):** 
+
 $$T = a-d, \quad D=\det(J) = (a)(-d)-(0)(0) = -ad $$
-
-
 
 **Para ($\frac{d}{c},\frac{a}{b}$):**
 
-$$T=\text{soma da diagonal}, \qquad D=\det(J)$$
+$$T = 0 + 0 = 0, \quad D=\det(J) = (0)(0)-(\frac{-bd}{c})(\frac{ac}{b}) = ad $$
+
+
 
 **5. Classificar usando a tabela T-D**
 
