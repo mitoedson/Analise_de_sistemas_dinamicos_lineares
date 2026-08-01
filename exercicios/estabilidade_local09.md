@@ -2,7 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=-(x-y)(1-x-y),\quad \dot y=x(2+y)$
+```math
+\dot x=-(x-y)(1-x-y)
+```
+```math
+\dot y=x(2+y)
+```
 
 ---
 
