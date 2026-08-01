@@ -23,17 +23,20 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 ---
 Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
-**Passo 1 — escolher Q**
+## Passo 1 — escolher Q
+
 ```math
 Q=I=\begin{bmatrix}1&0\\0&1\end{bmatrix}
 ```
 
-**Passo 2 — montar P**
+## Passo 2 — montar P
+
 ```math
 P=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix} (simétrica, incógnitas)
 ```
 
-**Passo 3 — resolver $A^TP+PA=-I$ **
+##Passo 3 — resolver $A^TP+PA=-I$
+
 ```math
 A^T=\begin{bmatrix}3&2\\-2&-2\end{bmatrix}
 ```
@@ -54,7 +57,7 @@ $$6p_{11}+4p_{12}=-1 \quad (i)$$
 $$-2p_{11}+p_{12}+2p_{22}=0 \quad (ii)$$
 $$-4p_{12}-4p_{22}=-1 \quad (iii)$$
 
-**Passo 4 — resolver o sistema**
+## Passo 4 — resolver o sistema
 
 Da (iii): $p_{22}=\dfrac{1-4p_{12}}{4}=\dfrac14-p_{12}$
 
@@ -66,7 +69,8 @@ Então: $p_{12}=\dfrac12-2\left(\dfrac32\right)=\dfrac12-3=-\dfrac52$
 
 E: $p_{22}=\dfrac14-\left(-\dfrac52\right)=\dfrac14+\dfrac52=\dfrac{11}{4}$
 
-**Passo 5 — verificar se $P$ é positiva definida**
+## Passo 5 — verificar se $P$ é positiva definida
+
 ```math
 P=\begin{bmatrix}\dfrac32 & -\dfrac52\\[4pt] -\dfrac52 & \dfrac{11}{4}\end{bmatrix}
 ```
