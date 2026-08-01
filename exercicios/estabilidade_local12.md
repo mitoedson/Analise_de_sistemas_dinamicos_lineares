@@ -19,10 +19,11 @@ de equilíbrio (sela, foco, nó, centro).
 Resolver $\dot x=0$ e $\dot y=0$ simultaneamente. Técnicas comuns:
 
 ```math
-\dot x = 0 \Rightarrow ax - bxy = 0 \Rightarrow ax = bxy \Rightarrow y = \frac{ax}{bx} 
+\dot x = 0 \Rightarrow ax - bxy = 0 \Rightarrow ax = bxy \Rightarrow y = \frac{ax}{bx} \Rightarrow y = \frac{a}{b} 
 ```
 ```math
-\dot y = 0 \Rightarrow cxy - dy = 0 \Rightarrow cxy = dy
+\dot y = 0 \Rightarrow cxy - dy = 0 \Rightarrow cxy = dy \Rightarrow cxy = dy  \Rightarrow x = \frac{dy}{cy}  \Rightarrow x = \frac{d}{c}
+
 ```
 
 
