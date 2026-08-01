@@ -18,7 +18,7 @@ A^T=\begin{bmatrix}2 & \frac{9}{5} \\ -\frac{5}{2} & -1 \end{bmatrix}
 ## Passo 2 — calcular $A^TP$
 
 ```math
-A^TP=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
+A^TP=\begin{bmatrix}\frac{9}{5} \\ -\frac{5}{2} & -1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
 ```
 
 **Elemento (1,1):** $(-1)(p_{11})+(0)(p_{12}) = -p_{11}$
