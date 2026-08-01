@@ -2,7 +2,12 @@
 
 Determinar os pontos cíticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=x+y^2,\quad \dot y=x+y$
+```math
+\dot x=x+y^2
+```
+```math
+\dot y=x+y
+```
 
 --- 
 
