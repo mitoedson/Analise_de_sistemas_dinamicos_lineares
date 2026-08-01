@@ -18,9 +18,7 @@ A questão tem como objetivo aplicar o **Método Direto de Lyapunov** para prova
 
 O método de Lyapunov, quando bem-sucedido, pode provar propriedades **globais**, válidas para qualquer condição inicial no espaço de estados inteiro.
 
-## O desafio central
-
-Ao contrário da questão 4 (sistemas lineares, onde existe um método **sistemático e garantido** — resolver a equação de Lyapunov $A^TP+PA=-Q$), aqui **não existe fórmula automática**. Encontrar a candidata $V$ certa é, em parte, uma questão de **reconhecer padrões** na estrutura do sistema.
+**Não existe fórmula automática**. Encontrar a candidata $V$ certa é, em parte, uma questão de **reconhecer padrões** na estrutura do sistema.
 
 ## Passo a passo genérico
 
