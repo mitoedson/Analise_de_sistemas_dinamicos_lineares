@@ -2,8 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=(2+x)(y-x),\quad \dot y=(4-x)(y+x)$
-
+```math
+\dot x=(2+x)(y-x)
+```
+```math
+\dot y=(4-x)(y+x)
+```
 ---
 
 ### Passo 1 — Pontos críticos
