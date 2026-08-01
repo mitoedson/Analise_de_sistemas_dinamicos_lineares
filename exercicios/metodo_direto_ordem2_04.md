@@ -12,164 +12,74 @@ assintoticamente.
 
 ---
 
-## Método geral
+## Propósito
 
-### 1. Identificar o(s) ponto(s) de equilíbrio
+A questão tem como objetivo aplicar o **Método Direto de Lyapunov** para provar a estabilidade (geralmente assintótica, e frequentemente **global**) de sistemas dinâmicos **não lineares**, **sem** depender de linearização — trabalhando diretamente com a estrutura completa e exata do sistema.
 
-Resolver $\dot x=0$ (ou, se o sistema tiver $\ddot x$, transformar em sistema de 2 variáveis primeiro — ver Passo 2).
+O método de Lyapunov, quando bem-sucedido, pode provar propriedades **globais**, válidas para qualquer condição inicial no espaço de estados inteiro.
 
-### 2. Se a equação tiver $\ddot x$, transformar em sistema de 2 variáveis
+## O desafio central
 
-Definir:
+Ao contrário da questão 4 (sistemas lineares, onde existe um método **sistemático e garantido** — resolver a equação de Lyapunov $A^TP+PA=-Q$), aqui **não existe fórmula automática**. Encontrar a candidata $V$ certa é, em parte, uma questão de **reconhecer padrões** na estrutura do sistema.
 
-$x_1=x, x_2=\dot x$
+## Passo a passo genérico
 
-Isso converte a equação de segunda ordem em um sistema:
-$\dot x_1=x_2, \dot x_2=(\text{isolando } \ddot x \text{ na equação original})$
+### Passo 1 — Identificar o ponto de equilíbrio
 
-Com o sistema já escrito em termos de $\dot x_1$ e $\dot x_2$, procurar os pontos de equilíbrio — resolvendo $\dot x_1=0$ **e** $\dot x_2=0$ **simultaneamente**
+Geralmente é a origem $(0,0)$ (verificar substituindo nas equações).
 
-Lembrando que essa notação, que é bem comum em sistemas dinâmicos/mecânica.
+### Passo 2 — Escolher uma candidata $V$
 
+Estratégia recomendada, em ordem de tentativa:
 
-### 2.1 Notação de Newton (pontos sobre a variável)
+**(a) Primeira tentativa — candidata quadrática simples:**
+$$V=x_1^2+x_2^2 \quad \text{(ou com pesos: } V=a x_1^2+bx_2^2\text{, se houver assimetria)}$$
 
-$$\dot x = \frac{dx}{dt} \qquad \text{(primeira derivada de } x \text{ em relação ao tempo — "velocidade")}$$
+**(b) Se o sistema tiver expoentes diferentes** (como $x_1^8$ ou $x_2^4$ no lugar de quadrados), **casar os expoentes** de $V$ com os termos do sistema, de forma que a derivada de $V$ produza um termo que **cancele exatamente** com um termo "incômodo" do sistema (ex: $V=\frac18x_1^8+\frac12x_2^2$ para cancelar $x_1^7$).
 
-$$\ddot x = \frac{d^2x}{dt^2} \qquad \text{(segunda derivada de } x \text{ em relação ao tempo — "aceleração")}$$
+**(c) Se o sistema tiver interpretação física** (mecânico, como pêndulo): usar a **energia real** (cinética + potencial) como candidata.
 
-### 2.2 Por que essa notação existe
+### Passo 3 — Verificar que $V$ é positiva definida
 
-É chamada de **notação de Newton**, e é uma alternativa mais compacta à notação de Leibniz ($\dfrac{dx}{dt}$, $\dfrac{d^2x}{dt^2}$). Ela é extremamente comum em **física** e **sistemas dinâmicos**, justamente porque o tempo $t$ é quase sempre a variável de derivação — então não precisamos escrever $\dfrac{d}{dt}$ toda vez, só colocamos um ponto em cima da variável.
+$$V(0,0)=0 \quad \text{e} \quad V(x_1,x_2)>0 \text{ para } (x_1,x_2)\ne(0,0)$$
 
-### 2.3 Resumindo
+Geralmente óbvio por construção (soma de potências pares com coeficientes positivos).
 
-$$\boxed{\dot x=\frac{dx}{dt} \quad(\text{1ª derivada}) \qquad\qquad \ddot x=\frac{d^2x}{dt^2}\quad(\text{2ª derivada})}$$
+Se possível, verificar também se $V$ é **radialmente ilimitada** ($V\to\infty$ quando $\|\mathbf x\|\to\infty$) — necessário para conclusão **global**.
 
-Cada ponto adicional representa mais uma derivada em relação ao tempo — $\dddot x$ seria a terceira derivada, e assim por diante (embora isso raramente apareça na prática).
+### Passo 4 — Calcular $\dot V$ pela regra da cadeia
 
+$$\dot V=\frac{\partial V}{\partial x_1}\dot x_1+\frac{\partial V}{\partial x_2}\dot x_2$$
 
-### 3. Escolher a candidata de Lyapunov $V$
+Substituir as expressões de $\dot x_1$ e $\dot x_2$ do sistema original.
 
-- **Caso escalar simples:** $V(x)=x^2$ (ou $(x-x^*)^2$ se o equilíbrio não for a origem, como no item b: $V=(x-5)^2$)
-- **Caso com $\ddot x$ (2 variáveis):** combinar "energia cinética" ($x_2^2$) com um termo em $x_1$ que, ao derivar, produza um expoente compatível com o termo de maior grau em $x_1$ na equação (ex: item c usava $\frac18x_1^8$ para casar com o termo $x_1^7$)
+### Passo 5 — Simplificar e buscar cancelamentos
 
-**Sempre verificar:** $V(x^*)=0$ e $V>0$ fora do equilíbrio (positiva definida). Se $V\to\infty$ quando $\|\mathbf x\|\to\infty$, ela é **radialmente ilimitada** (necessário para conclusão global).
+- Expandir tudo e agrupar termos semelhantes
+- Procurar termos que se **cancelam exatamente** (geralmente é por isso que a candidata foi escolhida daquela forma)
+- Se sobrar um **termo cruzado com sinal indefinido** (tipo $x_1x_2^3$), ajustar os **coeficientes/pesos** de $V$ (introduzindo parâmetros como $a,b$, se a questão permitir) para forçar esse termo a se cancelar
 
-### 4. Calcular $\dot V$ pela regra da cadeia
+### Passo 6 — Analisar o sinal de $\dot V$
 
-$$\dot V=\frac{dV}{dx}\cdot\dot x \qquad \text{(escalar)} \qquad \text{ou} \qquad \dot V=\frac{\partial V}{\partial x_1}\dot x_1+\frac{\partial V}{\partial x_2}\dot x_2 \qquad \text{(2 variáveis)}$$
+- Tentar reescrever como **soma/produto de termos sempre não-positivos** (quadrados, potências pares com sinal negativo, produtos notáveis como $-(a-b)^2$)
+- Usar limitações conhecidas de funções trigonométricas ($|\text{sen}|\le1$, etc.) se aplicável
 
-Substituir as expressões do sistema original.
-
-### 5. Simplificar e analisar o sinal de $\dot V$
-
-- Procurar **cancelamentos** entre termos (geralmente a escolha de $V$ foi feita propositalmente para gerar esses cancelamentos)
-- Usar **limitações conhecidas** de funções trigonométricas: $|\text{sen}(\cdot)|\le1$, $|\cos(\cdot)|\le1$, $\text{sen}^{2n}(\cdot)\ge0$, etc.
-- Comparar **ordens de grandeza**: termos de grau maior (ex: $x^4$) dominam termos limitados ou de grau menor, tanto para $|x|$ grande quanto pequeno
-- Tentar reconhecer **produtos notáveis** (como $(a-b)^2=a^2-2ab+b^2$), que garantem $\dot V\le0$ de forma óbvia
-
-### 6. Classificar o resultado
+### Passo 7 — Classificar o resultado
 
 | Resultado de $\dot V$ | Conclusão |
 |---|---|
-| $\dot V<0$ para todo $x\ne x^*$ (estrita) | Assintoticamente estável |
-| $\dot V\le0$, mas zera fora da origem também | Só "estável" pelo teorema básico — ir para o Passo 7 |
-| $V$ radialmente ilimitada + $\dot V<0$ em **todo** o espaço | Estabilidade **global** |
-| $\dot V<0$ só numa região limitada perto de $x^*$ | Estabilidade apenas **local** |
+| $\dot V<0$ estritamente, para todo $\mathbf x\ne0$ | Assintoticamente estável |
+| $\dot V\le0$, mas zera fora da origem também | Apenas "estável" — ir para o Passo 8 (LaSalle) |
+| $V$ radialmente ilimitada + $\dot V<0$ em todo o espaço | Estabilidade **global** |
 
-### 7. Se $\dot V$ for só semi-definida negativa: aplicar o Princípio de LaSalle
+### Passo 8 — Se necessário, aplicar o Princípio de LaSalle
 
-Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o próprio ponto de equilíbrio — se sim, resgata-se a conclusão de **assintoticamente estável**.
-
-### 8. Decidir local vs. global
-
-- Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
-- $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
+Quando $\dot V$ é só semi-definida negativa: verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é a própria origem. Se sim, resgata-se a conclusão de assintoticamente estável.
 
 ---
 
-### Passo 1 e 2 — Transformar em sistema de 2 variáveis
+## Resumo em uma frase
 
-$x_1 = x$ 
-
-$x_2 = \dot x$
-
-$\dot x_1 = \dot x = x_2$
-
-$\dot x_2 = \ddot x = -(x_1-1)^2x_2^7-x_1+\text{sen}\left(\frac{\pi x_1}{2}\right)$
-
-### Passo 1 (retomando) — Pontos de equilíbrio
-
-$$x_2=0 \quad \text{e} \quad x_1=\text{sen}\left(\frac{\pi x_1}{2}\right)$$
-
-Testando valores simples:
-- $x_1=0$: $\text{sen}(0)=0$ ✓
-- $x_1=1$: $\text{sen}(\pi/2)=1$ ✓
-- $x_1=-1$: $\text{sen}(-\pi/2)=-1$ ✓
-
-Não por acaso escolhemos esses três valores, pois testamos exatamente esses porque são os valores que simplificam o seno para números exatos e fáceis de verificar.
-
-**Pontos de equilíbrio: $(0,0)$, $(1,0)$, $(-1,0)$** — o primeiro sistema (dessa questão) com **múltiplos** equilíbrios, por isso a conclusão só pode ser **local**.
-
-**se existem múltiplos pontos de equilíbrio competindo no espaço de estados, a conclusão só pode ser local** (não pode ser global).
-
-Por que isso impede a conclusão global — o raciocínio físico
-
-Pense assim: se eu afirmasse "**qualquer** trajetória, não importa onde comece, converge para $(1,0)$" — isso seria **global**. Mas isso não pode ser verdade, porque:
-
-- Se eu soltar o sistema **exatamente em $(-1,0)$**, ele **já está parado ali** (é um ponto de equilíbrio!) — ele não vai "migrar" para $(1,0)$
-- Se eu soltar o sistema **perto de $(-1,0)$**, a tendência natural (dado que provamos que $(-1,0)$ é *localmente* assintoticamente estável) é que ele convirja para $(-1,0)$, **não** para $(1,0)$
-
-Ou seja: **cada ponto de equilíbrio "estável" tem sua própria região de atração** — pontos que começam suficientemente perto dele convergem para ele, mas isso não vale para o espaço inteiro, porque os **outros** equilíbrios "competem" pelo espaço ao redor.
-
-
-
-
-### Passo 3 — Escolher a candidata de Lyapunov (interpretação "energia")
-
-Repare que a equação tem a forma mecânica $\ddot x+\text{amortecimento}+\text{restauração}(x)=0$, com força restauradora $h(x_1)=x_1-\text{sen}\left(\dfrac{\pi x_1}{2}\right)$.
-
-A candidata natural é a **energia mecânica**: cinética + potencial, onde o potencial é a integral da força restauradora:
-
-$$P(x_1)=\int h(x_1)\,dx_1=\frac{x_1^2}{2}+\frac{2}{\pi}\cos\left(\frac{\pi x_1}{2}\right)$$
-
-$$V(x_1,x_2)=\frac12x_2^2+P(x_1)$$
-
-### Passo 4 — Calcular $\dot V$
-
-$$\dot V=x_2\dot x_2+P'(x_1)\dot x_1=x_2\left[-(x_1-1)^2x_2^7-h(x_1)\right]+h(x_1)\cdot x_2$$
-
-### Passo 5 — Simplificar
-
-$$\dot V=-(x_1-1)^2x_2^8-h(x_1)x_2+h(x_1)x_2=-(x_1-1)^2x_2^8$$
-
-Os termos com $h(x_1)$ **se cancelam exatamente** — resultado muito limpo:
-
-$$\dot V=-(x_1-1)^2x_2^8\le0$$
-
-### Passo 6 — Classificar cada ponto de equilíbrio
-
-Como $\dot V\le0$ (semi-definida, zera em $x_2=0$ **ou** $x_1=1$), a conclusão depende da **curvatura do potencial $P$** em cada ponto — ou seja, do sinal de $P''(x_1)=1-\dfrac{\pi}{2}\cos\left(\dfrac{\pi x_1}{2}\right)$:
-
-**Em $x_1=0$:** $P''(0)=1-\dfrac{\pi}{2}\approx-0{,}571<0$ → **máximo local** do potencial (como uma bolinha no topo de uma colina) → **instável**
-
-**Em $x_1=1$:** $P''(1)=1-\dfrac{\pi}{2}\cos\left(\dfrac{\pi}{2}\right)=1-0=1>0$ → **mínimo local** (poço de potencial) → candidato a estável
-
-**Em $x_1=-1$:** $P''(-1)=1-\dfrac{\pi}{2}\cos\left(-\dfrac{\pi}{2}\right)=1-0=1>0$ → **mínimo local** → candidato a estável
-
-### Passo 7 — Confirmando estabilidade assintótica em $x_1=\pm1$ via LaSalle
-
-Perto de $(1,0)$: o conjunto $\{\dot V=0\}$ é $\{x_2=0\}\cup\{x_1=1\}$. Se a trajetória ficasse presa em $x_2\equiv0$, precisaria também $\dot x_2\equiv0$, ou seja $h(x_1)=0$ — que localmente só ocorre em $x_1=1$. O único conjunto invariante contido em $\{\dot V=0\}$, próximo desse ponto, é o próprio $(1,0)$.
-
-Pelo Princípio de LaSalle: **$(1,0)$ é localmente assintoticamente estável**. O mesmo argumento vale para $(-1,0)$.
-
-### Conclusão final
-
-$$(0,0):\ \textbf{instável} \qquad (1,0):\ \textbf{localmente assint. estável} \qquad (-1,0):\ \textbf{localmente assint. estável}$$
-
----
-
-Esse item mostra a técnica mais elegante da questão 3: reconhecer a **estrutura mecânica** (cinética + potencial) por trás da equação, o que revela naturalmente a candidata $V$ certa e explica por que a estabilidade depende da **curvatura do potencial** em cada ponto de equilíbrio (mínimos → estáveis, máximos → instáveis) — exatamente a mesma lógica física que vimos no pêndulo da questão 6!
+$$\boxed{\text{Escolher } V \text{ (guiado pela estrutura do sistema)} \to \text{Verificar } V>0 \to \text{Calcular } \dot V \to \text{Ajustar pesos se necessário} \to \text{Analisar sinal} \to \text{Concluir (LaSalle se preciso)}}$$
 
 
