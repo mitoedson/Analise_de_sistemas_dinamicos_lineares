@@ -59,7 +59,7 @@ $$\lambda^2-(a-d)\lambda - ad = 0 \Rightarrow \lambda_1 = a, \lambda_2 = -d \\Ri
 Ou, sem T e D, calcular $$det(A -\lambda I):$$
 
 ```math
-det (\begin{pmatrix} a & 0 \\ 0 & -d \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix}) = det(\begin{pmatrix} a-\lambda & 0 \\ 0 & -d-\lambda \end{pmatrix})
+det (\begin{pmatrix} a & 0 \\ 0 & -d \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix}) = det(\begin{pmatrix} a-\lambda & 0 \\ 0 & -d-\lambda \end{pmatrix}) = \lambda^2 - a\lambda  + d\lambda - ad = 0 \Rightarrow \lambda^2 - (a-d)\lambda - ad = 0
 ```
 
 **Para ($\frac{d}{c},\frac{a}{b}$):**
