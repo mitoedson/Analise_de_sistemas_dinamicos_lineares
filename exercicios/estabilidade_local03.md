@@ -2,7 +2,12 @@
 
 Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
 
-$\dot x=(1+x)\ \text{sen}(y),\quad \dot y=1-x-\cos(y)$
+```math
+\dot x=(1+x)\ \text{sen}(y)
+```
+```math
+\dot y=1-x-\cos(y)
+```
 
 --- 
 
