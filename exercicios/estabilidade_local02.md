@@ -1,6 +1,9 @@
 <h1>Estabilidade Local - 02</h1>
 
-## Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
+Determinar os pontos críticos de cada sistema e investigar a estabilidade local destes pontos:
+
+$\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
+
 
 $$\boxed{\text{Questão} = \text{Não linear} + \text{Linearização (Jacobiano)} + \text{Conclusão sempre LOCAL}}$$
 
@@ -53,9 +56,6 @@ A conclusão obtida é **sempre local** — válida apenas numa pequena vizinhan
 Além disso, a técnica só é **plenamente confiável** quando o ponto é **hiperbólico** (nenhum autovalor com parte real exatamente zero); nos casos de fronteira (como "centro"), a linearização pode não capturar corretamente o comportamento real do sistema não linear.
 
 ---
-
-
-## (b): $\dot x=-x+y+2xy,\quad \dot y=-4x-y+x^2-y^2$
 
 ### Passo 1 — Pontos críticos
 
