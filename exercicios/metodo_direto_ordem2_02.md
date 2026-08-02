@@ -110,5 +110,3 @@ Como $V$ é radialmente ilimitada e $\dot V\le0$ em todo o espaço, anulando-se 
 
 Conclusão: $(0,0)$ é globalmente assintoticamente estável
 
----
-
