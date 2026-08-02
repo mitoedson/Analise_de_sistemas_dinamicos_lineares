@@ -6,7 +6,7 @@
 
 #### Candidata: $V(x_1,x_2)=ax_1^2+bx_2^4$
 
-## Passo 1 — Verificar positividade
+## Passo 1 — Verificar se a candidata de Lyapunov é positiva definida
 
 Para $V>0$ (fora da origem), precisamos de $a>0$ e $b>0$ (soma de potências pares com coeficientes positivos).
 
