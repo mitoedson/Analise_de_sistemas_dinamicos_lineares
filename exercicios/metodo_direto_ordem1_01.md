@@ -2,7 +2,7 @@
 
 Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
 
-## $\dot x=-x^3+\text{sen}^4(x)$
+$\dot x=-x^3+\text{sen}^4(x)$
 
 ---
 
