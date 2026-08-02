@@ -1,5 +1,11 @@
 <h1>Método Direto de Lyapunov - Equações de 2ª Ordem - 03</h1>
 
+Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
+
+$\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
+
+---
+
 ## Método geral
 
 ### 1. Identificar o(s) ponto(s) de equilíbrio
@@ -76,8 +82,6 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
 ---
-
-## $\ddot x+(x-1)^2 \dot x^7+x=\text{sen}\left(\dfrac{\pi x}{2}\right)$
 
 ### Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
@@ -160,6 +164,5 @@ $$(0,0):\ \textbf{instável} \qquad (1,0):\ \textbf{localmente assint. estável}
 
 ---
 
-Esse item mostra a técnica mais elegante da questão 3: reconhecer a **estrutura mecânica** (cinética + potencial) por trás da equação, o que revela naturalmente a candidata $V$ certa e explica por que a estabilidade depende da **curvatura do potencial** em cada ponto de equilíbrio (mínimos → estáveis, máximos → instáveis) — exatamente a mesma lógica física que vimos no pêndulo da questão 6!
-
+Esse item mostra a técnica mais elegante da questão: reconhecer a **estrutura mecânica** (cinética + potencial) por trás da equação, o que revela naturalmente a candidata $V$ certa e explica por que a estabilidade depende da **curvatura do potencial** em cada ponto de equilíbrio (mínimos → estáveis, máximos → instáveis)
 
