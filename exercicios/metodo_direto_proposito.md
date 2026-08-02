@@ -114,7 +114,7 @@ Como no item (b): $\dot V=-(x^2-2y^2)^2$ — zera sempre que $x^2=2y^2$, que é 
 
 Por exemplo, se $\dot V=-x^2y^2$ (hipotético), zeraria sempre que $x=0$ **ou** $y=0$ — ou seja, em **dois** eixos inteiros, não só na origem.
 
-## 4.3. O padrão geral, então
+#### 4.3. O padrão geral, então
 
 $$\boxed{\dot V \text{ é semi-definida sempre que a expressão SIMPLIFICADA de } \dot V \text{ permite algum conjunto de pontos (não só a origem) onde ela vale zero}}$$
 
