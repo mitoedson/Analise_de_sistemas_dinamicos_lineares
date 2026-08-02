@@ -30,15 +30,13 @@ Portanto, k > 2.
 
 ---
 
-### Condição necessária pelo critério de Routh
+### Comparando com o critério de Routh, e suas condições:
 1. Todos os coeficientes $a_i$ devem existir (nenhum estar ausente/zero).
 2. Todos os coeficientes devem ter o mesmo sinal.
 
 Coeficientes: $a_0=1,\ a_1=k,\ a_2=k,\ a_3=4$
 
 Assim, k > 0.
-
-**Comparando com  o critério de Routh:** monta a tabela recursiva, e verifica sinais na primeira coluna.
 
 ### Montagem da tabela
 
