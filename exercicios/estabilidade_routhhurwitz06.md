@@ -38,7 +38,7 @@ Coeficientes: $a_0=1,\ a_1=k,\ a_2=k,\ a_3=4$
 
 Assim, k > 0.
 
-**Critério de Routh:** monta a tabela recursiva que vimos, e verifica sinais na primeira coluna.
+**Comparando com  o critério de Routh:** monta a tabela recursiva, e verifica sinais na primeira coluna.
 
 ### Montagem da tabela
 
