@@ -82,7 +82,7 @@ Vamos organizar todas as classificações possíveis que podem sair de uma anál
 |---|---|---|
 | $V>0$ | $\dot V\le0$ (semi-definida negativa) | **Estável** (não necessariamente assintótico) |
 | $V>0$ | $\dot V<0$ (estrita, localmente) | **Assintoticamente estável (local)** |
-| $V>0$, radialmente ilimitada | $\dot V<0$ estrita, **em todo o espaço** | **Globalmente assintoticamente estável** |
+| $V>0$, radialmente ilimitada | $\dot V<0$ estrita, **em todo o espaço** (x,y) \ne (0,0) | **Globalmente assintoticamente estável** |
 | $V>0$ | $\dot V\le0$, mas único conjunto invariante em $\{\dot V=0\}$ é a origem (LaSalle) | **Assintoticamente estável** (resgatada via LaSalle) |
 | $V>0$ | $\dot V>0$ em alguma região próxima do equilíbrio | **Instável** |
 | — | $V$ **não** é positiva definida | **Inconclusivo** (candidata falhou — não é uma classificação do sistema, é falha do método) |
