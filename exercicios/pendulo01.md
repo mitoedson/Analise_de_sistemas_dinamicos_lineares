@@ -10,17 +10,9 @@ x_2 = \frac{dθ}{dt}
 ```
 
 obtemos:
-
-
-
-dx1
-dt = x2
-dx2
-dt = −
-g
-L
-sen(x1) −
-c
-m L
-x2
-
+```math
+\frac{dx_1}{dt} = x_2
+```
+```math
+\frac{dx_2}{dt} = -\frac{g}{L}sen(x_1)-\frac{c}{mL}x_2
+```
