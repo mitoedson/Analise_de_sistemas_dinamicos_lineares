@@ -2,7 +2,7 @@
 
 Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
 
-$\ddot x+(x-1)^4\dot x^7+x^5=x^3\,\text{sen}^3(x)$
+$\ddot x+(x-1)^4\dot x^7+x^5=x^3\text{sen}^3(x)$
 
 ---
 
