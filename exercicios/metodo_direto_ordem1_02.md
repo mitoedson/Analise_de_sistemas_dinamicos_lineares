@@ -115,4 +115,8 @@ Vale mostrar também o caminho mais rápido, sem passar formalmente por $V$: com
 - $x<5 \Rightarrow \dot x>0$ (x cresce, se aproxima de 5)
 - $x>5 \Rightarrow \dot x<0$ (x decresce, se aproxima de 5)
 
-Isso já mostra diretamente que **qualquer** ponto inicial converge para $x=5$ — o mesmo resultado, mas sem precisar formalizar com $V$. Os dois caminhos são equivalentes (lembra da nossa conversa sobre isso lá no início da questão 3!).
+Isso já mostra diretamente que **qualquer** ponto inicial converge para $x=5$ — o mesmo resultado, mas sem precisar formalizar com $V$. Os dois caminhos são equivalentes.
+
+
+
+
