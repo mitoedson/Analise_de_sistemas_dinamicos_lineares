@@ -54,3 +54,7 @@ O critério de Routh-Hurwitz diz:
 
 Como há raízes com parte real positiva, o sistema associado a esse polinômio (se fosse um polinômio característico de um sistema linear) seria **instável**.
 
+
+---
+
+<a href="estabilidade_routhhurwitz_metodo.md">Método de Routh-Hurwitz</a>
