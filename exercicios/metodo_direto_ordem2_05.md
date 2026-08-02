@@ -25,7 +25,7 @@ Usualmente $V=x^2+y^2$ é uma candidata, mas ela falha, apesar de ser positiva d
 
 Ajustamos então $V=x^2+2y^2$ .
 
-Verificando radialmente ilimitada: como $x^2\to\infty$ conforme $|x|\to\infty$ e $2y^2\to\infty$ conforme $|y|\to\infty$, a soma $V=x^2+2y^2\to\infty$ conforme $\|(x,y)\|\to\infty$, em **qualquer** direção — ✓ radialmente ilimitada (soma de potências pares com coeficientes positivos)
+Verificando radialmente ilimitada: como $x^2\to\infty$ conforme $|x|\to\infty$ e $2y^2\to\infty$ conforme $|y|\to\infty$, a soma $V=x^2+2y^2\to\infty$ conforme $\|(x,y)\|\to\infty$, em **qualquer** direção — ✓ radialmente ilimitada (soma de potências pares com coeficientes positivos), e candidata a ser global.
 
 ## Requisito 3 — $\dot V$ negativo (ou semi-definido) em **todo** o espaço
 
