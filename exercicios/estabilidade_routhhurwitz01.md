@@ -47,5 +47,6 @@ Portanto, $k>1$
 
 Portanto, não existe $k\in\mathbb{R}$
 
+---
 
 <a href="estabilidade_routhhurwitz_metodo.md">Método de Routh-Hurwitz</a>
