@@ -94,29 +94,27 @@ $\dot V<0$ em **todo** o espaço + $V$ radialmente ilimitada + equilíbrio únic
 Quando $\dot V$ é só semi-definida, mas você prova que o único conjunto invariante em $\{\dot V=0\}$ é a origem. Exemplo: item 5(b), pêndulo item 6(a).
 
 
-### 4.1. A definição geral de "semi-definida negativa" (independente da causa)
+## 4.1. A definição geral de "semi-definida negativa" (independente da causa)
 
 $$\boxed{\dot V \text{ é semi-definida negativa} \;\Longleftrightarrow\; \dot V\le0 \text{ SEMPRE, mas } \dot V=0 \text{ acontece em algum lugar ALÉM da origem}}$$
 
 Essa é a definição — ela **não especifica** a causa de $\dot V$ zerar fora da origem. Só diz que existe **algum conjunto** (maior que só o ponto $(0,0)$) onde $\dot V=0$.
 
-## As formas mais comuns de isso acontecer
+## 4.2. As formas mais comuns de isso acontecer
 
-### 4.2.1 $\dot V$ depende de **apenas uma** variável (seu exemplo)
+## (a) $\dot V$ depende de **apenas uma** variável (seu exemplo)
 
 Como no item (c): $\dot V=-2x^4$ — depende só de $x$, então zera em **toda a reta** $x=0$ (para qualquer $y$).
 
-### 4.2.2. $\dot V$ é um **quadrado perfeito** de uma combinação das variáveis
+## (b) $\dot V$ é um **quadrado perfeito** de uma combinação das variáveis
 
 Como no item (b): $\dot V=-(x^2-2y^2)^2$ — zera sempre que $x^2=2y^2$, que é uma **curva** (duas retas passando pela origem), não uma reta alinhada com um único eixo.
 
-### 4.2.3. $\dot V$ tem uma **estrutura de produto** que permite múltiplos zeros
+## (c) $\dot V$ tem uma **estrutura de produto** que permite múltiplos zeros
 
 Por exemplo, se $\dot V=-x^2y^2$ (hipotético), zeraria sempre que $x=0$ **ou** $y=0$ — ou seja, em **dois** eixos inteiros, não só na origem.
 
-## Por que a causa "1 variável" é só um caso particular
-
-## O padrão geral, então
+## 4.3. O padrão geral, então
 
 $$\boxed{\dot V \text{ é semi-definida sempre que a expressão SIMPLIFICADA de } \dot V \text{ permite algum conjunto de pontos (não só a origem) onde ela vale zero}}$$
 
