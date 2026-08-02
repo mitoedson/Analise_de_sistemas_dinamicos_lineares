@@ -2,7 +2,7 @@
 
 Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
 
-$\ddot x+\dot x^5+x^7=x^2\.\text{sen}^8(x)\cos^2(3x)$
+$\ddot x+\dot x^5+x^7=x^2\text{sen}^8(x)\cos^2(3x)$
 
 ---
 
