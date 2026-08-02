@@ -21,7 +21,9 @@ Substituindo na primeira: $-\dfrac12x^3+2x(0)^2=-\dfrac12x^3=0 \Rightarrow x=0$
 
 ## Requisito 2 — Candidata $V$ radialmente ilimitada
 
-Usamos $V=x^2+2y^2$ (depois de ajustar pesos)
+Usualmente $V=x^2+y^2$ é uma candidata, mas ela falha, apesar de ser positiva definida, quando analisamos os sinais de V.
+
+Ajustamos então $V=x^2+2y^2$ .
 
 Verificando radialmente ilimitada: como $x^2\to\infty$ conforme $|x|\to\infty$ e $2y^2\to\infty$ conforme $|y|\to\infty$, a soma $V=x^2+2y^2\to\infty$ conforme $\|(x,y)\|\to\infty$, em **qualquer** direção — ✓ radialmente ilimitada (soma de potências pares com coeficientes positivos)
 
