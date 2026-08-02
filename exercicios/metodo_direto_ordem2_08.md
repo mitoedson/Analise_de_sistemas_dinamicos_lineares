@@ -2,11 +2,9 @@
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/5ab4d77c-8c4d-4d1d-9888-8bf881e45c8e" />
 
+#### Sistema: $\dot x_1=-x_1+x_2^3,\quad \dot x_2=-x_1-x_2$
 
-
-## Sistema: $\dot x_1=-x_1+x_2^3,\quad \dot x_2=-x_1-x_2$
-
-## Candidata: $V(x_1,x_2)=ax_1^2+bx_2^4$
+#### Candidata: $V(x_1,x_2)=ax_1^2+bx_2^4$
 
 ## Passo 1 — Verificar positividade
 
