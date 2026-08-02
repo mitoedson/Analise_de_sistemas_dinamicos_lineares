@@ -194,5 +194,5 @@ Vale notar: embora a análise de LaSalle *pareça* sugerir assintoticamente est�
 
 $$\boxed{V=x^2+y^2>0, \qquad \dot V=-2x^4\le0}$$
 
-**A origem é estável** (pelo teorema básico de Lyapunov) ✓ — bate com o gabarito: "estável (pelo menos)".
+**A origem é estável** (pelo teorema básico de Lyapunov)
 
