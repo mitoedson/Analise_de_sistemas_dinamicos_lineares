@@ -1,6 +1,6 @@
 <h1>Critério de Routh-Hurwitz - Método Geral</h1>
 
-### Pelo critério de Routh:
+## Pelo critério de Routh:
 
 Dado um polinômio característico
 
