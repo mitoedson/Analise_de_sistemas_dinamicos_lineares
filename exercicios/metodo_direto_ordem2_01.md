@@ -123,4 +123,6 @@ $\dot V<0$ estritamente → **assintoticamente estável**
 Conclusão: $(0,0)$ é globalmente assintoticamente estável
 
 
-Esse é o item mais técnico da questão 3 — a chave foi a escolha de $V$ combinando $\frac12x_2^2$ (energia da "velocidade") com $\frac18x_1^8$ (escolhido para cancelar exatamente o termo $x_1^7$). 
+Esse é a questão mais técnica — a chave foi a escolha de $V$ combinando $\frac12x_2^2$ (energia da "velocidade") com $\frac18x_1^8$ (escolhido para cancelar exatamente o termo $x_1^7$). 
+
+
