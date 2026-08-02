@@ -1,5 +1,11 @@
 <h1>Método Direto de Lyapunov - Equações de 1ª Ordem - 01</h1>
 
+Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
+
+## $\dot x=-x^3+\text{sen}^4(x)$
+
+---
+
 ## Método geral
 
 ### 1. Identificar o(s) ponto(s) de equilíbrio
@@ -52,14 +58,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
-
-
-
-
-
-
-
-## $\dot x=-x^3+\text{sen}^4(x)$
+---
 
 ### Passo 1 — Identificar o ponto de equilíbrio
 
@@ -101,8 +100,7 @@ Temos:
 - $V>0$ para $x\ne0$, radialmente ilimitada ✓
 - $\dot V<0$ para todo $x\ne0$ ✓
 
-**$x=0$ é globalmente assintoticamente estável** ✓ — bate com o gabarito.
-
+**$x=0$ é globalmente assintoticamente estável** ✓ 
 ---
 
 **Resumo da lógica:** o termo $-x^3$ (que dá origem ao $-2x^4$ em $\dot V$) sempre "puxa" o sistema de volta para zero, e cresce mais rápido que o termo oscilante e limitado $\text{sen}^4(x)$ — tanto para $x$ grande quanto para $x$ pequeno — garantindo convergência a partir de **qualquer** ponto inicial (por isso a conclusão é **global**).
