@@ -45,6 +45,10 @@ e assim por diante, sempre usando as duas linhas anteriores.
 
 Resumindo:
 
+$$\boxed{\text{Routh-Hurwitz é adequado e RECOMENDADO justamente para graus altos (}\ge3\text{), onde calcular raízes diretamente é impraticável ou impossível}}$$
+
+$$\boxed{\text{Para graus baixos (1 ou 2), até dá pra usar fórmulas diretas — mas Routh também funciona, só que é "over-kill" nesses casos simples}}$$
+
 $$\boxed{\text{Routh-Hurwitz determina APENAS: (1) estável ou não, e (2) quantas raízes têm parte real positiva (via contagem de trocas de sinal)}}$$
 
 
