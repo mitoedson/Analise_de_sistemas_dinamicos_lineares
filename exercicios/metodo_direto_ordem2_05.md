@@ -2,8 +2,12 @@
 
 Usando funções de Lyapunov, investigar a estabilidade do seguinte sistema:
 
-$\dot x=-\dfrac12x^3+2xy^2,\quad \dot y=-y^3$
-
+```math
+\dot x=-\dfrac12x^3+2xy^2
+```
+```math
+\dot y=-y^3$
+```
 
 ## Requisito 1 — Único ponto de equilíbrio
 
