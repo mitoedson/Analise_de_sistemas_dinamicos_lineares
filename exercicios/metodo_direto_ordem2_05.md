@@ -9,7 +9,7 @@ Usando funções de Lyapunov, investigar a estabilidade do seguinte sistema:
 \dot y=-y^3
 ```
 
-## Requisito 1 — Único ponto de equilíbrio
+## Requisito 1 — Ponto(s) de equilíbrio
 
 Verificando: $\dot x=0$ e $\dot y=0$ simultaneamente.
 
