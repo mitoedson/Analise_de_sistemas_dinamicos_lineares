@@ -91,14 +91,14 @@ $\dot V<0$ em **todo** o espaço + $V$ radialmente ilimitada + equilíbrio únic
 
 ### 4. Assintoticamente estável via LaSalle
 
-Quando $\dot V$ é só semi-definida, mas você prova que o único conjunto invariante em $\{\dot V=0\}$ é a origem. Exemplo: item 5(b), pêndulo item 6(a).
+Quando $\dot V$ é só semi-definida, mas você prova que o único conjunto invariante em $\{\dot V=0\}$ é a origem.
 
 
 #### 4.1. A definição geral de "semi-definida negativa" (independente da causa)
 
 $$\boxed{\dot V \text{ é semi-definida negativa} \;\Longleftrightarrow\; \dot V\le0 \text{ SEMPRE, mas } \dot V=0 \text{ acontece em algum lugar ALÉM da origem}}$$
 
-Essa é a definição — ela **não especifica** a causa de $\dot V$ zerar fora da origem. Só diz que existe **algum conjunto** (maior que só o ponto $(0,0)$) onde $\dot V=0$.
+Essa é a definição — ela **não especifica** a causa de $\dot V$ zerar fora da origem. Só diz que existe **algum conjunto** (maior que só o ponto (0,0)) onde $$\dot V=0$$.
 
 #### 4.2. As formas mais comuns de isso acontecer
 
