@@ -95,7 +95,7 @@ $$\dot V<0 \quad \text{estritamente, para } (x_1,x_2)\ne(0,0), \text{ dentro de 
 
 ## Passo 4 — Classificar
 
-Diferente do item (a), aqui $\dot V$ já é **estritamente negativa** — **não precisamos do LaSalle**.
+Diferente do item (a), aqui $\dot V$ já é **estritamente negativa** (localmente, pois cobre apenas o intervalo entre $-\pi$ e $+\pi$)— **não precisamos do LaSalle**.
 
 **Conclusão: $(0,0)$ é localmente assintoticamente estável** ✓
 
