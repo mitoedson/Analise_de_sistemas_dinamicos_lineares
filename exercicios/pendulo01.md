@@ -16,8 +16,9 @@ obtemos:
 ```math
 \frac{dx_2}{dt} = -\frac{g}{L}sen(x_1)-\frac{c}{mL}x_2
 ```
-
+<div align="center">
 <img width="466" height="481" alt="image" src="https://github.com/user-attachments/assets/9dcc6653-ad37-4c98-9865-e9eb7f69b074" />
+</div>
 
 Analise a estabilidade para:
 
