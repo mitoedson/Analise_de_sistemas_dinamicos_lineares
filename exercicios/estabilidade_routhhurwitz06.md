@@ -95,3 +95,8 @@ Portanto, k > 2.
 Não é coincidência — existe uma relação direta entre os elementos da primeira coluna da tabela de Routh e essas razões de determinantes de Hurwitz ($\Delta_k / \Delta_{k-1}$). Ou seja, o sinal de cada elemento da tabela de Routh corresponde ao sinal de um desses menores. Por isso os dois critérios são matematicamente equivalentes — Routh é essencialmente uma forma mais eficiente computacionalmente de obter a mesma informação que os determinantes de Hurwitz dão de forma mais "direta" mas com mais trabalho algébrico (calcular determinantes de ordem crescente é mais custoso que a recursão da tabela).
 
 Na prática, por isso o método de Routh (tabular) é o mais usado em disciplinas de controle — mesmo resultado, menos conta.
+
+
+---
+
+<a href="estabilidade_routhhurwitz_metodo.md">Método de Routh-Hurwitz</a>
