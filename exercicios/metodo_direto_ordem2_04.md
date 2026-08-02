@@ -10,12 +10,6 @@ Usando funções de Lyapunov, investigar a estabilidade do seguinte sistema:
 ```
 assintoticamente.
 
----
-
-$$\boxed{\text{Escolher } V \text{ (guiado pela estrutura do sistema)} \to \text{Verificar } V>0 \to \text{Calcular } \dot V \to \text{Ajustar pesos se necessário} \to \text{Analisar sinal} \to \text{Concluir (LaSalle se preciso)}}$$
-
-<a href="metodo_direto_proposito.md">Como aplicar o Método Direto de Lyapunov</a>
-
 ## Passo 1 — Identificar o ponto de equilíbrio
 
 Verificando a origem: $\dot x(0,0)=0$, $\dot y(0,0)=0$ ✓ → **$(0,0)$ é ponto de equilíbrio**
@@ -70,10 +64,16 @@ $$\dot V<0 \quad \text{para todo } (x,y)\ne(0,0)$$
 
 **Conclusão: a origem é globalmente assintoticamente estável**
 
----
-
 ## Por que essa candidata funcionou "de primeira" (sem precisar ajustar pesos)
 
 Repare que, diferente do item (b) (onde $V=x^2+y^2$ falhava e precisamos ajustar para $V=x^2+2y^2$), aqui a candidata simples **já funcionou direto** — porque o sistema tem uma **simetria perfeita** entre $x$ e $y$ nos termos cruzados ($xy^2$ na primeira equação, $x^2y$ na segunda, com coeficientes que se combinam bem: $2\times1=2$ e $2\times(-2)=-4$, dando $2-4=-2$, um resultado **negativo e limpo**, sem precisar de ajuste extra).
+
+
+---
+
+$$\boxed{\text{Escolher } V \text{ (guiado pela estrutura do sistema)} \to \text{Verificar } V>0 \to \text{Calcular } \dot V \to \text{Ajustar pesos se necessário} \to \text{Analisar sinal} \to \text{Concluir (LaSalle se preciso)}}$$
+
+<a href="metodo_direto_proposito.md">Como aplicar o Método Direto de Lyapunov</a>
+
 
 
