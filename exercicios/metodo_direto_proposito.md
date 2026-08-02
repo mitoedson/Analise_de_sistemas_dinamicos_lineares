@@ -83,7 +83,7 @@ $\dot V\le0$, mas zera **fora** da origem também (sem resgate por LaSalle). As 
 
 ### 2. Assintoticamente estável (local)
 
-$\dot V<0$ estritamente perto do equilíbrio (mas a prova só vale numa vizinhança, ou existem outros equilíbrios competindo). Exemplo: o pêndulo (item 6), item 3(e).
+$\dot V<0$ estritamente perto do equilíbrio (mas a prova só vale numa vizinhança, ou existem outros equilíbrios competindo).
 
 ### 3. Globalmente assintoticamente estável
 
