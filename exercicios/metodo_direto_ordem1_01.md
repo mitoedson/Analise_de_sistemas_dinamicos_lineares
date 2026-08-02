@@ -97,11 +97,11 @@ $$\dot V<0 \quad \text{para todo } x\ne0$$
 ### Passo 5 — Conclusão
 
 Temos:
-- $V>0$ para $x\ne0$, radialmente ilimitada ✓
-- $\dot V<0$ para todo $x\ne0$ ✓
+- $V>0$ para $x\ne0$, radialmente ilimitada
+- $\dot V<0$ para todo $x\ne0$ 
 
-**$x=0$ é globalmente assintoticamente estável** ✓ 
----
+$x=0$ é globalmente assintoticamente estável** 
+
 
 **Resumo da lógica:** o termo $-x^3$ (que dá origem ao $-2x^4$ em $\dot V$) sempre "puxa" o sistema de volta para zero, e cresce mais rápido que o termo oscilante e limitado $\text{sen}^4(x)$ — tanto para $x$ grande quanto para $x$ pequeno — garantindo convergência a partir de **qualquer** ponto inicial (por isso a conclusão é **global**).
 
