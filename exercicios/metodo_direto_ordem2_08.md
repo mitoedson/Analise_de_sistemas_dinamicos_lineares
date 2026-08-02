@@ -54,7 +54,8 @@ Com essa relação entre $a$ e $b$:
 
 ---
 
-$$\boxed{\text{Escolher } V \text{ (guiado pela estrutura do sistema)} \to \text{Verificar } V>0 \to \text{Calcular }}}$$
+$$\boxed{\text{Escolher } V \text{ (guiado pela estrutura do sistema)} \to \text{Verificar } V>0 \to \text{Calcular }}$$
+
 $$\boxed{\dot V \to \text{Ajustar pesos se necessário} \to \text{Analisar sinal} \to \text{Concluir (LaSalle se preciso)}}$$
 
 <a href="metodo_direto_proposito.md">Como aplicar o Método Direto de Lyapunov</a>
