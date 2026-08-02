@@ -2,7 +2,9 @@
 
 Determine os valores da constante k para que todas as raízes dos seguintes polinômios tenham parte real negativa:
 
-(a) λ³ + kλ² + λ + 1 = 0
+λ³ + kλ² + λ + 1 = 0
+
+---
 
 Pelo critério de Routh:
 
