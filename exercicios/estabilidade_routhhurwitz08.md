@@ -18,6 +18,9 @@ $P_1(\lambda)=λ^3 + (k+2)λ^2 + (2k+1)λ + (k+1)$
 H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 ```
 
+```math
+\Delta_1 = k+2 > 0, \quad \Delta_2 = \begin{vmatrix} k+2 & k+1 \\ 1 & 2k+1 \end{vmatrix} > 0, \quad \quad \Delta_3 = \begin{vmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{vmatrix} > 0
+```
 
 
 
