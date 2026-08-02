@@ -1,5 +1,11 @@
 <h1>Método Direto de Lyapunov - Equações de 2ª Ordem - 01</h1>
 
+Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
+
+$\ddot x+\dot x^5+x^7=x^2\,\text{sen}^8(x)\cos^2(3x)$
+
+---
+
 ## Método geral
 
 ### 1. Identificar o(s) ponto(s) de equilíbrio
@@ -52,8 +58,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
-
-## Item (c): $\ddot x+\dot x^5+x^7=x^2\,\text{sen}^8(x)\cos^2(3x)$
+---
 
 ## Passo 1 — Identificar o ponto de equilíbrio
 
@@ -115,8 +120,7 @@ $\dot V<0$ estritamente → **assintoticamente estável**
 - $(0,0)$ é o único ponto de equilíbrio (não há outros competindo)
 - $V$ radialmente ilimitada + $\dot V<0$ em todo o espaço
 
-**Conclusão: $(0,0)$ é globalmente assintoticamente estável** 
+Conclusão: $(0,0)$ é globalmente assintoticamente estável
 
----
 
 Esse é o item mais técnico da questão 3 — a chave foi a escolha de $V$ combinando $\frac12x_2^2$ (energia da "velocidade") com $\frac18x_1^8$ (escolhido para cancelar exatamente o termo $x_1^7$). 
