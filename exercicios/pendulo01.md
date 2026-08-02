@@ -32,7 +32,7 @@ $$x_1=\theta, \qquad x_2=\dot\theta$$
 
 $$\dot x_1=x_2, \qquad \dot x_2=-\frac{g}{L}\text{sen}(x_1)-\frac{c}{mL}x_2$$
 
-##(a): $V(\mathbf x)=\dfrac12mL^2x_2^2+mgL(1-\cos x_1)$
+## (a): $V(\mathbf x)=\dfrac12mL^2x_2^2+mgL(1-\cos x_1)$
 
 ## Passo 1 — Verificar positividade
 
@@ -68,7 +68,7 @@ Se $x_2\equiv0$, então $\dot x_2\equiv0$ também, exigindo $\text{sen}(x_1)=0 \
 
 ---
 
-##(b): $V(\mathbf x)=\dfrac12x_2^2+\dfrac{b^2}{2}\left(x_1+\dfrac{x_2}{b}\right)^2+2a(1-\cos x_1)$, com $a=g/L,\ b=c/(mL)$
+## (b): $V(\mathbf x)=\dfrac12x_2^2+\dfrac{b^2}{2}\left(x_1+\dfrac{x_2}{b}\right)^2+2a(1-\cos x_1)$, com $a=g/L,\ b=c/(mL)$
 
 ## Passo 1 — Interpretação: três termos, dois físicos e um "artifício matemático"
 
