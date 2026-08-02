@@ -1,4 +1,4 @@
-<h2>Método Direto de Lyapunov</h2>
+<h1>Método Direto de Lyapunov</h1>
 
 ## Propósito
 
