@@ -20,8 +20,10 @@ obtemos:
 <img width="466" height="481" alt="image" src="https://github.com/user-attachments/assets/9dcc6653-ad37-4c98-9865-e9eb7f69b074" />
 
 Analise a estabilidade para:
-(a): $V(\mathbf x)=\dfrac12mL^2x_2^2+mgL(1-\cos x_1)$
-(b): $V(\mathbf x)=\dfrac12x_2^2+\dfrac{b^2}{2}\left(x_1+\dfrac{x_2}{b}\right)^2+2a(1-\cos x_1)$, com $a=g/L,\ b=c/(mL)$
+
+(a) $V(\mathbf x)=\dfrac12mL^2x_2^2+mgL(1-\cos x_1)$
+
+(b) $V(\mathbf x)=\dfrac12x_2^2+\dfrac{b^2}{2}\left(x_1+\dfrac{x_2}{b}\right)^2+2a(1-\cos x_1)$, com $a=g/L,\ b=c/(mL)$
 
 
 ## Contexto do sistema
