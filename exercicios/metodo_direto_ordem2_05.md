@@ -21,7 +21,7 @@ Substituindo na primeira: $-\dfrac12x^3+2x(0)^2=-\dfrac12x^3=0 \Rightarrow x=0$
 
 ## Requisito 2 — Candidata $V$ radialmente ilimitada
 
-Usualmente $V=x^2+y^2$ é uma candidata, mas ela falha, apesar de ser positiva definida, quando analisamos os sinais de V.
+Usualmente $V=x^2+y^2$ é uma candidata, mas ela falha, apesar de ser positiva definida, quando analisamos os sinais de $\dot V$ .
 
 Ajustamos então $V=x^2+2y^2$ .
 
