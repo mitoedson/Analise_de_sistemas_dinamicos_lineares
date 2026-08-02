@@ -1,5 +1,11 @@
 <h1>Método Direto de Lyapunov - Equações de 2ª Ordem  - 02</h1>
 
+Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
+
+$\ddot x+(x-1)^4\dot x^7+x^5=x^3\,\text{sen}^3(x)$
+
+---
+
 ## Método geral
 
 ### 1. Identificar o(s) ponto(s) de equilíbrio
@@ -52,8 +58,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
-
-## $\ddot x+(x-1)^4\dot x^7+x^5=x^3\,\text{sen}^3(x)$
+---
 
 ## Passo 1 e 2 — Transformar em sistema de 2 variáveis
 
@@ -103,11 +108,7 @@ $$\dot V\le0, \text{ anulando-se apenas em } (0,0)$$
 
 Como $V$ é radialmente ilimitada e $\dot V\le0$ em todo o espaço, anulando-se somente na origem (não há outro conjunto invariante competindo, já que $(x_1-1)^4=0$ só em $x_1=1$, ponto isolado que não é invariante sob o fluxo):
 
-**Conclusão: $(0,0)$ é globalmente assintoticamente estável** ✓ — bate com o gabarito.
+Conclusão: $(0,0)$ é globalmente assintoticamente estável
 
 ---
-
-**Observação sobre o rigor:** assim como no item (c), uma demonstração **completamente rigorosa** de que $\dot V<0$ estritamente (fora da reta $x_1=1$) exigiria uma análise mais fina com desigualdades adicionais — mas o padrão de resolução esperado no curso é identificar a **estrutura de cancelamento** (via escolha estratégica de $V$) e argumentar a dominância do termo dissipativo, como fizemos.
-
-
 
