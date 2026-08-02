@@ -1,5 +1,11 @@
 <h1>Método Direto de Lyapunov - Equações de 1ª Ordem - 02</h1>
 
+Verificar a estabilidade (local, global, assintótica) dos seguintes sistemas:
+
+$\dot x=(5-x)^5$
+
+---
+
 ## Método geral
 
 ### 1. Identificar o(s) ponto(s) de equilíbrio
@@ -52,8 +58,7 @@ Verificar se o **único conjunto invariante** contido em $\{\dot V=0\}$ é o pr�
 - Existem **outros pontos de equilíbrio** competindo no espaço? → conclusão só pode ser **local**
 - $V$ é radialmente ilimitada e $\dot V<0$ vale em **todo o espaço de estados** (sem restrição de região)? → conclusão pode ser **global**
 
-
-## $\dot x=(5-x)^5$
+---
 
 ## Passo 1 — Identificar o ponto de equilíbrio
 
@@ -100,7 +105,7 @@ $\dot V<0$ para todo $x\ne5$ (estrita) → **assintoticamente estável**
 - Não existe **nenhum outro ponto de equilíbrio** competindo (a equação $(5-x)^5=0$ só tem a raiz $x=5$, já que é uma potência ímpar de um único fator linear)
 - $V$ é radialmente ilimitada, e $\dot V<0$ vale em **todo** o espaço (não há restrição de região — vale para qualquer $x\in\mathbb R$)
 
-**Conclusão: $x=5$ é globalmente assintoticamente estável**
+Conclusão: $x=5$ é globalmente assintoticamente estável
 
 ---
 
