@@ -20,6 +20,7 @@ Como $$V(x) = x^TPx$$, e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T Px + x^TP\dot
 
 e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)x$$ 
 
+Portanto,
 ```math
 \dot V = \dot{\mathbf x}^T P\mathbf x + \mathbf x^T P\dot{\mathbf x} = \mathbf x^T(A^TP+PA)\mathbf x
 ```
