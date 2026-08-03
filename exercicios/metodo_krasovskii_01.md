@@ -33,8 +33,10 @@ $$det(F) = (-8)(-8-6x_2^2) - (2)(2) = 60 + 48x_2^2 > 0$$
 
 Portanto, F(x) < 0, para todo x
 
-
-
+A escolha $$V(x) = f^T(x)f(x)$$:
+```math
+V(x) = f^T(x)f(x) = \begin{bmatrix} -4x_1+x_2 && x_1-4x_2-x_2^3 \end{bmatrix} \begin{bmatrix} -4x_1+x_2 \\ x_1-4x_2-x_2^3 \end{bmatrix}
+```
 
 
 
