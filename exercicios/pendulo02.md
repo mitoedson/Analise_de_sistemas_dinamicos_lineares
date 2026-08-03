@@ -88,4 +88,15 @@ Como Re{ $\lambda$ }<0, (0,0) é foco assintoticamente estável.
 ```
 ($\pi$,0) é instável (ponto de sela).
 
+#### Conclusões
+
+O mesmo sistema físico possui equilíbrios com naturezas completamente diferentes.
+
+- Próximo de x = 0, a gravidade age como força restauradora.
+
+- Próximo de x = π, a gravidade amplifica pequenas perturbações.
+
+O amortecimento dissipa energia, mas não torna o ponto invertido naturalmente estável.
+
+Lição didática: A linearização deve sempre ser feita no ponto de equilíbrio correto. Linearizar apenas na origem pode esconder modos instáveis em outros pontos.
 
