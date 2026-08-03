@@ -1,4 +1,4 @@
-<h1>Estabilidade - Funções de Lyapunov - 09</h1>
+<h1>Funções de Lyapunov - 09</h1>
 
 Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} 3 & -4 \\ 1 & -1 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
@@ -57,5 +56,10 @@ $D=1>0$; $T^2-4D=4-4=0$ → autovalores reais e **repetidos** ($\lambda=T/2=1$);
 
 $$P \text{ falhou} \;\Rightarrow\; \text{instável}; \qquad T>0,\ D>0,\ T^2-4D=0 \;\Rightarrow\; \textbf{nó instável}$$
 
+---
+
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
+
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 
