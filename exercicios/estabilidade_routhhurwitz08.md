@@ -34,9 +34,9 @@ H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 = (k+1)[(2k+1)(k+2)-(k+1)] = (k+1)(2k^2+4k+k+2-k-1) = (k+1)(2k^2+4k+1) = 0 
 ```
 ```math
-\Rightarrow k = 1,\qquad  k < -1-\frac{1}{2}\sqrt{2}\qquad\text{ou}\qquad k > -1+\frac{1}{2}\sqrt{2}
+\Rightarrow k > - 1,\qquad  k < -1-\frac{1}{2}\sqrt{2}\qquad\text{ou}\qquad k > -1+\frac{1}{2}\sqrt{2}
 ```
-Combinando-os, tem-se que: 
+Combinando-os, tem-se que: -1-\frac{1}{2}\sqrt{2} < k < -1 \qquad e k >  -1+\frac{1}{2}\sqrt{2}
 
 
 ---
