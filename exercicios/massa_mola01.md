@@ -2,7 +2,7 @@
 
 Considere o sistema mecânico não linear
 ```math
-\ddot x + c\dot x˙ + kx + αx^3 = 0,- 
+\ddot x + c\dot x + kx + αx^3 = 0
 ```
 
 com c > 0, k > 0, α > 0.
@@ -14,10 +14,6 @@ Na forma de estados:
 ```
 
 Prove, usando uma função de energia, que a origem é globalmente assintoticamente estável.
-
-Usando a regra da cadeia e substituindo $\dot x=y$, $\dot y=-cy-kx-\alpha x^3$:
-
-
 
 ## 1. Construindo a função de energia
 
