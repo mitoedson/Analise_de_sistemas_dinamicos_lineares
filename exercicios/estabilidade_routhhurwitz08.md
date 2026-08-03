@@ -36,6 +36,8 @@ H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 ```math
 \Rightarrow k = 1,\qquad  k < -1-\frac{1}{2}\sqrt{2}\qquad\text{ou}\qquad k > -1+\frac{1}{2}\sqrt{2}
 ```
+Combinando-os, tem-se que: 
+
 
 ---
 
