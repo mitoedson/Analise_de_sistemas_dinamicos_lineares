@@ -7,7 +7,10 @@ V(\mathbf x) = \mathbf x^T P \mathbf x
 ```
 
 onde $P$ é uma matriz simétrica a determinar. Calculando $\dot V$:
-$$\dot V = \dot{\mathbf x}^T P\mathbf x + \mathbf x^T P\dot{\mathbf x} = \mathbf x^T(A^TP+PA)\mathbf x$$
+
+```math
+\dot V = \dot{\mathbf x}^T P\mathbf x + \mathbf x^T P\dot{\mathbf x} = \mathbf x^T(A^TP+PA)\mathbf x
+```
 
 A ideia prática mais comum: **escolher $Q$ positiva definida** (geralmente $Q=I$, a identidade, por simplicidade) e resolver a **equação de Lyapunov**:
 $$A^TP+PA = -Q$$
