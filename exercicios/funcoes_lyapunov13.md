@@ -65,7 +65,7 @@ De (i): $$p_{12}= \frac{1}{4}$$
 
 De (iii): $$2\frac{1}{4}-6p_{22} = -1 \Rightarrow p_{22} = \frac{1}{4} $$
 
-De (ii): $$-2(\frac{1}{4})+p_{11}-3(\frac{1}{4}) = 0$$ \Rightarrow p_{11}=\frac{5}{4}$$
+De (ii): $$-2(\frac{1}{4})+p_{11}-3(\frac{1}{4}) = 0 \Rightarrow p_{11}=\frac{5}{4}$$
 
 
 
