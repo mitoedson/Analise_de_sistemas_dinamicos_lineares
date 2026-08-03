@@ -31,20 +31,19 @@ A^T=\begin{bmatrix} 0 & -2 \\  1  & -3\end{bmatrix}
 
 ```math
 A^TP=\begin{bmatrix}0 & -2 \\  1  & -3\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
-=\begin{bmatrix} -2p_{12} & p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22} \end{bmatrix}
+=\begin{bmatrix} -2p_{12} & -2p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22} \end{bmatrix}
 ```
 
 ## Passo 3 — calcular $PA$
 
 ```math
-PA = \begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix} \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} = \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  -2p_{22} & -2p_{12}-3p_{22}\end{bmatrix}
+PA = \begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix} \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} = \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  -2p_{22} & p_{12}-3p_{22}\end{bmatrix}
 ```
 
 ## Passo 4 — somar $A^TP+PA$
 
 ```math
-A^TP+PA = \begin{bmatrix} -2p_{12} & p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22} \end{bmatrix} + \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  p_{22} & p_{12}-3p_{22}\end{bmatrix}
-= \begin{bmatrix} -4p_{12} & p_{22}+p_{11}-3p_{12} \\ p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix}
+A^TP+PA = \begin{bmatrix} -2p_{12} & -2p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22} \end{bmatrix} + \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  -2p_{22} & p_{12}-3p_{22}\end{bmatrix} = \begin{bmatrix} -4p_{12} & -2p_{22}+p_{11}-3p_{12} \\ -2p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix}
 ```
 
 ## Passo 5 — impondo $A^TP+PA=-I$
