@@ -1,43 +1,68 @@
 <h1>Massa–Mola com rigidez não linear</h1>
 
-## A estrutura por graus
+Ótimo exemplo — esse é o caso clássico onde a "função de energia" tem sentido físico direto (energia cinética + energia potencial), e vamos precisar de uma ferramenta extra que ainda não usamos: o **princípio de invariância de LaSalle**. Vou mostrar o porquê.
 
-Reagrupando $\dot V$ por grau de homogeneidade:
+## 1. Construindo a função de energia
 
-$$\dot V = \underbrace{(-152x_1^2+196x_1x_2-152x_2^2)}_{\text{grau 2}} + \underbrace{(-6x_1^2x_2^2+80x_1x_2^3-164x_2^4)}_{\text{grau 4}} + \underbrace{(12x_1x_2^5-56x_2^6)}_{\text{grau 6}} + \underbrace{(-6x_2^8)}_{\text{grau 8}}$$
+Fisicamente, a energia total do sistema massa-mola é:
 
-## Por que a dominância de graus altos importa
+$$V(x,y) = \underbrace{\frac{1}{2}y^2}_{\text{energia cinética}} + \underbrace{\frac{1}{2}kx^2 + \frac{1}{4}\alpha x^4}_{\text{energia potencial}}$$
 
-A lógica do seu argumento é a seguinte:
+A parte potencial vem de integrar a força restauradora $kx+\alpha x^3$ em relação a $x$:
 
-**Perto da origem** (norma de $x$ pequena): os termos de grau 2 dominam (porque $x^4, x^6, x^8 \ll x^2$ quando $\|x\|$ é pequeno). Então basta que a parte quadrática seja definida negativa.
+$$\int_0^x (ks+\alpha s^3)\,ds = \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4$$
 
-**Longe da origem** (norma de $x$ grande): os termos de grau mais alto (8, depois 6...) crescem muito mais rápido que os termos cruzados de graus intermediários — garantindo que $\dot V \to -\infty$ conforme $\|x\|\to\infty$, e não existe "brecha" onde os termos cruzados poderiam virar o sinal.
+## 2. Verificando que V é definida positiva
 
-## Verificando a parte quadrática (grau 2)
+Como $k>0$ e $\alpha>0$, cada termo de $V$ é não-negativo, e só se anula simultaneamente quando $x=0$ **e** $y=0$. Logo:
 
-Isso é essencial confirmar — testamos com o critério de Sylvester na forma $-152x_1^2+196x_1x_2-152x_2^2$:
+$$V(x,y) > 0 \ \text{ para } (x,y)\neq(0,0), \qquad V(0,0)=0$$
 
-- Coeficiente de $x_1^2$: $-152<0$ ✓ (primeiro requisito para negativo definido)
-- Determinante da matriz associada: $(-152)(-152)-(98)^2 = 23104-9604 = 13500>0$ ✓
+**Bônus importante:** $V$ é **radialmente ilimitada** (isto é, $V\to\infty$ conforme $\|(x,y)\|\to\infty$, em qualquer direção) — o termo $x^4$ garante isso mesmo quando $x\to\infty$ com $y$ fixo. Essa propriedade será essencial para a conclusão **global**.
 
-Logo, a forma quadrática **é definida negativa** sozinha — o que já garante estabilidade *local* assintótica.
+## 3. Calculando $\dot V$ ao longo das trajetórias
 
-## Confirmando a dominância numericamente
+Usando a regra da cadeia e substituindo $\dot x=y$, $\dot y=-cy-kx-\alpha x^3$:
 
-Testei $\dot V(x_1,x_2)$ numa grade densa de $-20$ a $20$ em ambas variáveis, buscando o maior valor (o "pior caso"):
+$$\dot V = y\dot y + kx\dot x+\alpha x^3\dot x = y(-cy-kx-\alpha x^3) + kxy+\alpha x^3y$$
 
-```
-Maior valor de V̇ encontrado: -0.27 (perto da origem, x₁=x₂≈0.05)
-```
+$$= -cy^2 -kxy-\alpha x^3y+kxy+\alpha x^3y$$
 
-Ou seja, em toda a região testada, $\dot V<0$ — e o máximo (mais próximo de zero) ocorre bem perto da origem, exatamente onde esperamos $\dot V\to 0$ conforme $x\to 0$. Isso é consistente com **$\dot V$ ser negativa definida globalmente**.
+Os termos cruzados ($-kxy$ com $+kxy$, e $-\alpha x^3y$ com $+\alpha x^3y$) se cancelam perfeitamente:
 
-## Conclusão
+$$\boxed{\dot V = -cy^2}$$
 
-Como:
-1. A parte quadrática é negativa definida (garante negatividade local)
-2. Os termos de grau 4, 6, 8 têm coeficientes todos negativos nos termos puros ($-6x_1^2x_2^2$, $-164x_2^4$, $-56x_2^6$, $-6x_2^8$) e dominam os termos cruzados de sinal misto ($80x_1x_2^3$, $12x_1x_2^5$) para $\|x\|$ grande
-3. A verificação numérica não encontra nenhum ponto onde $\dot V\geq0$ (exceto a origem)
+## 4. O problema: $\dot V$ é só semi-definida negativa
 
-concluímos que $\dot V(x)<0$ para todo $x\neq 0$, e portanto $J(x)+J(x)^T$ é negativa definida globalmente — satisfazendo a condição do teorema de Krasovskii, o que garante que a origem é **globalmente assintoticamente estável**.
+Aqui está a sutileza que torna esse exemplo diferente dos anteriores: como $c>0$, temos $\dot V\leq 0$ sempre — **mas** $\dot V=0$ não só na origem, e sim em **toda a reta** $y=0$ (para qualquer $x$). Isso significa que **o teorema clássico de Lyapunov não é suficiente** aqui (ele exige $\dot V<0$ estritamente fora da origem).
+
+## 5. Aplicando o Princípio de Invariância de LaSalle
+
+Esse teorema resolve exatamente esse tipo de situação. Ele diz: se $\dot V\leq0$ (não precisa ser estrito) e $V$ é radialmente ilimitada, então toda trajetória converge para o **maior conjunto invariante** contido em
+
+$$E = \{(x,y) : \dot V(x,y)=0\} = \{(x,y):y=0\}$$
+
+**Passo chave:** precisamos achar o maior conjunto invariante *dentro* de $E$ — ou seja, quais pontos com $y=0$ permanecem com $y=0$ **para sempre**, seguindo a dinâmica do sistema.
+
+Se $y(t)\equiv 0$ para todo $t$, então necessariamente $\dot y = 0$ também. Substituindo $y=0$ na equação de $\dot y$:
+
+$$\dot y = -c(0)-kx-\alpha x^3 = 0 \implies -x(k+\alpha x^2)=0$$
+
+Como $k>0$ e $\alpha>0$, temos $k+\alpha x^2>0$ para **qualquer** $x$ real (nunca zera) — então a única solução é:
+
+$$x=0$$
+
+## 6. Conclusão
+
+O maior conjunto invariante dentro de $E$ é **só a origem**: $\{(0,0)\}$.
+
+Pelo Princípio de Invariância de LaSalle, toda trajetória do sistema converge para esse conjunto invariante — ou seja, converge para $(0,0)$. Como isso vale para **qualquer** condição inicial (usamos a radial ilimitação de $V$ para garantir isso globalmente), concluímos:
+
+$$\text{A origem é globalmente assintoticamente estável.}$$
+
+---
+
+**Por que esse exemplo é pedagogicamente importante:** ele mostra a diferença entre Lyapunov "puro" (exige $\dot V<0$ estrito) e LaSalle (permite $\dot V\leq0$, desde que se analise cuidadosamente onde a igualdade ocorre). Fisicamente, faz todo sentido: o amortecedor ($-cy$) só dissipa energia quando há velocidade ($y\neq0$); quando $y=0$ momentaneamente mas $x\neq0$, a mola ainda "empurra" o sistema, então ele não fica parado ali — e é exatamente esse argumento que a análise do conjunto invariante captura formalmente.
+
+
+
