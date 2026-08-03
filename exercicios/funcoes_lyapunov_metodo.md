@@ -11,7 +11,7 @@ onde $P$ é uma matriz simétrica a determinar.
 Repare que se expandirmos, obtemos, para 2 variáveis:
 
 ```math
-V(x1​,x2​)=p_{11​}x_1^2​+2p_{12​}x_1​x_2​+p_{22}​x_2^2​
+V(x_1,x_2​) = p_{11​}x_1^2​+2p_{12​}x_1​x_2​+p_{22}​x_2^2​
 ```
 
 
