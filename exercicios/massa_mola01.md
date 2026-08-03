@@ -63,7 +63,7 @@ Aqui está a sutileza que torna esse exemplo diferente dos anteriores: como $c>0
 
 Esse teorema resolve exatamente esse tipo de situação. Ele diz: se $\dot V\leq0$ (não precisa ser estrito) e $V$ é radialmente ilimitada, então toda trajetória converge para o **maior conjunto invariante** contido em
 
-$$E = {(x,y): \dot V(x,y)=0} = {(x,y):y=0}$$
+E = {(x,y): $$\dot V$$(x,y)=0} = {(x,y):y=0}
 
 **Passo chave:** precisamos achar o maior conjunto invariante *dentro* de $E$ — ou seja, quais pontos com $y=0$ permanecem com $y=0$ **para sempre**, seguindo a dinâmica do sistema.
 
