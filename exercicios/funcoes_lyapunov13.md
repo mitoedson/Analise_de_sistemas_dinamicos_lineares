@@ -97,7 +97,7 @@ Como P > 0, V(x) > 0 para $$x \ne 0$$.
 
 Além disso, $$\dot V = x^T(A^TP + PA)x$$.
 
-Como A^TP + PA = −I, segue que $$\dot V = -x^T = -(x_1^2+x_2^2)$$
+Como A^TP + PA = −I, segue que $$\dot V = -x^Tx = -(x_1^2+x_2^2)$$
 
 Logo, a origem é assintoticamente estável.
 
