@@ -50,10 +50,8 @@ $V$ é **radialmente ilimitada** (isto é, $V\to\infty$ conforme $\|(x,y)\|\to\i
 
 Usando a regra da cadeia e substituindo $\dot x=y$, $\dot y=-cy-kx-\alpha x^3$:
 
-$$\dot V = \frac{\partial V}{\partial x}\dot x + \frac{\partial V}{\partial y}\dot y = \frac{\partial (\frac{1}{2}y^2 + \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4)}{\partial x}\dot x + \frac{\partial (\frac{1}{2}y^2 + \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4)}{\partial y}\dot y =$$  
-$$= kx\dot x + \alpha x^3\dot x + y \dot y =  y(-cy-kx-\alpha x^3) + kxy+\alpha x^3y = -cy^2 -kxy-\alpha x^3y+kxy+\alpha x^3y$$
-
-Os termos cruzados ($-kxy$ com $+kxy$, e $-\alpha x^3y$ com $+\alpha x^3y$) se cancelam perfeitamente:
+$$\dot V = \frac{\partial V}{\partial x}\dot x + \frac{\partial V}{\partial y}\dot y = \frac{\partial (\frac{1}{2}y^2 + \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4)}{\partial x}\dot x + \frac{\partial (\frac{1}{2}y^2 + \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4)}{\partial y}\dot y = kx\dot x + \alpha x^3\dot x + y \dot y = $$  
+$$=  y(-cy-kx-\alpha x^3) + kxy+\alpha x^3y = -cy^2 -kxy-\alpha x^3y+kxy+\alpha x^3y = -cy^2$$
 
 $$\boxed{\dot V = -cy^2}$$
 
