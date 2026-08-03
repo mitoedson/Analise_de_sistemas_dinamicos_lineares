@@ -1,5 +1,23 @@
 <h1>Massa–Mola com rigidez não linear</h1>
 
+Considere o sistema mecânico não linear
+```math
+\ddot x + c\dot x˙ + kx + αx^3 = 0,- 
+```
+
+com c > 0, k > 0, α > 0.
+
+Na forma de estados:
+
+```math
+\dot x = y, \dot y = cy - kx - αx^3
+```
+
+Prove, usando uma função de energia, que a origem é globalmente assintoticamente estável.
+
+Usando a regra da cadeia e substituindo $\dot x=y$, $\dot y=-cy-kx-\alpha x^3$:
+
+
 
 ## 1. Construindo a função de energia
 
