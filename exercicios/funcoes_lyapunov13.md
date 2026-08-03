@@ -98,7 +98,7 @@ A função de Lyapunov é $$V(x) = x^TPx$$.
 
 Como P > 0, V(x) > 0 para $$x \ne 0$$.
 
-Além disso, $$\dot V = x^T(A^TP + PA)x$$.
+Além disso, como $$V(x) = x^TPx$$ e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T Px + x^TP\dot x$$
 
 Como $$A^TP + PA = −I$$, segue que $$\dot V = -x^Tx = -(x_1^2+x_2^2)$$
 
