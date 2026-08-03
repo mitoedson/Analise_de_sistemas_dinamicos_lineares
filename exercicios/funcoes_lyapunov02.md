@@ -69,5 +69,8 @@ $D>0$, $T^2-4D=36-32=4>0$ (autovalores reais), e $T>0$ → **nó instável**
 
 Podemos calcular os autovalores de $$\lambda^2-6\lambda+8 = 0 \Rightarrow \lambda_1=4, \lambda_2=2$$ . Os autovalores confirmam que é um sistema instável (ponto de sela).
 
+---
 
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
 
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
