@@ -91,9 +91,9 @@ $$\lambda^2+3\lambda+2=0 \Rightarrow \lambda_1= -1,\lambda_2= -2$$
 
 ## Passo 8 — conclusão por Lyapunov
 
-A função de Lyapunov é V(x) = x^TPx.
+A função de Lyapunov é $$V(x) = x^TPx$$.
 
-Como P > 0, V(x) > 0 para x ̸= 0.
+Como P > 0, V(x) > 0 para $$x \ne 0$$.
 
 Além disso, $$\dot V = x^T(A^TP + PA)x$$.
 
