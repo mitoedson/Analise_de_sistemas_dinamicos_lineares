@@ -69,3 +69,31 @@ O critério então diz: o sistema é estável se, e somente se, **todos os menor
 ```math
 \Delta_1 = a_{n-1} > 0, \quad \Delta_2 = \begin{vmatrix} a_{n-1} & a_{n-3} \\ a_n & a_{n-2} \end{vmatrix} > 0, \quad \dots, \quad \Delta_n > 0
 ```
+
+### Relação com o critério de Sylvester:
+
+## A resposta direta
+
+$$\boxed{\text{O critério de Hurwitz USA a mesma FERRAMENTA MATEMÁTICA que o critério de Sylvester (menores principais líderes), mas NÃO SÃO O MESMO "método" no sentido histórico/nominal}}$$
+
+**Critério de Sylvester:** é um resultado **geral de Álgebra Linear**, que serve para determinar se **qualquer** matriz simétrica $M$ é positiva definida — verificando se todos os seus menores principais líderes são positivos. Não tem nada a ver, originalmente, com polinômios ou estabilidade — é aplicável a qualquer matriz simétrica, em qualquer contexto (geometria, otimização, estatística, etc.)
+
+**Critério de Hurwitz:** é uma aplicação **específica** dessa mesma ferramenta (menores principais), mas aplicada a uma matriz **construída de forma especial** a partir dos **coeficientes de um polinômio** — a Matriz de Hurwitz. O objetivo é bem específico: determinar estabilidade (raízes com parte real negativa).
+
+## A conexão exata
+
+$$\boxed{\text{Hurwitz} = \text{Sylvester APLICADO à Matriz de Hurwitz (construída a partir dos coeficientes do polinômio)}}$$
+
+Ou seja: Hurwitz **usa** o teste de Sylvester como **ferramenta**, mas o "critério de Hurwitz" propriamente dito é o **pacote completo**: (1) construir a matriz específica a partir do polinômio, **e** (2) aplicar Sylvester nela.
+
+## Resumindo com um quadro comparativo
+
+| | Origem/propósito | Matriz analisada |
+|---|---|---|
+| **Sylvester** | Teste geral de Álgebra Linear | Qualquer matriz simétrica $M$ |
+| **Hurwitz** | Estabilidade de polinômios | Matriz de Hurwitz (construída dos coeficientes $a_i$) |
+| **Questão 4 (Lyapunov)** | Estabilidade de sistemas lineares | Matriz $P$ (resultado da equação de Lyapunov, para Positiva Definida) |
+
+## A "moral" final, amarrando toda a lista
+
+$$\boxed{\text{O teste de Sylvester (menores principais) é uma FERRAMENTA UNIVERSAL, reaproveitada em pelo menos DOIS contextos diferentes da nossa lista: Hurwitz (polinômios) e Lyapunov (matriz } P\text{)}}$$
