@@ -34,7 +34,7 @@ A^TP+PA = -Q
 
 Como $$A^TP + PA = −I$$, segue que:
 ```math
-\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \Rightarrow \dot V = -(x_1^2+x_2^2) < 0
+\dot V = x^T(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \Rightarrow \dot V = -(x_1^2+x_2^2) < 0
 ```
 
 
