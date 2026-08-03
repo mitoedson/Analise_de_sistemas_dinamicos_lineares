@@ -26,6 +26,7 @@ Coeficientes: $a_0=1,\ a_1=2,\ a_2=(k+3),\ a_3=(2k+1),\ a_4=k$
 |$λ^1$| $c_1$ | $c_2$ | |
 |$λ^0$| $d_1$ | $d_2$ | |
 
+(b)
 ```math
 b_1 = -\frac{\begin{bmatrix} 1 & k+3 \\ 2 & 2k+1 \end{bmatrix}}{2} = \frac{5}{2}, 
 b_2 = -\frac{\begin{bmatrix} 1 & k \\ 2 & 0 \end{bmatrix}}{2} = k
@@ -38,8 +39,6 @@ c_2 = -\frac{\begin{bmatrix} 2 & 0 \\ \frac{5}{2} & 0 \end{bmatrix}}{\frac{5}{2}
 d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}}{\frac{6k}{5}+1}= k
 ```
 
-
-
 | | col 1 | col 2 | col 3 |
 |---|---|---|---|
 |$λ^4$| 1 | k+3 | k |
@@ -47,6 +46,12 @@ d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}
 |$λ^2$| $\frac{5}{2}$ | k | 0 |
 |$λ^1$| $\frac{6k}{5} +1$ | 0 | |
 |$λ^0$| k | | |
+
+Para os valores de k para estabilidade assintótica, analisamos a primeira coluna da tabela:
+
+$\frac{6k}{5}+1 > 0$, $k>0$. Logo, $k>0$ para estabilidade assintótica.
+
+
 
 
 O critério de Routh-Hurwitz diz:
