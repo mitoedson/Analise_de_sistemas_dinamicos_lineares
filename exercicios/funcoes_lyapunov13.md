@@ -82,8 +82,8 @@ Como $$p_{11} > 0$$ e $$det(P) > 0$$, condições para positiva definida, então
 
 ## Passo 7 — classificar o tipo via traço e determinante de $A$
 
-$$T=\text{traço}(A)=2+(-1)=1$$
-$$D=\det(A)=(2)(-1)-(-2{,}5)(1{,}8)=-2+4{,}5=2{,}5$$
+$$T=\text{traço}(A)= \frac{5}{4} + \frac{1}{4} = \frac{3}{2}$$
+$$D=\det(A)= \frac{1}{4}$$
 
 $D=2{,}5>0$; $T^2-4D=1-10=-9<0$ → autovalores **complexos**; $T=1>0$ → **foco instável**
 
