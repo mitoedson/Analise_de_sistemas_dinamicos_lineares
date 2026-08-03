@@ -1,4 +1,4 @@
-<h1>Estabilidade - Funções de Lyapunov - 10</h1>
+<h1>Funções de Lyapunov - 10</h1>
 
 Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} 1 & 2 \\ -5 & -1 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
@@ -59,3 +58,10 @@ $T=0$ e $D=9>0$ → **centro**
 $$P \text{ falhou} \;\Rightarrow\; \text{instável (Lyapunov não confirma estabilidade)}; \qquad T=0,\ D>0 \;\Rightarrow\; \textbf{centro}$$
 
 **Atenção a um detalhe importante nesse item:** aqui $P$ "falhou" (saiu indefinida), mas a conclusão **não é instável** — é **centro**, que é **estável** (só que não assintoticamente)! Isso é consistente com o que vimos: quando $T=0$, o sistema está na **fronteira** entre estável (centro) e instável (sela), e só o cálculo de $D$ decide qual dos dois é. A "falha" de $P$ só nos diz que "não é assintoticamente estável" — não decide sozinha entre sela e centro; para isso, sempre recorremos a $T$ e $D$ de $A$.
+
+
+---
+
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
+
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
