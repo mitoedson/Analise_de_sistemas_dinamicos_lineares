@@ -96,7 +96,7 @@ $$\lambda^2+3\lambda+2=0 \Rightarrow \lambda_1= -1,\lambda_2= -2$$
 
 A função de Lyapunov é $$V(x) = x^TPx$$.
 
-Como P > 0, V(x) > 0 para $$x \ne 0$$.
+Como P > 0, e é aplicada a V(x), então V(x) > 0 para $$x \ne 0$$.
 
 Além disso, como $$V(x) = x^TPx$$, e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T Px + x^TP\dot x \quad\text{(regra da cadeia, regra do produto)}$$
 
