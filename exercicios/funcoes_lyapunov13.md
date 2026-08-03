@@ -7,7 +7,7 @@ Considere o sistema:
 ```
 
 ```math
-A= = \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} 
+A = \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} 
 ```
 
 Construa uma função de Lyapunov quadrática
