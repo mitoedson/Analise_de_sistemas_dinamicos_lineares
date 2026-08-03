@@ -87,5 +87,84 @@ $$\text{A origem é globalmente assintoticamente estável.}$$
 
 **Por que esse exemplo é pedagogicamente importante:** ele mostra a diferença entre Lyapunov "puro" (exige $\dot V<0$ estrito) e LaSalle (permite $\dot V\leq0$, desde que se analise cuidadosamente onde a igualdade ocorre). Fisicamente, faz todo sentido: o amortecedor ($-cy$) só dissipa energia quando há velocidade ($y\neq0$); quando $y=0$ momentaneamente mas $x\neq0$, a mola ainda "empurra" o sistema, então ele não fica parado ali — e é exatamente esse argumento que a análise do conjunto invariante captura formalmente.
 
+---
+
+### Forças restauradoras
+
+Vale montar um "catálogo" das formas mais comuns de $g(x)$ que aparecem em exercícios e aplicações reais, com o comportamento típico de cada uma.
+
+## 1. Mola linear (Hooke)
+
+$$g(x) = kx, \quad k>0$$
+
+$$U(x) = \frac{1}{2}kx^2$$
+
+Sempre $xg(x)>0$ para $x\neq0$ — **globalmente** estável. É o caso mais simples e serve de "base" para todos os outros.
+
+## 2. Mola com rigidez cúbica (hardening spring)
+
+$$g(x) = kx+\alpha x^3, \quad k,\alpha>0$$
+
+$$U(x)=\frac12kx^2+\frac14\alpha x^4$$
+
+Foi o nosso primeiro exemplo. Fica **mais rígida** conforme $x$ cresce. Globalmente estável (potencial radialmente ilimitado).
+
+## 3. Mola "amolecedora" (softening spring)
+
+$$g(x) = kx-\alpha x^3, \quad k,\alpha>0$$
+
+$$U(x)=\frac12kx^2-\frac14\alpha x^4$$
+
+Fica **mais fraca** conforme $x$ cresce, e para $|x|$ grande a mola pode até "ceder" (perder a propriedade restauradora). Só é estável **localmente**, numa vizinhança da origem — a região exata depende de $k,\alpha$.
+
+## 4. Pêndulo (força restauradora senoidal, "bem-comportada")
+
+$$g(x) = \frac{g_0}{L}\sin(x), \quad g_0,L>0$$
+
+$$U(x) = \frac{g_0}{L}(1-\cos x)$$
+
+Aqui $x$ é o ângulo. **Só estável localmente** perto de cada múltiplo par de $\pi$ (posição pendurada) — instável perto dos múltiplos ímpares (posição invertida). $xg(x)>0$ só vale para $|x|<\pi$.
+
+## 5. Backlash / folga (dead zone) — "mola com zona morta"
+
+$$g(x) = \begin{cases} k(x-\delta), & x>\delta \\ 0, & |x|\leq\delta \\ k(x+\delta), & x<-\delta\end{cases}$$
+
+Comum em sistemas mecânicos com folga (engrenagens). Cria uma "zona neutra" ao redor da origem onde não há força restauradora nenhuma — a análise de estabilidade fica bem mais delicada (geralmente só se garante estabilidade *no sentido de Lyapunov*, não assintótica, dentro da zona morta).
+
+## 6. Saturação (stiffening depois amortece)
+
+$$g(x) = k\tanh(x) \text{ ou } g(x)=\frac{kx}{1+\beta x^2}$$
+
+Cresce como mola linear perto de $0$, mas **satura** (não cresce indefinidamente) para $|x|$ grande. $U(x)$ fica limitada, então só dá estabilidade **local**, exceto em casos particulares.
+
+## 7. O seu último exemplo — mistura "quebrada"
+
+$$g(x) = x - \sin(\pi x/2)$$
+
+Esse é um caso "armadilha" que construímos: perto de $x=0$ o termo $\sin$ domina e **inverte** o sinal esperado ($g'(0)<0$), criando instabilidade onde normalmente esperaríamos estabilidade. Serve como lembrete de que **é preciso checar**, não assumir.
+
+## Tabela-resumo com o teste de estabilidade
+
+| $g(x)$ | $U(x)$ | Comportamento perto de $0$ | Global? |
+|---|---|---|---|
+| $kx$ | $\frac12kx^2$ | estável | Sim |
+| $kx+\alpha x^3$ | $\frac12kx^2+\frac14\alpha x^4$ | estável | Sim |
+| $kx-\alpha x^3$ | $\frac12kx^2-\frac14\alpha x^4$ | estável | Só local |
+| $\frac{g_0}{L}\sin x$ | $\frac{g_0}{L}(1-\cos x)$ | estável | Só local ($\|x\|<\pi$) |
+| zona morta | linear por partes | neutro na zona morta | Local (Lyapunov, não assintótica) |
+| $k\tanh(x)$ | $k\ln\cosh(x)$ | estável | Só local |
+| $x-\sin(\pi x/2)$ | oscilante | **instável** | — |
+
+## O teste universal (vale para qualquer $g$ da lista, ou qualquer outra)
+
+Sempre a mesma pergunta, **sem exceção**:
+
+$$g'(0) > 0 \ ?$$
+
+Se sim → origem localmente estável (é mínimo local do potencial). Depois, para saber se é **global**, verifique se $xg(x)>0$ vale para **todo** $x\neq0$ (não só perto de $0$).
+
+
+
+
 
 
