@@ -111,6 +111,6 @@ Esse é, de fato, um padrão **recorrente** em toda a matemática aplicada:
 
 ## A "moral" final de toda essa jornada
 
-$$\boxed{\text{A teoria de Sistemas Dinâmicos Lineares é, em grande parte, um MOSAICO de ferramentas de Álgebra Linear (determinantes, autovalores, formas quadráticas) REAPLICADAS em diferentes contextos específicos (estabilidade de polinômios, linearização, Lyapunov)}}$$
+A teoria de Sistemas Dinâmicos Lineares é, em grande parte, um MOSAICO de ferramentas de Álgebra Linear (determinantes, autovalores, formas quadráticas) REAPLICADAS em diferentes contextos específicos (estabilidade de polinômios, linearização, Lyapunov).
 
 
