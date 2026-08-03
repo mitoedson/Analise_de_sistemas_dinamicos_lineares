@@ -26,7 +26,7 @@ F(x) = \begin{bmatrix} -4 & 1 \\ 1 & -4-3x_2^2 \end{bmatrix} + \begin{bmatrix} -
 ```
 
 
-Verificar se F(x) < 0 (negativa definida), quando $$F_{11}<0 e det(F)>0$$:
+Verificar se F(x) < 0 (negativa definida), quando $$F_{11}<0$$ e $$det(F)>0$$:
 
 $$F_{11}= -8 < 0$$
 $$det(F) = (-8)(-8-6x_2^2) - (2)(2) = 60 + 48x_2^2 > 0$$
