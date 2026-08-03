@@ -37,7 +37,7 @@ A^TP=\begin{bmatrix}0 & -2 \\  1  & -3\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\
 ## Passo 3 — calcular $PA$
 
 ```math
-PA = \begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix} \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} = \begin{bmatrix}\end{bmatrix}
+PA = \begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix} \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix} = \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  p_{22} & p_{12}-3p_{22}\end{bmatrix}
 ```
 
 ## Passo 4 — somar $A^TP+PA$
