@@ -55,6 +55,8 @@ $D=0{,}25>0$; $T^2-4D=1{,}5625-1=0{,}5625>0$ (autovalores reais); $T<0$ → **n�
 
 ## Conclusão
 
-$$P>0 \Rightarrow \text{assintoticamente estável}; \qquad T<0,\ D>0,\ T^2-4D>0 \;\Rightarrow\; \textbf{nó estável}$$
+```math
+P>0 \Rightarrow \text{assintoticamente estável} \qquad T<0,\ D>0,\ T^2-4D>0 \Rightarrow\ \textbf{nó estável}
+```
 
 
