@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} -1 & -1 \\ 0 & -0,25 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
@@ -59,4 +58,9 @@ $D=0{,}25>0$; $T^2-4D=1{,}5625-1=0{,}5625>0$ (autovalores reais); $T<0$ → **n�
 P>0 \Rightarrow \text{assintoticamente estável} \qquad T<0,\ D>0,\ T^2-4D>0 \Rightarrow\ \textbf{nó estável}
 ```
 
+---
+
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
+
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
