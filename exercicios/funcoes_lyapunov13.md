@@ -102,7 +102,10 @@ Além disso, como $$V(x) = x^TPx$$, e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T 
 
 e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)$$ 
 
-Como $$A^TP + PA = −I$$, segue que $$\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+Como $$A^TP + PA = −I$$, segue que:
+```math
+\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+```
 
 Assim, 
 
