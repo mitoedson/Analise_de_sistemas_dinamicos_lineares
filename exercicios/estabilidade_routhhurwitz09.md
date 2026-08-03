@@ -60,6 +60,7 @@ $\frac{6(-1)}{5}+1 > 0 \Rightarrow -\frac{1}{5}<0$, $(-1)<0$. Temos uma troca de
 (d) Para k = 1, explique por que o sistema passa no teste.
 
 $\frac{6(1)}{5}+1 > 0 \Rightarrow \frac{11}{5}$, $(1)>0$. Sim, passa no teste.
+
 ---
 
 <a href="estabilidade_routhhurwitz_metodo.md">Método de Routh-Hurwitz</a>
