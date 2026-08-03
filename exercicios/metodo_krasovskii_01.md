@@ -35,7 +35,7 @@ Portanto, F(x) < 0, para todo x
 
 A escolha $$V(x) = f^T(x)f(x)$$:
 ```math
-V(x) = f^T(x)f(x) = \begin{bmatrix} -4x_1+x_2 && x_1-4x_2-x_2^3 \end{bmatrix} \begin{bmatrix} -4x_1+x_2 \\ x_1-4x_2-x_2^3 \end{bmatrix}
+V(x) = f^T(x)f(x) = \begin{bmatrix} -4x_1+x_2 && x_1-4x_2-x_2^3 \end{bmatrix} \begin{bmatrix} -4x_1+x_2 \\ x_1-4x_2-x_2^3 \end{bmatrix} = (-4x_1+x_2)^2 + (x_1-4x_2-x_2^3)^2
 ```
 
 
