@@ -61,3 +61,7 @@ $$V(x) > 0, \dot V < 0, x \ne 0$$. (0,0) é assintoticamente estável.
 Além disso, como F(x) < 0 para todo x e V (x) → ∞ quando ∥x∥ → ∞, conclui-se que a estabilidade é global.
 (0, 0) é globalmente assintoticamente estável.
 
+
+---
+<a href="metodo_krasovskii_metodo.md">Método de Krasovskii</a>
+
