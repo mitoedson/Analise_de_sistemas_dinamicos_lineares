@@ -41,6 +41,20 @@ H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 ```
 Combinando-os, tem-se que: $$-1-\frac{1}{2}\sqrt{2} < k < -1\quad e \quad k >  -1+\frac{1}{2}\sqrt{2}$$
 
+(c) Podemos optar para sistema estável, k = 2, pois é maior que $$-1+\frac{1}{2}\sqrt{2}$$
+$$\Delta_1 = 2+2 > 0$$
+$$\Delta_2 = 2(2)^2 + 4(2) + 1 = 17 > 0$$
+$$\Delta_3 = (2+1)(2(2)^2+4(2)+1) = 3(17) = 51 > 0$$
+
+Todos os menores principais são positivos, confirmando que é estável.
+
+
+Podemos optar para sistema instável, k = -1, pois não pertence ao intervalo citado.
+$$\Delta_1 = -1+2 > 0$$
+$$\Delta_2 = 2(-1)^2 + 4(-1) + 1 = -1 < 0$$
+$$\Delta_3 = (-1+1)(2(-1)^2+4(-1)+1) = 0 = 0$$
+
+Cnfirma apenas para o primeiro, e os demais falha. Confirma que é instável.
 
 ---
 
