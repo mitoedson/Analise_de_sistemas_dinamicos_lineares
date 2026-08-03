@@ -31,7 +31,7 @@ Se conseguirmos encontrar $P$ **positiva definida** que resolve essa equação, 
 
 ## Onde a candidata $V=\mathbf x^TP\mathbf x$ é usada especificamente:
 
-$$\boxed{V=\mathbf x^TP\mathbf x \text{ é a candidata PADRÃO para SISTEMAS LINEARES (questão 4)}}$$
+$$\boxed{V=\mathbf x^TP\mathbf x \text{ é a candidata PADRÃO para SISTEMAS LINEARES }}$$
 
 Essa forma **quadrática matricial** é a escolha natural quando o sistema é $\dot{\mathbf x}=A\mathbf x$ (linear), porque ela **generaliza perfeitamente** a ideia de "soma de quadrados" para múltiplas dimensões, permitindo inclusive **pesos diferentes e termos cruzados** entre as variáveis — tudo capturado pelos coeficientes $p_{11}, p_{12}, p_{22}$ (no caso $2\times2$) dentro da matriz $P$.
 
