@@ -29,14 +29,12 @@ $$f(x)= kx+\alpha x^3$$
 
 A parte potencial vem de integrar a força restauradora $kx+\alpha x^3$ em relação a $x$:
 
-$$\int_0^x (k\sigma+\alpha \sigma^3)\,ds = \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4$$
+$$E_p = \int_0^x (k\sigma+\alpha \sigma^3)d\sigma = \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4$$
 
+A escolha de V é:
 
 $$V(x,y) = \underbrace{\frac{1}{2}y^2}_{\text{energia cinética}} + \underbrace{\frac{1}{2}kx^2 + \frac{1}{4}\alpha x^4}_{\text{energia potencial}}$$
 
-A parte potencial vem de integrar a força restauradora $kx+\alpha x^3$ em relação a $x$:
-
-$$\int_0^x (ks+\alpha s^3)\,ds = \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4$$
 
 
 
