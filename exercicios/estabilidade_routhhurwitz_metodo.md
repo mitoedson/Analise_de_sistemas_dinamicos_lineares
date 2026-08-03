@@ -82,9 +82,9 @@ O que **de fato acontece**, na maioria desses casos especiais, é que eles **sin
 
 #### Resumindo a resposta à sua pergunta
 
-$$\boxed{\text{Mesmo com um zero (isolado ou linha inteira), você SEMPRE consegue continuar a análise, usando as técnicas apropriadas (} \epsilon \text{ ou polinômio auxiliar)}}$$
+Mesmo com um zero (isolado ou linha inteira), você SEMPRE consegue continuar a análise, usando as técnicas apropriadas (} \epsilon \text{ ou polinômio auxiliar)
 
-$$\boxed{\text{Você NUNCA fica "sem poder concluir nada" — o critério de Routh-H
+Você NUNCA fica "sem poder concluir nada" — o critério de Routh-Hurwitz é sempre CONCLUSIVO, mesmo nesses casos especiais
 
 
 Resumindo:
