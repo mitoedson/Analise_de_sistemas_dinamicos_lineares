@@ -97,8 +97,10 @@ $$\lambda^2+3\lambda+2=0 \Rightarrow \lambda_1= -1,\lambda_2= -2$$
 A função candidata de Lyapunov é $$V(x) = x^TPx$$.
 
 E para isso, 
-$$V(x)>0 \quad\text{para}\quad x \ne 0 (\quad\text{e}\quad V(0)=0)$$ — candidata precisa ser "tipo energia"
-$$\dot 𝑉 (x) < 0\quad\text{para}\quad x \ne 0$$ -  a "energia" precisa estar sempre decrescendo
+
+$$V(x)>0$$ para $$x \ne 0$$ (e $$\quad V(0)=0$$) — candidata precisa ser "tipo energia"
+
+$$\dot 𝑉 (x) < 0$$ para $$x \ne 0$$ -  a "energia" precisa estar sempre decrescendo
 
 Como P > 0, e é aplicada a V(x), então V(x) > 0 para $$x \ne 0$$.
 
