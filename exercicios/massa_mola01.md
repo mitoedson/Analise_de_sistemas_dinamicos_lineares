@@ -1,6 +1,5 @@
 <h1>Massa–Mola com rigidez não linear</h1>
 
-Ótimo exemplo — esse é o caso clássico onde a "função de energia" tem sentido físico direto (energia cinética + energia potencial), e vamos precisar de uma ferramenta extra que ainda não usamos: o **princípio de invariância de LaSalle**. Vou mostrar o porquê.
 
 ## 1. Construindo a função de energia
 
