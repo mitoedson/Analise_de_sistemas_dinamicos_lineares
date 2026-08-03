@@ -49,7 +49,7 @@ d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}
 
 Para os valores de k para estabilidade assintótica, analisamos a primeira coluna da tabela:
 
-$\frac{6k}{5}+1 > 0$, $k>0$. Logo, $k>0$ para estabilidade assintótica.
+$\frac{6k}{5}+1 > 0 \Rightarrow k > -\frac{5}{6}$, $k>0$. Logo, $k>0$ para estabilidade assintótica.
 
 
 
