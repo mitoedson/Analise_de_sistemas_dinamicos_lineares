@@ -32,6 +32,11 @@ A ideia prática mais comum: **escolher $Q$ positiva definida** (geralmente $Q=I
 A^TP+PA = -Q
 ```
 
+Como $$A^TP + PA = −I$$, segue que:
+```math
+\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \Rightarrow \dot V = -(x_1^2+x_2^2) < 0
+```
+
 
 Se conseguirmos encontrar $P$ **positiva definida** que resolve essa equação, então $V=\mathbf x^TP\mathbf x$ é válida ($V>0$) e $\dot V=-\mathbf x^TQ\mathbf x<0$ → sistema **assintoticamente estável**.
 
