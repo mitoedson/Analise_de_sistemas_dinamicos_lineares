@@ -50,13 +50,13 @@ A^TP+PA = \begin{bmatrix} -2p_{12} & -2p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22}
 
 ```math
 A^TP+PA = -I \Rightarrow 
-\begin{bmatrix} -4p_{12} & p_{22}+p_{11}-3p_{12} \\ p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix} = -\begin{bmatrix} 1 & 0\\ 0 & 1 \end{bmatrix}
+\begin{bmatrix} -4p_{12} & -2p_{22}+p_{11}-3p_{12} \\ -2p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix} = -\begin{bmatrix} 1 & 0\\ 0 & 1 \end{bmatrix}
 ```
 
 Temos o sistema:
 
 $$-4p_{12} = - 1 \quad (i)$$
-$$p_{22}+p_{11}-3p_{12} = 0 \quad (ii)$$ 
+$$-2p_{22}+p_{11}-3p_{12} = 0 \quad (ii)$$ 
 $$2p_{12}-6p_{22} = -1 \quad (iii)$$
 
 ## Passo 6 — resolver o sistema
@@ -65,7 +65,7 @@ De (i): $$p_{12}= \frac{1}{4}$$
 
 De (iii): $$2\frac{1}{4}-6p_{22} = -1 \Rightarrow p_{22} = \frac{1}{4} $$
 
-De (ii): $$\frac{1}{4}+p_{11}-3\frac{1}{4} = 0$$ \Rightarrow p_{11}$$
+De (ii): $$-2(\frac{1}{4})+p_{11}-3(\frac{1}{4}) = 0$$ \Rightarrow p_{11}=\frac{5}{4}$$
 
 
 
