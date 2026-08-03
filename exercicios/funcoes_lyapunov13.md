@@ -104,7 +104,7 @@ e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x
 
 Como $$A^TP + PA = −I$$, segue que:
 ```math
-\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \Rightarrow \dot V = -(x_1^2+x_2^2)
 ```
 
 Assim, 
