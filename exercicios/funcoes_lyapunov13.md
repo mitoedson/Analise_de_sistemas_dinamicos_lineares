@@ -69,6 +69,9 @@ De (ii): $$-2(\frac{1}{4})+p_{11}-3(\frac{1}{4}) = 0 \Rightarrow p_{11}=\frac{5}
 
 
 ## Passo 6 — checar se $P$ é positiva definida
+
+Usa-se o critério de Sylvester: os menores principais líderes devem ser positivos.
+
 ```math
 P = \begin{bmatrix} \frac{5}{4} & \frac{1}{4} \\ \frac{1}{4} & \frac{1}{4}\end{bmatrix}
 ```
