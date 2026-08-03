@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} 3 & -2 \\ 2 & -2 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — escolher Q
 
@@ -79,3 +78,9 @@ Como não conseguimos $P$ positiva definida com essa escolha de $Q=I$, isso é u
 $\lambda ^2 - T\lambda + D = 0 \Rightarrow \lambda ^2 - 1\lambda -2 = 0 \Rightarrow \lambda_1 = 1, \lambda_2 = -2 $
 
 Portanto, o sistema é instável (ponto de sela).
+
+---
+
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
+
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
