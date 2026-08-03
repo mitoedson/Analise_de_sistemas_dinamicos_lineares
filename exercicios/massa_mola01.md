@@ -50,7 +50,7 @@ $V$ é **radialmente ilimitada** (isto é, $V\to\infty$ conforme $\|(x,y)\|\to\i
 
 Usando a regra da cadeia e substituindo $\dot x=y$, $\dot y=-cy-kx-\alpha x^3$:
 
-$$\dot V = y\dot y + kx\dot x+\alpha x^3\dot x = y(-cy-kx-\alpha x^3) + kxy+\alpha x^3y$$
+$$\dot V = \frac{\partial V}{\partial x}\dot x + \frac{\partial V}{\partial y}\dot y = y\dot y + kx\dot x+\alpha x^3\dot x = y(-cy-kx-\alpha x^3) + kxy+\alpha x^3y$$
 
 $$= -cy^2 -kxy-\alpha x^3y+kxy+\alpha x^3y$$
 
