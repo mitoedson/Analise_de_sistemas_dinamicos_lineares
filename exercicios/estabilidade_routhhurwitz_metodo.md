@@ -47,6 +47,10 @@ Note também que o elemento correspondente a $s_0$, na primeira coluna, é SEMPR
 
 Resumindo:
 
+$$\boxed{\text{A tabela de Routh verifica DEFINITIVAMENTE (com certeza matemática total) se o sistema é assintoticamente estável, de forma GLOBAL, sem ambiguidade}}$$
+
+$$\boxed{\text{Routh-Hurwitz **não distingue** o "tipo" específico de comportamento (nó, foco, etc.) — ele só confirma **se** é ou não assintoticamente estável (binário: sim/não), sem entrar em detalhes sobre a geometria das trajetórias (isso exigiria calcular os autovalores explicitamente, ou usar a tabela $T,D$ no caso $2\times2$).}}$$
+
 $$\boxed{\text{Routh-Hurwitz é adequado e RECOMENDADO justamente para graus altos (}\ge3\text{), onde calcular raízes diretamente é impraticável ou impossível}}$$
 
 $$\boxed{\text{Para graus baixos (1 ou 2), até dá pra usar fórmulas diretas — mas Routh também funciona, só que é "over-kill" nesses casos simples}}$$
