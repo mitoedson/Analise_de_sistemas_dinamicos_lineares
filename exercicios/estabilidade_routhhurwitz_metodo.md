@@ -47,7 +47,7 @@ Note também que o elemento correspondente a $s_0$, na primeira coluna, é SEMPR
 
 ### E se houver 0 em alguma posição da tabela?
 
-## Os dois tipos de "zero" que podem aparecer
+#### Os dois tipos de "zero" que podem aparecer
 
 $$\boxed{\text{Tipo 1: um ZERO ISOLADO na primeira coluna (resto da linha NÃO é zero)}}$$
 $$\boxed{\text{Tipo 2: uma LINHA INTEIRA de zeros}}$$
