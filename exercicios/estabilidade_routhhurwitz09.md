@@ -54,7 +54,7 @@ $\frac{6k}{5}+1 > 0 \Rightarrow k > -\frac{5}{6}$, $k>0$. Logo, $k>0$ para estab
 
 (c) Para k = −1, determine o número de raízes com parte real positiva.
 
-$\frac{6(-1)}{5}+1 > 0 \Rightarrow -\frac{1}{5}<0$, $(-1)<0$. Temos uma troca de sinal, portanto, uma raíz com parte real positiva.
+$\frac{6(-1)}{5}+1 > 0 \Rightarrow -\frac{1}{5}<0$, $(-1)<0$. Temos uma troca de sinal, portanto, uma raíz com parte real positiva, indicando instabilidade.
 
 
 (d) Para k = 1, explique por que o sistema passa no teste.
