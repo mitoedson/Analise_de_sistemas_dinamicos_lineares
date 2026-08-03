@@ -68,19 +68,21 @@ T=0+(-γ)=-γ , D=det(J(x,y)=(0)(-γ)-(1)(ω^2)=-ω^2
 ```
 O polinômio caractrístico para (0,0):
 ```math
-\lambda^2+γ\lambda-ω^2=0 \Rightarrow \lambda_1,2 
+\lambda^2+γ\lambda-ω^2=0 
 ```
 
 ### Classificando para ω = 2 e γ = 0,6:
 
 #### Em (0,0):
 ```math
-\lambda^2+0,6\lambda+(2)^2=0
+\lambda^2+0,6\lambda+(2)^2=0 \Rightarrow \lambda = \frac{-0,6 \pm i\sqrt{15,64}}{2}
 ```
+Como Re{$\lambda$}<0, (0,0) é foco assintoticamente estável.
 
 #### Em ($\pi$,0):
 ```math
-\lambda^2+0,6\lambda-(2)^2=0
+\lambda^2+0,6\lambda-(2)^2=0 \Rightarrow \lambda = \frac{-0,6 \pm \sqrt{16,36}}{2}
 ```
+($\pi$,0) é instável (ponto de sela).
 
 
