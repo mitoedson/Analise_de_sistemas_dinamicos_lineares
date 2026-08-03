@@ -35,7 +35,7 @@ c_1 = -\frac{\begin{bmatrix} 2 & 2k+1 \\ \frac{5}{2} & k \end{bmatrix}}{\frac{5}
 c_2 = -\frac{\begin{bmatrix} 2 & 0 \\ \frac{5}{2} & 0 \end{bmatrix}}{\frac{5}{2}} = 0
 ```
 ```math
-d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}}{\frac{6k}{5}+1}= k, 
+d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}}{\frac{6k}{5}+1}= k
 ```
 
 
