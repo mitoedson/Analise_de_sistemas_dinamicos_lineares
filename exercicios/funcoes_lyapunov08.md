@@ -36,7 +36,9 @@ Substituindo em (iii): $-2(-0{,}4)-0{,}5p_{22}=-1 \Rightarrow 0{,}8-0{,}5p_{22}=
 
 ## Passo 3 — checar se $P$ é positiva definida
 
-$$P=\begin{bmatrix}0{,}5&-0{,}4\\-0{,}4&3{,}6\end{bmatrix}$$
+```math
+P=\begin{bmatrix}0,5 & -0,4 \\-0,4 & 3,6 \end{bmatrix}
+```
 
 **Menor 1:** $p_{11}=0{,}5>0$ ✓
 
