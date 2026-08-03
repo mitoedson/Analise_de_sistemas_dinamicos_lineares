@@ -31,23 +31,14 @@ A^T=\begin{bmatrix} 0 & -2 \\  1  & -3\end{bmatrix}
 
 ```math
 A^TP=\begin{bmatrix}0 & -2 \\  1  & -3\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
+=\begin{bmatrix} -2p_{12} & p_{22} \\ p_{11}-3p_{12} &   p_{12}-3p_{22} \end{bmatrix}
 ```
-
-- (1,1): $2p_{11}+1{,}8p_{12}$
-- (1,2): $2p_{12}+1{,}8p_{22}$
-- (2,1): $-2{,}5p_{11}-p_{12}$
-- (2,2): $-2{,}5p_{12}-p_{22}$
 
 ## Passo 3 — calcular $PA$
 
 ```math
-PA=\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}\begin{bmatrix}2&-2{,}5\\1{,}8&-1\end{bmatrix}
+PA=(A^TP)^T\begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  & p_{22} & p_{12}-3p_{22}\end{bmatrix}
 ```
-
-- (1,1): $2p_{11}+1{,}8p_{12}$
-- (1,2): $-2{,}5p_{11}-p_{12}$
-- (2,1): $2p_{12}+1{,}8p_{22}$
-- (2,2): $-2{,}5p_{12}-p_{22}$
 
 ## Passo 4 — somar $A^TP+PA$
 
