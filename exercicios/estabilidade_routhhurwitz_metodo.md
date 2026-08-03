@@ -41,6 +41,8 @@ $$b_1 = \frac{a_{n-1}a_{n-2} - a_n a_{n-3}}{a_{n-1}}, \quad b_2 = \frac{a_{n-1}a
 
 e assim por diante, sempre usando as duas linhas anteriores.
 
+Note também que o elemento correspondente a $s_0$, na primeira coluna, é SEMPRE o valor do coeficiente que multiplica por $a_0$. Como ela ocorre sempre, pode-se pular o último cálculo, ou fazer o cálculo e comprovar que todos os cálculos estão convergindo para o último resultado (ou está errado algum procedimento anterior, e por coincidência, o resultado aparece como correto no fim).
+
 **Dica prática:** monte com bastante cuidado nas primeiras vezes — é fácil trocar sinal no determinante cruzado ($a_{n-1}a_{n-2} - a_n a_{n-3}$, não o contrário). Se quiser, me manda um polinômio de exemplo que eu monto a tabela passo a passo com você, ou se preferir eu posso te dar um exercício pra você tentar e eu confiro o resultado.
 
 Resumindo:
