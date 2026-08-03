@@ -52,20 +52,14 @@ Para os valores de k para estabilidade assintótica, analisamos a primeira colun
 $\frac{6k}{5}+1 > 0 \Rightarrow k > -\frac{5}{6}$, $k>0$. Logo, $k>0$ para estabilidade assintótica.
 
 
+(c) Para k = −1, determine o número de raízes com parte real positiva.
+
+$\frac{6(-1)}{5}+1 > 0 \Rightarrow -\frac{1}{5}<0$, $(-1)<0$. Temos uma troca de sinal, portanto, uma raíz com parte real positiva.
 
 
-O critério de Routh-Hurwitz diz:
+(d) Para k = 1, explique por que o sistema passa no teste.
 
- **O número de trocas de sinal na primeira coluna = número de raízes com parte real positiva**
-
-**2 raízes do polinômio têm parte real positiva** 
-
-Como há raízes com parte real positiva, o sistema associado a esse polinômio (se fosse um polinômio característico de um sistema linear) seria **instável**.
-
-
-
-
-
+$\frac{6(1)}{5}+1 > 0 \Rightarrow \frac{11}{5}$, $(1)>0$. Sim, passa no teste.
 ---
 
 <a href="estabilidade_routhhurwitz_metodo.md">Método de Routh-Hurwitz</a>
