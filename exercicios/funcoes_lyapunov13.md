@@ -78,8 +78,7 @@ p_{11} = \frac{5}{4} > 0
 ```math
 det(P) = (\frac{5}{4})(\frac{1}{4}) - (\frac{1}{4})(\frac{1}{4}) = \frac{5}{16} - \frac{1}{16} = \frac{1}{4} > 0
 ```
-
-**Falha logo no primeiro menor** → $P$ não é positiva definida → instável.
+Como $$p_{11} > 0$$ e $$det(P) > 0$$, condições para positiva definida, então P > 0.
 
 ## Passo 7 — classificar o tipo via traço e determinante de $A$
 
