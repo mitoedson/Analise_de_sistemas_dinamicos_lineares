@@ -82,13 +82,11 @@ Como $$p_{11} > 0$$ e $$det(P) > 0$$, condições para positiva definida, então
 
 ## Passo 7 — classificar o tipo via traço e determinante de $A$
 
-$$T=\text{traço}(A)= \frac{5}{4} + \frac{1}{4} = \frac{3}{2}$$
-$$D=\det(A)= \frac{1}{4}$$
+$$T=\text{traço}(A)= 0 + (-3) = -3$$
+$$D=\det(A)= (0)(-3) - (1)(-2) = 2$$
 
-$D=2{,}5>0$; $T^2-4D=1-10=-9<0$ → autovalores **complexos**; $T=1>0$ → **foco instável**
+$$\lambda^2+3\lambda+2=0 \Rightarrow \lambda_1= -1,\lambda_2= -2$$ 
 
-## Conclusão
-
-$$P \text{ falhou} \;\Rightarrow\; \text{instável}; \qquad T>0,\ D>0,\ T^2-4D<0 \;\Rightarrow\; \textbf{foco instável}$$
+É assintoticamente estável (Nó estável)
 
 
