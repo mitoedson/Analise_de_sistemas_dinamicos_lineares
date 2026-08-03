@@ -27,20 +27,17 @@ Coeficientes: $a_0=1,\ a_1=2,\ a_2=(k+3),\ a_3=(2k+1),\ a_4=k$
 |$λ^0$| $d_1$ | $d_2$ | |
 
 ```math
-b_1 = -\frac{\begin{bmatrix} 1 & 8 \\ 3 & 40 \end{bmatrix}}{3} = -\frac{16}{3}, 
-b_2 = -\frac{\begin{bmatrix} 1 & 68 \\ 3 & 60 \end{bmatrix}}{3} = 48
+b_1 = -\frac{\begin{bmatrix} 1 & k+3 \\ 2 & 2k+1 \end{bmatrix}}{2} = \frac{5}{2}, 
+b_2 = -\frac{\begin{bmatrix} 1 & k \\ 2 & 0 \end{bmatrix}}{2} = k
 ```
 ```math
-c_1 = -\frac{\begin{bmatrix} 3 & 40 \\ -\frac{16}{3} & 48 \end{bmatrix}}{-\frac{16}{3}} = 67, 
-c_2 = -\frac{\begin{bmatrix} 3 & 60 \\ -\frac{16}{3} & 0 \end{bmatrix}}{-\frac{16}{3}} = 60
+c_1 = -\frac{\begin{bmatrix} 2 & 2k+1 \\ \frac{5}{2} & k \end{bmatrix}}{\frac{5}{2}} = \frac{6k}{5}+1, 
+c_2 = -\frac{\begin{bmatrix} 2 & 0 \\ \frac{5}{2} & 0 \end{bmatrix}}{\frac{5}{2}} = 0
 ```
 ```math
-d_1 = -\frac{\begin{bmatrix} -\frac{16}{3} & 48 \\ 67 & 60 \end{bmatrix}}{67} = \frac{3536}{67}, 
-d_2 = 0
+d_1 = -\frac{\begin{bmatrix} \frac{5}{2} & k \\ \frac{6k}{5}+1 & 0 \end{bmatrix}}\frac{6k}{5}+1= k, 
 ```
-```math
-e_1 = -\frac{\begin{bmatrix} 67 & 60 \\ \frac{3536}{67} & 0 \end{bmatrix}}{\frac{3536}{67}} = 60 
-```
+
 
 
 | | col 1 | col 2 | col 3 |
