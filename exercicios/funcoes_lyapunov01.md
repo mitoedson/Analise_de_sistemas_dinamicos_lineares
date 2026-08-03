@@ -1,20 +1,5 @@
 <h1>Estabilidade - Funções de Lyapunov - 01</h1>
 
-## O método sistemático (equação de Lyapunov)
-
-Para $\dot{\mathbf x}=A\mathbf x$, escolhemos a candidata quadrática:
-$$V(\mathbf x) = \mathbf x^T P \mathbf x$$
-
-onde $P$ é uma matriz simétrica a determinar. Calculando $\dot V$:
-$$\dot V = \dot{\mathbf x}^T P\mathbf x + \mathbf x^T P\dot{\mathbf x} = \mathbf x^T(A^TP+PA)\mathbf x$$
-
-A ideia prática mais comum: **escolher $Q$ positiva definida** (geralmente $Q=I$, a identidade, por simplicidade) e resolver a **equação de Lyapunov**:
-$$A^TP+PA = -Q$$
-
-Se conseguirmos encontrar $P$ **positiva definida** que resolve essa equação, então $V=\mathbf x^TP\mathbf x$ é válida ($V>0$) e $\dot V=-\mathbf x^TQ\mathbf x<0$ → sistema **assintoticamente estável**.
-
----
-
 Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
 ```math
