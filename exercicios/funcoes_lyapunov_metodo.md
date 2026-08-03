@@ -58,7 +58,9 @@ $$\boxed{\text{Para sistemas NÃO LINEARES: não existe uma forma "geral" garant
 
 Tecnicamente, **sim** — é só uma **candidata quadrática genérica**, que poderia ser tentada em qualquer sistema. Mas repare que, nos itens da questão 5, quando ajustamos pesos (como $V=x^2+2y^2$ no item b), estávamos **essencialmente** escolhendo:
 
-$$P=\begin{pmatrix}1&0\\0&2\end{pmatrix}$$
+```math
+P=\begin{pmatrix}1&0\\0&2\end{pmatrix}
+```
 
 Ou seja, **implicitamente** já estávamos usando um caso particular (diagonal) de $V=\mathbf x^TP\mathbf x$! A diferença é que, para sistemas não lineares, **não existe uma equação sistemática** (como a de Lyapunov linear) que nos diga automaticamente quais valores de $P$ escolher — precisamos **descobrir por tentativa**, guiados pela estrutura do sistema.
 
