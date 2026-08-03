@@ -25,7 +25,9 @@ $$V(x) = f(x)^Tf(x) = \|f(x)\|^2$$
 
 A origem $x=0$ é **globalmente assintoticamente estável** se, para todo $x$:
 
-$$F(x) = J(x)^T + J(x) \quad \text{é definida negativa}$$
+```math
+(x) = J(x)^T + J(x) \quad \text{é definida negativa}
+```
 
 Ou seja, a mesma lógica de "$A^TP+PA$" de antes, mas aplicada à jacobiana $J(x)$, com $P=I$ fixo (não precisamos resolver para $P$, porque aqui a candidata já está definida como $f(x)^Tf(x)$).
 
