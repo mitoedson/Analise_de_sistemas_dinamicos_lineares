@@ -1,4 +1,4 @@
-<h1>Funções de Lyapunov - Método Sistemático</h1>
+<h1>Funções de Lyapunov - Método Sistemático - Sistemas Lineares</h1>
 
 Para $\dot{\mathbf x}=A\mathbf x$, escolhemos a candidata quadrática:
 
