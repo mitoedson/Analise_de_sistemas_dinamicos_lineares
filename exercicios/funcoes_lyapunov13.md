@@ -102,10 +102,9 @@ Além disso, como $$V(x) = x^TPx$$, e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T 
 
 e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)$$ 
 
-Como $$A^TP + PA = −I$$, segue que $$\dot V = x^(-I)x = -(x_1^2+x_2^2) \Rightarrow $$\dot V = $$
+Como $$A^TP + PA = −I$$, segue que $$\dot V = x^(-I)x = -\begin{bmatrix} x_1 & x_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
 
-$$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)$$ 
-
+Assim, 
 
 Logo, a origem é assintoticamente estável.
 
