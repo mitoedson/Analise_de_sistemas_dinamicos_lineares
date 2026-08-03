@@ -19,11 +19,26 @@ Prove, usando uma função de energia, que a origem é globalmente assintoticame
 
 Fisicamente, a energia total do sistema massa-mola é:
 
+Energia cinética: 
+$$E_c=\frag{1}{2}y^2$$
+
+A força restauradora é:
+f(x)= kx+\alpha x^3
+
+
 $$V(x,y) = \underbrace{\frac{1}{2}y^2}_{\text{energia cinética}} + \underbrace{\frac{1}{2}kx^2 + \frac{1}{4}\alpha x^4}_{\text{energia potencial}}$$
 
 A parte potencial vem de integrar a força restauradora $kx+\alpha x^3$ em relação a $x$:
 
 $$\int_0^x (ks+\alpha s^3)\,ds = \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4$$
+
+
+
+
+
+
+
+
 
 ## 2. Verificando que V é definida positiva
 
