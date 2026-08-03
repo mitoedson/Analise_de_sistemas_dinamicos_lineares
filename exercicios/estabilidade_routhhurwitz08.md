@@ -11,12 +11,21 @@ $P_1(\lambda)=λ^3 + (k+2)λ^2 + (2k+1)λ + (k+1)$
 (c) Escolha dois valores de k: um estável e um instável. Explique a escolha.
 
 ---
+(a) 
+Os coeficientes do polinômio devem ser positivos. Ou seja, $$k+2>0 \Rightarrow k>-2$$, $$2k+1>0  \Rightarrow >k>-\frac{1}{2}$$ e $$k+1> \Rightarrow k>-1$$
 
-(b) Matriz de Hurwitz
+Observando a matriz de Hurwitz, os menores principais devem ser positivos
 
 ```math
 H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 ```
+
+- $$k+2>0 \Rightarrow k>-2$$
+- $$(k+2)(2k+1)-(1)(k+1) > 0 \Rightarrow 2k^2+4k-1 > 0$$
+- $$det(H) > 0 \Rightarrow (k+1)(2k^2+4k+k+2-k-1) > 0$$
+
+(b) Matriz de Hurwitz
+
 
 ```math
 \Delta_1 = k+2 > 0, \rightarrow k > -2 
