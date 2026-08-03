@@ -1,4 +1,4 @@
-<h1>Estabilidade - Funções de Lyapunov Quadrática - 13</h1>
+<h1>Funções de Lyapunov Quadrática - 13</h1>
 
 Considere o sistema:
 
