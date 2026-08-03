@@ -48,7 +48,7 @@ $$V(x,y) = \underbrace{\frac{1}{2}y^2}_{\text{energia cinética}} + \underbrace{
 
 Como $k>0$ e $\alpha>0$, cada termo de $V$ é não-negativo, e só se anula simultaneamente quando $x=0$ **e** $y=0$. Logo:
 
-$$V(x,y) > 0 \ \text{ para } (x,y)\neq(0,0), \qquad V(0,0)=0$$
+$$V(x,y) = \frac{1}{2}y^2 + \frac{1}{2}kx^2+\frac{1}{4}\alpha x^4> 0 \ \text{ para } (x,y)\neq(0,0), \qquad V(0,0)=0$$
 
 **Bônus importante:** $V$ é **radialmente ilimitada** (isto é, $V\to\infty$ conforme $\|(x,y)\|\to\infty$, em qualquer direção) — o termo $x^4$ garante isso mesmo quando $x\to\infty$ com $y$ fixo. Essa propriedade será essencial para a conclusão **global**.
 
