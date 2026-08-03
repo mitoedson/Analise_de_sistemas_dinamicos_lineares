@@ -73,10 +73,10 @@ De (ii): $$-2(\frac{1}{4})+p_{11}-3(\frac{1}{4}) = 0 \Rightarrow p_{11}=\frac{5}
 PA = \begin{bmatrix} \frac{5}{4} & \frac{1}{4} \\ \frac{1}{4} & \frac{1}{4}\end{bmatrix}
 ```
 ```math
-p_{11} = \frac{5}{4}
+p_{11} = \frac{5}{4} > 0
 ```
 ```math
-det(P) = (\frac{5}{4})(\frac{1}{4}) - (\frac{1}{4})(\frac{1}{4}) = \frac{5}{16} - \frac{1}{16} = \frac{1}{4}
+det(P) = (\frac{5}{4})(\frac{1}{4}) - (\frac{1}{4})(\frac{1}{4}) = \frac{5}{16} - \frac{1}{16} = \frac{1}{4} > 0
 ```
 
 **Falha logo no primeiro menor** → $P$ não é positiva definida → instável.
