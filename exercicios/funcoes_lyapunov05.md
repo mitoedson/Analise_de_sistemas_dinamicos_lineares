@@ -1,4 +1,4 @@
-<h1>Estabilidade - Funções de Lyapunov - 05</h1>
+<h1>Funções de Lyapunov - 05</h1>
 
 Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} 1 & -5 \\ 1 & -3 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
@@ -78,3 +77,8 @@ $D=2>0$; $T^2-4D=4-8=-4<0$ (complexos); $T=-2<0$ → **foco estável**
 
 $$P>0 \;\Rightarrow\; \text{assintoticamente estável}; \qquad T<0,\ D>0,\ T^2-4D<0 \;\Rightarrow\; \textbf{foco estável}$$
 
+---
+
+<a href="funcoes_lyapunov_metodo.md">Método Sistemático da Função de Lyapunov</a>
+
+Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
