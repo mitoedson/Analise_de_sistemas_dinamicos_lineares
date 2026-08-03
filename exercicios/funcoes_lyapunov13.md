@@ -100,7 +100,7 @@ Como P > 0, e é aplicada a V(x), então V(x) > 0 para $$x \ne 0$$.
 
 Além disso, como $$V(x) = x^TPx$$, e $$\dot V = \frac{d}{dt}(x^TPx) = \dot x^T Px + x^TP\dot x \quad\text{(regra da cadeia, regra do produto)}$$
 
-e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)$$ 
+e $$\dot x = Ax$$, $$\dot V = (Ax)^T Px + x^TP(Ax) \Rightarrow V = x^TA^T Px + x^TP(Ax) = x^T(A^TP+PA)x$$ 
 
 Como $$A^TP + PA = −I$$, segue que:
 ```math
