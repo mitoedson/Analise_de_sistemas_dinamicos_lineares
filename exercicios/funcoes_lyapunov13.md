@@ -44,6 +44,7 @@ PA = (A^TP)^T = \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  p_{22} & p_{12}-3p_
 
 ```math
 A^TP+PA = \begin{bmatrix} -2p_{12} & p_{22} \\ p_{11}-3p_{12} & p_{12}-3p_{22} \end{bmatrix} + \begin{bmatrix}-2p_{12} &  p_{11}-3p_{12}\\  p_{22} & p_{12}-3p_{22}\end{bmatrix}
+= \begin{bmatrix} -4p_{12} & p_{22}+p_{11}-3p_{12} \\ p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix}
 ```
 
 
