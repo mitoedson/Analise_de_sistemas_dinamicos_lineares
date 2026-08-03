@@ -56,7 +56,7 @@ $$\Delta_1 = -1+2 > 0$$
 $$\Delta_2 = 2(-1)^2 + 4(-1) + 1 = -1 < 0$$
 $$\Delta_3 = (-1+1)(2(-1)^2+4(-1)+1) = 0 = 0$$
 
-Cnfirma apenas para o primeiro, e os demais falha. Confirma que é instável.
+Confirma apenas positivo para o primeiro, e os demais não são. Confirma que é instável.
 
 ---
 
