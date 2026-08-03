@@ -8,7 +8,7 @@ $$a_n s^n + a_{n-1}s^{n-1} + \dots + a_1 s + a_0 = 0$$
 
 você monta a tabela de Routh-Hurwitz (as linhas $s^n, s^{n-1}, \dots, s^0$) e o critério diz:
 
-- **Todos os elementos da primeira coluna devem ter o mesmo sinal** (sem mudança de sinal) para que o sistema seja estável (todas as raízes no semiplano esquerdo).
+- **Todos os elementos da primeira coluna devem ter o mesmo sinal** (sem mudança de sinal) para que o sistema seja estável (todas as raízes no semiplano esquerdo). CUIDADO PARA NÃO CONFUNDIR OS ELEMENTOS DA PRIMEIRA COLUNA COM RAÍZES, OU AUTOVALORES DO POLINÔMIO, POIS ELES APENAS SÃO VALORES AUXILIARES.
 - **O número de mudanças de sinal na primeira coluna é igual ao número de raízes no semiplano direito** (instáveis).
 
 Ou seja, não é só "verificar se não muda de sinal" — a contagem de trocas de sinal também te dá quantos polos instáveis existem, o que é útil mesmo quando o sistema já é sabidamente instável e você quer saber "quão instável".
