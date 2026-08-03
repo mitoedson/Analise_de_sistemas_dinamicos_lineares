@@ -89,4 +89,15 @@ $$\lambda^2+3\lambda+2=0 \Rightarrow \lambda_1= -1,\lambda_2= -2$$
 
 É assintoticamente estável (Nó estável)
 
+## Passo 8 — conclusão por Lyapunov
+
+A função de Lyapunov é V(x) = x^TPx.
+
+Como P > 0, V(x) > 0 para x ̸= 0.
+
+Além disso, $$\dot V = x^T(A^TP + PA)x$$.
+
+Como A^TP + PA = −I, segue que $$\dot V = -x^T = -(x_1^2+x_2^2)$$
+
+Logo, a origem é assintoticamente estável.
 
