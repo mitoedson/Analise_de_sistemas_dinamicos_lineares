@@ -94,6 +94,3 @@ Ou seja: Hurwitz **usa** o teste de Sylvester como **ferramenta**, mas o "crité
 | **Hurwitz** | Estabilidade de polinômios | Matriz de Hurwitz (construída dos coeficientes $a_i$) |
 | **Questão 4 (Lyapunov)** | Estabilidade de sistemas lineares | Matriz $P$ (resultado da equação de Lyapunov, para Positiva Definida) |
 
-## A "moral" final, amarrando toda a lista
-
-$$\boxed{\text{O teste de Sylvester (menores principais) é uma FERRAMENTA UNIVERSAL, reaproveitada em pelo menos DOIS contextos diferentes da nossa lista: Hurwitz (polinômios) e Lyapunov (matriz } P\text{)}}$$
