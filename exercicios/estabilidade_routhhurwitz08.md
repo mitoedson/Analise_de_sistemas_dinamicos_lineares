@@ -28,7 +28,7 @@ H = \begin{pmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{pmatrix}
 \Rightarrow k < -1-\frac{1}{2}\sqrt{2}\qquad\text{ou}\qquad k > -1+\frac{1}{2}\sqrt{2}
 ```
 ```math
-\Delta_3 = \begin{vmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{vmatrix} > 0 \Rightarrow (k+2)(2k+1)(k+1) - (1)(k+1)(K+1) = 2k^3 + 6k^2 - k + 1 > 0 
+\Delta_3 = \begin{vmatrix} k+2 & k+1 & 0\\ 1 & 2k+1 & 0\\ 0 & k+2 & k+1 \end{vmatrix} > 0 \Rightarrow (k+2)(2k+1)(k+1) - (1)(k+1)(k+1) = (k+1)[(2k+1)(k+2)-(K+1)] = (k+1)(2k^2+4k+k+2-k-1) = (k+1)(2k^2+4k+1) = 0 \Rightarrow k = 1, k < -1-\frac{1}{2}\sqrt{2}\qquad\text{ou}\qquad k > -1+\frac{1}{2}\sqrt{2}
 ```
 
 
