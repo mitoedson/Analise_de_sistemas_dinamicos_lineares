@@ -1,7 +1,10 @@
 <h1>Funções de Lyapunov - Método Sistemático</h1>
 
 Para $\dot{\mathbf x}=A\mathbf x$, escolhemos a candidata quadrática:
-$$V(\mathbf x) = \mathbf x^T P \mathbf x$$
+
+```math
+V(\mathbf x) = \mathbf x^T P \mathbf x
+```
 
 onde $P$ é uma matriz simétrica a determinar. Calculando $\dot V$:
 $$\dot V = \dot{\mathbf x}^T P\mathbf x + \mathbf x^T P\dot{\mathbf x} = \mathbf x^T(A^TP+PA)\mathbf x$$
