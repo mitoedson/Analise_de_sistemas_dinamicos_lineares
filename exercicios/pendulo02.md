@@ -32,6 +32,7 @@ Substituíndo y = 0 em (b), sabendo que ω > 0  e γ ≥ 0:
 \sin(x) = -\frac{\gamma (0) }{\omega^2} = 0 \Rightarrow \begin{cases} y=0 \\ x = n\pi,\quad n\in\mathbb{Z} \end{cases}
 ```
 
+(b)
 ### Matriz Jacobiana
 
 ```math
@@ -45,6 +46,7 @@ J(x,y)=\begin{bmatrix} \frac{\partial f_1}{\partial x} & \frac{\partial f_1}{\pa
 =\begin{bmatrix} 0 & 1 \\ −ω^2 cos(x) & - γ \end{bmatrix}
 ```
 
+(c)
 ### Linearização nos pontos de equilíbrio
 
 #### Em (0,0):
@@ -71,13 +73,14 @@ O polinômio caractrístico para (0,0):
 \lambda^2+γ\lambda-ω^2=0 
 ```
 
+(d)
 ### Classificando para ω = 2 e γ = 0,6:
 
 #### Em (0,0):
 ```math
 \lambda^2+0,6\lambda+(2)^2=0 \Rightarrow \lambda = \frac{-0,6 \pm i\sqrt{15,64}}{2}
 ```
-Como Re{$\lambda$}<0, (0,0) é foco assintoticamente estável.
+Como Re{ $\lambda$ }<0, (0,0) é foco assintoticamente estável.
 
 #### Em ($\pi$,0):
 ```math
