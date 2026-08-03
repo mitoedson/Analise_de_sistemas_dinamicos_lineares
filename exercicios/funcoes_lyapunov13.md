@@ -54,15 +54,13 @@ A^TP+PA = -I \Rightarrow
 \begin{bmatrix} -4p_{12} & p_{22}+p_{11}-3p_{12} \\ p_{22}+p_{11}-3p_{12} & 2p_{12}-6p_{22} \end{bmatrix} = -\begin{bmatrix} 1 & 0\\ 0 & 1 \end{bmatrix}
 ```
 
+Temos o sistema:
 
+$$-4p_{12} = - 1 \quad (i)$$
+$$p_{22}+p_{11}-3p_{12} = 0 \quad (ii)$$ 
+$$2p_{12}-6p_{22} = -1 \quad (iii)$$
 
-Igualando a $-I$:
-
-$$4p_{11}+3{,}6p_{12}=-1 \quad (i)$$
-$$-2{,}5p_{11}+p_{12}+1{,}8p_{22}=0 \quad (ii)$$
-$$-5p_{12}-2p_{22}=-1 \quad (iii)$$
-
-## Passo 5 — resolver o sistema
+## Passo 6 — resolver o sistema
 
 Da (iii): $p_{22}=0{,}5-2{,}5p_{12}$
 
