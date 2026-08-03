@@ -19,7 +19,8 @@ Matriz Jacobiana:
 A(x) = \frac{\partial f}{\partial x} = \begin{bmatrix} \frac{\partial -4x_1+x_2}{\partial x_1} & \frac{\partial -4x_1+x_2}{\partial x_2} \\ \frac{\partial x_1-4x_2-x_2^3}{\partial x_1} & \frac{\partial x_1-4x_2-x_2^3}{\partial x_2} \end{bmatrix} = \begin{bmatrix} -4 & 1 \\ 1 & -4-3x_2^2 \end{bmatrix}
 ```
 
-$$F(x) = A(x) + A^T(x)$$
+$F(x) = A(x) + A^T(x)$
+
 ```math
 F(x) = \begin{bmatrix} -4 & 1 \\ 1 & -4-3x_2^2 \end{bmatrix} + \begin{bmatrix} -4 & 1 \\ 1 & -4-3x_2^2 \end{bmatrix} = \begin{bmatrix} -8 & 2 \\ 2 & -8-6x_2^2 \end{bmatrix}
 ```
