@@ -43,6 +43,10 @@ Como a origem é o único ponto onde f(x) = 0, temos:
 V(x)>0 \quad\text{para}\quad x \ne 0.
 ```
 
+A derivada de $$\dot V$$:
+```math
+\dot V = f^T[A(x)+A^T(x)]f(x) = \begin{bmatrix} -4x_1+x_2 && x_1-4x_2-x_2^3 \end{bmatrix} \begin{bmatrix} -8 & 2 \\ 2 & -8-6x_2^2 \end{bmatrix} \begin{bmatrix} -4x_1+x_2 \\ x_1-4x_2-x_2^3 \end{bmatrix}
+```
 
 
 
