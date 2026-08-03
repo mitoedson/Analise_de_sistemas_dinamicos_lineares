@@ -40,7 +40,7 @@ V(x) = f^T(x)f(x) = \begin{bmatrix} -4x_1+x_2 && x_1-4x_2-x_2^3 \end{bmatrix} \b
 
 Como a origem é o único ponto onde f(x) = 0, temos:
 ```math
-V(x)>0 \quad \text{para}\quad x &ne 0.
+V(x)>0 \quad\text{para}\quad x \ne 0.
 ```
 
 
