@@ -6,7 +6,6 @@ Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 \frac{dx}{dt} = \begin{bmatrix} 5 & -1 \\ 3 & 1 \end{bmatrix} x
 ```
 ---
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
 
 ## Passo 1 — montar a equação de Lyapunov com $Q=I$
 
