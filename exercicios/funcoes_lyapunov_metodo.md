@@ -80,4 +80,39 @@ Ou seja, **implicitamente** já estávamos usando um caso particular (diagonal) 
 $$\boxed{\text{A forma } V=\mathbf x^TP\mathbf x \text{ é, na verdade, a "candidata mãe" — usada explicitamente na questão 4, e usada IMPLICITAMENTE (via ajuste de pesos) em várias candidatas da questão 5}}$$
 
 
+## Analisando a matriz P como positiva definida, podemos dizer que se sim, temos uma assintoticamente estável?
+
+#### A resposta depende de **como** você obteve essa matriz $P$
+
+$$\boxed{\text{Contexto A (Questão 4 — equação de Lyapunov resolvida)}: P>0 \;\Rightarrow\; \text{JÁ garante assintoticamente estável, DIRETO}}$$
+
+$$\boxed{\text{Contexto B (candidata } P \text{ escolhida livremente)}: P>0 \;\Rightarrow\; \text{candidata VÁLIDA, mas AINDA precisa calcular } \dot V}$$
+
+#### Por que no Contexto A (questão 4) a resposta é "sim, direto"
+
+Lembra que, na questão 4, resolvemos a equação $A^TP+PA=-Q$ **especificamente** para satisfazer $\dot V=-\mathbf x^TQ\mathbf x<0$ **por construção**. Então, quando confirmamos $P>0$ nesse contexto, **as duas condições já estão garantidas simultaneamente**:
+
+1. $V>0$ (confirmado, via $P>0$)
+2. $\dot V<0$ (**já garantido de graça**, porque foi assim que construímos a equação)
+
+**Por isso**, nesse contexto específico, $P>0$ **já é suficiente sozinho** para concluir assintoticamente estável — não precisa de mais nenhum passo.
+
+#### Por que, em geral (fora desse contexto específico), a resposta é "não, ainda falta calcular $\dot V$"
+
+Se você estivesse **apenas escolhendo** uma matriz $P$ qualquer (não vinda da equação de Lyapunov resolvida — por exemplo, testando $P=I$ "no chute", sem checar se ela satisfaz alguma equação especial), confirmar $P>0$ **só garante** que $V=\mathbf x^TP\mathbf x$ é uma candidata **válida** (passa no primeiro teste) — mas você **ainda precisaria** calcular $\dot V$ explicitamente, e verificar seu sinal, antes de concluir qualquer coisa sobre estabilidade.
+
+#### Resumindo a distinção completa
+
+| Situação | $P>0$ é suficiente sozinho? |
+|---|---|
+| Questão 4: $P$ vem de resolver $A^TP+PA=-Q$ | **Sim** — $\dot V<0$ já vem garantido por construção |
+| Questão 5 (ou qualquer sistema não linear): $P$ escolhida livremente | **Não** — ainda precisa calcular $\dot V$ explicitamente e checar o sinal |
+
+#### A razão de fundo dessa diferença
+
+$$\boxed{\text{Na questão 4, a equação de Lyapunov "EMBUTE" a condição } \dot V<0 \text{ dentro da própria construção de } P}$$
+
+$$\boxed{\text{Fora desse contexto, } P>0 \text{ é só metade da história — } \dot V \text{ ainda precisa ser calculado e analisado à parte}}$$
+
+
 
