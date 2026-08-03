@@ -21,18 +21,16 @@ Mostre que P é definida positiva.
 
 ---
 
-Usando o fluxo: equação de Lyapunov (com $Q=I$) → checar $P$ pelos menores principais líderes → confirmar/classificar o tipo via $T$ e $D$ de $A$.
-
 ## Passo 1 — calcular $A^T$
 
 ```math
-A^T=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}
+A^T=\begin{bmatrix} 0 & -2 \\  1  & -3\end{bmatrix}
 ```
 
 ## Passo 2 — calcular $A^TP$
 
 ```math
-A^TP=\begin{bmatrix}2&1{,}8\\-2{,}5&-1\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
+A^TP=\begin{bmatrix}0 & -2 \\  1  & -3\end{bmatrix}\begin{bmatrix}p_{11}&p_{12}\\p_{12}&p_{22}\end{bmatrix}
 ```
 
 - (1,1): $2p_{11}+1{,}8p_{12}$
