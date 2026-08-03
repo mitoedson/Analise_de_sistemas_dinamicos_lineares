@@ -1,4 +1,4 @@
-<h1>Estabilidade - Funções de Lyapunov - 01</h1>
+<h1>Funções de Lyapunov - 01</h1>
 
 Usando funções de Lyapunov, investigar a estabilidade dos seguintes sistemas:
 
