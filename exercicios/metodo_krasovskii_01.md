@@ -51,7 +51,7 @@ A derivada de $$\dot V$$:
  =(−152x_1x^2​+196x_1​x_2​−152x_2^2​)+x_2^2​(−6x_1^2​+80x_1​x_2​+12x_1​x_2^3​)−164x_2^4​−56x_2^6​−6x_2^8​
 ```
 
-$$\dot V < 0$$, para $$x |ne 0$$
+$$\dot V < 0,\quad\text{para}\quad x |ne 0$$
 
 
 Portanto,
