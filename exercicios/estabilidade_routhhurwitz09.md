@@ -16,7 +16,7 @@ $P_2(\lambda)=λ^4 + 2λ^3 + (k+3)λ^2 + (2k+1)λ + k$
 
 (a) Tabela de Routh
 
-Coeficientes: $a_0=1,\ a_1=2,\ a_2=(k+3),\ a_3=(2k+1),\ a_4=k
+Coeficientes: $a_0=1,\ a_1=2,\ a_2=(k+3),\ a_3=(2k+1),\ a_4=k$
 
 | | col 1 | col 2 | col 3 |
 |---|---|---|---|
