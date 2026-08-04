@@ -1,5 +1,8 @@
 <h1>Matriz exponencial</h1>
 
+Determine $e^(At)$ para as matrizes A representadas a seguir:
+
+
 ## (a) Bloco de Jordan único (autovalor 2)
 
 $$A = 2I + N, \quad N = \begin{bmatrix}0&1&0\\0&0&1\\0&0&0\end{bmatrix}$$
