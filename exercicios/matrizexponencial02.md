@@ -1,6 +1,6 @@
 <h1>Matriz exponencial</h1>
 
-Determine $e^A^t$ para as matrizes A representadas a seguir:
+Determine e^At para as matrizes A representadas a seguir:
 
 (a)
 ```math
