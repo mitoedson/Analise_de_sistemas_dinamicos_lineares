@@ -4,20 +4,22 @@ Determine $e^(At)$ para as matrizes A representadas a seguir:
 
 (a)
 ```math
-\begin{bmatrix} 2&1&0\\  0& 2& 1\\  0& 0&2 \end{bmatrix}
+\begin{bmatrix}2&1&0\\0&2&1\\ 0&0&2 \end{bmatrix}
 ```
 
 (b)
 ```math
+\begin{bmatrix} 2&0&0\\ 0&2&1\\  0&0&2 \end{bmatrix}
 ```
 
 (c)
 ```math
+\begin{bmatrix} -1&1&0\\ 0&2&1\\  0&0&2 \end{bmatrix}
 ```
 
 (d)
 ```math
-
+\begin{bmatrix} 0&0&0\\ 0&0&0\\  0&0&0 \end{bmatrix}
 ```
 
 
