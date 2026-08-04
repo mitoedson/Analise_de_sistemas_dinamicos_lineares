@@ -2,6 +2,24 @@
 
 Determine $e^(At)$ para as matrizes A representadas a seguir:
 
+(a)
+```math
+\begin{bmatrix} 2&1&0\\  0& 2& 1\\  0& 0&2 \end{bmatrix}
+```
+
+(b)
+```math
+```
+
+(c)
+```math
+```
+
+(d)
+```math
+
+```
+
 
 ## (a) Bloco de Jordan único (autovalor 2)
 
