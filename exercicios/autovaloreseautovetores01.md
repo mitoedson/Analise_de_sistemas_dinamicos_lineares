@@ -1,22 +1,64 @@
 <h1>Autovalores, Autovetores e Estabilidade - Exercícios</h1>
 
+**Método**
+
 Para cada sistema $X' = A X$, determinamos os autovalores $\lambda$ e autovetores $v$ resolvendo $\det(A - \lambda I)=0$ e $(A - \lambda I)v = 0$. A estabilidade do ponto de equilíbrio na origem é analisada pelos sinais das partes reais dos autovalores:
 
 - **Assintoticamente estável** se todos $\mathrm{Re}(\lambda) < 0$.
 - **Instável** se algum $\mathrm{Re}(\lambda) > 0$. Note que se houver um $\mathrm{Re}(\lambda) = 0$, haverá uma divergência exponencial. 
 - **Estável (marginalmente)** se $\mathrm{Re}(\lambda) \le 0$ e pelo menos um $\mathrm{Re}(\lambda)=0$ sem autovalores com parte real positiva.
-<p><b>(a)</b>
-<p>
-$\frac{dx}{dt}=x+2y \quad \frac{dy}{dt}=4x+3y$
-<p>
-Portanto, 
-<p>
-$$A = \begin{pmatrix}
-1 & 2 \\
-4 & 3
-\end{pmatrix}$$
 
-- **Autovalores:** $\lambda_1=5\; \lambda_2=-1$
+--- 
+
+(a)
+Encontrar os autovalores e autovetores e determinar se o sistema é estável.
+
+```math
+\begin{cases} \frac{dx}{dt}=x+2y \\ \frac{dt}{dy}=4x+3y \end{cases}
+```
+---
+
+```math
+\begin{pmatrix}\frac{dx}{dt}\\\frac{dy}{dt}\end{pmatrix}=
+\begin{pmatrix}1&2\\4&3\end{pmatrix}
+\begin{pmatrix}x\\y\end{pmatrix}, A=\begin{pmatrix}1&2\\4&3\end{pmatrix}
+```
+Podemos calcular os autovalores de A, através de traço e determinante, e a seguir, montar o polinômio característica e obter os autovalores.
+
+Traço (T)=1+3= 4<br>
+Determinante (D)= det(A)= (1)(3)-(2)(4)= -5
+
+$\lambda^2-T\lambda+D=0 \Rightarrow  \lambda^2-4\lambda-5=0 \Rightarrow \lambda_1=5, \lambda_2=-1 \quad\text{(Autovalores de A)}$
+
+No entanto, não conseguimos obter os autovetores através desse método, pois devemos utilizar a expressão A-$\lambda I$ para obter autovalores e autovetores:
+
+```math
+det(A-\lambda I)=det(\begin{pmatrix}1&2\\4&3\end{pmatrix}-\lambda\begin{pmatrix}1&0\\0&1\end{pmatrix})= det(\begin{pmatrix}1-\lambda&2-0\\4-0&3-\lambda\end{pmatrix})=
+```
+```math
+=(1-\lambda)(3-\lambda)-(2)(4)=3-\lambda-3\lambda+\lambda^2-8=\lambda^2-4\lambda-5
+```
+```math
+\lambda^2-4\lambda-5=0 \Rightarrow\lambda_1=5, \lambda_2=-1 \quad\text{(Autovalores de A)}
+```
+
+Obtendo os autovetores:
+```math
+(A-\lambda I)v=0 \Rightarrow \begin{pmatrix}1-\lambda&2-0\\4-0&3-\lambda\end{pmatrix}\begin{pmatrix}v_1 \\ v_2 \end{pmatrix}=0 \Rightarrow \begin{cases} (1-\lambda)v_1 + 2v_2=0\\ 4v_1+(3-\lambda)v_2=0\end{cases}
+```
+Para $\lambda_1=5$:
+```math
+\begin{cases} (1-5)v_1 + 2v_2=0\\ 4v_1+(3-5)v_2=0\end{cases} \Rightarrow \begin{cases} -4v_1 + 2v_2=0\\ 4v_1-2v_2=0\end{cases} \Rightarrow 4v_1 = 2v_2 \Rightarrow 2v_1 = v_2   
+```
+Pela escolha $v_1=1$, temos que $v_2=2$. Portanto, o autovetor $k_1= (1,2)$.
+
+Para $\lambda_1=-1$:
+```math
+\begin{cases} (1-(-1))v_1 + 2v_2=0\\ 4v_1+(3-(-1))v_2=0\end{cases} \Rightarrow \begin{cases} 2v_1 + 2v_2=0\\ 4v_1+4v_2=0\end{cases} \Rightarrow 2v_1 = -2v_2 \Rightarrow v_1 = -v_2   
+```
+Escolhendo $v_1=1$, temos que $v_2=-1$. Portanto, o autovetor $k_2= (1,-1)$.
+
+
 - **Autovetores:**  
   $\lambda_1=5$: $k_1=(1,2)$  
   $\lambda_2=-1$: $k_2=(1,-1)$
@@ -24,29 +66,34 @@ $$A = \begin{pmatrix}
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,2) e^{5t} + c_2(1,-1)e^{-t} $$
 <p>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/063c5b6b-f26e-4ee1-8cf7-3213393a41ea" />
-<p>
-<b>Retrato de fase:</b> padrão de ponto de sela. Existem duas direções especiais (as dos autovetores):
-<ul>
-  <li>Na direção de $k_2 = (1;\,-1)$: trajetórias convergem para a origem (modo estável, $\lambda_2 = -1$). Quando  $\lambda < 0$, as trajetórias convergem.
-  <li>Na direção de $k_1 = (1;\;2)$: trajetórias divergem da origem (modo instável, $\lambda_1 = 5$). Quando  $\lambda > 0$, as trajetórias divergem.
-  <li>Todas as demais trajetórias chegam perto da origem e depois são "arremessadas" para longe, curvando-se na direção de $k_1$.
-</ul>
-<p>
-<b>Resposta temporal:</b> para $t$ pequeno, pode haver decaimento transitório (influência de $e^{-t}$); a longo prazo, $e^{5t}$ domina completamente e as curvas divergem.
-<p>
-<b>Classificação:</b> Instável — ponto de sela (autovalores de sinais opostos).
 
-  
+**Retrato de fase:** padrão de ponto de sela. Existem duas direções especiais (as dos autovetores):
 
-<hr>
++ Na direção de $k_2=(1,-1)$ : trajetórias convergem para a origem (modo estável, $\lambda_2 = -1$). Quando  $\lambda<0 $ , as trajetórias convergem.
++ Na direção de $k_1 = (1;\;2)$: trajetórias divergem da origem (modo instável, $\lambda_1 = 5$). Quando  $\lambda > 0$, as trajetórias divergem.
++ Todas as demais trajetórias chegam perto da origem e depois são "arremessadas" para longe, curvando-se na direção de $k_1$.
 
-<p><b>(b)</b>
-<p>$\frac{dx}{dt}=2x+2y \quad \frac{dy}{dt}=x+3y$
-<p>
-Portanto, 
-<p>
-$$A=\begin{bmatrix}2&2\\1&3\end{bmatrix}$$
-  
+**Resposta temporal:** para $t$ pequeno, pode haver decaimento transitório (influência de $e^{-t}$); a longo prazo, $e^{5t}$ domina completamente e as curvas divergem.
+
+**Classificação:** Instável — ponto de sela (autovalores de sinais opostos).
+
+---
+
+(b)
+Encontrar os autovalores e autovetores e determinar se o sistema é estável.
+
+```math
+\begin{cases} \frac{dx}{dt}=2x+2y \\ \frac{dt}{dy}=x+3y \end{cases}
+```
+---
+
+```math
+\begin{pmatrix}\frac{dx}{dt}\\\frac{dy}{dt}\end{pmatrix}=
+\begin{pmatrix}2&2\\1&3\end{pmatrix}
+\begin{pmatrix}x\\y\end{pmatrix}, A=\begin{pmatrix}2&2\\1&3\end{pmatrix}
+```
+
+
 - **Autovalores:** $\lambda_1=4\; \lambda_2=1$
 - **Autovetores:**  
   $\lambda_1=4$: $k_1=(1,1)$  
@@ -55,14 +102,15 @@ $$A=\begin{bmatrix}2&2\\1&3\end{bmatrix}$$
 - **Solução geral** para autovalores reais distintos: $$X'= c_1 (1,1) e^{4t} + c_2(1,-0.5)e^{t} $$
 <p>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/8f611b68-2fe9-41d8-bc21-2acbd96e0bde" />
-<p>
-<b>Retrato de fase:</b> padrão de nó repulsor. Todas as trajetórias divergem da origem. Para $t$ grande, o termo $e^{4t}$ domina e as curvas se alinham com a direção de $k_1 = (1;\,1)$. Para $t$ negativo (ou perto da origem), a influência de $e^{t}$ aparece, curvando as trajetórias.
-<p>Resposta temporal:</b> ambas as componentes crescem exponencialmente. O crescimento de $x_1(t)$ e $x_2(t)$ se torna paralelo a longo prazo (dominância de $e^{4t}$).
-<p>
-<b>Classificação:</b> Instável — nó repulsor (ambos os autovalores positivos).
 
-<hr>
-<p><b>(c)</b>
++ **Retrato de fase:** padrão de nó repulsor. Todas as trajetórias divergem da origem. Para $t$ grande, o termo $e^{4t}$ domina e as curvas se alinham com a direção de $k_1 = (1;\,1)$. Para $t$ negativo (ou perto da origem), a influência de $e^{t}$ aparece, curvando as trajetórias.
++ **Resposta temporal:** ambas as componentes crescem exponencialmente. O crescimento de $x_1(t)$ e $x_2(t)$ se torna paralelo a longo prazo (dominância de $e^{4t}$).
++ **Classificação:** Instável — nó repulsor (ambos os autovalores positivos).
+
+---
+
+(c)
+
 <p>$\frac{dx}{dt}=-4x+2y \quad \frac{dy}{dt}=-\frac{5}{2}x+2y $
 <p>
 Portanto, 
