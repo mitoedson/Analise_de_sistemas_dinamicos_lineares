@@ -205,8 +205,6 @@ $$ A=\begin{bmatrix} -\frac{5}{2}&2\\ \frac{3}{4}&-2\end{bmatrix} $$
 | (e) | $[10,-5;8,-12]$ | $+8$ | $-10$ | Ponto de sela (agudo) | Divergência rápida | **Instável** |
 | (f) | $[-6,2;-3,1]$ | $0$ | $-5$ | Linha de equilíbrios | Convergência a patamar | **Marg. estável** |
 
-<p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
+---
 
-
-
-
+[Ver teoria](teoria/autovaloreseautovetores.md)

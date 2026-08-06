@@ -1,19 +1,28 @@
 <h1>Análise de sistemas dinâmicos lineares</h1>
+
 O material a seguir é baseado nas aulas do quadrimestre 2026.2, da Universidade Federal do ABC, do Prof. Dr. Magno Meza, assim como as notas de aula.
-<p><br>
-<b>EMENTA:</b> Apresentação de sistemas dinâmicos lineares multivariáveis; descrição por equações de estado; extração dos autovalores e autovetores; matriz de transição de estados; estudo de estabilidade local e global; critérios de estabilidade de Lyapunov; linearização de sistemas dinâmicos não-lineares; observabilidade; controlabilidade.
-<p>
-Conteúdo:
-<p>
-<ol>  
-  <li><a href="/teoria/introducao.md">Fundamentos de sistemas dinâmicos lineares multivariáveis</a></li><br>
-  <li><a href="/teoria/autovaloreseautovetores.md">Autovalores e autovetores</a></li><br>
-  <li><a href="/teoria/matrizexponencial.md">Matriz exponencial</a></li><br>
-  <li><a href="/teoria/estabilidade.md">Estabilidade</a></li><br>
-  <li><a href="/teoria/naolineares.md">Linearização de sistemas dinâmicos não-lineares</a></li><br>
-  <li><a href="/teoria/controlabilidade.md">Controlabilidade e Observabilidade</a></li><br>
-</ol>
-<p>Bibliografia:</p>
+
+
+**Ementa:**
+
+Apresentação de sistemas dinâmicos lineares multivariáveis; descrição por equações de estado; extração dos autovalores e autovetores; matriz de transição de estados; estudo de estabilidade local e global; critérios de estabilidade de Lyapunov; linearização de sistemas dinâmicos não-lineares; observabilidade; controlabilidade.
+
+**Conteúdo:**
+
+  1. [Fundamentos de sistemas dinâmicos lineares multivariáveis](teoria/introducao.md)
+ 
+  2. [Autovalores e autovetores](teoria/autovaloreseautovetores.md)
+ 
+  3. [Matriz exponencial](teoria/matrizexponencial.md)
+ 
+  4. [Estabilidade](teoria/estabilidade.md)
+ 
+  5. [Linearização de sistemas dinâmicos não-lineares](teoria/naolineares.md)
+ 
+  6. [Controlabilidade e Observabilidade](teoria/controlabilidade.md)
+  
+**Bibliografia:** 
+
 <pre>
 CLOSE, C. M.; FREDERICK, D. K.; NEWELL, J. C. Modeling and analysis of dynamic systems. [S.l.]: John Wiley & Sons, 2002.
 DORF, R. C.; BISHOP, R. H. Modern Control Systems. New Jersey: Pearson, 2008.

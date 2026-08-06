@@ -212,4 +212,6 @@ $\mathrm{Re}(\lambda) = 6 > 0$ para ambos.
 | (c) | $[-1,3;-3,5]$ | $\lambda = 2$ (repet.) | **Instável** (espiral repulsora) |
 | (d) | $[12,-9;4,0]$ | $\lambda = 6$ (repet.) | **Instável** (espiral repulsora) |
 
-<p><a href="/teoria/autovaloreseautovetores.md">Ver teoria</a>
+---
+
+[Ver teoria](teoria/autovaloreseautovetores.md)
